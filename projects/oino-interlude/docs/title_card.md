@@ -44,8 +44,8 @@
 ## Blender
 
 - Target: `scenes/SCN_13_TITLE_CARD.blend`
-- Status: **deferred**
-- Detail: Install Blender, then re-run with --write-blend
+- Status: **created**
+- Detail: C:\Users\levyz\OneDrive\Microsoft Copilot Chat Files\Documents\Music Video Maker\projects\oino-interlude\scenes\SCN_13_TITLE_CARD.blend
 
 ```text
 python scripts/build_title_card.py --write-blend

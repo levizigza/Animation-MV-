@@ -1,0 +1,1299 @@
+{
+  "shot_id": "SH121_SISTER_CHANGES_MELODY",
+  "fps": 24,
+  "start_frame": 1,
+  "end_frame": 60,
+  "layers": [
+    "character",
+    "fx",
+    "bg"
+  ],
+  "cells": [
+    {
+      "frame": 1,
+      "layer": "character",
+      "exposure": "key",
+      "pose_id": "pose_01",
+      "notes": "extreme"
+    },
+    {
+      "frame": 2,
+      "layer": "character",
+      "exposure": "breakdown",
+      "pose_id": null,
+      "notes": "arc breakdown"
+    },
+    {
+      "frame": 3,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 4,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 5,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 6,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 7,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 8,
+      "layer": "character",
+      "exposure": "key",
+      "pose_id": "pose_02",
+      "notes": "accent"
+    },
+    {
+      "frame": 9,
+      "layer": "character",
+      "exposure": "breakdown",
+      "pose_id": null,
+      "notes": "arc breakdown"
+    },
+    {
+      "frame": 10,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 11,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 12,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 13,
+      "layer": "character",
+      "exposure": "smear",
+      "pose_id": "smear_13",
+      "notes": "impact smear"
+    },
+    {
+      "frame": 14,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 15,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 16,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 17,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 18,
+      "layer": "character",
+      "exposure": "key",
+      "pose_id": "pose_03",
+      "notes": "accent"
+    },
+    {
+      "frame": 19,
+      "layer": "character",
+      "exposure": "breakdown",
+      "pose_id": null,
+      "notes": "arc breakdown"
+    },
+    {
+      "frame": 20,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 21,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 22,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 23,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 24,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 25,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 26,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 27,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 28,
+      "layer": "character",
+      "exposure": "key",
+      "pose_id": "pose_04",
+      "notes": "accent"
+    },
+    {
+      "frame": 29,
+      "layer": "character",
+      "exposure": "breakdown",
+      "pose_id": null,
+      "notes": "arc breakdown"
+    },
+    {
+      "frame": 30,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 31,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 32,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 33,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 34,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 35,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 36,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 37,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 38,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 39,
+      "layer": "character",
+      "exposure": "key",
+      "pose_id": "pose_05",
+      "notes": "accent"
+    },
+    {
+      "frame": 40,
+      "layer": "character",
+      "exposure": "breakdown",
+      "pose_id": null,
+      "notes": "arc breakdown"
+    },
+    {
+      "frame": 41,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 42,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 43,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 44,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 45,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 46,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 47,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 48,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 49,
+      "layer": "character",
+      "exposure": "key",
+      "pose_id": "pose_06",
+      "notes": "accent"
+    },
+    {
+      "frame": 50,
+      "layer": "character",
+      "exposure": "breakdown",
+      "pose_id": null,
+      "notes": "arc breakdown"
+    },
+    {
+      "frame": 51,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 52,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 53,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 54,
+      "layer": "character",
+      "exposure": "key",
+      "pose_id": "pose_07",
+      "notes": "accent"
+    },
+    {
+      "frame": 55,
+      "layer": "character",
+      "exposure": "breakdown",
+      "pose_id": null,
+      "notes": "arc breakdown"
+    },
+    {
+      "frame": 56,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 57,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 58,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 59,
+      "layer": "character",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "held drawing"
+    },
+    {
+      "frame": 60,
+      "layer": "character",
+      "exposure": "key",
+      "pose_id": "pose_08",
+      "notes": "extreme"
+    },
+    {
+      "frame": 1,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 2,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 3,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 4,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 5,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 6,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 7,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 8,
+      "layer": "fx",
+      "exposure": "smear",
+      "pose_id": null,
+      "notes": "speed lines / drybrush"
+    },
+    {
+      "frame": 9,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 10,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 11,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 12,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 13,
+      "layer": "fx",
+      "exposure": "smear",
+      "pose_id": null,
+      "notes": "speed lines / drybrush"
+    },
+    {
+      "frame": 14,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 15,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 16,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 17,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 18,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 19,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 20,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 21,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 22,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 23,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 24,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 25,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 26,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 27,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 28,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 29,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 30,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 31,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 32,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 33,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 34,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 35,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 36,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 37,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 38,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 39,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 40,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 41,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 42,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 43,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 44,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 45,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 46,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 47,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 48,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 49,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 50,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 51,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 52,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 53,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 54,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 55,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 56,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 57,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 58,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 59,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 60,
+      "layer": "fx",
+      "exposure": "blank",
+      "pose_id": null,
+      "notes": ""
+    },
+    {
+      "frame": 1,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 2,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 3,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 4,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 5,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 6,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 7,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 8,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 9,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 10,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 11,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 12,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 13,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 14,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 15,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 16,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 17,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 18,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 19,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 20,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 21,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 22,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 23,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 24,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 25,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 26,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 27,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 28,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 29,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 30,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 31,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 32,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 33,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 34,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 35,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 36,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 37,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 38,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 39,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 40,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 41,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 42,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 43,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 44,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 45,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 46,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 47,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 48,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 49,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 50,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 51,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 52,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 53,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 54,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 55,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 56,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 57,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 58,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 59,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    },
+    {
+      "frame": 60,
+      "layer": "bg",
+      "exposure": "hold",
+      "pose_id": null,
+      "notes": "layout plate"
+    }
+  ],
+  "timing_chart": {
+    "mode": "limited",
+    "exposure": "2s",
+    "step": 2,
+    "key_frames": [
+      1,
+      8,
+      18,
+      28,
+      39,
+      49,
+      54,
+      60
+    ],
+    "smear_frames": [
+      8,
+      13
+    ],
+    "masters_pack": "classic_cel",
+    "rules_summary": [
+      "Pose-to-pose: plan extremes before inbetweens",
+      "Timing charts over constant easing",
+      "Holds are composition, not laziness"
+    ]
+  },
+  "approval": "draft"
+}

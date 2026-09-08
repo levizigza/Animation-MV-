@@ -32,7 +32,7 @@ def main() -> None:
     shot = data["shot"]
     xsheet = data["xsheet"]
     style = data["style"]
-    out_dir = Path(data["output_dir"])
+    out_dir = Path(data["output_dir"]).resolve()
     out_dir.mkdir(parents=True, exist_ok=True)
     fps = int(data.get("fps", 24))
     res = data.get("resolution", [1920, 1080])
@@ -46,15 +46,30 @@ def main() -> None:
     scene.frame_end = int(xsheet["end_frame"])
     scene.render.resolution_x = int(res[0] // (2 if preview else 1))
     scene.render.resolution_y = int(res[1] // (2 if preview else 1))
-    scene.render.image_settings.file_format = "FFMPEG"
-    scene.render.ffmpeg.format = "MPEG4"
-    scene.render.ffmpeg.codec = "H264"
-    scene.render.filepath = str(out_dir / "shot_preview")
+    # PNG sequence is reliable; Blender's built-in FFMPEG often leaves empty/moov-less mp4s.
+    frames_dir = out_dir / "frames"
+    if frames_dir.exists():
+        for old in frames_dir.glob("frame_*.png"):
+            old.unlink()
+    frames_dir.mkdir(parents=True, exist_ok=True)
+    scene.render.image_settings.file_format = "PNG"
+    scene.render.image_settings.color_mode = "RGB"
+    scene.render.filepath = str(frames_dir / "frame_")
+    scene.render.use_file_extension = True
     scene.render.engine = "BLENDER_EEVEE_NEXT" if hasattr(bpy.types, "EEVEE") or True else "BLENDER_EEVEE"
     try:
         scene.render.engine = "BLENDER_EEVEE_NEXT"
     except Exception:
         scene.render.engine = "BLENDER_EEVEE"
+    if preview:
+        try:
+            scene.eevee.taa_render_samples = 8
+        except Exception:
+            pass
+        try:
+            scene.eevee.taa_samples = 8
+        except Exception:
+            pass
 
     # World / light
     world = bpy.data.worlds.new("MVMWorld")
@@ -111,13 +126,18 @@ def main() -> None:
     cam.keyframe_insert(data_path="location", frame=scene.frame_end)
     cam.keyframe_insert(data_path="rotation_euler", frame=scene.frame_end)
 
-    # Grease Pencil character + FX layers
-    gp_data = bpy.data.grease_pencils.new("CelPerformance")
-    gp_obj = bpy.data.objects.new("CelPerformance", gp_data)
-    scene.collection.objects.link(gp_obj)
+    # Grease Pencil character + FX layers (Blender 4.3+ GreasePencil v3 API)
+    bpy.ops.object.grease_pencil_add(type="EMPTY")
+    gp_obj = bpy.context.active_object
+    gp_obj.name = "CelPerformance"
+    gp_data = gp_obj.data
+    gp_data.name = "CelPerformance"
     gp_obj.location = (0, 0, 1.2)
 
-    layer_char = gp_data.layers.new("character", set_active=True)
+    # Clear default layer if present, then author character + fx
+    while len(gp_data.layers) > 0:
+        gp_data.layers.remove(gp_data.layers[0])
+    layer_char = gp_data.layers.new("character")
     layer_fx = gp_data.layers.new("fx")
 
     line_w = float(style.get("gp_line_settings", {}).get("line_width", 3.0))
@@ -125,7 +145,10 @@ def main() -> None:
 
     material = bpy.data.materials.new("GP_Line")
     bpy.data.materials.create_gpencil_data(material)
-    material.grease_pencil.color = line_col
+    try:
+        material.grease_pencil.color = line_col
+    except Exception:
+        pass
     gp_data.materials.append(material)
 
     char_by_frame = {
@@ -133,38 +156,43 @@ def main() -> None:
     }
     fx_by_frame = {c["frame"]: c for c in xsheet["cells"] if c["layer"] == "fx"}
 
-    def draw_figure(frame_obj, phase: float, smear: bool = False) -> None:
-        stroke = frame_obj.strokes.new()
-        stroke.display_mode = "3DSPACE"
-        stroke.line_width = int(line_w * 10)
+    def draw_figure(drawing, phase: float, smear: bool = False) -> None:
         pts = []
-        # Head circle approx
         for i in range(12):
             a = (i / 12) * math.tau
-            pts.append((math.cos(a) * 0.25 + 0.05 * math.sin(phase), 0, 0.9 + math.sin(a) * 0.25))
-        # Spine / limbs
+            pts.append(
+                (
+                    math.cos(a) * 0.25 + 0.05 * math.sin(phase),
+                    0.0,
+                    0.9 + math.sin(a) * 0.25,
+                )
+            )
         sway = 0.15 * math.sin(phase)
         pts += [
-            (0, 0, 0.65),
-            (0, 0, 0.2),
-            (-0.35 - sway, 0, 0.45),
-            (0.35 + sway, 0, 0.4),
-            (-0.2 + sway, 0, -0.5),
-            (0.2 - sway, 0, -0.5),
+            (0.0, 0.0, 0.65),
+            (0.0, 0.0, 0.2),
+            (-0.35 - sway, 0.0, 0.45),
+            (0.35 + sway, 0.0, 0.4),
+            (-0.2 + sway, 0.0, -0.5),
+            (0.2 - sway, 0.0, -0.5),
         ]
         if smear:
             for i in range(5):
-                pts.append((0.5 + i * 0.15, 0, 0.3 - i * 0.05))
-        stroke.points.add(count=len(pts))
+                pts.append((0.5 + i * 0.15, 0.0, 0.3 - i * 0.05))
+        drawing.add_strokes([len(pts)])
+        stroke = drawing.strokes[-1]
+        stroke.material_index = 0
+        radius = max(0.002, line_w * 0.004)
         for p, co in zip(stroke.points, pts):
-            p.co = co
-            p.pressure = 0.8 if not smear else 0.4
+            p.position = co
+            p.radius = radius * (0.8 if not smear else 0.4)
+            p.opacity = 1.0
+        drawing.tag_positions_changed()
 
     phase = 0.0
     for f in range(1, scene.frame_end + 1):
         cell = char_by_frame.get(f, {"exposure": "hold"})
         exp = cell.get("exposure", "hold")
-        # Holds reuse previous drawing — only author new GP frames on change
         if exp in ("key", "breakdown", "inbetween", "smear") or f == 1:
             if exp == "key":
                 phase += 1.0
@@ -175,26 +203,63 @@ def main() -> None:
             elif exp == "smear":
                 phase += 0.7
             fr = layer_char.frames.new(f)
-            draw_figure(fr, phase, smear=(exp == "smear"))
+            draw_figure(fr.drawing, phase, smear=(exp == "smear"))
 
         fx = fx_by_frame.get(f, {})
         if fx.get("exposure") == "smear":
             frx = layer_fx.frames.new(f)
-            stroke = frx.strokes.new()
-            stroke.display_mode = "3DSPACE"
-            stroke.line_width = int(line_w * 6)
-            stroke.points.add(count=4)
+            frx.drawing.add_strokes([4])
+            stroke = frx.drawing.strokes[-1]
             for i, p in enumerate(stroke.points):
-                p.co = (0.6 + i * 0.25, 0, 0.4 - i * 0.08)
-                p.pressure = 0.5
+                p.position = (0.6 + i * 0.25, 0.0, 0.4 - i * 0.08)
+                p.radius = max(0.002, line_w * 0.002)
+                p.opacity = 0.7
+            frx.drawing.tag_positions_changed()
 
     # Save blend for human craft continuation
     blend_path = out_dir / "shot_craft.blend"
     bpy.ops.wm.save_as_mainfile(filepath=str(blend_path))
 
-    # Render animation
+    # Render animation as PNG sequence
     bpy.ops.render.render(animation=True)
-    print(f"MVM_RENDER_OK {out_dir}")
+
+    # Encode durable H.264 plate with system ffmpeg (Blender FFMPEG mux is flaky here)
+    import shutil
+    import subprocess
+
+    canonical = out_dir / "shot_preview.mp4"
+    for stale in out_dir.glob("shot_preview*.mp4"):
+        try:
+            stale.unlink()
+        except OSError:
+            pass
+    ffmpeg = shutil.which("ffmpeg")
+    frame_pattern = str(frames_dir / "frame_%04d.png")
+    if ffmpeg and list(frames_dir.glob("frame_*.png")):
+        enc = subprocess.run(
+            [
+                ffmpeg,
+                "-y",
+                "-framerate",
+                str(fps),
+                "-i",
+                frame_pattern,
+                "-c:v",
+                "libx264",
+                "-pix_fmt",
+                "yuv420p",
+                "-crf",
+                "23",
+                "-movflags",
+                "+faststart",
+                str(canonical),
+            ],
+            capture_output=True,
+            text=True,
+        )
+        if enc.returncode != 0:
+            print(f"MVM_FFMPEG_FAIL {enc.stderr[-800:]}")
+    print(f"MVM_RENDER_OK {out_dir} mp4={canonical.exists()}")
 
 
 if __name__ == "__main__":

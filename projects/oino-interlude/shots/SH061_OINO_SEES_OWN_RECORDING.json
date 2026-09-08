@@ -1,0 +1,53 @@
+{
+  "id": "SH061_OINO_SEES_OWN_RECORDING",
+  "index": 9,
+  "section": "digital",
+  "start": 77.04166666666667,
+  "end": 82.91666666666667,
+  "duration": 5.875,
+  "intent": {
+    "purpose": "She becomes watcher of her own controlled archive \u2014 shadow foreshadow without scare.",
+    "emotional_beat": "digital",
+    "staging_goal": "Oino seeing her own recording",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "She becomes watcher of her own controlled archive \u2014 shadow foreshadow without scare.",
+  "camera": {
+    "name": "CAM_DIGITAL_SELF_REFLECTION",
+    "language": "digital"
+  },
+  "blocking": "Oino's reflection in screen / black glass watching herself",
+  "lens_mm": 50.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "DIGITAL_COLD",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH060_CARE_AND_HARM",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

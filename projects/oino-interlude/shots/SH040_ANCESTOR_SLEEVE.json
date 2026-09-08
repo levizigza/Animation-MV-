@@ -1,0 +1,53 @@
+{
+  "id": "SH040_ANCESTOR_SLEEVE",
+  "index": 5,
+  "section": "steam",
+  "start": 34.125,
+  "end": 37.5,
+  "duration": 3.375,
+  "intent": {
+    "purpose": "Care as ordinary labour \u2014 watcher still able to mend.",
+    "emotional_beat": "steam",
+    "staging_goal": "ancestor repairing the sleeve",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "Care as ordinary labour \u2014 watcher still able to mend.",
+  "camera": {
+    "name": "CAM_STEAM_LOW_HANDS",
+    "language": "steam"
+  },
+  "blocking": "hands and cloth; machinery soft above",
+  "lens_mm": 35.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "STEAM_SOOT",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH040_MELODY_OPENS_HISTORY",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

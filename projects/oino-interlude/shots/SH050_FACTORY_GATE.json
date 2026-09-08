@@ -1,0 +1,53 @@
+{
+  "id": "SH050_FACTORY_GATE",
+  "index": 6,
+  "section": "steam",
+  "start": 47.083333333333336,
+  "end": 50.833333333333336,
+  "duration": 3.75,
+  "intent": {
+    "purpose": "Doorway becomes factory gate \u2014 history through bodies, not labels.",
+    "emotional_beat": "steam",
+    "staging_goal": "first factory-gate transition",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "Doorway becomes factory gate \u2014 history through bodies, not labels.",
+  "camera": {
+    "name": "CAM_STEAM_GATE_LOW",
+    "language": "steam"
+  },
+  "blocking": "workers at threshold; gate/machinery towering",
+  "lens_mm": 24.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "STEAM_SOOT",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH050_CHANGING_WORLD",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

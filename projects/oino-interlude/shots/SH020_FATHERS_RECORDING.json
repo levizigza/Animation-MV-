@@ -1,0 +1,53 @@
+{
+  "id": "SH020_FATHERS_RECORDING",
+  "index": 1,
+  "section": "attic",
+  "start": 14.25,
+  "end": 21.625,
+  "duration": 7.375,
+  "intent": {
+    "purpose": "Need crystallizes in the unfinished melody \u2014 intimate, not spectacular.",
+    "emotional_beat": "attic",
+    "staging_goal": "father's unfinished recording",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "Need crystallizes in the unfinished melody \u2014 intimate, not spectacular.",
+  "camera": {
+    "name": "CAM_ATTIC_HAND_TAPE",
+    "language": "attic"
+  },
+  "blocking": "Oino's hands on playback / unfinished tape",
+  "lens_mm": 50.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "ATTIC_DUST",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH020_FATHERS_TAPE",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

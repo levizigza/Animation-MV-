@@ -1,0 +1,53 @@
+{
+  "id": "SH030_ARCHIVE_BOX_OINO",
+  "index": 2,
+  "section": "archive",
+  "start": 21.625,
+  "end": 24.166666666666668,
+  "duration": 2.541666666666668,
+  "intent": {
+    "purpose": "Name inheritance as object \u2014 discovery without classroom diagram.",
+    "emotional_beat": "archive",
+    "staging_goal": "archive box marked OINO",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "Name inheritance as object \u2014 discovery without classroom diagram.",
+  "camera": {
+    "name": "CAM_ARCHIVE_LATERAL_BOX",
+    "language": "archive"
+  },
+  "blocking": "box label OINO; partial hand entering frame",
+  "lens_mm": 40.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "OINO_ARCHIVE",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH030_ARCHIVE_DISCOVERY",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

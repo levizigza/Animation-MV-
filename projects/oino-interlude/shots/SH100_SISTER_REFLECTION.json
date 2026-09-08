@@ -1,0 +1,53 @@
+{
+  "id": "SH100_SISTER_REFLECTION",
+  "index": 13,
+  "section": "table",
+  "start": 114.25,
+  "end": 117.45833333333333,
+  "duration": 3.2083333333333286,
+  "intent": {
+    "purpose": "Cost already present \u2014 loneliness in progress, not later warning.",
+    "emotional_beat": "table",
+    "staging_goal": "sister in the table reflection",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "Cost already present \u2014 loneliness in progress, not later warning.",
+  "camera": {
+    "name": "CAM_TABLE_REFLECTION",
+    "language": "table"
+  },
+  "blocking": "PROP_ReflectiveSurface_Sister \u2014 sister, bowls, untouched place",
+  "lens_mm": 45.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "TABLE_WARMTH",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH100_SISTER_REFLECTION",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

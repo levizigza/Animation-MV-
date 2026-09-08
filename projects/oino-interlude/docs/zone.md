@@ -47,8 +47,8 @@
 ## Blender
 
 - Target: `scenes/SCN_07_ZONE.blend`
-- Status: **deferred**
-- Detail: Install Blender, then re-run with --write-blend
+- Status: **created**
+- Detail: C:\Users\levyz\OneDrive\Microsoft Copilot Chat Files\Documents\Music Video Maker\projects\oino-interlude\scenes\SCN_07_ZONE.blend
 
 ```text
 python scripts/build_zone.py --write-blend

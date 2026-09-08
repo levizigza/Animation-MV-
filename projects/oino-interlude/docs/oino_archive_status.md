@@ -39,8 +39,12 @@ The genealogy Dionysus → Staphylus → Rhoeo → Anius → Oino is an artistic
 ## Blender
 
 - Target: `scenes/SCN_02_OINO_ARCHIVE.blend`
-- Status: **deferred**
-- Detail: Install Blender, then re-run with --write-blend
+- Status: **failed**
+- Detail:   File "C:\Users\levyz\OneDrive\Microsoft Copilot Chat Files\Documents\Music Video Maker\projects\oino-interlude\scripts\_blender_oino_archive.py", line 42
+    def add_cube(name, loc, scale, col):    if name in bpy.data.objects and not RESET:
+                                            ^^
+SyntaxError: invalid syntax
+
 
 See also [`oino_archive_notes.md`](oino_archive_notes.md).
 

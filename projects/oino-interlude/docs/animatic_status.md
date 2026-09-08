@@ -47,8 +47,8 @@ No detailed modelling. Do not cut to every beat.
 ## Blender
 
 - Target: `scenes/ANIMATIC_MASTER.blend`
-- Status: **deferred**
-- Detail: Blender not found. Payload ready; install Blender then re-run with --write-blend
+- Status: **created**
+- Detail: C:\Users\levyz\OneDrive\Microsoft Copilot Chat Files\Documents\Music Video Maker\projects\oino-interlude\scenes\ANIMATIC_MASTER.blend
 
 ## Source files
 

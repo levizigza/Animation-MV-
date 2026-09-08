@@ -11,6 +11,7 @@ studio/dist/
 studio/node_modules/
 editorial/remotion/node_modules/
 mvm/_upload_tmp/
+tools/
 *.blend1
 .DS_Store
 Thumbs.db
@@ -25,6 +26,8 @@ projects/*
 projects/oino-interlude/renders/final/delivery/movies/
 projects/oino-interlude/renders/final/delivery/master_image_sequence/
 projects/oino-interlude/renders/preview/
+projects/oino-interlude/previews/
+projects/oino-interlude/final/
 *.mp4
 *.mov
 !editorial/**/*.mp4

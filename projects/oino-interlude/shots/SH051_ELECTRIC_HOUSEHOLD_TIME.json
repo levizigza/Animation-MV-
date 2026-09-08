@@ -1,0 +1,53 @@
+{
+  "id": "SH051_ELECTRIC_HOUSEHOLD_TIME",
+  "index": 7,
+  "section": "electric",
+  "start": 54.125,
+  "end": 59.166666666666664,
+  "duration": 5.041666666666664,
+  "intent": {
+    "purpose": "Benefit and cost together: relief of light, absence still present.",
+    "emotional_beat": "electric",
+    "staging_goal": "electricity returning time to a household",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "Benefit and cost together: relief of light, absence still present.",
+  "camera": {
+    "name": "CAM_ELECTRIC_WIDE_RELIEF",
+    "language": "electric"
+  },
+  "blocking": "household room \u2014 light returns; empty chair / absence held in same frame",
+  "lens_mm": 28.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "ELECTRIC_WARMTH",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH050_CHANGING_WORLD",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

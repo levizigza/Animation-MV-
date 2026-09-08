@@ -1,0 +1,53 @@
+{
+  "id": "SH010_SISTER_CALL",
+  "index": 0,
+  "section": "attic",
+  "start": 0.0,
+  "end": 8.333333333333334,
+  "duration": 8.333333333333334,
+  "intent": {
+    "purpose": "Invitation arrives; domestic closeness with a glimpse toward the sister she will refuse.",
+    "emotional_beat": "attic",
+    "staging_goal": "sister calling Oino",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "Invitation arrives; domestic closeness with a glimpse toward the sister she will refuse.",
+  "camera": {
+    "name": "CAM_ATTIC_DOMESTIC_DOWN",
+    "language": "attic"
+  },
+  "blocking": "Oino eyeline toward downstairs / attic door edge",
+  "lens_mm": 35.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "ATTIC_DUST",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH010_CALL_TO_DINNER",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

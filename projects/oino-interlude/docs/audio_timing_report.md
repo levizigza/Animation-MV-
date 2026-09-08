@@ -1,6 +1,6 @@
 # Audio timing report — Oino (Interlude)
 
-**Generated:** 2026-09-07T22:31:37.910465+00:00  
+**Generated:** 2026-09-08T01:09:44.495828+00:00  
 **Film:** Oino (Interlude) · **Album:** One Of God's Fools  
 **Scene:** `AUDIO_MASTER` · **VSE:** `AUDIO_TIMELINE`
 
@@ -77,8 +77,8 @@ Policy: **do not** cut animation automatically to every transient or beat.
 ## Blender scene
 
 - Target blend: `scenes/AUDIO_MASTER.blend`
-- Status: deferred
-- Detail: Blender not found. Payload + bpy helper written; re-run with Blender on PATH / BLENDER_PATH and --write-blend
+- Status: created
+- Detail: C:\Users\levyz\OneDrive\Microsoft Copilot Chat Files\Documents\Music Video Maker\projects\oino-interlude\scenes\AUDIO_MASTER.blend
 
 ## Editable source
 

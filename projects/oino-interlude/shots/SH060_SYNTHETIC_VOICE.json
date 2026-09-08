@@ -1,0 +1,53 @@
+{
+  "id": "SH060_SYNTHETIC_VOICE",
+  "index": 8,
+  "section": "digital",
+  "start": 70.79166666666667,
+  "end": 75.83333333333333,
+  "duration": 5.041666666666657,
+  "intent": {
+    "purpose": "Care through technology \u2014 not memorial ghost; living person uses the tool.",
+    "emotional_beat": "digital",
+    "staging_goal": "person using a synthetic voice",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "Care through technology \u2014 not memorial ghost; living person uses the tool.",
+  "camera": {
+    "name": "CAM_DIGITAL_ASSISTIVE",
+    "language": "digital"
+  },
+  "blocking": "living speaker and device; face and interface share frame",
+  "lens_mm": 40.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "DIGITAL_COLD",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH060_CARE_AND_HARM",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

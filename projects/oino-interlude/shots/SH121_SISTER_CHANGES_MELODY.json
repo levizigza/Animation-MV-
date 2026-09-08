@@ -1,0 +1,53 @@
+{
+  "id": "SH121_SISTER_CHANGES_MELODY",
+  "index": 16,
+  "section": "return",
+  "start": 123.33333333333333,
+  "end": 125.83333333333333,
+  "duration": 2.5,
+  "intent": {
+    "purpose": "Real creative contribution \u2014 living variation, not symbolic child.",
+    "emotional_beat": "return",
+    "staging_goal": "sister changing the melody",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "Real creative contribution \u2014 living variation, not symbolic child.",
+  "camera": {
+    "name": "CAM_RETURN_SISTER_RHYTHM",
+    "language": "return"
+  },
+  "blocking": "sister's tapping hand / face \u2014 her own rhythm",
+  "lens_mm": 50.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "TABLE_WARMTH",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH120_CHANGED_NOTE",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

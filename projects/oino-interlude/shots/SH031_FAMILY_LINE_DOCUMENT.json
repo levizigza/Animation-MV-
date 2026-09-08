@@ -1,0 +1,53 @@
+{
+  "id": "SH031_FAMILY_LINE_DOCUMENT",
+  "index": 4,
+  "section": "archive",
+  "start": 24.166666666666668,
+  "end": 28.333333333333332,
+  "duration": 4.166666666666664,
+  "intent": {
+    "purpose": "Lineage as worn paper \u2014 artistic adaptation, not universal claim.",
+    "emotional_beat": "archive",
+    "staging_goal": "family-line document",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "Lineage as worn paper \u2014 artistic adaptation, not universal claim.",
+  "camera": {
+    "name": "CAM_ARCHIVE_FRAMES_WITHIN",
+    "language": "archive"
+  },
+  "blocking": "damaged family-line document; partial faces at edge",
+  "lens_mm": 50.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "OINO_ARCHIVE",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH030_ARCHIVE_DISCOVERY",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

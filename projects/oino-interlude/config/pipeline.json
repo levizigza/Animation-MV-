@@ -10,7 +10,7 @@
   ],
   "seed": 20261210,
   "blender": {
-    "exe": null,
+    "exe": "C:\\Users\\levyz\\OneDrive\\Microsoft Copilot Chat Files\\Documents\\Music Video Maker\\tools\\blender-4.5.10-windows-x64\\blender.exe",
     "env_vars": [
       "BLENDER_PATH",
       "BLENDER_EXE"
@@ -23,7 +23,7 @@
     ],
     "engine_preview": "BLENDER_EEVEE_NEXT",
     "engine_final_placeholder": "CYCLES_OR_EEVEE_TBD",
-    "note": "PLACEHOLDER \u2014 set blender.exe path when installed"
+    "note": "Installed portable / local Blender for craft"
   },
   "audio": {
     "master": "audio/master.wav",
@@ -65,7 +65,7 @@
     "user-created objects in SOURCE_* collections"
   ],
   "missing_placeholders": {
-    "blender_exe": null,
+    "blender_exe": "C:\\Users\\levyz\\OneDrive\\Microsoft Copilot Chat Files\\Documents\\Music Video Maker\\tools\\blender-4.5.10-windows-x64\\blender.exe",
     "character_rig_oino": null,
     "character_rig_sister": null,
     "environment_table": null,

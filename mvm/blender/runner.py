@@ -27,9 +27,15 @@ def find_blender() -> Path | None:
         r"C:\Program Files\Blender Foundation\Blender 4.3\blender.exe",
         r"C:\Program Files\Blender Foundation\Blender 4.4\blender.exe",
         r"C:\Program Files\Blender Foundation\Blender 4.5\blender.exe",
+        str(ROOT / "tools" / "blender-4.5.10-windows-x64" / "blender.exe"),
         "/usr/bin/blender",
         "/Applications/Blender.app/Contents/MacOS/Blender",
     ]
+    # Portable installs under repo tools/
+    tools = ROOT / "tools"
+    if tools.is_dir():
+        for hit in sorted(tools.rglob("blender.exe")):
+            candidates.append(str(hit))
     for c in candidates:
         if c and Path(c).exists():
             return Path(c)
@@ -103,25 +109,84 @@ def render_shot(
         env["MVM_PREVIEW"] = "0"
 
     proc = subprocess.run(cmd, capture_output=True, text=True, env=env)
-    video = out_dir / "shot_preview.mp4"
-    if proc.returncode != 0 and not video.exists():
+    video = _normalize_preview_video(out_dir, fps=xsheet.fps if hasattr(xsheet, "fps") else 24)
+    # Blender may exit 0 even when the Python craft script raised — require a real plate.
+    if video is None or not video.exists() or video.stat().st_size < 1024:
         fallback = _fallback_render(payload_path, out_dir, xsheet, on_frame=on_frame)
         return {
             "ok": True,
             "engine": "fallback_cel_preview",
             "output": str(fallback),
             "payload": str(payload_path),
-            "blender_stderr": proc.stderr[-2000:],
-            "warning": "Blender failed; used procedural cel preview.",
+            "blender_returncode": proc.returncode,
+            "blender_stderr": (proc.stderr or "")[-2000:],
+            "blender_stdout": (proc.stdout or "")[-2000:],
+            "warning": "Blender craft plate missing; used procedural cel preview.",
         }
     return {
-        "ok": proc.returncode == 0 or video.exists(),
+        "ok": True,
         "engine": "blender",
-        "output": str(video if video.exists() else out_dir),
+        "output": str(video),
         "payload": str(payload_path),
-        "stdout": proc.stdout[-2000:],
-        "stderr": proc.stderr[-2000:],
+        "stdout": (proc.stdout or "")[-2000:],
+        "stderr": (proc.stderr or "")[-2000:],
     }
+
+
+def _normalize_preview_video(out_dir: Path, fps: int = 24) -> Path | None:
+    """Prefer a valid shot_preview.mp4; encode from PNG frames if needed."""
+    video = out_dir / "shot_preview.mp4"
+    candidates = [
+        p
+        for p in out_dir.glob("shot_preview*.mp4")
+        if p.is_file() and p.stat().st_size >= 1024
+    ]
+    if candidates:
+        best = max(candidates, key=lambda p: p.stat().st_size)
+        if best.resolve() != video.resolve():
+            if video.exists():
+                video.unlink()
+            best.replace(video)
+        return video if video.exists() and video.stat().st_size >= 1024 else None
+
+    frames_dir = out_dir / "frames"
+    frames = sorted(frames_dir.glob("frame_*.png")) if frames_dir.is_dir() else []
+    if not frames:
+        return None
+    ffmpeg = shutil.which("ffmpeg")
+    if not ffmpeg:
+        try:
+            import imageio_ffmpeg
+
+            ffmpeg = imageio_ffmpeg.get_ffmpeg_exe()
+        except Exception:
+            return None
+    if video.exists():
+        video.unlink()
+    enc = subprocess.run(
+        [
+            ffmpeg,
+            "-y",
+            "-framerate",
+            str(int(fps) or 24),
+            "-i",
+            str(frames_dir / "frame_%04d.png"),
+            "-c:v",
+            "libx264",
+            "-pix_fmt",
+            "yuv420p",
+            "-crf",
+            "23",
+            "-movflags",
+            "+faststart",
+            str(video),
+        ],
+        capture_output=True,
+        text=True,
+    )
+    if enc.returncode == 0 and video.exists() and video.stat().st_size >= 1024:
+        return video
+    return None
 
 
 def _fallback_render(

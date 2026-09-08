@@ -10,7 +10,6 @@
   ],
   "style_pack": "classic_cel",
   "created_at": "2026-09-07T22:20:32.847307+00:00",
-  "plan_approved": false,
-  "render_approved": false,
-  "canon_path": "CANON.md"
+  "plan_approved": true,
+  "render_approved": false
 }

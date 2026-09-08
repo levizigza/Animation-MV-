@@ -1,0 +1,53 @@
+{
+  "id": "SH090_HAND_RESET_CONTROL",
+  "index": 12,
+  "section": "table",
+  "start": 109.125,
+  "end": 112.5,
+  "duration": 3.375,
+  "intent": {
+    "purpose": "Shadow as merciful grip \u2014 dread from control, not horror light.",
+    "emotional_beat": "table",
+    "staging_goal": "Oino's hand on the reset control",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "Shadow as merciful grip \u2014 dread from control, not horror light.",
+  "camera": {
+    "name": "CAM_TABLE_OINO_CONTROL",
+    "language": "table"
+  },
+  "blocking": "Oino's hand on PROP_PlaybackControl",
+  "lens_mm": 55.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "TABLE_WARMTH",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH090_REWIND_ENCOUNTER",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

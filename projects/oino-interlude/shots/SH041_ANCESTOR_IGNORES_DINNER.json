@@ -1,0 +1,53 @@
+{
+  "id": "SH041_ANCESTOR_IGNORES_DINNER",
+  "index": 3,
+  "section": "archive",
+  "start": 23.291666666666668,
+  "end": 30.0,
+  "duration": 6.708333333333332,
+  "intent": {
+    "purpose": "Embarrassing ordinary refusal \u2014 implication, not sermon.",
+    "emotional_beat": "archive",
+    "staging_goal": "ancestor ignoring the call to dinner",
+    "animation_priority": "performance",
+    "must_read_silhouette": true,
+    "hold_for_lyric": false,
+    "notes": ""
+  },
+  "description": "Embarrassing ordinary refusal \u2014 implication, not sermon.",
+  "camera": {
+    "name": "CAM_ARCHIVE_DINNER_CLIP",
+    "language": "archive"
+  },
+  "blocking": "ancestor adjusting camera; dinner call off-screen",
+  "lens_mm": 28.0,
+  "cel": {
+    "mode": "limited",
+    "exposure": "2s",
+    "hold_on_lyrics": true,
+    "smear_on_accents": true,
+    "smear_density": 0.5,
+    "anticipation_frames": 2,
+    "follow_through_frames": 3,
+    "masters_pack": "classic_cel",
+    "key_on_beats": true,
+    "fx_vocab": [
+      "smear",
+      "impact"
+    ]
+  },
+  "characters": [
+    "Oino"
+  ],
+  "color_script": "OINO_ARCHIVE",
+  "approval": "draft",
+  "notes": "hero=yes parent=SH030_ARCHIVE_DISCOVERY",
+  "sequence_id": null,
+  "layout_id": null,
+  "timing_plan_id": null,
+  "storyboard_panel_ids": [],
+  "key_pose_ids": [],
+  "revision_id": null,
+  "lifecycle_state": "intent",
+  "animatic_approved": false
+}

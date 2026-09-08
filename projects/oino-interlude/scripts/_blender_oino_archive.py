@@ -39,7 +39,8 @@ def link(obj, col):
     col.objects.link(obj)
 
 
-def add_cube(name, loc, scale, col):    if name in bpy.data.objects and not RESET:
+def add_cube(name, loc, scale, col):
+    if name in bpy.data.objects and not RESET:
         obj = bpy.data.objects[name]
         link(obj, col)
         reused.append(name)

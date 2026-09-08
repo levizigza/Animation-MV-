@@ -67,8 +67,8 @@
 ## Blender
 
 - Target: `scenes/SCN_08_TABLE_ROOM.blend`
-- Status: **deferred**
-- Detail: Install Blender, then re-run with --write-blend
+- Status: **created**
+- Detail: C:\Users\levyz\OneDrive\Microsoft Copilot Chat Files\Documents\Music Video Maker\projects\oino-interlude\scenes\SCN_08_TABLE_ROOM.blend
 
 ```text
 python scripts/build_table_room.py --write-blend
