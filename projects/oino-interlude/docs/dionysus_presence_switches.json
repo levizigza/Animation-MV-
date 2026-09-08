@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "motif_id": "DIONYSUS_PRESENCE",
+  "literal_cameo": false,
+  "echoes_enabled": {
+    "ECHO_RED_GARMENT": false,
+    "ECHO_LAUGH_BEFORE_SOURCE": false,
+    "ECHO_MASK_BLACK_GLASS": false,
+    "ECHO_IVY_THROUGH_MACHINE": true,
+    "ECHO_BROKEN_STAFF_GROWTH": false,
+    "ECHO_WINE_LIGHT": true,
+    "ECHO_HAND_PERCUSSION_DANCE": false,
+    "ECHO_ARCHIVE_FRAME_FIGURE": false,
+    "ECHO_ZONE_EXIT_SILHOUETTE": false,
+    "ECHO_WHITE_BIRDS_RELEASE": true
+  },
+  "note": "Individually switchable. Disabled echoes must not appear in craft."
+}

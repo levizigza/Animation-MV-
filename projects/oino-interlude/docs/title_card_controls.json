@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_13_TITLE_CARD",
+  "editable": true,
+  "title_text": "One Of Gods Fools",
+  "release_date_text": "December 10, 2026",
+  "controls": {
+    "title_fade_in": 12,
+    "date_fade_in": 10,
+    "title_hold_duration": 72,
+    "date_hold_duration": 54,
+    "background_colour": {
+      "hex": "#0A0A0A",
+      "rgba": [
+        0.039,
+        0.039,
+        0.039,
+        1.0
+      ],
+      "name": "near_black"
+    },
+    "type_colour": {
+      "hex": "#E8E4DC",
+      "rgba": [
+        0.91,
+        0.894,
+        0.863,
+        1.0
+      ],
+      "name": "quiet_off_white",
+      "alt_hex": "#A8A098",
+      "alt_name": "warm_grey_type"
+    },
+    "letter_spacing": 0.08,
+    "final_fade_out": {
+      "enabled": false,
+      "frames": 12,
+      "note": "Default off unless delivery requires it"
+    }
+  },
+  "units": "frames @ fps in brief",
+  "final_fade_out_default": "off unless delivery requires it"
+}

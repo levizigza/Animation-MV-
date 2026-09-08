@@ -1,0 +1,30 @@
+{
+  "script": "build_oino_archive",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:37:43.402426+00:00",
+  "finished_at": "2026-09-07T22:37:44.108545+00:00",
+  "counts": {
+    "created": 3,
+    "reused": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/oino_archive_markers.json",
+    "cache/oino_archive_payload.json",
+    "docs/oino_archive_status.md"
+  ],
+  "reused": [
+    "docs/oino_archive_brief.json",
+    "docs/oino_archive_notes.md",
+    "scripts/_blender_oino_archive.py"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Blender not installed \u2014 SCN_02_OINO_ARCHIVE.blend deferred",
+    "Archive suggests preservation + transformation across generations; not biological superiority or automatic wisdom"
+  ]
+}

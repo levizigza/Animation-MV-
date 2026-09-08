@@ -1,0 +1,25 @@
+{
+  "id": "classic_cel",
+  "name": "Classic Cel",
+  "description": "Pose-to-pose craft with Disney/anime golden-age timing discipline.",
+  "masters_influence": ["disney_12", "classic_anime_timing"],
+  "default_exposure": "2s",
+  "hold_bias": 0.4,
+  "smear_bias": 0.45,
+  "camera_grammar": {
+    "move_style": "motivated",
+    "cut_density": "medium"
+  },
+  "color_guidance": {
+    "shadow_shapes": true,
+    "palette": "ink_and_paint"
+  },
+  "gp_line_settings": {
+    "line_width": 3.0,
+    "color": [0.05, 0.05, 0.08, 1.0]
+  },
+  "toon_settings": {
+    "shader": "shader_toon",
+    "ramp_steps": 3
+  }
+}

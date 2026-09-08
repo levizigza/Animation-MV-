@@ -1,0 +1,87 @@
+1
+00:00:07,458 --> 00:00:12,750
+[narration] watcher and singularity | f180 | pending_manual
+
+2
+00:00:12,750 --> 00:00:14,250
+[music] room tone and distant call | f307 | automatic
+
+3
+00:00:14,250 --> 00:00:16,250
+[music] father's unfinished phrase | f343 | automatic
+
+4
+00:00:16,250 --> 00:00:21,625
+[music] first Dionysus leitmotif | f391 | pending_manual
+
+5
+00:00:21,625 --> 00:00:31,042
+[narration] archive discovery | f520 | pending_manual
+
+6
+00:00:31,042 --> 00:00:32,542
+[music] steam and labour pulse | f746 | automatic
+
+7
+00:00:31,042 --> 00:00:39,375
+[narration] ascent and anticipation | f746 | pending_manual
+
+8
+00:00:39,375 --> 00:00:47,083
+[music] electric release and dance | f946 | automatic
+
+9
+00:00:47,083 --> 00:00:48,583
+[music] future voice and memorial presence | f1131 | automatic
+
+10
+00:00:47,083 --> 00:01:03,750
+[narration] Babel and Icarus | f1131 | pending_manual
+
+11
+00:01:03,750 --> 00:01:06,625
+[music] digital quantization | f1531 | automatic
+
+12
+00:01:06,625 --> 00:01:23,292
+[narration] chaos and self-projection | f1600 | pending_manual
+
+13
+00:01:23,292 --> 00:01:32,667
+[narration] labyrinth and ancestor failure | f2000 | pending_manual
+
+14
+00:01:32,667 --> 00:01:41,000
+[music] Zone suspension | f2225 | automatic
+
+15
+00:01:41,000 --> 00:01:48,292
+[music] table warmth | f2425 | automatic
+
+16
+00:01:48,292 --> 00:01:49,792
+[music] rewind loop | f2600 | automatic
+
+17
+00:01:48,292 --> 00:01:53,417
+[narration] descent and captivity | f2600 | pending_manual
+
+18
+00:01:53,417 --> 00:01:54,250
+[music] irregular knock | f2723 | automatic
+
+19
+00:01:54,250 --> 00:01:55,750
+[music] release | f2743 | automatic
+
+20
+00:01:54,250 --> 00:02:00,667
+[narration] cautionary tale and threshold | f2743 | pending_manual
+
+21
+00:02:00,667 --> 00:02:07,083
+[music] sister's changed melody | f2897 | automatic
+
+22
+00:02:07,083 --> 00:02:11,135
+[music] title-card resolve | f3051 | automatic

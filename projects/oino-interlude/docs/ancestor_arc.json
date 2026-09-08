@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "motif_id": "ANCESTOR_ARC",
+  "film": "Oino (Interlude)",
+  "character": {
+    "role": "great-great-grandfather",
+    "starts_as": "watcher",
+    "ends_as": "incomplete warning",
+    "qualities": [
+      "perceptive",
+      "loving",
+      "fallible",
+      "implicated in the failure he describes"
+    ]
+  },
+  "policy": {
+    "omniscient_prophet": false,
+    "supernatural_judge": false,
+    "simple_anti_ambition_sermon": false,
+    "note": "He did not only warn against humanity's ambition; he participated in the desire to preserve everything. Show implication, not omniscience."
+  },
+  "visual_language": [
+    "reflections",
+    "partial faces",
+    "damaged film",
+    "documents",
+    "reconstructed images",
+    "out-of-focus movement"
+  ],
+  "beats": [
+    {
+      "id": "ANC_01_NOTICES_CHANGE",
+      "order": 1,
+      "title": "Notices beauty and danger",
+      "action": "He notices the beauty and danger of early industrial change.",
+      "approx_shot": "SH040_MELODY_OPENS_HISTORY",
+      "approx_frame": 780,
+      "marker": "ANC_01_NOTICES_CHANGE",
+      "staging": "Steam and damp timber through a reflection; partial face at frame edge; no captioned judgment.",
+      "watcher_mode": "observing",
+      "implication": "Beauty draws him closer as danger begins."
+    },
+    {
+      "id": "ANC_02_MENDS_SLEEVE",
+      "order": 2,
+      "title": "Mends a stranger's sleeve",
+      "action": "He helps mend a stranger's sleeve.",
+      "approx_shot": "SH040_MELODY_OPENS_HISTORY",
+      "approx_frame": 860,
+      "marker": "ANC_02_MENDS_SLEEVE",
+      "staging": "Hands and cloth in focus; faces soft or cropped; care as ordinary labour.",
+      "watcher_mode": "participating_care",
+      "implication": "He can still choose a small repair over spectacle."
+    },
+    {
+      "id": "ANC_03_COAT_CATCHES",
+      "order": 3,
+      "title": "Receives help with the coat",
+      "action": "He receives help when his own coat catches on a nail.",
+      "approx_shot": "SH040_MELODY_OPENS_HISTORY",
+      "approx_frame": 920,
+      "marker": "ANC_03_COAT_CATCHES",
+      "staging": "Nail, snagged fabric, stranger's hands; slightly awkward body; not heroic rescue.",
+      "watcher_mode": "receiving_care",
+      "implication": "He needs others; the archive later forgets this mutuality."
+    },
+    {
+      "id": "ANC_04_WATCHES_ASK",
+      "order": 4,
+      "title": "Watches a worker ask for help",
+      "action": "He watches a worker ask for assistance.",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "approx_frame": 1280,
+      "marker": "ANC_04_WATCHES_ASK",
+      "staging": "Out-of-focus movement of the ask; ancestor's eye-line sharp; he does not become the answer.",
+      "watcher_mode": "watching_without_solving",
+      "implication": "Witness is not yet warning; the ask hangs."
+    },
+    {
+      "id": "ANC_05_FOLLOWS_MELODY",
+      "order": 5,
+      "title": "Follows the melody instead of stopping",
+      "action": "He follows the melody instead of stopping.",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "approx_frame": 1380,
+      "marker": "ANC_05_FOLLOWS_MELODY",
+      "staging": "Camera/body drift toward unfinished melody; injured ask falls behind in soft focus.",
+      "watcher_mode": "choosing_preservation_pull",
+      "implication": "Desire to follow the music outweighs stopping for need — early implication."
+    },
+    {
+      "id": "ANC_06_PRESERVES_THROUGH_CALL",
+      "order": 6,
+      "title": "Preserves while dinner calls",
+      "action": "He preserves voices and images while someone calls him to dinner.",
+      "approx_shot": "SH030_ARCHIVE_DISCOVERY",
+      "approx_frame": 600,
+      "marker": "ANC_06_PRESERVES_THROUGH_CALL",
+      "staging": "See CLIP_ANC_CAMERA_DINNER — ordinary, slightly embarrassing unedited take.",
+      "watcher_mode": "preserving_instead_of_returning",
+      "implication": "Ordinary life ignored while preservation continues — he is already inside the pattern Oino inherits.",
+      "clip_ref": "CLIP_ANC_CAMERA_DINNER"
+    },
+    {
+      "id": "ANC_07_CANNOT_TELL_TRUE",
+      "order": 7,
+      "title": "Cannot tell which recording is true",
+      "action": "He becomes unable to tell Oino which recording is true.",
+      "approx_shot": "SH060_CARE_AND_HARM",
+      "approx_frame": 1900,
+      "marker": "ANC_07_CANNOT_TELL_TRUE",
+      "staging": "Damaged film / reconstructed plates side by side; partial faces; no omniscient answer.",
+      "watcher_mode": "incomplete_authority",
+      "implication": "Archive excess breaks certainty; he cannot judge truth for her."
+    },
+    {
+      "id": "ANC_08_ZONE_EXIT_NO_CERTAINTY",
+      "order": 8,
+      "title": "Zone exit — no certainty",
+      "action": "He stands at the Zone exit and offers no certainty.",
+      "approx_shot": "SH070_ZONE_PASSAGE",
+      "approx_frame": 2380,
+      "marker": "ANC_08_ZONE_EXIT_NO_CERTAINTY",
+      "staging": "Silhouette or reflection at threshold; incomplete warning; not a supernatural judge.",
+      "watcher_mode": "incomplete_warning",
+      "implication": "Ends as warning without map — loving, fallible, implicated."
+    }
+  ],
+  "unedited_archive_clip": {
+    "id": "CLIP_ANC_CAMERA_DINNER",
+    "title": "Younger ancestor adjusts camera while dinner calls",
+    "footage_class": "ancestor_origin",
+    "not_footage_class": "reconstructed",
+    "duration_seconds_target": 12,
+    "emotional_tone": [
+      "ordinary",
+      "slightly embarrassing"
+    ],
+    "action": {
+      "on_screen": "Younger ancestor keeps adjusting the camera — framing, focus, fidgeting with the device.",
+      "off_screen": "Someone calls him to dinner (domestic call — not a scare)."
+    },
+    "he_does_not": [
+      "deliver a sermon against ambition",
+      "turn to camera as prophet",
+      "answer the dinner call"
+    ],
+    "reveals": "He did not simply warn against humanity's ambition; he participated in the desire to preserve everything.",
+    "craft": {
+      "look": [
+        "handheld / unstable framing",
+        "soft focus hunting",
+        "room tone and domestic call bleed",
+        "no title card explaining the moral"
+      ],
+      "objects": [
+        "FOOTAGE_AncestorPlate_DinnerCam",
+        "PROP_ArchiveCamera",
+        "LABEL_AncestorOrigin_DinnerClip"
+      ],
+      "marker_start": "CLIP_ANC_CAMERA_DINNER_START",
+      "marker_end": "CLIP_ANC_CAMERA_DINNER_END",
+      "approx_frame_start": 560,
+      "approx_frame_end": 720
+    },
+    "link_to_call_motif": "CALL_02_ARCHIVE_ANCESTOR"
+  }
+}

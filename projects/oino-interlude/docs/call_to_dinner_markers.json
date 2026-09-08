@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "motif_id": "CALL_TO_DINNER",
+  "editable": true,
+  "policy": {
+    "jump_scare": false,
+    "origin": "familiar_domestic_sound",
+    "strangeness_source": "Oino has travelled away from ordinary life \u2014 the call itself does not become a monster",
+    "cut_to_every_beat": false
+  },
+  "markers": [
+    {
+      "name": "CALL_01_SISTER_DOWNSTAIRS",
+      "frame": 307,
+      "shot": "SH010_CALL_TO_DINNER",
+      "phase": "opening",
+      "meaning_label": "invitation refused",
+      "oino_responds": false,
+      "note": "Invitation refused \u2014 preservation and unfinished music outweigh dinner."
+    },
+    {
+      "name": "CALL_02_ARCHIVE_ANCESTOR",
+      "frame": 600,
+      "shot": "SH030_ARCHIVE_DISCOVERY",
+      "phase": "middle",
+      "meaning_label": "ordinary life ignored while preservation continues",
+      "oino_responds": false,
+      "note": "Ordinary life (dinner) ignored while preservation work continues."
+    },
+    {
+      "name": "CALL_03_FACTORY_ALARM",
+      "frame": 1300,
+      "shot": "SH050_CHANGING_WORLD",
+      "phase": "middle",
+      "meaning_label": "ordinary life ignored while preservation continues",
+      "oino_responds": false,
+      "note": "Domestic invitation buried inside industrial time \u2014 still not answered as dinner."
+    },
+    {
+      "name": "CALL_04_TERMINAL_NOTIFICATION",
+      "frame": 1500,
+      "shot": "SH050_CHANGING_WORLD",
+      "phase": "middle",
+      "meaning_label": "ordinary life ignored while preservation continues",
+      "oino_responds": false,
+      "note": "Care continues as archive/system work while the living invitation stays unanswered."
+    },
+    {
+      "name": "CALL_05_ZONE_KNOCK",
+      "frame": 2200,
+      "shot": "SH070_ZONE_PASSAGE",
+      "phase": "zone",
+      "meaning_label": "reality interrupting desire",
+      "oino_responds": true,
+      "note": "Reality interrupting desire \u2014 the living call pattern returns as interruption, not invitation fulfilled."
+    },
+    {
+      "name": "CALL_06_TABLE_TAP_NEW_MELODY",
+      "frame": 2897,
+      "shot": "SH120_CHANGED_NOTE",
+      "phase": "ending",
+      "meaning_label": "living relationship accepted",
+      "oino_responds": true,
+      "note": "Living relationship accepted \u2014 the call completes as music shared, not archive control."
+    }
+  ]
+}

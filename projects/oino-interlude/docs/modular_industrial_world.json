@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_MODULAR_INDUSTRIAL_WORLD",
+  "seed": 20261210,
+  "fps": 24,
+  "intent": "One human world changing around the same needs — not four unrelated cities.",
+  "controls": {
+    "era_blend": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.35,
+      "meaning": "0=water/timber/stone early industrial; 1=digital/possible futures dominant"
+    },
+    "future_branch": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.0,
+      "meaning": "0=historical continuum; 1=possible-futures modules assert"
+    },
+    "organic_growth": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.2,
+      "meaning": "vine/moss/wear reclaiming structure"
+    },
+    "dionysus_presence": {
+      "min": 0.0,
+      "max": 1.0,
+      "default": 0.15,
+      "meaning": "symbolic musical/visual echoes only — not a literal god set"
+    }
+  },
+  "persistent_anchors": {
+    "note": "Same objects remain recognizable across era_blend — recognition through continuity of need.",
+    "doorway": "ANCHOR_Doorway",
+    "vertical_beam": "ANCHOR_VerticalBeam_BabelCore",
+    "path": "ANCHOR_Path",
+    "bowl": "ANCHOR_Bowl",
+    "hand_level_surface": "ANCHOR_HandSurface"
+  },
+  "collections": [
+    "WORLD_STRUCTURE",
+    "WORLD_STEAM",
+    "WORLD_ELECTRIC",
+    "WORLD_DIGITAL",
+    "WORLD_POSSIBLE_FUTURES",
+    "WORLD_ORGANIC_GROWTH",
+    "WORLD_WATER_AND_REFLECTIONS",
+    "WORLD_DIONYSUS_ECHOES"
+  ],
+  "modules": {
+    "water_channels": ["MOD_WaterChannel_A", "MOD_WaterChannel_B"],
+    "waterwheel": ["MOD_Waterwheel"],
+    "timber_beams": ["MOD_TimberBeam_A", "MOD_TimberBeam_B", "MOD_TimberBeam_C"],
+    "brick_and_stone": ["MOD_BrickWall_A", "MOD_StoneBlock_A", "MOD_StoneBlock_B"],
+    "steam_pipes": ["MOD_SteamPipe_A", "MOD_SteamPipe_B", "MOD_SteamPipe_C"],
+    "loom_and_belt": ["MOD_LoomFrame", "MOD_BeltRun_A", "MOD_BeltRun_B"],
+    "pressure_valves": ["MOD_Valve_A", "MOD_Valve_B"],
+    "electrical_poles_lamps": ["MOD_Pole_A", "MOD_Pole_B", "MOD_Lamp_A", "MOD_Lamp_B"],
+    "generators_cables": ["MOD_Generator", "MOD_CableBundle_A", "MOD_CableBundle_B"],
+    "assembly_line": ["MOD_AssemblyBay_A", "MOD_AssemblyBay_B"],
+    "terminals_monitors": ["MOD_Terminal_A", "MOD_Monitor_A", "MOD_Monitor_B"],
+    "server_cooling": ["MOD_ServerRack_A", "MOD_CoolingUnit_A"],
+    "assistive_communication": ["MOD_AssistiveComm_A", "MOD_AssistiveComm_B"],
+    "medical_synthetic_voice": ["MOD_MedModule_A", "MOD_SynthVoicePanel"],
+    "circulation": [
+      "MOD_OldDoor_A",
+      "MOD_Ladder_A",
+      "MOD_Catwalk_A",
+      "MOD_Platform_A",
+      "MOD_Corridor_A"
+    ],
+    "babel_core": ["ANCHOR_VerticalBeam_BabelCore"]
+  },
+  "era_visibility": {
+    "WORLD_WATER_AND_REFLECTIONS": {"era_peak": 0.0, "falloff": 0.45},
+    "WORLD_STRUCTURE": {"era_peak": 0.25, "falloff": 1.0},
+    "WORLD_STEAM": {"era_peak": 0.35, "falloff": 0.4},
+    "WORLD_ELECTRIC": {"era_peak": 0.55, "falloff": 0.35},
+    "WORLD_DIGITAL": {"era_peak": 0.75, "falloff": 0.35},
+    "WORLD_POSSIBLE_FUTURES": {"driven_by": "future_branch"},
+    "WORLD_ORGANIC_GROWTH": {"driven_by": "organic_growth"},
+    "WORLD_DIONYSUS_ECHOES": {"driven_by": "dionysus_presence"}
+  },
+  "preview": {
+    "hide_heavy_instances_below_era": 0.15,
+    "instance_count_preview": 3,
+    "instance_count_full": 8
+  }
+}

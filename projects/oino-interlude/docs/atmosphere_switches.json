@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "global": {},
+  "per_scene": {},
+  "per_shot": {},
+  "editable": true,
+  "precedence": [
+    "per_shot",
+    "per_scene",
+    "global",
+    "default_enabled"
+  ]
+}

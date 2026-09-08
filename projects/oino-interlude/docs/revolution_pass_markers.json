@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "editable": true,
+  "no_on_screen_era_labels": true,
+  "markers": [
+    {
+      "name": "MOV_01_WATER_STEAM_HANDS",
+      "frame": 746,
+      "frame_end": 1000,
+      "note": "Water, steam, and hands",
+      "on_screen_label": null
+    },
+    {
+      "name": "M1_SCHOOLROOM_SINGING",
+      "frame": 746,
+      "parent_pass": "MOV_01_WATER_STEAM_HANDS",
+      "note": "A schoolroom with children singing"
+    },
+    {
+      "name": "M1_JUDGING_BLOCKS",
+      "frame": 746,
+      "parent_pass": "MOV_01_WATER_STEAM_HANDS",
+      "note": "Coloured blocks or monitors judging workers"
+    },
+    {
+      "name": "M1_SLEEVE_REPAIR",
+      "frame": 746,
+      "parent_pass": "MOV_01_WATER_STEAM_HANDS",
+      "note": "The ancestor repairs a stranger's sleeve"
+    },
+    {
+      "name": "M1_COAT_FREED",
+      "frame": 746,
+      "parent_pass": "MOV_01_WATER_STEAM_HANDS",
+      "note": "The stranger frees the ancestor when his coat catches"
+    },
+    {
+      "name": "M1_INJURED_ASKS",
+      "frame": 746,
+      "parent_pass": "MOV_01_WATER_STEAM_HANDS",
+      "note": "An injured worker asks for help while the melody draws Oino onward"
+    },
+    {
+      "name": "MOV_02_ELECTRICITY_LIGHT_TIME",
+      "frame": 1001,
+      "frame_end": 1300,
+      "note": "Electricity, light, and time",
+      "on_screen_label": null
+    },
+    {
+      "name": "M2_LIGHT_RELIEVES",
+      "frame": 1001,
+      "parent_pass": "MOV_02_ELECTRICITY_LIGHT_TIME",
+      "note": "Electric light genuinely relieves domestic labour"
+    },
+    {
+      "name": "M2_WOMAN_DANCES",
+      "frame": 1001,
+      "parent_pass": "MOV_02_ELECTRICITY_LIGHT_TIME",
+      "note": "A woman dances because a machine returns time to her"
+    },
+    {
+      "name": "M2_EMPTY_CHAIR",
+      "frame": 1001,
+      "parent_pass": "MOV_02_ELECTRICITY_LIGHT_TIME",
+      "note": "Another household waits beside an empty chair"
+    },
+    {
+      "name": "M2_ALARM_GATHERS",
+      "frame": 1001,
+      "parent_pass": "MOV_02_ELECTRICITY_LIGHT_TIME",
+      "note": "An alarm becomes the rhythm of people gathering and organizing"
+    },
+    {
+      "name": "M2_BENEFIT_AND_ABSENCE",
+      "frame": 1001,
+      "parent_pass": "MOV_02_ELECTRICITY_LIGHT_TIME",
+      "note": "Show benefit and absence in the same visual movement"
+    },
+    {
+      "name": "MOV_03_COMPUTING_SCREENS_CONFESSION",
+      "frame": 1301,
+      "frame_end": 1700,
+      "note": "Computing, screens, and confession",
+      "on_screen_label": null
+    },
+    {
+      "name": "M3_PRIVATE_ADMISSION",
+      "frame": 1301,
+      "parent_pass": "MOV_03_COMPUTING_SCREENS_CONFESSION",
+      "note": "A person types a private admission into a terminal"
+    },
+    {
+      "name": "M3_DISTANT_RELATIVE",
+      "frame": 1301,
+      "parent_pass": "MOV_03_COMPUTING_SCREENS_CONFESSION",
+      "note": "A distant relative appears through a network"
+    },
+    {
+      "name": "M3_FACES_OFFSET",
+      "frame": 1301,
+      "parent_pass": "MOV_03_COMPUTING_SCREENS_CONFESSION",
+      "note": "Faces repeat with slight timing differences"
+    },
+    {
+      "name": "M3_OINO_WITHOUT_HER",
+      "frame": 1301,
+      "parent_pass": "MOV_03_COMPUTING_SCREENS_CONFESSION",
+      "note": "Oino sees her own recording playing without her"
+    },
+    {
+      "name": "M3_CLEANER_VOICE",
+      "frame": 1301,
+      "parent_pass": "MOV_03_COMPUTING_SCREENS_CONFESSION",
+      "note": "Every corridor offers a cleaner version of a lost voice"
+    },
+    {
+      "name": "MOV_04_ASSISTANCE_MEMORIAL_FUTURES",
+      "frame": 1701,
+      "frame_end": 1999,
+      "note": "Assistance, memorial presence, and possible futures",
+      "on_screen_label": null
+    },
+    {
+      "name": "M4_LIVING_ASSISTIVE",
+      "frame": 1701,
+      "parent_pass": "MOV_04_ASSISTANCE_MEMORIAL_FUTURES",
+      "note": "A living person speaks through an assistive synthetic voice"
+    },
+    {
+      "name": "M4_DECEASED_RECONSTRUCTED",
+      "frame": 1701,
+      "parent_pass": "MOV_04_ASSISTANCE_MEMORIAL_FUTURES",
+      "note": "A deceased person's voice is reconstructed"
+    },
+    {
+      "name": "M4_FACTORY_NOT_CITY",
+      "frame": 1701,
+      "parent_pass": "MOV_04_ASSISTANCE_MEMORIAL_FUTURES",
+      "note": "Old factory frames become structures that do not resemble cities"
+    },
+    {
+      "name": "M4_TABLE_CENTRE",
+      "frame": 1701,
+      "parent_pass": "MOV_04_ASSISTANCE_MEMORIAL_FUTURES",
+      "note": "An ordinary table appears at the centre"
+    },
+    {
+      "name": "PASS_FUTURES",
+      "frame": 2000,
+      "frame_end": 2424,
+      "note": "Possible futures / table centre",
+      "on_screen_label": null
+    }
+  ]
+}

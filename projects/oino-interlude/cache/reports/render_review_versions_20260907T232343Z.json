@@ -1,0 +1,33 @@
+{
+  "script": "render_review_versions",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:23:42.801893+00:00",
+  "finished_at": "2026-09-07T23:23:43.841661+00:00",
+  "counts": {
+    "created": 7,
+    "reused": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "renders/review/ANIMATIC_REVIEW/manifest.json",
+    "renders/review/PERFORMANCE_REVIEW/manifest.json",
+    "renders/review/WORLD_REVIEW/manifest.json",
+    "renders/review/COLOUR_REVIEW/manifest.json",
+    "renders/review/TITLE_CARD_REVIEW/manifest.json",
+    "renders/review/FINAL_REVIEW/manifest.json",
+    "docs/review_versions.md"
+  ],
+  "reused": [
+    "docs/review_versions.json",
+    "docs/emotional_qa.md",
+    "audio/master.wav"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Review folders ready; emotional QA off-screen only; title lock 'One Of Gods Fools' / 'December 10, 2026'"
+  ]
+}

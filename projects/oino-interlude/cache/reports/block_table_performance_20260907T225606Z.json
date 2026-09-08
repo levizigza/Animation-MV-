@@ -1,0 +1,27 @@
+{
+  "script": "block_table_performance",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:56:06.964392+00:00",
+  "finished_at": "2026-09-07T22:56:06.969469+00:00",
+  "counts": {
+    "created": 2,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/table_performance_markers.json",
+    "docs/table_performance_block.md"
+  ],
+  "reused": [
+    "docs/table_performance_block.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "table room cross-check ok",
+    "Four phases blocked; dread=repetition/missing life; no horror music / red warning / monster reveal"
+  ]
+}

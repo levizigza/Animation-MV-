@@ -1,0 +1,33 @@
+{
+  "script": "setup_audio",
+  "seed": null,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:31:05.969844+00:00",
+  "finished_at": "2026-09-07T22:31:05.980881+00:00",
+  "counts": {
+    "created": 3,
+    "reused": 3,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "DIONYSUS_LEITMOTIF (placeholder proposal)",
+    "docs/audio_timing_report.md",
+    "docs/dionysus_leitmotif.json"
+  ],
+  "reused": [
+    "audio/master.wav",
+    "beatmap.json",
+    "docs/audio_markers.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "narration_path=null -> embedded in mixed master (or absent stem)",
+    "Dionysus search: no dedicated audio/MIDI leitmotif source file found",
+    "textual_reference:CANON.md (textual lineage)",
+    "textual_reference:config/show_config.json mythic_canon",
+    "textual_reference:docs/creative_bible.md"
+  ]
+}

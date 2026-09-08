@@ -1,0 +1,119 @@
+{
+  "fps": 24,
+  "final_frame": 3148,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "music_path": "C:\\Users\\levyz\\OneDrive\\Microsoft Copilot Chat Files\\Documents\\Music Video Maker\\projects\\oino-interlude\\audio\\master.wav",
+  "narration_path": null,
+  "markers": [
+    {
+      "name": "AUDIO_START",
+      "time_seconds": 0.0,
+      "frame": 1,
+      "editable": false,
+      "note": "First sample of mixed timeline"
+    },
+    {
+      "name": "NARRATION_START",
+      "time_seconds": 0.0,
+      "frame": 1,
+      "editable": true,
+      "note": "Start of archive monologue (embedded estimate \u2014 edit if stem arrives)"
+    },
+    {
+      "name": "NARRATION_END",
+      "time_seconds": 31.091519,
+      "frame": 746,
+      "editable": true,
+      "note": "End of primary narration span (editable; not auto-locked to beats)"
+    },
+    {
+      "name": "MUSIC_END",
+      "time_seconds": 131.134979,
+      "frame": 3148,
+      "editable": true,
+      "note": "Last frame of music / mixed master"
+    },
+    {
+      "name": "FINAL_FRAME",
+      "time_seconds": 131.134979,
+      "frame": 3148,
+      "editable": true,
+      "note": "Picture end = ceil(duration*fps) alignment"
+    },
+    {
+      "name": "TITLE_CARD_START",
+      "time_seconds": 127.134979,
+      "frame": 3051,
+      "editable": true,
+      "note": "One Of God's Fools card begins (default last 4s \u2014 editable)"
+    },
+    {
+      "name": "TITLE_CARD_END",
+      "time_seconds": 131.134979,
+      "frame": 3148,
+      "editable": true,
+      "note": "Title card holds through FINAL_FRAME"
+    },
+    {
+      "name": "CUE_ENTRANCE",
+      "time_seconds": 0.0,
+      "frame": 1,
+      "editable": true,
+      "note": "World / archive entrance \u2014 music breathes in"
+    },
+    {
+      "name": "CUE_FIRST_MELODY",
+      "time_seconds": 14.280272,
+      "frame": 343,
+      "editable": true,
+      "note": "First clear melodic statement (broad)"
+    },
+    {
+      "name": "CUE_HARMONIC_CHANGE",
+      "time_seconds": 31.091519,
+      "frame": 746,
+      "editable": true,
+      "note": "First major section / harmonic turn"
+    },
+    {
+      "name": "CUE_KNOCK",
+      "time_seconds": 12.780272,
+      "frame": 307,
+      "editable": true,
+      "note": "Sister's call-to-dinner knock (emotional trigger)"
+    },
+    {
+      "name": "CUE_LOOP",
+      "time_seconds": 47.113288,
+      "frame": 1131,
+      "editable": true,
+      "note": "Memorial / repeating chorus loop character"
+    },
+    {
+      "name": "CUE_REST",
+      "time_seconds": 101.053243,
+      "frame": 2425,
+      "editable": true,
+      "note": "Breath / bridge rest \u2014 do not fill with busy cuts"
+    },
+    {
+      "name": "CUE_RELEASE",
+      "time_seconds": 114.311837,
+      "frame": 2743,
+      "editable": true,
+      "note": "Release toward sister / holy-fool letting go"
+    },
+    {
+      "name": "CUE_FINAL_PHRASE",
+      "time_seconds": 120.723408,
+      "frame": 2897,
+      "editable": true,
+      "note": "Last living phrase before title card"
+    }
+  ],
+  "blend_out": "C:\\Users\\levyz\\OneDrive\\Microsoft Copilot Chat Files\\Documents\\Music Video Maker\\projects\\oino-interlude\\scenes\\AUDIO_MASTER.blend",
+  "reset": false
+}

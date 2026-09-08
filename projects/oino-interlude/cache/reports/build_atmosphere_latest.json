@@ -1,0 +1,30 @@
+{
+  "script": "build_atmosphere",
+  "seed": 20261214,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:20:48.183631+00:00",
+  "finished_at": "2026-09-07T23:20:48.192636+00:00",
+  "counts": {
+    "created": 5,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/atmosphere_seed_table.json",
+    "docs/atmosphere_switches.json",
+    "docs/atmosphere_markers.json",
+    "docs/atmosphere.md",
+    "docs/atmosphere.json"
+  ],
+  "reused": [
+    "docs/atmosphere.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "atmosphere seed=20261214",
+    "11 effects \u00d7 preview/final; 6 transitions; switchable; no fog/glitch/CA/flare/constant-particle crutches"
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "scene": "ANIMATIC_MASTER",
+  "fps": 24,
+  "final_frame": 3148,
+  "duration_seconds": 131.134979,
+  "priority_staging": [
+    "eyelines",
+    "Oino_Hand",
+    "PROP_Table",
+    "CUE_KNOCK",
+    "changed_melody_return"
+  ],
+  "policy": {
+    "detailed_modelling": false,
+    "animate_every_visual_idea": false,
+    "cut_to_every_beat": false,
+    "note": "Proxy staging + rhythm only. Music breathes; broad cues only."
+  },
+  "collections": [
+    "ANIMATIC_PROXIES",
+    "ANIMATIC_CAMERAS",
+    "ANIMATIC_LIGHTS",
+    "ANIMATIC_TEXT",
+    "ANIMATIC_AUDIO",
+    "ANIMATIC_DIONYSUS_ECHOES"
+  ],
+  "shots": [
+    {
+      "id": "SH010_CALL_TO_DINNER",
+      "camera": "SH010_CALL_TO_DINNER",
+      "frame_start": 1,
+      "frame_end": 342,
+      "beat": "Sister calls Oino to dinner; Oino closes the attic door.",
+      "staging_focus": ["knock", "door", "eyeline_downstairs"],
+      "story_circle": "SC_NEED"
+    },
+    {
+      "id": "SH020_FATHERS_TAPE",
+      "camera": "SH020_FATHERS_TAPE",
+      "frame_start": 343,
+      "frame_end": 519,
+      "beat": "Oino rewinds her father's unfinished recording.",
+      "staging_focus": ["hand", "recording", "rewind"],
+      "story_circle": "SC_NEED"
+    },
+    {
+      "id": "SH030_ARCHIVE_DISCOVERY",
+      "camera": "SH030_ARCHIVE_DISCOVERY",
+      "frame_start": 520,
+      "frame_end": 745,
+      "beat": "She discovers the great-great-grandfather's archive.",
+      "staging_focus": ["archive", "hand", "eyeline_into_pages"],
+      "story_circle": "SC_GO"
+    },
+    {
+      "id": "SH040_MELODY_OPENS_HISTORY",
+      "camera": "SH040_MELODY_OPENS_HISTORY",
+      "frame_start": 746,
+      "frame_end": 1130,
+      "beat": "The family melody opens the archive into industrial history.",
+      "staging_focus": ["melody", "threshold", "dionysus_echo"],
+      "story_circle": "SC_SEARCH"
+    },
+    {
+      "id": "SH050_CHANGING_WORLD",
+      "camera": "SH050_CHANGING_WORLD",
+      "frame_start": 1131,
+      "frame_end": 1599,
+      "beat": "Steam, electricity, digital systems, and possible futures as one changing world.",
+      "staging_focus": ["era_blocks", "rhythm_not_detail"],
+      "story_circle": "SC_SEARCH"
+    },
+    {
+      "id": "SH060_CARE_AND_HARM",
+      "camera": "SH060_CARE_AND_HARM",
+      "frame_start": 1600,
+      "frame_end": 1999,
+      "beat": "Oino sees care and harm existing together.",
+      "staging_focus": ["two_poles", "eyeline"],
+      "story_circle": "SC_SEARCH"
+    },
+    {
+      "id": "SH070_ZONE_PASSAGE",
+      "camera": "SH070_ZONE_PASSAGE",
+      "frame_start": 2000,
+      "frame_end": 2424,
+      "beat": "She enters the Zone-like passage.",
+      "staging_focus": ["passage", "unexplained"],
+      "story_circle": "SC_FIND"
+    },
+    {
+      "id": "SH080_TABLE_FATHER",
+      "camera": "SH080_TABLE_FATHER",
+      "frame_start": 2425,
+      "frame_end": 2599,
+      "beat": "She reaches the table and finds her father (genuine comfort).",
+      "staging_focus": ["table", "father", "eyeline_warm"],
+      "story_circle": "SC_FIND"
+    },
+    {
+      "id": "SH090_REWIND_ENCOUNTER",
+      "camera": "SH090_REWIND_ENCOUNTER",
+      "frame_start": 2600,
+      "frame_end": 2742,
+      "beat": "She rewinds the encounter until it loses life.",
+      "staging_focus": ["hand", "control", "deadening"],
+      "story_circle": "SC_TAKE"
+    },
+    {
+      "id": "SH100_SISTER_REFLECTION",
+      "camera": "SH100_SISTER_REFLECTION",
+      "frame_start": 2743,
+      "frame_end": 2819,
+      "beat": "Sister appears in the table reflection with untouched bowls.",
+      "staging_focus": ["table", "reflection", "bowls"],
+      "story_circle": "SC_RETURN"
+    },
+    {
+      "id": "SH110_RELEASE",
+      "camera": "SH110_RELEASE",
+      "frame_start": 2820,
+      "frame_end": 2896,
+      "beat": "Oino releases the scene (holy-fool action).",
+      "staging_focus": ["hand_open", "father_leaving"],
+      "story_circle": "SC_RETURN"
+    },
+    {
+      "id": "SH120_CHANGED_NOTE",
+      "camera": "SH120_CHANGED_NOTE",
+      "frame_start": 2897,
+      "frame_end": 3050,
+      "beat": "She returns to the sister and follows a changed note.",
+      "staging_focus": ["sister", "changed_melody", "eyeline"],
+      "story_circle": "SC_CHANGE"
+    },
+    {
+      "id": "SH130_TITLE_CARD",
+      "camera": "SH130_TITLE_CARD",
+      "frame_start": 3051,
+      "frame_end": 3148,
+      "beat": "Resolves into album title and release date.",
+      "staging_focus": ["title_card"],
+      "story_circle": "SC_CHANGE",
+      "title_text": "One Of God's Fools",
+      "release_date": "2026-12-10"
+    }
+  ],
+  "story_circle_beats": [
+    {
+      "name": "SC_YOU",
+      "frame": 1,
+      "note": "Attic comfort / ordinary before the call"
+    },
+    {
+      "name": "SC_NEED",
+      "frame": 307,
+      "note": "Knock / unfinished recording need"
+    },
+    {
+      "name": "SC_GO",
+      "frame": 520,
+      "note": "Cross into the archive"
+    },
+    {
+      "name": "SC_SEARCH",
+      "frame": 746,
+      "note": "Industrial pilgrimage / eras"
+    },
+    {
+      "name": "SC_FIND",
+      "frame": 2425,
+      "note": "Table and father (comfort before shadow)"
+    },
+    {
+      "name": "SC_TAKE",
+      "frame": 2600,
+      "note": "Shadow: rewind / control"
+    },
+    {
+      "name": "SC_RETURN",
+      "frame": 2743,
+      "note": "Sister reflection / release"
+    },
+    {
+      "name": "SC_CHANGE",
+      "frame": 2897,
+      "note": "Changed note / title"
+    }
+  ],
+  "monologue_anchors": [
+    {
+      "name": "MONO_OPEN",
+      "frame": 1,
+      "note": "Narration begins (archive voice)"
+    },
+    {
+      "name": "MONO_WATCHER",
+      "frame": 180,
+      "note": "Great-great-grandfather as watcher"
+    },
+    {
+      "name": "MONO_IMPLICATION",
+      "frame": 400,
+      "note": "Fallible / implicated in the failure"
+    },
+    {
+      "name": "MONO_LINEAGE",
+      "frame": 600,
+      "note": "Inheritance / nourishment principle"
+    },
+    {
+      "name": "MONO_END_PRIMARY",
+      "frame": 746,
+      "note": "Primary narration span end (editable)"
+    }
+  ]
+}

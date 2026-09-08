@@ -1,0 +1,37 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+node_modules/
+studio/dist/
+studio/node_modules/
+editorial/remotion/node_modules/
+mvm/_upload_tmp/
+*.blend1
+.DS_Store
+Thumbs.db
+.env
+
+# Other film projects stay local; track Oino (Interlude) only
+projects/*
+!projects/oino-interlude/
+!projects/oino-interlude/**
+
+# Heavy / regenerable media (keep docs, scripts, audio masters, small stills)
+projects/oino-interlude/renders/final/delivery/movies/
+projects/oino-interlude/renders/final/delivery/master_image_sequence/
+projects/oino-interlude/renders/preview/
+*.mp4
+*.mov
+!editorial/**/*.mp4
+!projects/oino-interlude/renders/review/**/*.mp4
+!projects/oino-interlude/renders/review/**/title_card_still.png
+!projects/oino-interlude/renders/final/delivery/stills/**
+!projects/oino-interlude/renders/final/delivery/assets/**
+
+projects/oino-interlude/**/__pycache__/
+

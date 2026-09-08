@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_08_TABLE_ROOM",
+  "editable": true,
+  "emotional_register": "warm, pleasurable, funny, safe enough that the audience understands why Oino stays",
+  "father_has_life_beyond_desire": true,
+  "markers": [
+    {
+      "name": "TABLE_ARRIVAL",
+      "frame": 1,
+      "note": "Oino arrives; warm human light vs colder space"
+    },
+    {
+      "name": "TABLE_WARMTH_ESTABLISHED",
+      "frame": 48,
+      "note": "Register: warm, funny, safe \u2014 why she stays"
+    },
+    {
+      "name": "TABLE_FATHER_MUSICAL_MISTAKE",
+      "frame": 72,
+      "beat": "the familiar musical mistake",
+      "note": "Hands on playback / table edge; unfinished melody errs the way she remembers \u2014 not staged as failure."
+    },
+    {
+      "name": "TABLE_FATHER_LAUGH",
+      "frame": 120,
+      "beat": "a laugh",
+      "note": "Small laugh at himself or the room; pleasure without performance."
+    },
+    {
+      "name": "TABLE_FATHER_NOTE_DISAGREEMENT",
+      "frame": 168,
+      "beat": "a disagreement about a note",
+      "note": "Gentle push on pitch or timing; two people hearing differently; still safe."
+    },
+    {
+      "name": "TABLE_SISTER_REFLECTION_AVAILABLE",
+      "frame": 192,
+      "note": "Reflective surface capable of showing sister downstairs"
+    },
+    {
+      "name": "TABLE_FATHER_GLANCE_WINDOW",
+      "frame": 216,
+      "beat": "a glance toward the window",
+      "note": "Attention leaves Oino briefly toward the opening \u2014 life beyond her desire."
+    },
+    {
+      "name": "TABLE_FATHER_PHYSICAL_HABIT",
+      "frame": 264,
+      "beat": "a small physical habit",
+      "note": "Thumb on cup rim, shift in habitual chair, or wipe of table edge \u2014 private body knowledge."
+    },
+    {
+      "name": "TABLE_DIONYSUS_EDGE_OPTIONAL",
+      "frame": 288,
+      "note": "Optional Dionysian uncertainty at edge only; do not explain"
+    },
+    {
+      "name": "TABLE_FATHER_ORDINARY_PAUSE",
+      "frame": 312,
+      "beat": "an ordinary pause",
+      "note": "Silence that is comfortable, not ominous; room holds them."
+    },
+    {
+      "name": "TABLE_FATHER_EXIT_BEGIN",
+      "frame": 360,
+      "note": "Father begins to leave; Oino has received what she came for"
+    },
+    {
+      "name": "TABLE_LOOKBACK",
+      "frame": 420,
+      "note": "Doorway looking back; table remains centre"
+    }
+  ]
+}

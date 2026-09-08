@@ -1,0 +1,39 @@
+{
+  "script": "final_delivery",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:26:22.298641+00:00",
+  "finished_at": "2026-09-07T23:30:06.430184+00:00",
+  "counts": {
+    "created": 9,
+    "reused": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "renders/final/delivery/movies/OINO_DELIVERY_CLEAN.mp4",
+    "renders/final/delivery/movies/OINO_DELIVERY_HQ.mov",
+    "renders/final/delivery/movies/OINO_DELIVERY_REVIEW_H264.mp4",
+    "renders/final/delivery/master_image_sequence (128 png)",
+    "renders/final/delivery/stills (9 frames)",
+    "renders/final/delivery/stills/title_card_still.png",
+    "renders/final/delivery/delivery_manifest.json",
+    "docs/final_delivery_report.json",
+    "docs/final_delivery_report.md"
+  ],
+  "reused": [
+    "docs/technical_qa_report.json",
+    "audio/master.wav"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Preservation: will not delete audio, blends, scripts, caches, or prior renders",
+    "qa_project exit=0",
+    "Title lock OK: One Of Gods Fools / December 10, 2026",
+    "Delivery movie duration 131.135s \u2014 narration/audio present",
+    "Verify visually: title readable; last note audible; narration intelligible",
+    "Delivery complete; Gods has no apostrophe; ending locked; sources preserved"
+  ]
+}

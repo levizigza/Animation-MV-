@@ -1,0 +1,26 @@
+{
+  "script": "build_oino_transformation_language",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:48:18.898273+00:00",
+  "finished_at": "2026-09-07T22:48:18.902037+00:00",
+  "counts": {
+    "created": 2,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/oino_transformation_markers.json",
+    "docs/oino_transformation_language.md"
+  ],
+  "reused": [
+    "docs/oino_transformation_language.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Principle: transformation toward nourishment; answer is share home, not destroy gift or force forever"
+  ]
+}

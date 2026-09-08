@@ -1,0 +1,33 @@
+{
+  "id": "limited_tv",
+  "principles": [
+    "Economy: animate only what sells the beat",
+    "Mouth/eye/hand cycles over full-body always-on",
+    "Strong key poses with long holds",
+    "Camera and BG pans carry energy when characters hold",
+    "Tezuka-style clarity: silhouette first"
+  ],
+  "default_mode": "limited",
+  "full_energy_threshold": 0.95,
+  "hold_energy_threshold": 0.25,
+  "section_modes": {
+    "intro": "held_atmosphere",
+    "verse": "limited",
+    "prechorus": "limited",
+    "chorus": "limited",
+    "bridge": "held_atmosphere",
+    "outro": "held_atmosphere"
+  },
+  "exposure_by_mode": {
+    "full": "2s",
+    "limited": "3s",
+    "held_atmosphere": "3s"
+  },
+  "key_placement": "section_accents_only",
+  "smear_policy": "impact_frames_only",
+  "hold_policy": "maximize_readable_holds",
+  "camera": {
+    "prefer": "cut_on_beat_bg_pan",
+    "avoid": "continuous_character_tween"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "PERFORMANCE_REVIEW",
+  "label": "Performance review",
+  "purpose": "Eyes, hands, breath, table performance, holy-fool release",
+  "focus": [
+    "table_performance",
+    "knock",
+    "holy_fool",
+    "final_meal"
+  ],
+  "emotional_qa_subset": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "emotional_qa_doc": "docs/emotional_qa.md",
+  "emotional_qa_on_screen": false,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "audio": "full",
+  "audio_path": "audio/master.wav",
+  "title_card_exact": {
+    "text": "One Of Gods Fools",
+    "date": "December 10, 2026"
+  },
+  "output_dir": "renders/review/PERFORMANCE_REVIEW",
+  "output_movie": "renders/review/PERFORMANCE_REVIEW/PERFORMANCE_REVIEW.mp4",
+  "blender_engine": "BLENDER_EEVEE_NEXT",
+  "blender_exe": null,
+  "status": "paths_ready",
+  "note": "Render from approved scene packages into this folder. Do not burn emotional QA onto picture."
+}

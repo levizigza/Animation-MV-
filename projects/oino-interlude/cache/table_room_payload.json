@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_08_TABLE_ROOM",
+  "fps": 24,
+  "scene_frame_start": 1,
+  "scene_frame_end": 480,
+  "role": {
+    "is": "centre of the film \u2014 familiar family table inside impossible architecture from old industrial frames",
+    "emotional_register": "warm, pleasurable, funny, safe enough that the audience understands why Oino stays",
+    "oino_receives": "what she came for \u2014 genuine comfort with the father before the shadow"
+  },
+  "policy": {
+    "villain": false,
+    "father_as_monster": false,
+    "explain_dionysian_uncertainty": false,
+    "dionysian_uncertainty_optional": true,
+    "father_has_life_beyond_oino_desire": true,
+    "first_scene_must_feel_safe": true,
+    "note": "Table is ordinary, intimate, potentially sacred. Reunion genuinely comforts. Dionysian edge optional and unexplained."
+  },
+  "collections": [
+    "TABLE_ROOM_ARCHITECTURE",
+    "TABLE_FURNITURE",
+    "TABLE_PROPS",
+    "TABLE_LIGHT",
+    "TABLE_ORGANIC",
+    "TABLE_REFLECTION",
+    "TABLE_PROXIES",
+    "TABLE_FATHER_LIFE",
+    "TABLE_DIONYSUS_EDGE",
+    "TABLE_CAMERAS"
+  ],
+  "elements": {
+    "worn_table_surface": [
+      "TABLE_WornSurface"
+    ],
+    "father_habitual_chair": [
+      "CHAIR_Father_Habitual"
+    ],
+    "oino_chair": [
+      "CHAIR_Oino"
+    ],
+    "window_or_opening": [
+      "TABLE_WindowOpening"
+    ],
+    "playback_device": [
+      "PROP_PlaybackDevice"
+    ],
+    "bowl_or_cup": [
+      "PROP_Bowl",
+      "PROP_Cup"
+    ],
+    "machinery_as_quiet_architecture": [
+      "ARCH_IndustrialFrame_A",
+      "ARCH_IndustrialFrame_B",
+      "ARCH_BeamQuiet",
+      "ARCH_ColumnRepurposed"
+    ],
+    "warm_human_light": [
+      "LIGHT_WarmHuman"
+    ],
+    "colder_surrounding_space": [
+      "LIGHT_ColdSurround"
+    ],
+    "vine_growth_one_table_leg": [
+      "TABLE_VineLeg"
+    ],
+    "reflective_surface_sister_downstairs": [
+      "PROP_ReflectiveSurface_Sister"
+    ]
+  },
+  "father_life_beats": [
+    {
+      "id": "FATHER_MUSICAL_MISTAKE",
+      "marker": "TABLE_FATHER_MUSICAL_MISTAKE",
+      "frame": 72,
+      "beat": "the familiar musical mistake",
+      "staging": "Hands on playback / table edge; unfinished melody errs the way she remembers \u2014 not staged as failure."
+    },
+    {
+      "id": "FATHER_LAUGH",
+      "marker": "TABLE_FATHER_LAUGH",
+      "frame": 120,
+      "beat": "a laugh",
+      "staging": "Small laugh at himself or the room; pleasure without performance."
+    },
+    {
+      "id": "FATHER_NOTE_DISAGREEMENT",
+      "marker": "TABLE_FATHER_NOTE_DISAGREEMENT",
+      "frame": 168,
+      "beat": "a disagreement about a note",
+      "staging": "Gentle push on pitch or timing; two people hearing differently; still safe."
+    },
+    {
+      "id": "FATHER_GLANCE_WINDOW",
+      "marker": "TABLE_FATHER_GLANCE_WINDOW",
+      "frame": 216,
+      "beat": "a glance toward the window",
+      "staging": "Attention leaves Oino briefly toward the opening \u2014 life beyond her desire."
+    },
+    {
+      "id": "FATHER_PHYSICAL_HABIT",
+      "marker": "TABLE_FATHER_PHYSICAL_HABIT",
+      "frame": 264,
+      "beat": "a small physical habit",
+      "staging": "Thumb on cup rim, shift in habitual chair, or wipe of table edge \u2014 private body knowledge."
+    },
+    {
+      "id": "FATHER_ORDINARY_PAUSE",
+      "marker": "TABLE_FATHER_ORDINARY_PAUSE",
+      "frame": 312,
+      "beat": "an ordinary pause",
+      "staging": "Silence that is comfortable, not ominous; room holds them."
+    }
+  ],
+  "dionysian_uncertainty": {
+    "optional": true,
+    "explain": false,
+    "options": [
+      "red-clothed figure at edge of frame",
+      "mask",
+      "laugh",
+      "vine-like shadow"
+    ],
+    "default_choice": "vine-like shadow",
+    "object": "EDGE_DionysianUncertainty",
+    "staging": "Visible only at frame edge; never centred; never labelled; may be omitted in a pass."
+  },
+  "cameras": [
+    {
+      "id": "CAM_TABLE_ARRIVAL",
+      "role": "arrival",
+      "note": "Oino enters; warm table centre; industrial frames read as quiet architecture"
+    },
+    {
+      "id": "CAM_TABLE_TWO_SHOT",
+      "role": "two-shot",
+      "note": "Father and Oino share the table; safety and pleasure readable"
+    },
+    {
+      "id": "CAM_TABLE_FATHER_HANDS",
+      "role": "father's hands",
+      "note": "Musical mistake, habit, cup \u2014 life in the hands"
+    },
+    {
+      "id": "CAM_TABLE_OINO_CONTROL",
+      "role": "Oino's hand on the control",
+      "note": "Playback / control under her hand \u2014 gift received; shadow not yet"
+    },
+    {
+      "id": "CAM_TABLE_REFLECTION",
+      "role": "table reflection",
+      "note": "Reflective surface can show sister downstairs; ordinary world below"
+    },
+    {
+      "id": "CAM_TABLE_FATHER_LEAVING",
+      "role": "father leaving",
+      "note": "His motion toward window or door; life beyond her hold"
+    },
+    {
+      "id": "CAM_TABLE_DOORWAY_LOOKBACK",
+      "role": "doorway looking back",
+      "note": "Looking back at the table after warmth \u2014 patient; empty space allowed"
+    }
+  ],
+  "events": [
+    {
+      "marker": "TABLE_ARRIVAL",
+      "frame": 1,
+      "note": "Oino arrives; warm human light vs colder space"
+    },
+    {
+      "marker": "TABLE_WARMTH_ESTABLISHED",
+      "frame": 48,
+      "note": "Register: warm, funny, safe \u2014 why she stays"
+    },
+    {
+      "marker": "TABLE_SISTER_REFLECTION_AVAILABLE",
+      "frame": 192,
+      "note": "Reflective surface capable of showing sister downstairs"
+    },
+    {
+      "marker": "TABLE_DIONYSUS_EDGE_OPTIONAL",
+      "frame": 288,
+      "note": "Optional Dionysian uncertainty at edge only; do not explain"
+    },
+    {
+      "marker": "TABLE_FATHER_EXIT_BEGIN",
+      "frame": 360,
+      "note": "Father begins to leave; Oino has received what she came for"
+    },
+    {
+      "marker": "TABLE_LOOKBACK",
+      "frame": 420,
+      "note": "Doorway looking back; table remains centre"
+    }
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "engine": "BLENDER_EEVEE_NEXT",
+  "blend_out": "C:\\Users\\levyz\\OneDrive\\Microsoft Copilot Chat Files\\Documents\\Music Video Maker\\projects\\oino-interlude\\scenes\\SCN_08_TABLE_ROOM.blend",
+  "report_out": "C:\\Users\\levyz\\OneDrive\\Microsoft Copilot Chat Files\\Documents\\Music Video Maker\\projects\\oino-interlude\\cache\\table_room_blender_report.json",
+  "reset": false
+}

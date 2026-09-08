@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "system_id": "OINO_LIGHTING_PRESETS",
+  "film": "Oino (Interlude)",
+  "policy": {
+    "dionysian_every_shot_red": false,
+    "dionysian_role": "living interruption inside systems of grey, black, and industrial blue",
+    "agx_view": true,
+    "note": "Dionysian colour must not turn every shot red. Prefer restrained wine/amber accents."
+  },
+  "palette_families": {
+    "attic": {
+      "paper_cream": {"hex": "#E8DFD0", "rgba": [0.91, 0.875, 0.815, 1.0]},
+      "dust_grey": {"hex": "#9A9590", "rgba": [0.604, 0.584, 0.565, 1.0]},
+      "oxidized_brown": {"hex": "#6B4E3D", "rgba": [0.42, 0.306, 0.239, 1.0]},
+      "muted_blue": {"hex": "#5A6B7A", "rgba": [0.353, 0.42, 0.478, 1.0]}
+    },
+    "steam": {
+      "soot": {"hex": "#1A1A1A", "rgba": [0.102, 0.102, 0.102, 1.0]},
+      "iron": {"hex": "#4A4E52", "rgba": [0.29, 0.306, 0.322, 1.0]},
+      "rust": {"hex": "#8B4513", "rgba": [0.545, 0.271, 0.075, 1.0]},
+      "amber_fire": {"hex": "#C87820", "rgba": [0.784, 0.471, 0.125, 1.0]},
+      "dirty_green": {"hex": "#4A5C3A", "rgba": [0.29, 0.361, 0.227, 1.0]}
+    },
+    "electricity": {
+      "tungsten_gold": {"hex": "#E8B060", "rgba": [0.91, 0.69, 0.376, 1.0]},
+      "deep_blue": {"hex": "#1A2A5C", "rgba": [0.102, 0.165, 0.361, 1.0]},
+      "pale_porcelain": {"hex": "#F2EDE6", "rgba": [0.949, 0.929, 0.902, 1.0]},
+      "warning_red": {"hex": "#C03030", "rgba": [0.753, 0.188, 0.188, 1.0]}
+    },
+    "digital": {
+      "black_glass": {"hex": "#0A0C0E", "rgba": [0.039, 0.047, 0.055, 1.0]},
+      "monitor_green": {"hex": "#33FF66", "rgba": [0.2, 1.0, 0.4, 1.0]},
+      "cold_cyan": {"hex": "#40C8D8", "rgba": [0.251, 0.784, 0.847, 1.0]},
+      "bruised_violet": {"hex": "#5C3A6E", "rgba": [0.361, 0.227, 0.431, 1.0]}
+    },
+    "dionysus": {
+      "restrained_wine_red": {"hex": "#5C1A2E", "rgba": [0.361, 0.102, 0.18, 1.0]},
+      "pomegranate": {"hex": "#8B1E3D", "rgba": [0.545, 0.118, 0.239, 1.0]},
+      "amber": {"hex": "#C4903A", "rgba": [0.769, 0.565, 0.227, 1.0]},
+      "skin_warmth": {"hex": "#D4A574", "rgba": [0.831, 0.647, 0.455, 1.0]},
+      "deep_shadow": {"hex": "#1A1218", "rgba": [0.102, 0.071, 0.094, 1.0]}
+    },
+    "table": {
+      "worn_wood": {"hex": "#6B4A32", "rgba": [0.42, 0.29, 0.196, 1.0]},
+      "cloth": {"hex": "#C4B8A8", "rgba": [0.769, 0.722, 0.659, 1.0]},
+      "human_skin": {"hex": "#D4A574", "rgba": [0.831, 0.647, 0.455, 1.0]},
+      "warm_practical_light": {"hex": "#FFD9A0", "rgba": [1.0, 0.851, 0.627, 1.0]}
+    },
+    "title_card": {
+      "near_black": {"hex": "#0A0A0A", "rgba": [0.039, 0.039, 0.039, 1.0]},
+      "quiet_off_white": {"hex": "#E8E4DC", "rgba": [0.91, 0.894, 0.863, 1.0]},
+      "warm_grey_type": {"hex": "#A8A098", "rgba": [0.659, 0.627, 0.596, 1.0]}
+    }
+  },
+  "presets": [
+    {
+      "id": "ATTIC_DUST",
+      "palette_family": "attic",
+      "world_strength": 0.15,
+      "world_color_key": "dust_grey",
+      "key": {"type": "AREA", "energy": 40, "color_key": "paper_cream", "soft": true},
+      "fill": {"type": "AREA", "energy": 12, "color_key": "muted_blue", "soft": true},
+      "rim": {"type": "AREA", "energy": 8, "color_key": "oxidized_brown", "soft": true},
+      "volume_hint": "thin dust motes — low density",
+      "motif_links": ["MOTIF_HAND", "MOTIF_RECORDING"],
+      "approx_shots": ["SH010_CALL_TO_DINNER", "SH020_ATTIC_ARCHIVE"],
+      "must_not": ["saturated red wash", "clean studio white"]
+    },
+    {
+      "id": "OINO_ARCHIVE",
+      "palette_family": "attic",
+      "world_strength": 0.08,
+      "world_color_key": "oxidized_brown",
+      "key": {"type": "AREA", "energy": 55, "color_key": "paper_cream", "soft": false},
+      "fill": {"type": "AREA", "energy": 10, "color_key": "dust_grey", "soft": true},
+      "rim": {"type": "POINT", "energy": 15, "color_key": "muted_blue", "soft": true},
+      "volume_hint": "none — paper and grain read in surface",
+      "motif_links": ["MOTIF_RECORDING", "MOTIF_HAND"],
+      "approx_shots": ["SH030_ARCHIVE_DISCOVERY"],
+      "must_not": ["monitor green dominance", "Dionysian wash on every plate"]
+    },
+    {
+      "id": "STEAM_SOOT",
+      "palette_family": "steam",
+      "world_strength": 0.2,
+      "world_color_key": "soot",
+      "key": {"type": "AREA", "energy": 90, "color_key": "amber_fire", "soft": true},
+      "fill": {"type": "AREA", "energy": 18, "color_key": "iron", "soft": true},
+      "rim": {"type": "AREA", "energy": 25, "color_key": "rust", "soft": false},
+      "volume_hint": "steam / soot — mid density, warm scatter",
+      "motif_links": ["MOTIF_DOORWAY", "MOTIF_VINE_WATER"],
+      "approx_shots": ["SH040_MELODY_OPENS_HISTORY", "SH050_CHANGING_WORLD"],
+      "must_not": ["clean cyan digital look", "title-card black void"]
+    },
+    {
+      "id": "ELECTRIC_WARMTH",
+      "palette_family": "electricity",
+      "world_strength": 0.12,
+      "world_color_key": "deep_blue",
+      "key": {"type": "AREA", "energy": 120, "color_key": "tungsten_gold", "soft": false},
+      "fill": {"type": "AREA", "energy": 20, "color_key": "pale_porcelain", "soft": true},
+      "rim": {"type": "POINT", "energy": 8, "color_key": "warning_red", "soft": false},
+      "volume_hint": "subtle haze only",
+      "motif_links": ["MOTIF_MELODY_CALL", "MOTIF_MASK_THEATRE"],
+      "approx_shots": ["SH050_CHANGING_WORLD"],
+      "must_not": ["warning red as full-frame gel", "horror sting red"],
+      "note": "Warning red is accent only — not a scare announce."
+    },
+    {
+      "id": "DIGITAL_COLD",
+      "palette_family": "digital",
+      "world_strength": 0.05,
+      "world_color_key": "black_glass",
+      "key": {"type": "AREA", "energy": 35, "color_key": "cold_cyan", "soft": false},
+      "fill": {"type": "AREA", "energy": 8, "color_key": "bruised_violet", "soft": true},
+      "rim": {"type": "POINT", "energy": 12, "color_key": "monitor_green", "soft": false},
+      "volume_hint": "none",
+      "motif_links": ["MOTIF_RECORDING", "MOTIF_MASK_THEATRE"],
+      "approx_shots": ["SH060_CARE_AND_HARM", "SH090_REWIND_ENCOUNTER"],
+      "must_not": ["warm table tungsten as key", "wine red full wash"]
+    },
+    {
+      "id": "DIONYSUS_AMBER_RED",
+      "palette_family": "dionysus",
+      "world_strength": 0.1,
+      "world_color_key": "deep_shadow",
+      "key": {"type": "AREA", "energy": 45, "color_key": "amber", "soft": true},
+      "fill": {"type": "AREA", "energy": 14, "color_key": "skin_warmth", "soft": true},
+      "rim": {"type": "POINT", "energy": 22, "color_key": "restrained_wine_red", "soft": true},
+      "accent": {"type": "POINT", "energy": 10, "color_key": "pomegranate", "coverage": "local_only"},
+      "volume_hint": "none — colour lives in cup, stain, edge light",
+      "motif_links": ["MOTIF_VINE_WATER", "MOTIF_MASK_THEATRE"],
+      "approx_shots": ["SH070_ZONE_PASSAGE", "SH080_TABLE_ARRIVAL", "SH110_RELEASE"],
+      "must_not": ["every shot red", "glowing god gel", "literal magic-trick wine flood"],
+      "usage": "Living interruption inside grey / black / industrial blue systems. Switchable; omit freely."
+    },
+    {
+      "id": "ZONE_REFLECTION",
+      "palette_family": "digital",
+      "secondary_palette": "attic",
+      "world_strength": 0.18,
+      "world_color_key": "bruised_violet",
+      "key": {"type": "AREA", "energy": 30, "color_key": "cold_cyan", "soft": true},
+      "fill": {"type": "AREA", "energy": 16, "color_key": "muted_blue", "soft": true},
+      "rim": {"type": "AREA", "energy": 20, "color_key": "dust_grey", "soft": true},
+      "volume_hint": "shallow water scatter — soft",
+      "motif_links": ["MOTIF_DOORWAY", "MOTIF_BOWL_TABLE"],
+      "approx_shots": ["SH070_ZONE_PASSAGE"],
+      "must_not": ["resolved explanation light cue", "jump-scare flash"],
+      "note": "Slightly wrong reflections — cool, unresolved."
+    },
+    {
+      "id": "TABLE_WARMTH",
+      "palette_family": "table",
+      "world_strength": 0.1,
+      "world_color_key": "cloth",
+      "key": {"type": "AREA", "energy": 180, "color_key": "warm_practical_light", "soft": true},
+      "fill": {"type": "AREA", "energy": 40, "color_key": "human_skin", "soft": true},
+      "rim": {"type": "AREA", "energy": 25, "color_key": "worn_wood", "soft": true},
+      "cold_surround": {"type": "AREA", "energy": 35, "color_key_from": "digital.cold_cyan", "soft": true},
+      "volume_hint": "none",
+      "motif_links": ["MOTIF_BOWL_TABLE", "MOTIF_HAND"],
+      "approx_shots": ["SH080_TABLE_ARRIVAL", "SH100_SISTER_REFLECTION", "SH120_CHANGED_NOTE"],
+      "must_not": ["red warning light for shadow", "horror music-linked gel"],
+      "note": "Warm human light surrounded by colder space — LIGHT_WarmHuman / LIGHT_ColdSurround."
+    },
+    {
+      "id": "OPEN_DOOR_DAWN",
+      "palette_family": "attic",
+      "secondary_palette": "table",
+      "world_strength": 0.35,
+      "world_color_key": "paper_cream",
+      "key": {"type": "SUN", "energy": 2.5, "color_key": "warm_practical_light", "soft": true},
+      "fill": {"type": "AREA", "energy": 30, "color_key": "muted_blue", "soft": true},
+      "rim": {"type": "AREA", "energy": 18, "color_key": "dust_grey", "soft": true},
+      "volume_hint": "soft exterior air into doorway",
+      "motif_links": ["MOTIF_DOORWAY"],
+      "approx_shots": ["SH120_CHANGED_NOTE"],
+      "must_not": ["closed attic blackout", "title card prematurely"],
+      "note": "Final story image light — open doorway; invitation kept open."
+    },
+    {
+      "id": "TITLE_CARD_BLACK",
+      "palette_family": "title_card",
+      "world_strength": 0.0,
+      "world_color_key": "near_black",
+      "key": {"type": "NONE", "energy": 0, "color_key": "near_black", "soft": true},
+      "fill": {"type": "NONE", "energy": 0, "color_key": "near_black", "soft": true},
+      "rim": {"type": "NONE", "energy": 0, "color_key": "near_black", "soft": true},
+      "type_color_key": "quiet_off_white",
+      "type_color_alt_key": "warm_grey_type",
+      "volume_hint": "none",
+      "motif_links": [],
+      "approx_shots": ["SH130_TITLE_CARD"],
+      "must_not": ["coloured gel behind type", "Dionysian red title wash"],
+      "note": "Near-black field; quiet off-white or warm grey type. Exact card: One Of Gods Fools / December 10, 2026."
+    }
+  ]
+}

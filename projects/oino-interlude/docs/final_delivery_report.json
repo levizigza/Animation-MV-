@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-07T23:49:26.116938+00:00",
+  "title_card": {
+    "text": "One Of Gods Fools",
+    "date": "December 10, 2026",
+    "apostrophe_in_Gods": false
+  },
+  "ending_sequence": [
+    "open doorway",
+    "final living melody",
+    "original recording reaching its imperfect ending",
+    "fade to title card",
+    "One Of Gods Fools",
+    "December 10, 2026"
+  ],
+  "frame_rate": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "duration_seconds": 131.134979,
+  "frame_count": 3148,
+  "colour_management": {
+    "display_device": "sRGB",
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "gamma": 1.0,
+    "sequencer_colorspace": "sRGB",
+    "wine_light_hex": "#5C1A2E",
+    "wine_light_rgba": [
+      0.361,
+      0.102,
+      0.18,
+      1.0
+    ],
+    "ink_line_rgba": [
+      0.05,
+      0.05,
+      0.08,
+      1.0
+    ],
+    "paper_rgba": [
+      0.85,
+      0.82,
+      0.78,
+      1.0
+    ]
+  },
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "audio_files_used": [
+    "audio/master.wav"
+  ],
+  "title_card_frame_range": [
+    3051,
+    3148
+  ],
+  "subtitle_status": "clean_only_no_subtitle_approval",
+  "warnings": [],
+  "outputs": {
+    "clean_version_without_subtitles": {
+      "path": "renders/final/delivery/movies/OINO_DELIVERY_CLEAN.mp4",
+      "status": "created",
+      "note": "Full audio; locked ending; no subtitles"
+    },
+    "high_quality_delivery_movie": {
+      "path": "renders/final/delivery/movies/OINO_DELIVERY_HQ.mov",
+      "status": "created",
+      "codec": "prores_ks",
+      "note": "Approved audio muxed; locked ending"
+    },
+    "h264_review_movie_with_audio": {
+      "path": "renders/final/delivery/movies/OINO_DELIVERY_REVIEW_H264.mp4",
+      "status": "created"
+    },
+    "subtitle_version": {
+      "path": null,
+      "status": "omitted",
+      "note": "No subtitle approval \u2014 clean version only"
+    },
+    "lossless_or_image_sequence_master": {
+      "path": "renders/final/delivery/master_image_sequence/oino_master_%05d.png",
+      "status": "created",
+      "frame_count": 128,
+      "frame_range": [
+        3021,
+        3148
+      ],
+      "note": "PNG sequence covering doorway\u2192title-card end; audio remains source master.wav"
+    },
+    "ten_still_frames": {
+      "path": "renders/final/delivery/stills",
+      "status": "created",
+      "count": 10,
+      "files": [
+        "renders/final/delivery/stills/still_01_f03021.png",
+        "renders/final/delivery/stills/still_02_f03035.png",
+        "renders/final/delivery/stills/still_03_f03047.png",
+        "renders/final/delivery/stills/still_04_f03050.png",
+        "renders/final/delivery/stills/still_05_f03051.png",
+        "renders/final/delivery/stills/still_06_f03059.png",
+        "renders/final/delivery/stills/still_07_f03063.png",
+        "renders/final/delivery/stills/still_08_f03099.png",
+        "renders/final/delivery/stills/still_09_f03142.png",
+        "renders/final/delivery/stills/still_10_f03148.png"
+      ]
+    },
+    "title_card_still": {
+      "path": "renders/final/delivery/stills/title_card_still.png",
+      "status": "created",
+      "note": "One Of Gods Fools / December 10, 2026"
+    }
+  },
+  "checksums_sha256": {
+    "clean_version_without_subtitles": "b0af3b8aa90959b652355f45e095ccc6fc003c9713936b542f9c8a55efbae83e",
+    "high_quality_delivery_movie": "395df9a8e4d6fe9bc84e263082700fbca7c506f961168aaeb919b4a43a96ec93",
+    "h264_review_movie_with_audio": "fd4ce0eed6fdfed02b79c926a944b837f85c23961a6dc95ef3b0d1a0a0d4b6de",
+    "title_card_still": "08f72ba7d984eab7f5347baed0775c4a8ce53368682a5e63dd3f16e0d3ed4562",
+    "still_01_f03021.png": "c7deb3c26219fff71ed973a48db52241282bc77c613a39c5c103c8361a195111",
+    "still_02_f03035.png": "f2a721675adf7b1c28abd22322cff8df52bda733cc9f2299ab648e0ed56785a6",
+    "still_03_f03047.png": "f2a721675adf7b1c28abd22322cff8df52bda733cc9f2299ab648e0ed56785a6",
+    "still_04_f03050.png": "f2a721675adf7b1c28abd22322cff8df52bda733cc9f2299ab648e0ed56785a6",
+    "still_05_f03051.png": "08f72ba7d984eab7f5347baed0775c4a8ce53368682a5e63dd3f16e0d3ed4562",
+    "still_06_f03059.png": "08f72ba7d984eab7f5347baed0775c4a8ce53368682a5e63dd3f16e0d3ed4562",
+    "still_07_f03063.png": "08f72ba7d984eab7f5347baed0775c4a8ce53368682a5e63dd3f16e0d3ed4562",
+    "still_08_f03099.png": "08f72ba7d984eab7f5347baed0775c4a8ce53368682a5e63dd3f16e0d3ed4562",
+    "still_09_f03142.png": "08f72ba7d984eab7f5347baed0775c4a8ce53368682a5e63dd3f16e0d3ed4562",
+    "still_10_f03148.png": "08f72ba7d984eab7f5347baed0775c4a8ce53368682a5e63dd3f16e0d3ed4562",
+    "title_card_still.png": "08f72ba7d984eab7f5347baed0775c4a8ce53368682a5e63dd3f16e0d3ed4562"
+  },
+  "preservation": {
+    "deleted_source_audio": false,
+    "deleted_blend_files": false,
+    "deleted_scripts": false,
+    "deleted_caches": false,
+    "deleted_prior_renders": false
+  }
+}

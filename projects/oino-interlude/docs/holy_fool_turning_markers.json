@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_08_TABLE_ROOM",
+  "editable": true,
+  "holy_fool_action": "allowing the father to leave while she still wants him to stay",
+  "cosmic_reward": false,
+  "explosion": false,
+  "proof_world_saved": false,
+  "markers": [
+    {
+      "name": "HF_ANCESTOR_AT_EXIT",
+      "frame": 520,
+      "note": "Near doorway / Zone-table threshold; incomplete warning presence; loving, fallible, implicated \u2014 not a supernatural judge or oracle.",
+      "offers_explanation": false,
+      "guarantee_return": false
+    },
+    {
+      "name": "HF_LOOK_ANCESTOR_TO_FATHER",
+      "frame": 528,
+      "who": "Oino",
+      "action": "looking from the ancestor to her father",
+      "note": "Eyeline A (exit / ancestor) then B (father at table). Choice becomes visible in the turn of the head \u2014 no dialogue required.",
+      "holy_fool_hinge": false
+    },
+    {
+      "name": "HF_FATHER_TENDER_PERSONAL",
+      "frame": 540,
+      "who": "Father",
+      "action": "the father remaining tender and personal",
+      "note": "Still specific: habit, warmth, unfinished phrase \u2014 not a digital mask or monster. Temptation remains beautiful so release costs.",
+      "holy_fool_hinge": false
+    },
+    {
+      "name": "HF_ANCESTOR_NOT_ORACLE",
+      "frame": 552,
+      "who": "Ancestor",
+      "action": "the ancestor refusing to become an oracle",
+      "note": "No explanation; no nod that means 'do this and you are saved.' Presence only. If he moves, it is leave-taking, not prophecy.",
+      "holy_fool_hinge": false
+    },
+    {
+      "name": "HF_RELEASE_CONTROL",
+      "frame": 564,
+      "who": "Oino",
+      "action": "Oino releasing the playback control",
+      "note": "Fingers lift from PROP_PlaybackControl. Ordinary. Costly. Want remains on her face while the hand opens. Camera: CAM_TABLE_OINO_CONTROL then widen.",
+      "holy_fool_hinge": true
+    },
+    {
+      "name": "HF_SEQUENCE_FORWARD",
+      "frame": 576,
+      "who": "Scene",
+      "action": "the sequence moving forward",
+      "note": "No rewind. Time resumes living direction. Loop authority ends with the open hand.",
+      "holy_fool_hinge": false
+    },
+    {
+      "name": "HF_FATHER_FINISHES_MELODY",
+      "frame": 588,
+      "who": "Father",
+      "action": "the father finishing the melody",
+      "note": "Unfinished melody reaches its natural end once \u2014 not an endless perfect take. Include the familiar mistake if it still belongs to him.",
+      "holy_fool_hinge": false
+    },
+    {
+      "name": "HF_FATHER_STANDS_LEAVES",
+      "frame": 612,
+      "who": "Father",
+      "action": "the father standing and leaving",
+      "note": "Weight up from habitual chair; path toward window or door. CAM_TABLE_FATHER_LEAVING. She does not reset.",
+      "holy_fool_hinge": false
+    },
+    {
+      "name": "HF_LISTEN_SOUND_AND_SILENCE",
+      "frame": 636,
+      "who": "Oino",
+      "action": "Oino listening through the final sound and the silence after it",
+      "note": "Hold on her listening \u2014 last note, decay, then silence that is allowed to remain empty. Patient camera; do not fill with score sting.",
+      "holy_fool_hinge": false
+    },
+    {
+      "name": "HF_CARRY_RECORDING_OUT",
+      "frame": 660,
+      "who": "Oino",
+      "action": "Oino carrying the recording out",
+      "note": "She takes the recording / playback object as memory to share \u2014 not as a loop engine. Gift moves toward nourishment (home / sister), not endless extraction.",
+      "holy_fool_hinge": false
+    },
+    {
+      "name": "HF_LOOK_BACK_THRESHOLD",
+      "frame": 684,
+      "who": "Oino",
+      "action": "one look back at the threshold without commanding a return",
+      "note": "CAM_TABLE_DOORWAY_LOOKBACK. One look. No gesture that rewinds, summons, or resets. Empty space may hold after she turns away.",
+      "holy_fool_hinge": false
+    },
+    {
+      "name": "HF_DIONYSUS_REL_DUST_TO_WHITE_BIRDS",
+      "frame": 684,
+      "optional": true,
+      "image": "dust or film perforations become white birds",
+      "note": "Dust / sprocket holes lift into dove-like forms as he leaves \u2014 brief; not a god exit bow.",
+      "max_in_final_shot": 1
+    }
+  ]
+}

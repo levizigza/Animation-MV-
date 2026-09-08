@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_MODULAR_INDUSTRIAL_WORLD",
+  "policy": {
+    "on_screen_era_labels": false,
+    "four_unrelated_cities": false,
+    "history_carried_by": [
+      "energy_systems",
+      "materials",
+      "interfaces",
+      "labour",
+      "food",
+      "music",
+      "relationships"
+    ],
+    "note": "Do not label eras on screen. One world changing around the same needs."
+  },
+  "passes": {
+    "MOV_01_WATER_STEAM_HANDS": {
+      "order": 1,
+      "title_internal": "Water, steam, and hands",
+      "control_preset": {
+        "era_blend": 0.2,
+        "future_branch": 0.0,
+        "organic_growth": 0.15,
+        "dionysus_presence": 0.25
+      },
+      "collection_emphasis": [
+        "WORLD_WATER_AND_REFLECTIONS",
+        "WORLD_STEAM",
+        "WORLD_STRUCTURE"
+      ]
+    },
+    "MOV_02_ELECTRICITY_LIGHT_TIME": {
+      "order": 2,
+      "title_internal": "Electricity, light, and time",
+      "control_preset": {
+        "era_blend": 0.5,
+        "future_branch": 0.05,
+        "organic_growth": 0.1,
+        "dionysus_presence": 0.3
+      },
+      "collection_emphasis": [
+        "WORLD_ELECTRIC",
+        "WORLD_STRUCTURE",
+        "WORLD_STEAM"
+      ]
+    },
+    "MOV_03_COMPUTING_SCREENS_CONFESSION": {
+      "order": 3,
+      "title_internal": "Computing, screens, and confession",
+      "control_preset": {
+        "era_blend": 0.72,
+        "future_branch": 0.25,
+        "organic_growth": 0.2,
+        "dionysus_presence": 0.35
+      },
+      "collection_emphasis": [
+        "WORLD_DIGITAL",
+        "WORLD_ELECTRIC",
+        "WORLD_STRUCTURE"
+      ]
+    },
+    "MOV_04_ASSISTANCE_MEMORIAL_FUTURES": {
+      "order": 4,
+      "title_internal": "Assistance, memorial presence, and possible futures",
+      "control_preset": {
+        "era_blend": 0.88,
+        "future_branch": 0.7,
+        "organic_growth": 0.4,
+        "dionysus_presence": 0.45
+      },
+      "collection_emphasis": [
+        "WORLD_POSSIBLE_FUTURES",
+        "WORLD_DIGITAL",
+        "WORLD_ORGANIC_GROWTH",
+        "WORLD_STRUCTURE"
+      ]
+    },
+    "PASS_FUTURES": {
+      "order": 5,
+      "title_internal": "Possible futures",
+      "control_preset": {
+        "era_blend": 0.92,
+        "future_branch": 0.85,
+        "organic_growth": 0.35,
+        "dionysus_presence": 0.4
+      },
+      "collection_emphasis": [
+        "WORLD_POSSIBLE_FUTURES",
+        "WORLD_STRUCTURE"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "akira_chrome",
+  "name": "Akira Chrome",
+  "description": "Kinetic camera, chromatic intensity, dense action inbetweens.",
+  "masters_influence": ["otomo", "neo_tokyo"],
+  "default_exposure": "1s",
+  "hold_bias": 0.2,
+  "smear_bias": 0.85,
+  "camera_grammar": {
+    "move_style": "crash_zoom_track",
+    "cut_density": "high"
+  },
+  "color_guidance": {
+    "shadow_shapes": true,
+    "palette": "neon_night"
+  },
+  "gp_line_settings": {
+    "line_width": 2.5,
+    "color": [0.02, 0.02, 0.05, 1.0]
+  },
+  "toon_settings": {
+    "shader": "shader_toon",
+    "ramp_steps": 2
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "script": "setup_audio",
+  "seed": null,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:30:39.465302+00:00",
+  "finished_at": "2026-09-07T22:30:40.360674+00:00",
+  "counts": {
+    "created": 6,
+    "reused": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "DIONYSUS_LEITMOTIF (placeholder proposal)",
+    "docs/audio_markers.json",
+    "cache/audio_master_payload.json",
+    "scripts/_blender_audio_master.py",
+    "docs/audio_timing_report.md",
+    "docs/dionysus_leitmotif.json"
+  ],
+  "reused": [
+    "audio/master.wav",
+    "beatmap.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "narration_path=null -> embedded in mixed master (or absent stem)",
+    "Dionysus search: no dedicated audio/MIDI leitmotif source file found",
+    "textual_reference:CANON.md (textual lineage)",
+    "textual_reference:config/show_config.json mythic_canon",
+    "textual_reference:docs/creative_bible.md",
+    "Blender not installed \u2014 blend creation deferred"
+  ]
+}

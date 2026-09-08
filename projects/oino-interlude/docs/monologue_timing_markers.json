@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "editable": true,
+  "timing_mode": "provisional_no_stem",
+  "REVIEW_REQUIRED": true,
+  "markers": [
+    {
+      "name": "AMONG_THE_DUST",
+      "frame": 4,
+      "time_seconds": 0.125,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "Among the dust",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 1
+    },
+    {
+      "name": "HE_WAS_A_WATCHER",
+      "frame": 62,
+      "time_seconds": 2.541667,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "He was a watcher",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 1
+    },
+    {
+      "name": "FINAL_DAYS",
+      "frame": 131,
+      "time_seconds": 5.416667,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "final days",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 1
+    },
+    {
+      "name": "AIR_THICK_WITH_ANTICIPATION",
+      "frame": 179,
+      "time_seconds": 7.416667,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "air thick with anticipation",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 2
+    },
+    {
+      "name": "WINDS_WHISPERED",
+      "frame": 227,
+      "time_seconds": 9.416667,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "winds whispered",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 2
+    },
+    {
+      "name": "TOWER_OF_BABEL",
+      "frame": 276,
+      "time_seconds": 11.458333,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "Tower of Babel",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 2
+    },
+    {
+      "name": "ICARUS",
+      "frame": 326,
+      "time_seconds": 13.541667,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "Icarus",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 2
+    },
+    {
+      "name": "REFLECTION_OF_CHAOS",
+      "frame": 385,
+      "time_seconds": 16.0,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "reflection of chaos",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 3
+    },
+    {
+      "name": "DETHRONED_GODS",
+      "frame": 442,
+      "time_seconds": 18.375,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "dethroned gods",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 3
+    },
+    {
+      "name": "LABYRINTH",
+      "frame": 534,
+      "time_seconds": 22.208333,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "labyrinth",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 3
+    },
+    {
+      "name": "THROUGH_HIS_LENS",
+      "frame": 556,
+      "time_seconds": 23.125,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "Through his lens",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 4
+    },
+    {
+      "name": "SLAVES_TO_VISIONS",
+      "frame": 599,
+      "time_seconds": 24.916667,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "slaves to the twisted visions",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 4
+    },
+    {
+      "name": "CAUTIONARY_TALES",
+      "frame": 668,
+      "time_seconds": 27.791667,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "cautionary tales",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 4
+    },
+    {
+      "name": "THRESHOLD_OF_ETERNITY",
+      "frame": 706,
+      "time_seconds": 29.375,
+      "status": "REVIEW_REQUIRED",
+      "phrase": "threshold of eternity",
+      "source": "provisional_weight_in_narration_window",
+      "paragraph_index": 4
+    }
+  ]
+}

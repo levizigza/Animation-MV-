@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_09_FINAL_MEAL",
+  "editable": true,
+  "final_story_image": "open doorway",
+  "final_film_image": {
+    "text": "One Of Gods Fools",
+    "date": "December 10, 2026",
+    "prompt": "Prompt 22"
+  },
+  "true_transformation": "memory becoming participation",
+  "markers": [
+    {
+      "name": "FM_OINO_DOWNSTAIRS",
+      "frame": 700,
+      "who": "Oino",
+      "action": "Oino comes downstairs",
+      "note": "Body enters the domestic table space; recording may be carried from holy-fool exit. Eyeline finds sister first.",
+      "final_story_image": false,
+      "final_film_image": false,
+      "creative_contribution": false
+    },
+    {
+      "name": "FM_SISTER_ANGRY",
+      "frame": 712,
+      "who": "Sister",
+      "action": "the sister is angry",
+      "note": "Anger is personal and rhythmic \u2014 not a moral prop. Breath, jaw, table contact carry her own tempo.",
+      "final_story_image": false,
+      "final_film_image": false,
+      "creative_contribution": false
+    },
+    {
+      "name": "FM_OINO_SITS_BESIDE",
+      "frame": 724,
+      "who": "Oino",
+      "action": "Oino sits beside her",
+      "note": "Beside, not opposite as judge. Weight settles into presence.",
+      "final_story_image": false,
+      "final_film_image": false,
+      "creative_contribution": false
+    },
+    {
+      "name": "FM_ACCEPTS_BOWL",
+      "frame": 736,
+      "who": "Oino",
+      "action": "Oino accepts the bowl",
+      "note": "Hands receive nourishment; two bowls become shared meal. Gift toward care.",
+      "final_story_image": false,
+      "final_film_image": false,
+      "creative_contribution": false
+    },
+    {
+      "name": "FM_PRESENT_NO_FORGIVENESS_DEMAND",
+      "frame": 748,
+      "who": "Oino",
+      "action": "Oino remains present without demanding immediate forgiveness",
+      "note": "No speech that extracts absolution. She stays. Sister's anger may continue \u2014 allowed.",
+      "final_story_image": false,
+      "final_film_image": false,
+      "creative_contribution": false
+    },
+    {
+      "name": "FM_SISTER_TAPS_OLD",
+      "frame": 760,
+      "who": "Sister",
+      "action": "the sister taps the old melody",
+      "note": "Fingers on table / bowl rim \u2014 CALL_06 seed. Her rhythm, slightly off the archive grid.",
+      "final_story_image": false,
+      "final_film_image": false,
+      "creative_contribution": false
+    },
+    {
+      "name": "FM_OINO_ANSWERS",
+      "frame": 772,
+      "who": "Oino",
+      "action": "Oino answers",
+      "note": "Voice, tap, or hum answers her sister \u2014 dialogue of bodies, not archive control.",
+      "final_story_image": false,
+      "final_film_image": false,
+      "creative_contribution": false
+    },
+    {
+      "name": "FM_AUDIO_OVERLAP_START",
+      "frame": 780,
+      "kind": "audio_layer",
+      "note": "overlap"
+    },
+    {
+      "name": "FM_SISTER_CHANGES_NOTE",
+      "frame": 784,
+      "who": "Sister",
+      "action": "the sister changes the note",
+      "note": "Real creative contribution \u2014 new interval / timing. Not a symbolic child's accident.",
+      "final_story_image": false,
+      "final_film_image": false,
+      "creative_contribution": true
+    },
+    {
+      "name": "FM_OINO_ALMOST_CORRECTS",
+      "frame": 796,
+      "who": "Oino",
+      "action": "Oino almost corrects her",
+      "note": "Micro-reach toward the 'right' archive pitch \u2014 shadow reflex \u2014 then stops.",
+      "final_story_image": false,
+      "final_film_image": false,
+      "creative_contribution": false
+    },
+    {
+      "name": "FM_OINO_FOLLOWS",
+      "frame": 808,
+      "who": "Oino",
+      "action": "Oino listens and follows",
+      "note": "Eyeline and breath join the sister's changed note. Memory becomes participation.",
+      "final_story_image": false,
+      "final_film_image": false,
+      "creative_contribution": false
+    },
+    {
+      "name": "FM_AUDIO_RECORDING_IMPERFECT_END",
+      "frame": 812,
+      "kind": "audio_layer",
+      "note": "recording"
+    },
+    {
+      "name": "FM_AUDIO_LIVING_CARRIES",
+      "frame": 820,
+      "kind": "audio_layer",
+      "note": "living"
+    },
+    {
+      "name": "FM_OPEN_DOORWAY",
+      "frame": 840,
+      "who": "Frame",
+      "action": "final story image \u2014 the open doorway",
+      "note": "Composition holds the open doorway (answer to closed attic). Women may be in frame or just left; doorway reads as invitation kept open.",
+      "final_story_image": true,
+      "final_film_image": false,
+      "creative_contribution": false
+    },
+    {
+      "name": "FM_TITLE_CARD",
+      "frame": 868,
+      "who": "Film",
+      "action": "final film image \u2014 title card (Prompt 22)",
+      "note": "Exact card from Prompt 22 / CANON: One Of Gods Fools \u00b7 December 10, 2026. Links SH130_TITLE_CARD.",
+      "final_story_image": false,
+      "final_film_image": true,
+      "creative_contribution": false
+    }
+  ]
+}

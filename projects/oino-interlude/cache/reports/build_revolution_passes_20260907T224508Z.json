@@ -1,0 +1,27 @@
+{
+  "script": "build_revolution_passes",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:45:08.124210+00:00",
+  "finished_at": "2026-09-07T22:45:08.128248+00:00",
+  "counts": {
+    "created": 3,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/revolution_pass_presets.json",
+    "docs/revolution_pass_markers.json",
+    "docs/revolution_passes.md"
+  ],
+  "reused": [
+    "docs/revolution_passes.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "No on-screen era labels; history via energy, materials, interfaces, labour, food, music, relationships"
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "system_id": "OINO_MATERIAL_LIBRARY",
+  "film": "Oino (Interlude)",
+  "assets_root": "assets/materials",
+  "policy": {
+    "engine_target": "BLENDER_EEVEE_NEXT",
+    "allow_pink_placeholders": false,
+    "prefer_principled": true,
+    "dionysian_not_every_surface_red": true,
+    "note": "Craft-first materials. Audit missing images, pink textures, unsupported nodes, disconnected shaders, expensive settings."
+  },
+  "audit_rules": {
+    "missing_images": true,
+    "pink_textures": true,
+    "pink_rgb_threshold": [0.9, 0.0, 0.9],
+    "unsupported_nodes": [
+      "ShaderNodeTexSky",
+      "ShaderNodeScript",
+      "ShaderNodeGroup_Unknown"
+    ],
+    "disconnected_shaders": true,
+    "expensive_settings": {
+      "max_transmission_bounces_warn": 8,
+      "max_sss_warn_if_eevee_and_scale_gt": 1.0,
+      "displacement_adaptive_warn": true,
+      "volumetric_high_samples_warn": 64,
+      "sheen_weight_warn_gt": 0.85
+    }
+  },
+  "materials": [
+    {
+      "id": "MAT_WornWood",
+      "label": "worn wood",
+      "category": "organic_surface",
+      "palette_refs": ["table.worn_wood", "attic.oxidized_brown"],
+      "principled": {
+        "base_color": [0.42, 0.29, 0.196, 1.0],
+        "roughness": 0.72,
+        "specular_ior_level": 0.35,
+        "metallic": 0.0
+      },
+      "image_slots": ["albedo", "roughness", "normal"],
+      "expected_images": [
+        "assets/materials/worn_wood_albedo.png",
+        "assets/materials/worn_wood_roughness.png",
+        "assets/materials/worn_wood_normal.png"
+      ],
+      "links": ["TABLE_WornSurface", "TABLE_WARMTH"]
+    },
+    {
+      "id": "MAT_WetStone",
+      "label": "wet stone",
+      "category": "organic_surface",
+      "palette_refs": ["attic.dust_grey", "steam.iron"],
+      "principled": {
+        "base_color": [0.35, 0.36, 0.38, 1.0],
+        "roughness": 0.28,
+        "specular_ior_level": 0.55,
+        "metallic": 0.0,
+        "coat_weight": 0.35
+      },
+      "image_slots": ["albedo", "roughness", "normal"],
+      "expected_images": [
+        "assets/materials/wet_stone_albedo.png",
+        "assets/materials/wet_stone_roughness.png",
+        "assets/materials/wet_stone_normal.png"
+      ],
+      "links": ["ZONE_ShallowWater", "ZONE_REFLECTION"]
+    },
+    {
+      "id": "MAT_Rust",
+      "label": "rust",
+      "category": "metal",
+      "palette_refs": ["steam.rust", "steam.amber_fire"],
+      "principled": {
+        "base_color": [0.545, 0.271, 0.075, 1.0],
+        "roughness": 0.85,
+        "metallic": 0.55,
+        "specular_ior_level": 0.25
+      },
+      "image_slots": ["albedo", "roughness", "metallic"],
+      "expected_images": [
+        "assets/materials/rust_albedo.png",
+        "assets/materials/rust_roughness.png",
+        "assets/materials/rust_metallic.png"
+      ],
+      "links": ["STEAM_SOOT", "ARCH_IndustrialFrame_A"]
+    },
+    {
+      "id": "MAT_OxidizedMetal",
+      "label": "oxidized metal",
+      "category": "metal",
+      "palette_refs": ["steam.iron", "attic.oxidized_brown"],
+      "principled": {
+        "base_color": [0.29, 0.306, 0.322, 1.0],
+        "roughness": 0.55,
+        "metallic": 0.8,
+        "specular_ior_level": 0.45
+      },
+      "image_slots": ["albedo", "roughness", "metallic", "normal"],
+      "expected_images": [
+        "assets/materials/oxidized_metal_albedo.png",
+        "assets/materials/oxidized_metal_roughness.png",
+        "assets/materials/oxidized_metal_metallic.png",
+        "assets/materials/oxidized_metal_normal.png"
+      ],
+      "links": ["STEAM_SOOT", "ZONE_RootMachine"]
+    },
+    {
+      "id": "MAT_OldPaper",
+      "label": "old paper",
+      "category": "archive",
+      "palette_refs": ["attic.paper_cream", "attic.dust_grey"],
+      "principled": {
+        "base_color": [0.91, 0.875, 0.815, 1.0],
+        "roughness": 0.9,
+        "metallic": 0.0,
+        "specular_ior_level": 0.15
+      },
+      "image_slots": ["albedo", "roughness"],
+      "expected_images": [
+        "assets/materials/old_paper_albedo.png",
+        "assets/materials/old_paper_roughness.png"
+      ],
+      "links": ["OINO_ARCHIVE", "ATTIC_DUST"]
+    },
+    {
+      "id": "MAT_Film",
+      "label": "film",
+      "category": "archive",
+      "palette_refs": ["attic.oxidized_brown", "digital.black_glass"],
+      "principled": {
+        "base_color": [0.12, 0.1, 0.08, 1.0],
+        "roughness": 0.35,
+        "metallic": 0.05,
+        "transmission_weight": 0.15,
+        "alpha": 0.92
+      },
+      "image_slots": ["albedo", "alpha"],
+      "expected_images": [
+        "assets/materials/film_albedo.png",
+        "assets/materials/film_alpha.png"
+      ],
+      "links": ["MOTIF_RECORDING", "OINO_ARCHIVE"],
+      "blend_method_hint": "BLEND"
+    },
+    {
+      "id": "MAT_BlackGlass",
+      "label": "black glass",
+      "category": "digital",
+      "palette_refs": ["digital.black_glass"],
+      "principled": {
+        "base_color": [0.02, 0.025, 0.03, 1.0],
+        "roughness": 0.05,
+        "metallic": 0.0,
+        "transmission_weight": 0.85,
+        "ior": 1.45
+      },
+      "image_slots": ["roughness"],
+      "expected_images": ["assets/materials/black_glass_roughness.png"],
+      "links": ["DIGITAL_COLD", "ECHO_MASK_BLACK_GLASS"],
+      "expensive_watch": ["transmission"]
+    },
+    {
+      "id": "MAT_MonitorSurface",
+      "label": "monitor surfaces",
+      "category": "digital",
+      "palette_refs": ["digital.monitor_green", "digital.cold_cyan", "digital.black_glass"],
+      "principled": {
+        "base_color": [0.05, 0.08, 0.07, 1.0],
+        "roughness": 0.2,
+        "metallic": 0.3,
+        "emission_color": [0.2, 1.0, 0.4, 1.0],
+        "emission_strength": 2.5
+      },
+      "image_slots": ["emission", "roughness"],
+      "expected_images": [
+        "assets/materials/monitor_emission.png",
+        "assets/materials/monitor_roughness.png"
+      ],
+      "links": ["DIGITAL_COLD"]
+    },
+    {
+      "id": "MAT_TranslucentSynthetic",
+      "label": "translucent synthetic materials",
+      "category": "synthetic",
+      "palette_refs": ["electricity.pale_porcelain", "digital.cold_cyan"],
+      "principled": {
+        "base_color": [0.85, 0.9, 0.92, 1.0],
+        "roughness": 0.25,
+        "transmission_weight": 0.7,
+        "ior": 1.4,
+        "alpha": 0.85
+      },
+      "image_slots": ["albedo", "alpha"],
+      "expected_images": [
+        "assets/materials/translucent_synthetic_albedo.png",
+        "assets/materials/translucent_synthetic_alpha.png"
+      ],
+      "links": ["ELECTRIC_WARMTH", "DIGITAL_COLD"],
+      "expensive_watch": ["transmission"]
+    },
+    {
+      "id": "MAT_Cloth",
+      "label": "cloth",
+      "category": "fabric",
+      "palette_refs": ["table.cloth", "dionysus.restrained_wine_red"],
+      "principled": {
+        "base_color": [0.769, 0.722, 0.659, 1.0],
+        "roughness": 0.95,
+        "metallic": 0.0,
+        "sheen_weight": 0.35
+      },
+      "image_slots": ["albedo", "roughness", "normal"],
+      "expected_images": [
+        "assets/materials/cloth_albedo.png",
+        "assets/materials/cloth_roughness.png",
+        "assets/materials/cloth_normal.png"
+      ],
+      "links": ["TABLE_WARMTH"],
+      "note": "Wine cloth only as optional edge accent — not every fabric."
+    },
+    {
+      "id": "MAT_Ceramic",
+      "label": "ceramic",
+      "category": "props",
+      "palette_refs": ["electricity.pale_porcelain", "attic.paper_cream"],
+      "principled": {
+        "base_color": [0.92, 0.9, 0.88, 1.0],
+        "roughness": 0.35,
+        "metallic": 0.0,
+        "coat_weight": 0.4
+      },
+      "image_slots": ["albedo", "roughness"],
+      "expected_images": [
+        "assets/materials/ceramic_albedo.png",
+        "assets/materials/ceramic_roughness.png"
+      ],
+      "links": ["PROP_Bowl", "PROP_Cup", "MOTIF_BOWL_TABLE"]
+    },
+    {
+      "id": "MAT_Skin",
+      "label": "skin",
+      "category": "character",
+      "palette_refs": ["table.human_skin", "dionysus.skin_warmth"],
+      "principled": {
+        "base_color": [0.831, 0.647, 0.455, 1.0],
+        "roughness": 0.45,
+        "metallic": 0.0,
+        "subsurface_weight": 0.15,
+        "subsurface_radius": [1.0, 0.2, 0.1]
+      },
+      "image_slots": ["albedo", "roughness", "normal"],
+      "expected_images": [
+        "assets/materials/skin_albedo.png",
+        "assets/materials/skin_roughness.png",
+        "assets/materials/skin_normal.png"
+      ],
+      "links": ["TABLE_WARMTH", "PROXY_Oino_Head"],
+      "expensive_watch": ["subsurface"]
+    },
+    {
+      "id": "MAT_VineLeaf",
+      "label": "vine and leaf",
+      "category": "organic_growth",
+      "palette_refs": ["steam.dirty_green", "dionysus.amber"],
+      "principled": {
+        "base_color": [0.25, 0.4, 0.18, 1.0],
+        "roughness": 0.65,
+        "metallic": 0.0,
+        "specular_ior_level": 0.3
+      },
+      "image_slots": ["albedo", "alpha", "normal"],
+      "expected_images": [
+        "assets/materials/vine_leaf_albedo.png",
+        "assets/materials/vine_leaf_alpha.png",
+        "assets/materials/vine_leaf_normal.png"
+      ],
+      "links": ["MOTIF_VINE_WATER", "TABLE_VineLeg", "ECHO_IVY_THROUGH_MACHINE"]
+    },
+    {
+      "id": "MAT_Water",
+      "label": "water",
+      "category": "liquid",
+      "palette_refs": ["attic.muted_blue", "dionysus.restrained_wine_red"],
+      "principled": {
+        "base_color": [0.15, 0.25, 0.35, 1.0],
+        "roughness": 0.02,
+        "metallic": 0.0,
+        "transmission_weight": 0.95,
+        "ior": 1.333
+      },
+      "image_slots": [],
+      "expected_images": [],
+      "links": ["ZONE_ShallowWater", "MOTIF_VINE_WATER", "ZONE_REFLECTION"],
+      "expensive_watch": ["transmission"],
+      "note": "May briefly resemble wine under DIONYSUS_AMBER_RED — never a literal magic trick."
+    }
+  ]
+}

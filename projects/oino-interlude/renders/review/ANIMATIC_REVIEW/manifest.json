@@ -1,0 +1,35 @@
+{
+  "id": "ANIMATIC_REVIEW",
+  "label": "Animatic review",
+  "purpose": "Proxy staging, rhythm, broad cues \u2014 not detail modelling",
+  "focus": [
+    "shot_list",
+    "music_sync",
+    "monologue_timing"
+  ],
+  "emotional_qa_subset": [
+    1,
+    2,
+    13,
+    14
+  ],
+  "emotional_qa_doc": "docs/emotional_qa.md",
+  "emotional_qa_on_screen": false,
+  "resolution": [
+    960,
+    540
+  ],
+  "fps": 24,
+  "audio": "full",
+  "audio_path": "audio/master.wav",
+  "title_card_exact": {
+    "text": "One Of Gods Fools",
+    "date": "December 10, 2026"
+  },
+  "output_dir": "renders/review/ANIMATIC_REVIEW",
+  "output_movie": "renders/review/ANIMATIC_REVIEW/ANIMATIC_REVIEW.mp4",
+  "blender_engine": "BLENDER_EEVEE_NEXT",
+  "blender_exe": null,
+  "status": "paths_ready",
+  "note": "Render from approved scene packages into this folder. Do not burn emotional QA onto picture."
+}

@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_MODULAR_INDUSTRIAL_WORLD",
+  "policy": {
+    "on_screen_era_labels": false,
+    "four_unrelated_cities": false,
+    "history_carried_by": [
+      "energy_systems",
+      "materials",
+      "interfaces",
+      "labour",
+      "food",
+      "music",
+      "relationships"
+    ],
+    "note": "Do not label eras on screen. One world changing around the same needs."
+  },
+  "possible_futures": {
+    "id": "PASS_FUTURES",
+    "control_preset": {
+      "era_blend": 0.92,
+      "future_branch": 0.85,
+      "organic_growth": 0.35,
+      "dionysus_presence": 0.4
+    },
+    "staging": [
+      "assistive synthetic voice used by a living person",
+      "reconstructed voice of a deceased person (clearly not the same ethical class)",
+      "old factory frames become non-city structures",
+      "ordinary table (ANCHOR) at the centre"
+    ],
+    "benefit": "Speech and presence restored for the living who need assistive tools.",
+    "cost": "Memorial reconstruction can replace grief with a controllable ghost.",
+    "gesture_of_care": "Someone adjusts a device so another person can finish a sentence.",
+    "temptation_toward_control": "Loop the reconstructed voice until it cannot surprise.",
+    "dionysian_echo": "Living variation of the family melody against a too-perfect memorial loop."
+  },
+  "movements": [
+    {
+      "id": "MOV_01_WATER_STEAM_HANDS",
+      "order": 1,
+      "title_internal": "Water, steam, and hands",
+      "on_screen_label": null,
+      "control_preset": {
+        "era_blend": 0.2,
+        "future_branch": 0.0,
+        "organic_growth": 0.15,
+        "dionysus_presence": 0.25
+      },
+      "collection_emphasis": [
+        "WORLD_WATER_AND_REFLECTIONS",
+        "WORLD_STEAM",
+        "WORLD_STRUCTURE"
+      ],
+      "visual_palette": [
+        "waterwheel",
+        "loom",
+        "steam",
+        "damp stone",
+        "timber",
+        "hand labour"
+      ],
+      "beats": [
+        {
+          "id": "M1_SCHOOLROOM_SINGING",
+          "action": "A schoolroom with children singing"
+        },
+        {
+          "id": "M1_JUDGING_BLOCKS",
+          "action": "Coloured blocks or monitors judging workers"
+        },
+        {
+          "id": "M1_SLEEVE_REPAIR",
+          "action": "The ancestor repairs a stranger's sleeve"
+        },
+        {
+          "id": "M1_COAT_FREED",
+          "action": "The stranger frees the ancestor when his coat catches"
+        },
+        {
+          "id": "M1_INJURED_ASKS",
+          "action": "An injured worker asks for help while the melody draws Oino onward"
+        }
+      ],
+      "benefit": "Shared power of water and steam multiplies what hands alone can feed and warm.",
+      "cost": "Judgment systems and machines rank bodies; injury and exhaustion stay visible.",
+      "gesture_of_care": "Ancestor repairs a stranger's sleeve; stranger frees the caught coat.",
+      "temptation_toward_control": "Coloured blocks/monitors that score workers instead of seeing them.",
+      "dionysian_echo": "Children singing the family contour as loom/work rhythm (life-force in labour song)."
+    },
+    {
+      "id": "MOV_02_ELECTRICITY_LIGHT_TIME",
+      "order": 2,
+      "title_internal": "Electricity, light, and time",
+      "on_screen_label": null,
+      "control_preset": {
+        "era_blend": 0.5,
+        "future_branch": 0.05,
+        "organic_growth": 0.1,
+        "dionysus_presence": 0.3
+      },
+      "collection_emphasis": [
+        "WORLD_ELECTRIC",
+        "WORLD_STRUCTURE",
+        "WORLD_STEAM"
+      ],
+      "visual_palette": [
+        "electric light",
+        "domestic interiors",
+        "poles and lamps",
+        "alarm as gathering rhythm"
+      ],
+      "beats": [
+        {
+          "id": "M2_LIGHT_RELIEVES",
+          "action": "Electric light genuinely relieves domestic labour"
+        },
+        {
+          "id": "M2_WOMAN_DANCES",
+          "action": "A woman dances because a machine returns time to her"
+        },
+        {
+          "id": "M2_EMPTY_CHAIR",
+          "action": "Another household waits beside an empty chair"
+        },
+        {
+          "id": "M2_ALARM_GATHERS",
+          "action": "An alarm becomes the rhythm of people gathering and organizing"
+        },
+        {
+          "id": "M2_BENEFIT_AND_ABSENCE",
+          "action": "Show benefit and absence in the same visual movement"
+        }
+      ],
+      "benefit": "Light and machines return hours of life — a woman can dance.",
+      "cost": "Another home keeps an empty chair; relief is unevenly distributed.",
+      "gesture_of_care": "Neighbors organize to the alarm rhythm — mutual aid, not panic.",
+      "temptation_toward_control": "Schedule every returned hour so nothing is wasted or free.",
+      "dionysian_echo": "Dance rhythm of the family melody under electric lamps (joy without erasing the empty chair)."
+    },
+    {
+      "id": "MOV_03_COMPUTING_SCREENS_CONFESSION",
+      "order": 3,
+      "title_internal": "Computing, screens, and confession",
+      "on_screen_label": null,
+      "control_preset": {
+        "era_blend": 0.72,
+        "future_branch": 0.25,
+        "organic_growth": 0.2,
+        "dionysus_presence": 0.35
+      },
+      "collection_emphasis": [
+        "WORLD_DIGITAL",
+        "WORLD_ELECTRIC",
+        "WORLD_STRUCTURE"
+      ],
+      "visual_palette": [
+        "terminals",
+        "monitors",
+        "network faces",
+        "corridors of cleaner lost voices"
+      ],
+      "beats": [
+        {
+          "id": "M3_PRIVATE_ADMISSION",
+          "action": "A person types a private admission into a terminal"
+        },
+        {
+          "id": "M3_DISTANT_RELATIVE",
+          "action": "A distant relative appears through a network"
+        },
+        {
+          "id": "M3_FACES_OFFSET",
+          "action": "Faces repeat with slight timing differences"
+        },
+        {
+          "id": "M3_OINO_WITHOUT_HER",
+          "action": "Oino sees her own recording playing without her"
+        },
+        {
+          "id": "M3_CLEANER_VOICE",
+          "action": "Every corridor offers a cleaner version of a lost voice"
+        }
+      ],
+      "benefit": "Confession and kinship can travel distance; the lonely can be answered.",
+      "cost": "Self and dead voices become editable loops; presence without presence.",
+      "gesture_of_care": "A relative stays on the line until the admission is finished.",
+      "temptation_toward_control": "Play Oino's recording without her — perfect, interruptible, owned.",
+      "dionysian_echo": "Too-perfect memorial loop of the melody in the corridor; slight timing errors as living tremor."
+    },
+    {
+      "id": "MOV_04_ASSISTANCE_MEMORIAL_FUTURES",
+      "order": 4,
+      "title_internal": "Assistance, memorial presence, and possible futures",
+      "on_screen_label": null,
+      "control_preset": {
+        "era_blend": 0.88,
+        "future_branch": 0.7,
+        "organic_growth": 0.4,
+        "dionysus_presence": 0.45
+      },
+      "collection_emphasis": [
+        "WORLD_POSSIBLE_FUTURES",
+        "WORLD_DIGITAL",
+        "WORLD_ORGANIC_GROWTH",
+        "WORLD_STRUCTURE"
+      ],
+      "visual_palette": [
+        "assistive devices",
+        "synthetic voice panels",
+        "re-framed factory structure",
+        "central ordinary table"
+      ],
+      "beats": [
+        {
+          "id": "M4_LIVING_ASSISTIVE",
+          "action": "A living person speaks through an assistive synthetic voice"
+        },
+        {
+          "id": "M4_DECEASED_RECONSTRUCTED",
+          "action": "A deceased person's voice is reconstructed"
+        },
+        {
+          "id": "M4_FACTORY_NOT_CITY",
+          "action": "Old factory frames become structures that do not resemble cities"
+        },
+        {
+          "id": "M4_TABLE_CENTRE",
+          "action": "An ordinary table appears at the centre"
+        }
+      ],
+      "benefit": "Assistive voice returns agency to the living speaker.",
+      "cost": "Reconstructed dead speech can sell comfort as ownership of the lost.",
+      "gesture_of_care": "Hands set bowls on the ordinary table for whoever still arrives.",
+      "temptation_toward_control": "Prefer the reconstructed voice to the living person's slower assistive speech.",
+      "dionysian_echo": "Wine-coloured light on the table; melody as nourishment, not spectacle."
+    }
+  ]
+}

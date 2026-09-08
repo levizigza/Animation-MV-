@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_08_TABLE_ROOM",
+  "editable": true,
+  "jump_scare": false,
+  "cost_already_exists": true,
+  "source_uncertain_until_reflection": true,
+  "markers": [
+    {
+      "name": "KNOCK_INTERRUPT",
+      "frame": 452,
+      "note": "off-grid, incomplete call contour \u2014 breaks the exact-frame laugh loop",
+      "kind": "knock_interrupt"
+    },
+    {
+      "name": "KNOCK_OINO_TRIES_IGNORE",
+      "frame": 454,
+      "stage": 1,
+      "action": "She hears the interruption and tries to ignore it.",
+      "note": "No whip-pan to source. Head may tick toward sound then return. Desire protects the loop.",
+      "cost_read": "Ignoring is already a choice against a living interrupt \u2014 not preparation for a later lesson."
+    },
+    {
+      "name": "KNOCK_REFL_SISTER_WAITING",
+      "frame": 460,
+      "image": "the sister waiting",
+      "note": "Downstairs table in reflection; sister present, still; place set for someone who has not come.",
+      "kind": "reflection"
+    },
+    {
+      "name": "KNOCK_REFL_TWO_BOWLS",
+      "frame": 472,
+      "image": "two bowls",
+      "note": "Two bowls readable in the glass \u2014 shared meal intended; one will stay hers alone.",
+      "kind": "reflection"
+    },
+    {
+      "name": "KNOCK_REFL_UNTOUCHED_PLACE",
+      "frame": 484,
+      "image": "one untouched place",
+      "note": "Oino's place downstairs untouched \u2014 the cost is already set at the real table.",
+      "kind": "reflection"
+    },
+    {
+      "name": "KNOCK_OINO_SEES_SISTER_FAILURE",
+      "frame": 488,
+      "stage": 2,
+      "action": "She sees the sister and understands that she has repeated the ancestor's failure.",
+      "note": "Camera can favor CAM_TABLE_REFLECTION then Oino's eyes. Ancestor's implicated watching becomes her own control. Sister is a living person, not a moral prop.",
+      "cost_read": "The failure is present-tense: sister already alone downstairs while Oino loops the father."
+    },
+    {
+      "name": "KNOCK_REFL_SISTER_EATS_ALONE",
+      "frame": 496,
+      "image": "the sister beginning to eat alone",
+      "note": "She begins to eat alone; not a future threat \u2014 loneliness in progress. Anger may live under the motion.",
+      "kind": "reflection"
+    },
+    {
+      "name": "KNOCK_OINO_HAND_REMAINS",
+      "frame": 508,
+      "stage": 3,
+      "action": "Her hand remains on the control because she still wants her father to stay.",
+      "note": "Hold on hand + eyeline. Merciful control becomes known cost. Do not force release in this beat \u2014 wanting him to stay is honest.",
+      "cost_read": "Cost already exists (sister eating alone); her hand staying proves desire outweighs return \u2014 now, not later."
+    }
+  ]
+}

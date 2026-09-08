@@ -1,0 +1,33 @@
+{
+  "id": "classic_cel",
+  "principles": [
+    "Pose-to-pose: plan extremes before inbetweens",
+    "Timing charts over constant easing",
+    "Holds are composition, not laziness",
+    "Smears sell speed on accents only",
+    "Arcs and overlapping action on breakdowns"
+  ],
+  "default_mode": "limited",
+  "full_energy_threshold": 0.85,
+  "hold_energy_threshold": 0.3,
+  "section_modes": {
+    "intro": "held_atmosphere",
+    "verse": "limited",
+    "prechorus": "limited",
+    "chorus": "full",
+    "bridge": "held_atmosphere",
+    "outro": "held_atmosphere"
+  },
+  "exposure_by_mode": {
+    "full": "1s",
+    "limited": "2s",
+    "held_atmosphere": "3s"
+  },
+  "key_placement": "downbeats_and_onsets",
+  "smear_policy": "chorus_accents_and_hard_onsets",
+  "hold_policy": "extend_on_soft_energy_and_lyric_lines",
+  "camera": {
+    "prefer": "motivated_moves",
+    "avoid": "constant_float"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "cue_id": "DIONYSUS_LEITMOTIF",
+  "status": "MUSIC_REVIEW_REQUIRED",
+  "MUSIC_REVIEW_REQUIRED": true,
+  "source_file": null,
+  "proposal": {
+    "kind": "placeholder_four_note_motif",
+    "pitch_names": [
+      "E3",
+      "G3",
+      "A3",
+      "E4"
+    ],
+    "midi_notes": [
+      52,
+      55,
+      57,
+      64
+    ],
+    "interval_shape": "m3 \u2191 \u00b7 M2 \u2191 \u00b7 P5 \u2191 (open, nourishing leap)",
+    "suggested_durations_beats": [
+      1.0,
+      1.0,
+      1.0,
+      2.0
+    ],
+    "tonal_centre_hint": "E minor / modal \u2014 review against father's unfinished melody",
+    "not_final": true
+  },
+  "appearances": {
+    "human_family_melody": "Singable / hummable contour in domestic register",
+    "loom_or_work_rhythm": "Even pulse, shuttle-like repeats of the interval cells",
+    "dance_rhythm": "Accent shift; same pitches, livelier subdivision",
+    "distorted_digital_pattern": "Bit-crushed / time-stretched echo of the contour",
+    "too_perfect_memorial_loop": "Quantized, airless loop \u2014 shadow of control",
+    "living_variation_at_end": "Breathing rubato / sister's altered note kinship"
+  },
+  "search_notes": "No Dionysus theme audio/MIDI located in oino-interlude or repo assets. Textual mythic presence only. This cue is a reusable placeholder for music review."
+}

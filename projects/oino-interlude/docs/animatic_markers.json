@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "scene": "ANIMATIC_MASTER",
+  "editable": true,
+  "fps": 24,
+  "final_frame": 3148,
+  "shot_markers": [
+    {
+      "name": "SH010_CALL_TO_DINNER",
+      "frame": 1,
+      "frame_end": 342,
+      "note": "Sister calls Oino to dinner; Oino closes the attic door."
+    },
+    {
+      "name": "SH020_FATHERS_TAPE",
+      "frame": 343,
+      "frame_end": 519,
+      "note": "Oino rewinds her father's unfinished recording."
+    },
+    {
+      "name": "SH030_ARCHIVE_DISCOVERY",
+      "frame": 520,
+      "frame_end": 745,
+      "note": "She discovers the great-great-grandfather's archive."
+    },
+    {
+      "name": "SH040_MELODY_OPENS_HISTORY",
+      "frame": 746,
+      "frame_end": 1130,
+      "note": "The family melody opens the archive into industrial history."
+    },
+    {
+      "name": "SH050_CHANGING_WORLD",
+      "frame": 1131,
+      "frame_end": 1599,
+      "note": "Steam, electricity, digital systems, and possible futures as one changing world."
+    },
+    {
+      "name": "SH060_CARE_AND_HARM",
+      "frame": 1600,
+      "frame_end": 1999,
+      "note": "Oino sees care and harm existing together."
+    },
+    {
+      "name": "SH070_ZONE_PASSAGE",
+      "frame": 2000,
+      "frame_end": 2424,
+      "note": "She enters the Zone-like passage."
+    },
+    {
+      "name": "SH080_TABLE_FATHER",
+      "frame": 2425,
+      "frame_end": 2599,
+      "note": "She reaches the table and finds her father (genuine comfort)."
+    },
+    {
+      "name": "SH090_REWIND_ENCOUNTER",
+      "frame": 2600,
+      "frame_end": 2742,
+      "note": "She rewinds the encounter until it loses life."
+    },
+    {
+      "name": "SH100_SISTER_REFLECTION",
+      "frame": 2743,
+      "frame_end": 2819,
+      "note": "Sister appears in the table reflection with untouched bowls."
+    },
+    {
+      "name": "SH110_RELEASE",
+      "frame": 2820,
+      "frame_end": 2896,
+      "note": "Oino releases the scene (holy-fool action)."
+    },
+    {
+      "name": "SH120_CHANGED_NOTE",
+      "frame": 2897,
+      "frame_end": 3050,
+      "note": "She returns to the sister and follows a changed note."
+    },
+    {
+      "name": "SH130_TITLE_CARD",
+      "frame": 3051,
+      "frame_end": 3148,
+      "note": "Resolves into album title and release date."
+    }
+  ],
+  "story_circle_beats": [
+    {
+      "name": "SC_YOU",
+      "frame": 1,
+      "note": "Attic comfort / ordinary before the call"
+    },
+    {
+      "name": "SC_NEED",
+      "frame": 307,
+      "note": "Knock / unfinished recording need"
+    },
+    {
+      "name": "SC_GO",
+      "frame": 520,
+      "note": "Cross into the archive"
+    },
+    {
+      "name": "SC_SEARCH",
+      "frame": 746,
+      "note": "Industrial pilgrimage / eras"
+    },
+    {
+      "name": "SC_FIND",
+      "frame": 2425,
+      "note": "Table and father (comfort before shadow)"
+    },
+    {
+      "name": "SC_TAKE",
+      "frame": 2600,
+      "note": "Shadow: rewind / control"
+    },
+    {
+      "name": "SC_RETURN",
+      "frame": 2743,
+      "note": "Sister reflection / release"
+    },
+    {
+      "name": "SC_CHANGE",
+      "frame": 2897,
+      "note": "Changed note / title"
+    }
+  ],
+  "monologue_anchors": [
+    {
+      "name": "MONO_OPEN",
+      "frame": 1,
+      "note": "Narration begins (archive voice)"
+    },
+    {
+      "name": "MONO_WATCHER",
+      "frame": 180,
+      "note": "Great-great-grandfather as watcher"
+    },
+    {
+      "name": "MONO_IMPLICATION",
+      "frame": 400,
+      "note": "Fallible / implicated in the failure"
+    },
+    {
+      "name": "MONO_LINEAGE",
+      "frame": 600,
+      "note": "Inheritance / nourishment principle"
+    },
+    {
+      "name": "MONO_END_PRIMARY",
+      "frame": 746,
+      "note": "Primary narration span end (editable)"
+    }
+  ],
+  "music_cues": [
+    {
+      "name": "CUE_ENTRANCE",
+      "time_seconds": 0.0,
+      "frame": 1,
+      "editable": true,
+      "note": "World / archive entrance \u2014 music breathes in"
+    },
+    {
+      "name": "CUE_FIRST_MELODY",
+      "time_seconds": 14.280272,
+      "frame": 343,
+      "editable": true,
+      "note": "First clear melodic statement (broad)"
+    },
+    {
+      "name": "CUE_HARMONIC_CHANGE",
+      "time_seconds": 31.091519,
+      "frame": 746,
+      "editable": true,
+      "note": "First major section / harmonic turn"
+    },
+    {
+      "name": "CUE_KNOCK",
+      "time_seconds": 12.780272,
+      "frame": 307,
+      "editable": true,
+      "note": "Sister's call-to-dinner knock (emotional trigger)"
+    },
+    {
+      "name": "CUE_LOOP",
+      "time_seconds": 47.113288,
+      "frame": 1131,
+      "editable": true,
+      "note": "Memorial / repeating chorus loop character"
+    },
+    {
+      "name": "CUE_REST",
+      "time_seconds": 101.053243,
+      "frame": 2425,
+      "editable": true,
+      "note": "Breath / bridge rest \u2014 do not fill with busy cuts"
+    },
+    {
+      "name": "CUE_RELEASE",
+      "time_seconds": 114.311837,
+      "frame": 2743,
+      "editable": true,
+      "note": "Release toward sister / holy-fool letting go"
+    },
+    {
+      "name": "CUE_FINAL_PHRASE",
+      "time_seconds": 120.723408,
+      "frame": 2897,
+      "editable": true,
+      "note": "Last living phrase before title card"
+    }
+  ],
+  "structural_audio_markers": [
+    {
+      "name": "AUDIO_START",
+      "time_seconds": 0.0,
+      "frame": 1,
+      "editable": false,
+      "note": "First sample of mixed timeline"
+    },
+    {
+      "name": "NARRATION_START",
+      "time_seconds": 0.0,
+      "frame": 1,
+      "editable": true,
+      "note": "Start of archive monologue (embedded estimate \u2014 edit if stem arrives)"
+    },
+    {
+      "name": "NARRATION_END",
+      "time_seconds": 31.091519,
+      "frame": 746,
+      "editable": true,
+      "note": "End of primary narration span (editable; not auto-locked to beats)"
+    },
+    {
+      "name": "MUSIC_END",
+      "time_seconds": 131.134979,
+      "frame": 3148,
+      "editable": true,
+      "note": "Last frame of music / mixed master"
+    },
+    {
+      "name": "FINAL_FRAME",
+      "time_seconds": 131.134979,
+      "frame": 3148,
+      "editable": true,
+      "note": "Picture end = ceil(duration*fps) alignment"
+    },
+    {
+      "name": "TITLE_CARD_START",
+      "time_seconds": 127.134979,
+      "frame": 3051,
+      "editable": true,
+      "note": "One Of God's Fools card begins (default last 4s \u2014 editable)"
+    },
+    {
+      "name": "TITLE_CARD_END",
+      "time_seconds": 131.134979,
+      "frame": 3148,
+      "editable": true,
+      "note": "Title card holds through FINAL_FRAME"
+    }
+  ],
+  "priority_staging": [
+    "eyelines",
+    "Oino_Hand",
+    "PROP_Table",
+    "CUE_KNOCK",
+    "changed_melody_return"
+  ],
+  "policy": {
+    "detailed_modelling": false,
+    "animate_every_visual_idea": false,
+    "cut_to_every_beat": false,
+    "note": "Proxy staging + rhythm only. Music breathes; broad cues only."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ghibli_atmosphere",
+  "principles": [
+    "Let air and environment breathe with held frames",
+    "Micro-animation in hair, cloth, leaves while body holds",
+    "Soft staging; emotional clarity over flashy cuts",
+    "Wind and weight over snap poses",
+    "Longer takes; camera as observer"
+  ],
+  "default_mode": "held_atmosphere",
+  "full_energy_threshold": 0.92,
+  "hold_energy_threshold": 0.45,
+  "section_modes": {
+    "intro": "held_atmosphere",
+    "verse": "held_atmosphere",
+    "prechorus": "limited",
+    "chorus": "limited",
+    "bridge": "held_atmosphere",
+    "outro": "held_atmosphere"
+  },
+  "exposure_by_mode": {
+    "full": "2s",
+    "limited": "2s",
+    "held_atmosphere": "3s"
+  },
+  "key_placement": "phrase_boundaries",
+  "smear_policy": "rare_wind_bursts_only",
+  "hold_policy": "generous_atmospheric_holds",
+  "camera": {
+    "prefer": "slow_push_parallax",
+    "avoid": "whip_pans"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "system_id": "OINO_ATMOSPHERE",
+  "seed": 20261214,
+  "markers": [
+    {
+      "name": "ATM_ATTIC_DUST",
+      "label": "attic dust",
+      "category": "volume_particulate",
+      "dionysian": false,
+      "default_enabled": true,
+      "shots": [
+        "SH010_SISTER_CALL",
+        "SH020_FATHERS_RECORDING"
+      ],
+      "scenes": [
+        "SCN_02_OINO_ARCHIVE"
+      ]
+    },
+    {
+      "name": "ATM_STEAM_HAZE",
+      "label": "steam haze",
+      "category": "volume",
+      "dionysian": false,
+      "default_enabled": true,
+      "shots": [
+        "SH040_ANCESTOR_SLEEVE",
+        "SH050_FACTORY_GATE"
+      ],
+      "scenes": [
+        "SCN_MODULAR_INDUSTRIAL_WORLD"
+      ]
+    },
+    {
+      "name": "ATM_ELECTRICAL_SMOKE",
+      "label": "electrical smoke",
+      "category": "volume",
+      "dionysian": false,
+      "default_enabled": false,
+      "shots": [
+        "SH051_ELECTRIC_HOUSEHOLD_TIME"
+      ],
+      "scenes": [
+        "SCN_MODULAR_INDUSTRIAL_WORLD"
+      ]
+    },
+    {
+      "name": "ATM_SCREEN_GLOW",
+      "label": "screen glow",
+      "category": "emission_atmosphere",
+      "dionysian": false,
+      "default_enabled": true,
+      "shots": [
+        "SH060_SYNTHETIC_VOICE",
+        "SH061_OINO_SEES_OWN_RECORDING"
+      ],
+      "scenes": [
+        "SCN_MODULAR_INDUSTRIAL_WORLD"
+      ]
+    },
+    {
+      "name": "ATM_SHALLOW_WATER",
+      "label": "shallow water",
+      "category": "surface_liquid",
+      "dionysian": false,
+      "default_enabled": true,
+      "shots": [
+        "SH070_TABLE_GLIMPSE",
+        "SH070B_ZONE_EMPTY_HOLD"
+      ],
+      "scenes": [
+        "SCN_07_ZONE"
+      ]
+    },
+    {
+      "name": "ATM_CONDENSATION",
+      "label": "condensation",
+      "category": "surface_film",
+      "dionysian": false,
+      "default_enabled": false,
+      "shots": [
+        "SH080_WARM_TWO_SHOT"
+      ],
+      "scenes": [
+        "SCN_07_ZONE",
+        "SCN_08_TABLE_ROOM"
+      ]
+    },
+    {
+      "name": "ATM_RESTRAINED_RAIN",
+      "label": "restrained rain",
+      "category": "precipitation",
+      "dionysian": false,
+      "default_enabled": false,
+      "shots": [],
+      "scenes": [
+        "SCN_07_ZONE"
+      ]
+    },
+    {
+      "name": "ATM_FILM_GRAIN",
+      "label": "film grain",
+      "category": "optical",
+      "dionysian": false,
+      "default_enabled": true,
+      "shots": [
+        "SH030_ARCHIVE_BOX_OINO",
+        "SH031_FAMILY_LINE_DOCUMENT",
+        "SH130_TITLE_CARD"
+      ],
+      "scenes": [
+        "SCN_02_OINO_ARCHIVE",
+        "SCN_13_TITLE_CARD"
+      ]
+    },
+    {
+      "name": "ATM_GATE_WEAVE",
+      "label": "gate weave",
+      "category": "industrial_pattern",
+      "dionysian": false,
+      "default_enabled": true,
+      "shots": [
+        "SH050_FACTORY_GATE"
+      ],
+      "scenes": [
+        "SCN_MODULAR_INDUSTRIAL_WORLD"
+      ]
+    },
+    {
+      "name": "ATM_VINE_GROWTH",
+      "label": "vine growth",
+      "category": "organic_dionysian",
+      "dionysian": true,
+      "default_enabled": true,
+      "shots": [
+        "SH080_WARM_TWO_SHOT",
+        "SH110_RELEASE_CONTROL"
+      ],
+      "scenes": [
+        "SCN_MODULAR_INDUSTRIAL_WORLD",
+        "SCN_07_ZONE",
+        "SCN_08_TABLE_ROOM"
+      ]
+    },
+    {
+      "name": "ATM_WHITE_BIRD_RELEASE",
+      "label": "white bird or dove-like release forms",
+      "category": "organic_dionysian",
+      "dionysian": true,
+      "default_enabled": false,
+      "shots": [
+        "SH110_RELEASE_CONTROL",
+        "SH122_OPEN_DOORWAY"
+      ],
+      "scenes": [
+        "SCN_08_TABLE_ROOM"
+      ]
+    },
+    {
+      "name": "TR_DUST_TO_STEAM",
+      "label": "dust to steam",
+      "kind": "transition",
+      "from_effect": "ATM_ATTIC_DUST",
+      "to_effect": "ATM_STEAM_HAZE",
+      "approx_shots": [
+        "SH030_ARCHIVE_DISCOVERY",
+        "SH040_MELODY_OPENS_HISTORY"
+      ]
+    },
+    {
+      "name": "TR_STEAM_TO_ELECTRIC",
+      "label": "steam to electric glow",
+      "kind": "transition",
+      "from_effect": "ATM_STEAM_HAZE",
+      "to_effect": "ATM_ELECTRICAL_SMOKE",
+      "approx_shots": [
+        "SH050_CHANGING_WORLD",
+        "SH051_ELECTRIC_HOUSEHOLD_TIME"
+      ]
+    },
+    {
+      "name": "TR_ELECTRIC_TO_SCREEN",
+      "label": "electric glow to screen reflection",
+      "kind": "transition",
+      "from_effect": "ATM_ELECTRICAL_SMOKE",
+      "to_effect": "ATM_SCREEN_GLOW",
+      "approx_shots": [
+        "SH060_CARE_AND_HARM",
+        "SH061_OINO_SEES_OWN_RECORDING"
+      ]
+    },
+    {
+      "name": "TR_SCREEN_TO_WATER",
+      "label": "screen reflection to water",
+      "kind": "transition",
+      "from_effect": "ATM_SCREEN_GLOW",
+      "to_effect": "ATM_SHALLOW_WATER",
+      "approx_shots": [
+        "SH070_ZONE_PASSAGE"
+      ]
+    },
+    {
+      "name": "TR_WATER_TO_TABLE",
+      "label": "water reflection to table surface",
+      "kind": "transition",
+      "from_effect": "ATM_SHALLOW_WATER",
+      "to_effect": null,
+      "approx_shots": [
+        "SH070_TABLE_GLIMPSE",
+        "SH080_WARM_TWO_SHOT"
+      ]
+    },
+    {
+      "name": "TR_TABLE_TO_TITLE_BLACK",
+      "label": "table surface to title-card black",
+      "kind": "transition",
+      "from_effect": null,
+      "to_effect": null,
+      "approx_shots": [
+        "SH122_OPEN_DOORWAY",
+        "SH130_TITLE_CARD"
+      ]
+    }
+  ]
+}

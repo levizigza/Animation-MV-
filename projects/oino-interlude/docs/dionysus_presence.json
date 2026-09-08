@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "motif_id": "DIONYSUS_PRESENCE",
+  "film": "Oino (Interlude)",
+  "album": "One Of God's Fools",
+  "role": {
+    "larger_project": "major character",
+    "this_interlude": "recurring presence — not a narrator who explains mythology",
+    "literal_cameo_default": false
+  },
+  "policy": {
+    "glowing_horned_god_giving_instructions": false,
+    "voice_that_names_himself_dionysus": false,
+    "every_red_object_is_a_symbol": false,
+    "explain_mythology_on_screen": false,
+    "note": "Symbolic, musical, occasional visual echo. Switch echoes individually. Map when each appears, what it does, and whether meaning changes later."
+  },
+  "evolution": {
+    "EARLY": {
+      "label": "hidden in family objects",
+      "note": "Vine, water, cup, and melody — inheritance as nourishment, not announcement."
+    },
+    "MIDDLE": {
+      "label": "visible in labour and theatre",
+      "note": "Labour, dance, theatre, masks, laughter, and the breakdown of rigid categories."
+    },
+    "ZONE": {
+      "label": "ambiguous and beautiful",
+      "note": "Impossible to classify — do not resolve as god, glitch, or ghost."
+    },
+    "TABLE": {
+      "label": "ordinary meal becomes sacred",
+      "note": "Sacred without becoming a religious ceremony."
+    },
+    "RELEASE": {
+      "label": "transformation outward",
+      "note": "Movement, breath, birds, or changed music — not a cameo bow."
+    }
+  },
+  "echoes": [
+    {
+      "id": "ECHO_RED_GARMENT",
+      "enabled_default": false,
+      "switchable": true,
+      "title": "Red garment in a crowd",
+      "phase_first": "MIDDLE",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "approx_frame": 1400,
+      "marker": "DION_ECHO_RED_GARMENT",
+      "appears": "A single red garment moves through a labour or gathering crowd — not every red prop.",
+      "does": "Pulls the eye once; then is absorbed by the crowd again.",
+      "meaning_at_appearance": "Life-force flash inside industrial anonymity.",
+      "changes_later": true,
+      "later": {
+        "phase": "TABLE",
+        "note": "If recalled, only as warmth of cloth at the meal — never as costume ID of the god."
+      },
+      "forbid": ["horns", "name caption", "tracking shot that proves identity"]
+    },
+    {
+      "id": "ECHO_LAUGH_BEFORE_SOURCE",
+      "enabled_default": false,
+      "switchable": true,
+      "title": "Laugh that arrives before the visible source",
+      "phase_first": "MIDDLE",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "approx_frame": 1550,
+      "marker": "DION_ECHO_LAUGH_BEFORE_SOURCE",
+      "appears": "A laugh is heard a beat before any mouth or body that could own it.",
+      "does": "Breaks rigid sync between sound and picture; invites loss of self / joy tension.",
+      "meaning_at_appearance": "Theatre and labour categories blur — who is laughing for whom.",
+      "changes_later": true,
+      "later": {
+        "phase": "ZONE",
+        "note": "May return with no source at all; still do not caption it as Dionysus."
+      },
+      "forbid": ["voice saying I am Dionysus", "laugh as jump scare"]
+    },
+    {
+      "id": "ECHO_MASK_BLACK_GLASS",
+      "enabled_default": false,
+      "switchable": true,
+      "title": "Mask reflected in black glass",
+      "phase_first": "MIDDLE",
+      "approx_shot": "SH060_CARE_AND_HARM",
+      "approx_frame": 1800,
+      "marker": "DION_ECHO_MASK_BLACK_GLASS",
+      "appears": "A mask appears only as reflection in dark glass/monitor — not worn as god cosplay.",
+      "does": "Suggests theatre / loss of face without explaining cult.",
+      "meaning_at_appearance": "Persona and machine glass share one surface.",
+      "changes_later": true,
+      "later": {
+        "phase": "ZONE",
+        "note": "Reflection may fail to match any foreground face — still unclassified."
+      },
+      "forbid": ["putting the mask on a glowing god body"]
+    },
+    {
+      "id": "ECHO_IVY_THROUGH_MACHINE",
+      "enabled_default": true,
+      "switchable": true,
+      "title": "Ivy or vine growing through a machine",
+      "phase_first": "EARLY",
+      "approx_shot": "SH040_MELODY_OPENS_HISTORY",
+      "approx_frame": 900,
+      "marker": "DION_ECHO_IVY_THROUGH_MACHINE",
+      "appears": "Vine/ivy threads a loom, pipe, or cable bundle — worn growth, not CGI miracle.",
+      "does": "Links WORLD_ORGANIC_GROWTH to labour machines; nourishment through technology's gaps.",
+      "meaning_at_appearance": "Hidden in family/world objects — vine as lineage without lecture.",
+      "changes_later": true,
+      "later": {
+        "phase": "MIDDLE",
+        "note": "Growth thickens where categories break (dance floor / factory edge)."
+      },
+      "forbid": ["vine spelling DIONYSUS", "instant full coverage growth gag"]
+    },
+    {
+      "id": "ECHO_BROKEN_STAFF_GROWTH",
+      "enabled_default": false,
+      "switchable": true,
+      "title": "Broken staff or tool with organic growth",
+      "phase_first": "EARLY",
+      "approx_shot": "SH030_ARCHIVE_DISCOVERY",
+      "approx_frame": 650,
+      "marker": "DION_ECHO_BROKEN_STAFF_GROWTH",
+      "appears": "Archive/world tool that only resembles a broken thyrsus — mechanical + organic, not costume prop.",
+      "does": "Sits among family objects; invites touch without naming.",
+      "meaning_at_appearance": "Inherited principle as worn tool — transformation toward nourishment.",
+      "changes_later": true,
+      "later": {
+        "phase": "RELEASE",
+        "note": "May be left behind; growth continues without becoming a relic worshipped on screen."
+      },
+      "forbid": ["intact ceremonial thyrsus", "god handing the staff to Oino"]
+    },
+    {
+      "id": "ECHO_WINE_LIGHT",
+      "enabled_default": true,
+      "switchable": true,
+      "title": "Wine-coloured light",
+      "phase_first": "EARLY",
+      "approx_shot": "SH030_ARCHIVE_DISCOVERY",
+      "approx_frame": 700,
+      "marker": "DION_ECHO_WINE_LIGHT",
+      "appears": "Wine-coloured light (#5C1A2E family) on cup, stain, or lamp — only when motivated.",
+      "does": "Conditions water-stain / table warmth; not a continuous god gel.",
+      "meaning_at_appearance": "Hidden in cup/water/melody adjacency.",
+      "changes_later": true,
+      "later": {
+        "phase": "TABLE",
+        "note": "Same light makes the ordinary meal feel sacred without altar staging."
+      },
+      "forbid": ["every red practical as wine gel", "spotlight that follows a horned figure"]
+    },
+    {
+      "id": "ECHO_HAND_PERCUSSION_DANCE",
+      "enabled_default": false,
+      "switchable": true,
+      "title": "Hand percussion or dance impulse in a mechanical rhythm",
+      "phase_first": "MIDDLE",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "approx_frame": 1250,
+      "marker": "DION_ECHO_HAND_PERCUSSION_DANCE",
+      "appears": "A body adds off-grid clap/step inside factory or electric pulse.",
+      "does": "Breaks rigid category of machine time vs living time.",
+      "meaning_at_appearance": "Labour becoming dance without abandoning work.",
+      "changes_later": true,
+      "later": {
+        "phase": "RELEASE",
+        "note": "Kin to sister's table tap / changed melody — living variation, not memorial loop."
+      },
+      "forbid": ["bacchanal crowd takeover of the whole frame"]
+    },
+    {
+      "id": "ECHO_ARCHIVE_FRAME_FIGURE",
+      "enabled_default": false,
+      "switchable": true,
+      "title": "Figure in one damaged archive frame",
+      "phase_first": "EARLY",
+      "approx_shot": "SH030_ARCHIVE_DISCOVERY",
+      "approx_frame": 580,
+      "marker": "DION_ECHO_ARCHIVE_FRAME_FIGURE",
+      "appears": "One damaged ancestor or reconstructed plate holds an unidentifiable figure for a few frames.",
+      "does": "Creates doubt — watcher, guest, stain, or theatre — then gone.",
+      "meaning_at_appearance": "Presence inside family memory without genealogy lecture.",
+      "changes_later": true,
+      "later": {
+        "phase": "ZONE",
+        "note": "If echoed, still refuse classification; never label the frame Dionysus."
+      },
+      "forbid": ["subtitle This is Dionysus", "clear god portrait in HD"]
+    },
+    {
+      "id": "ECHO_ZONE_EXIT_SILHOUETTE",
+      "enabled_default": false,
+      "switchable": true,
+      "title": "Silhouette near the Zone exit",
+      "phase_first": "ZONE",
+      "approx_shot": "SH070_ZONE_PASSAGE",
+      "approx_frame": 2350,
+      "marker": "DION_ECHO_ZONE_EXIT_SILHOUETTE",
+      "appears": "A silhouette at the passage edge — beautiful, brief, unreadable.",
+      "does": "Holds ambiguity: guide, threat, reflection, or nothing.",
+      "meaning_at_appearance": "ZONE presence — impossible to classify.",
+      "changes_later": true,
+      "later": {
+        "phase": "TABLE",
+        "note": "Does not reappear as the same silhouette at dinner; sacredness shifts to the meal."
+      },
+      "forbid": ["silhouette sprouting horns", "voice-over explanation"]
+    },
+    {
+      "id": "ECHO_WHITE_BIRDS_RELEASE",
+      "enabled_default": true,
+      "switchable": true,
+      "title": "White birds or dove-like forms during release",
+      "phase_first": "RELEASE",
+      "approx_shot": "SH110_RELEASE",
+      "approx_frame": 2820,
+      "marker": "DION_ECHO_WHITE_BIRDS_RELEASE",
+      "appears": "White bird / dove-like release image as Oino lets the father leave.",
+      "does": "Transforms presence into movement and breath — holy-fool letting go.",
+      "meaning_at_appearance": "RELEASE — transformation into changed music / freedom, not a god exit.",
+      "changes_later": false,
+      "later": null,
+      "forbid": ["birds forming a face", "caption Dionysus departs"]
+    }
+  ]
+}

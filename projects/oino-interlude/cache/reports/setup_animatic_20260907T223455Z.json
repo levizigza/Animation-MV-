@@ -1,0 +1,31 @@
+{
+  "script": "setup_animatic",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:34:54.239648+00:00",
+  "finished_at": "2026-09-07T22:34:55.505705+00:00",
+  "counts": {
+    "created": 3,
+    "reused": 4,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/animatic_markers.json",
+    "cache/animatic_master_payload.json",
+    "docs/animatic_status.md"
+  ],
+  "reused": [
+    "docs/animatic_shot_list.json",
+    "docs/audio_markers.json",
+    "audio/master.wav",
+    "scripts/_blender_animatic_master.py"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Blender not installed \u2014 animatic blend deferred",
+    "Priority staging: eyelines, Oino_Hand, PROP_Table, knock, changed melody \u2014 not every visual idea animated yet"
+  ]
+}

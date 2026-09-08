@@ -1,0 +1,474 @@
+:root {
+  --bg: #0c0d10;
+  --stage: #050506;
+  --panel: #14161c;
+  --panel-2: #1a1d26;
+  --ink: #e8eaef;
+  --muted: #8b919e;
+  --line: #2a2e3a;
+  --accent: #e8a87c;
+  --accent-2: #7ec8c4;
+  --ok: #6fbf8a;
+  --warn: #d4a84b;
+  --danger: #d96b6b;
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  font-family: var(--font-body);
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, #1a2230 0%, transparent 55%),
+    var(--bg);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.45rem 0.75rem;
+}
+
+button.primary {
+  background: color-mix(in srgb, var(--accent) 28%, var(--panel-2));
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.cinema-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cinema-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--panel) 88%, transparent);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.brand {
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.top-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.top-actions select {
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  min-width: 12rem;
+}
+
+.create-drawer {
+  margin: 0.75rem 1.25rem;
+  padding: 1rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.create-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+
+.create-form label,
+.composer-rail label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.create-form input,
+.create-form textarea,
+.create-form select,
+.composer-rail input,
+.composer-rail textarea,
+.composer-rail select {
+  background: var(--stage);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 0.45rem 0.55rem;
+}
+
+.cinema-empty {
+  flex: 1;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--muted);
+}
+
+.cinema-empty h1 {
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  margin: 0 0 0.75rem;
+}
+
+.cinema-layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 340px);
+  gap: 0;
+  min-height: 0;
+}
+
+@media (max-width: 980px) {
+  .cinema-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cinema-main {
+  padding: 1rem 1.1rem 2rem;
+  min-width: 0;
+}
+
+.cinema-side {
+  border-left: 1px solid var(--line);
+  background: var(--panel);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: calc(100vh - 64px);
+  overflow: auto;
+}
+
+.cinema-stage {
+  margin-bottom: 0.85rem;
+}
+
+.stage-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: var(--stage);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+
+.stage-media {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  background: #000;
+}
+
+.stage-empty {
+  height: 100%;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  color: var(--muted);
+  gap: 0.35rem;
+  padding: 1rem;
+}
+
+.stage-empty p {
+  margin: 0;
+  color: var(--ink);
+  font-size: 1.1rem;
+}
+
+.stage-badges {
+  position: absolute;
+  left: 0.65rem;
+  bottom: 0.65rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.badge,
+.badges span {
+  font-size: 0.72rem;
+  padding: 0.2rem 0.45rem;
+  border-radius: 999px;
+  background: rgba(12, 13, 16, 0.72);
+  border: 1px solid var(--line);
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+}
+
+.badges .ok {
+  color: var(--ok);
+}
+.badges .warn {
+  color: var(--warn);
+}
+
+.stage-build-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.stage-build-overlay p {
+  margin: 0.4rem 0 0;
+  font-size: 0.85rem;
+}
+
+.build-bar {
+  height: 4px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.build-bar-fill {
+  height: 100%;
+  background: var(--accent-2);
+  transition: width 0.15s linear;
+}
+
+.stage-transport {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.55rem;
+}
+
+.stage-transport input[type="range"] {
+  flex: 1;
+}
+
+.shot-timeline {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding: 0.35rem 0 0.75rem;
+}
+
+.shot-card {
+  flex: 0 0 auto;
+  min-width: 140px;
+  text-align: left;
+  background: var(--panel);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.55rem 0.65rem;
+}
+
+.shot-card strong {
+  font-size: 0.85rem;
+}
+
+.shot-card span,
+.shot-card em {
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: normal;
+}
+
+.shot-card.active {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 50%, transparent);
+}
+
+.frame-strip {
+  display: flex;
+  gap: 0.35rem;
+  overflow-x: auto;
+  padding: 0.5rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  min-height: 92px;
+}
+
+.frame-strip.empty {
+  align-items: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.frame-thumb {
+  flex: 0 0 auto;
+  width: 96px;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+}
+
+.frame-thumb img {
+  display: block;
+  width: 100%;
+  height: 54px;
+  object-fit: cover;
+}
+
+.frame-label {
+  display: block;
+  font-size: 0.65rem;
+  padding: 0.15rem;
+  color: var(--muted);
+}
+
+.frame-thumb.active {
+  outline: 2px solid var(--accent-2);
+}
+
+.frame-thumb.key .frame-label {
+  color: var(--accent);
+}
+
+.frame-thumb.smear .frame-label {
+  color: var(--warn);
+}
+
+.status-line {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.composer-rail h2,
+.build-feed h3,
+.composer-rail h3,
+.create-drawer h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+}
+
+.composer-meta .muted,
+.muted {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.composer-shot {
+  margin-top: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.composer-shot .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.4rem;
+}
+
+.composer-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-top: 0.85rem;
+}
+
+.build-feed ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.build-feed li {
+  padding: 0.4rem 0.5rem;
+  background: var(--panel-2);
+  border-radius: 6px;
+  border: 1px solid var(--line);
+}
+
+.build-feed h3 {
+  margin-top: 0.75rem;
+}
+
+.ns-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.35rem;
+  font-size: 0.78rem;
+}
+
+.ns-badge {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.1rem 0.35rem;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+}
+
+.ns-neuro {
+  color: #c4b59a;
+  background: rgba(196, 181, 154, 0.08);
+}
+
+.ns-symbolic {
+  color: #8faf9a;
+  background: rgba(143, 175, 154, 0.1);
+}
+
+.ns-sep {
+  opacity: 0.55;
+}
+
+.ns-counts {
+  color: var(--muted, #9a958c);
+}

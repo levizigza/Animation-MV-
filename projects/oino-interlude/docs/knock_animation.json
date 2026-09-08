@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_08_TABLE_ROOM",
+  "script": "animate_knock",
+  "title": "Knock interrupt — artificial rhythm broken; cost already present",
+  "throughline": "An irregular knock breaks the controlled table loop. Source stays uncertain until the reflection shows the sister already eating alone. Oino hears, sees her failure, and still keeps her hand on the control.",
+  "policy": {
+    "jump_scare": false,
+    "horror_music_sting": false,
+    "monster_reveal": false,
+    "source_certain_before_reflection": false,
+    "cost_is_hypothetical_warning": false,
+    "cost_already_exists": true,
+    "breaks_artificial_rhythm": true,
+    "link_call_motif": "CALL_05_ZONE_KNOCK / CALL_01 cousin — domestic irregularity, not scare",
+    "note": "Knock interrupts quantized reunion without becoming a jump scare. The sister's loneliness is already happening — not a warning of what might happen later."
+  },
+  "possible_sources": [
+    {
+      "id": "SRC_SISTER_TAP_DOWNSTAIRS",
+      "label": "the sister tapping downstairs",
+      "confirmed_before_reflection": false,
+      "staging": "Floor vibration / soft tap contour; may be true but not proven yet."
+    },
+    {
+      "id": "SRC_ATTIC_DOOR",
+      "label": "the attic door",
+      "confirmed_before_reflection": false,
+      "staging": "Wood shift / latch settle; memory of the door she once closed."
+    },
+    {
+      "id": "SRC_BOWL_TABLE",
+      "label": "a bowl touching the table",
+      "confirmed_before_reflection": false,
+      "staging": "Ceramic contact; could be here or downstairs — space collapses in sound."
+    },
+    {
+      "id": "SRC_MACHINE_MELODY",
+      "label": "a machine responding to the melody",
+      "confirmed_before_reflection": false,
+      "staging": "Quiet architecture answers a note; industrial frame as sympathetic knock."
+    },
+    {
+      "id": "SRC_ZONE_FORCE",
+      "label": "an unexplained force in the Zone",
+      "confirmed_before_reflection": false,
+      "staging": "CALL_05 cousin — Zone does not explain itself; keep ambiguous."
+    }
+  ],
+  "source_reveal": {
+    "when": "reflection_reveals_sister",
+    "confirmed_source": "SRC_SISTER_TAP_DOWNSTAIRS",
+    "rule": "Keep source uncertain until the reflection reveals the sister. Other candidates remain possible memories of the same interrupt."
+  },
+  "knock": {
+    "marker": "KNOCK_INTERRUPT",
+    "frame": 452,
+    "rhythm": {
+      "pattern": "off-grid, incomplete call contour — breaks the exact-frame laugh loop",
+      "relation_to_table": "cuts artificial rhythm without a volume spike or scare sting",
+      "bpm_feel": "human / wrong-domestic; slightly behind or ahead of the loop grid"
+    },
+    "audio_empty": "AUDIO_KnockUncertain",
+    "avoid": [
+      "jump-scare door slam",
+      "horror sting",
+      "sudden creature at the door"
+    ]
+  },
+  "reflection_animation": {
+    "surface": "PROP_ReflectiveSurface_Sister",
+    "camera": "CAM_TABLE_REFLECTION",
+    "frames": {
+      "start": 460,
+      "end": 500
+    },
+    "beats": [
+      {
+        "id": "REFL_SISTER_WAITING",
+        "marker": "KNOCK_REFL_SISTER_WAITING",
+        "frame": 460,
+        "image": "the sister waiting",
+        "staging": "Downstairs table in reflection; sister present, still; place set for someone who has not come."
+      },
+      {
+        "id": "REFL_TWO_BOWLS",
+        "marker": "KNOCK_REFL_TWO_BOWLS",
+        "frame": 472,
+        "image": "two bowls",
+        "staging": "Two bowls readable in the glass — shared meal intended; one will stay hers alone."
+      },
+      {
+        "id": "REFL_UNTOUCHED_PLACE",
+        "marker": "KNOCK_REFL_UNTOUCHED_PLACE",
+        "frame": 484,
+        "image": "one untouched place",
+        "staging": "Oino's place downstairs untouched — the cost is already set at the real table."
+      },
+      {
+        "id": "REFL_SISTER_EATS_ALONE",
+        "marker": "KNOCK_REFL_SISTER_EATS_ALONE",
+        "frame": 496,
+        "image": "the sister beginning to eat alone",
+        "staging": "She begins to eat alone; not a future threat — loneliness in progress. Anger may live under the motion."
+      }
+    ]
+  },
+  "oino_stages": [
+    {
+      "id": "OINO_KNOCK_1_IGNORE",
+      "number": 1,
+      "marker": "KNOCK_OINO_TRIES_IGNORE",
+      "frame": 454,
+      "action": "She hears the interruption and tries to ignore it.",
+      "body": {
+        "ears": "registers off-grid knock against locked laugh loop",
+        "eyes": "stay on father / controlled reunion",
+        "hand": "pressure increases slightly on playback control — hold the loop",
+        "breath": "short catch, then forced steady"
+      },
+      "staging": "No whip-pan to source. Head may tick toward sound then return. Desire protects the loop.",
+      "cost_read": "Ignoring is already a choice against a living interrupt — not preparation for a later lesson."
+    },
+    {
+      "id": "OINO_KNOCK_2_RECOGNIZES_FAILURE",
+      "number": 2,
+      "marker": "KNOCK_OINO_SEES_SISTER_FAILURE",
+      "frame": 488,
+      "action": "She sees the sister and understands that she has repeated the ancestor's failure.",
+      "body": {
+        "eyes": "eyeline into PROP_ReflectiveSurface_Sister — waiting sister, two bowls, untouched place, eating alone",
+        "face": "recognition without speech; archive-watcher failure now lived",
+        "hand": "still on control but no longer only concealment — knowledge arrives",
+        "breath": "held; then uneven"
+      },
+      "staging": "Camera can favor CAM_TABLE_REFLECTION then Oino's eyes. Ancestor's implicated watching becomes her own control. Sister is a living person, not a moral prop.",
+      "cost_read": "The failure is present-tense: sister already alone downstairs while Oino loops the father."
+    },
+    {
+      "id": "OINO_KNOCK_3_HAND_REMAINS",
+      "number": 3,
+      "marker": "KNOCK_OINO_HAND_REMAINS",
+      "frame": 508,
+      "action": "Her hand remains on the control because she still wants her father to stay.",
+      "body": {
+        "hand": "does not lift from PROP_PlaybackControl — want and knowledge coexist",
+        "eyes": "may leave reflection back to father; soft and guilty",
+        "weight": "rooted at the table; holy-fool release not yet chosen"
+      },
+      "staging": "Hold on hand + eyeline. Merciful control becomes known cost. Do not force release in this beat — wanting him to stay is honest.",
+      "cost_read": "Cost already exists (sister eating alone); her hand staying proves desire outweighs return — now, not later."
+    }
+  ],
+  "must_preserve": [
+    "Knock breaks artificial rhythm without jump scare",
+    "Source uncertain until reflection reveals sister",
+    "Reflection shows waiting, two bowls, untouched place, sister eating alone",
+    "Three Oino stages: ignore → ancestor failure recognized → hand remains",
+    "Cost already exists — not a hypothetical warning"
+  ],
+  "must_not": [
+    "Jump scare knock",
+    "Confirm source before reflection",
+    "Turn sister into a moral prop only",
+    "Frame the loneliness as something that might happen later",
+    "Horror sting or monster at the door"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "source_of_truth": true,
+  "project_title": "One Of God's Fools",
+  "film_title": "Oino (Interlude)",
+  "working_subtitle": "The Fool's Pilgrimage",
+  "release_date": "2026-12-10",
+  "protagonist": "Oino",
+  "narrator": "Oino",
+  "title_card": {
+    "text": "One Of God's Fools",
+    "release_date": "2026-12-10"
+  },
+  "audio": {
+    "music_path": "audio/master.wav",
+    "narration_path": null,
+    "mixed_master_path": "audio/master.wav",
+    "narration_path_expected": "audio/narration.wav",
+    "music_required": true,
+    "mixed_master_required": true,
+    "narration_required": false,
+    "monologue_unchanged": true
+  },
+  "timing": {
+    "fps": 24,
+    "duration_seconds": null,
+    "duration_frames": null,
+    "duration_note": "Null until audio is inspected by scripts/show_config.py --inspect-audio"
+  },
+  "resolutions": {
+    "preview": [960, 540],
+    "hd": [1920, 1080],
+    "final": [1920, 1080]
+  },
+  "colour_management": {
+    "display_device": "sRGB",
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "gamma": 1.0,
+    "sequencer_colorspace": "sRGB",
+    "wine_light_hex": "#5C1A2E",
+    "wine_light_rgba": [0.361, 0.102, 0.18, 1.0],
+    "ink_line_rgba": [0.05, 0.05, 0.08, 1.0],
+    "paper_rgba": [0.85, 0.82, 0.78, 1.0]
+  },
+  "render": {
+    "engine": "BLENDER_EEVEE_NEXT",
+    "engine_fallback": "BLENDER_EEVEE",
+    "compatible_blender_versions": ["4.2", "4.3", "4.4", "4.5"],
+    "blender_exe": null,
+    "selection_rule": "Prefer EEVEE Next on Blender 4.2+; fall back to EEVEE; resolve at runtime from installed Blender"
+  },
+  "outputs": {
+    "animatic_dir": "renders/animatic",
+    "preview_dir": "renders/preview",
+    "final_dir": "renders/final",
+    "cache_dir": "cache",
+    "reports_dir": "cache/reports",
+    "scenes_dir": "scenes"
+  },
+  "seeds": {
+    "master": 20261210,
+    "layout": 20261211,
+    "animation": 20261212,
+    "lighting": 20261213,
+    "fx": 20261214
+  },
+  "mythic_canon": {
+    "inherited_name": "Oino/Oeno",
+    "family_line": "Dionysus → Staphylus → Rhoeo → Anius → Oino",
+    "inherited_principle": "transformation toward nourishment",
+    "dionysus_presence_mode": "symbolic, musical, occasional visual echo",
+    "literal_dionysus_cameo": false,
+    "zone_explanation": "intentionally unresolved"
+  },
+  "visual_motifs": {
+    "vine": {
+      "id": "motif_vine",
+      "role": "lineage / nourishment / living line"
+    },
+    "water": {
+      "id": "motif_water",
+      "role": "change / cleansing / memory flow"
+    },
+    "wine_coloured_light": {
+      "id": "motif_wine_light",
+      "role": "Dionysian echo without literal god",
+      "colour_hex": "#5C1A2E"
+    },
+    "bowl": {
+      "id": "motif_bowl",
+      "role": "nourishment vessel / offering"
+    },
+    "table": {
+      "id": "motif_table",
+      "role": "mythic destination — ordinary, intimate, sacred"
+    },
+    "doorway": {
+      "id": "motif_doorway",
+      "role": "threshold / leaving / returning"
+    },
+    "hand": {
+      "id": "motif_hand",
+      "role": "care / choice / release"
+    },
+    "recording": {
+      "id": "motif_recording",
+      "role": "archive / rewind / control shadow"
+    },
+    "mask": {
+      "id": "motif_mask",
+      "role": "persona / fool / loss of self"
+    },
+    "white_bird_or_dove_like_release": {
+      "id": "motif_white_bird",
+      "role": "release image — holy-fool letting go"
+    },
+    "red_thread_or_cable": {
+      "id": "motif_red_thread",
+      "role": "connection / tech cable / bloodline"
+    },
+    "unfinished_melody": {
+      "id": "motif_unfinished_melody",
+      "role": "father's musical object"
+    },
+    "call_to_dinner": {
+      "id": "motif_call_to_dinner",
+      "role": "sister trigger — emotional and mythic"
+    }
+  },
+  "scenes": [
+    {
+      "id": "scn_archive_open",
+      "name": "Archive Open",
+      "blender_scene": "SCN_Animatic"
+    },
+    {
+      "id": "scn_call_to_dinner",
+      "name": "Call to Dinner",
+      "blender_scene": "SCN_Animatic"
+    },
+    {
+      "id": "scn_industrial_pilgrimage",
+      "name": "Industrial Pilgrimage",
+      "blender_scene": "SCN_Layout"
+    },
+    {
+      "id": "scn_zone_threshold",
+      "name": "Zone Threshold",
+      "blender_scene": "SCN_Layout"
+    },
+    {
+      "id": "scn_father_reunion",
+      "name": "Father Reunion",
+      "blender_scene": "SCN_Oino_Master"
+    },
+    {
+      "id": "scn_shadow_edit",
+      "name": "Shadow Edit",
+      "blender_scene": "SCN_Oino_Master"
+    },
+    {
+      "id": "scn_holy_fool_release",
+      "name": "Holy Fool Release",
+      "blender_scene": "SCN_Oino_Master"
+    },
+    {
+      "id": "scn_sister_return",
+      "name": "Sister Return",
+      "blender_scene": "SCN_Lighting"
+    },
+    {
+      "id": "scn_title_card",
+      "name": "Title Card",
+      "blender_scene": "SCN_Oino_Master"
+    }
+  ]
+}

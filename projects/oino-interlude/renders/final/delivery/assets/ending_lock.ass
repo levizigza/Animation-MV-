@@ -1,0 +1,18 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Georgia,48,&H00DCE4E8,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,40,40,40,1
+Style: Date,Georgia,28,&H0098A0A8,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,40,40,80,1
+Style: Beat,Georgia,32,&H00DCE4E8,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:03.58,0:02:04.88,Beat,,0,0,0,,final living melody
+Dialogue: 0,0:02:04.88,0:02:06.08,Beat,,0,0,0,,original recording reaching its imperfect ending
+Dialogue: 0,0:02:06.08,0:02:07.08,Beat,,0,0,0,,fade to title card
+Dialogue: 0,0:02:07.08,0:02:11.13,Title,,0,0,0,,One Of Gods Fools
+Dialogue: 0,0:02:08.58,0:02:11.13,Date,,0,0,0,,December 10, 2026

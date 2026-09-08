@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "motif_id": "OINO_TRANSFORMATION_LANGUAGE",
+  "film": "Oino (Interlude)",
+  "mythic_source": {
+    "name": "Oenotropae",
+    "use": "visual and emotional language only",
+    "not": "generic superhero power set for Oino"
+  },
+  "inherited_principle": "transformation toward nourishment",
+  "policy": {
+    "generic_superhero_powers": false,
+    "destroy_the_gift": false,
+    "force_reunion_forever": false,
+    "answer": "Change how the gift is used. Carry memory home and share it rather than forcing it to repeat forever.",
+    "note": "Subtle material and relational transformations. Myth lives through choices, recurring images, and sound/material change."
+  },
+  "transformation_chain": [
+    {
+      "id": "XF_WATER_TO_STEAM",
+      "from": "clear water",
+      "to": "steam",
+      "approx_shot": "SH040_MELODY_OPENS_HISTORY",
+      "approx_frame": 800,
+      "marker": "XF_WATER_TO_STEAM",
+      "nourishment_link": "water",
+      "emotional_read": "life made usable as power without claiming dominion over it"
+    },
+    {
+      "id": "XF_STEAM_TO_ELECTRIC_HAZE",
+      "from": "steam",
+      "to": "electric haze",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "approx_frame": 1200,
+      "marker": "XF_STEAM_TO_ELECTRIC_HAZE",
+      "nourishment_link": "time returned by machines",
+      "emotional_read": "heat becomes light-time — hours returned to bodies"
+    },
+    {
+      "id": "XF_HAZE_TO_SCREEN_GLOW",
+      "from": "electric haze",
+      "to": "screen glow",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "approx_frame": 1500,
+      "marker": "XF_HAZE_TO_SCREEN_GLOW",
+      "nourishment_link": "memory preserved through recording",
+      "emotional_read": "atmosphere becomes interface — connection and capture arrive together"
+    },
+    {
+      "id": "XF_SCREEN_TO_AMBER",
+      "from": "screen glow",
+      "to": "reflected amber light",
+      "approx_shot": "SH080_TABLE_FATHER",
+      "approx_frame": 2500,
+      "marker": "XF_SCREEN_TO_AMBER",
+      "nourishment_link": "food",
+      "emotional_read": "digital cold turns toward table warmth without ceremony"
+    },
+    {
+      "id": "XF_DRY_BOWL_TO_MEAL",
+      "from": "a dry bowl",
+      "to": "a shared meal",
+      "approx_shot": "SH120_CHANGED_NOTE",
+      "approx_frame": 2920,
+      "marker": "XF_DRY_BOWL_TO_MEAL",
+      "nourishment_link": "food",
+      "emotional_read": "vessel waits, then feeds relation — gift used as sharing"
+    },
+    {
+      "id": "XF_MECH_TO_HUMAN_MELODY",
+      "from": "a mechanical rhythm",
+      "to": "a human melody",
+      "approx_shot": "SH120_CHANGED_NOTE",
+      "approx_frame": 2897,
+      "marker": "XF_MECH_TO_HUMAN_MELODY",
+      "nourishment_link": "music changed by another person",
+      "emotional_read": "grid softens into sister's living contour"
+    },
+    {
+      "id": "XF_PRESERVED_TO_LIVING",
+      "from": "a preserved image",
+      "to": "a living variation",
+      "approx_shot": "SH110_RELEASE",
+      "approx_frame": 2850,
+      "marker": "XF_PRESERVED_TO_LIVING",
+      "nourishment_link": "memory preserved through recording",
+      "emotional_read": "archive yields to change instead of endless identical playback"
+    },
+    {
+      "id": "XF_CABLE_TO_VINE",
+      "from": "a red cable",
+      "to": "a vine",
+      "approx_shot": "SH060_CARE_AND_HARM",
+      "approx_frame": 1750,
+      "marker": "XF_CABLE_TO_VINE",
+      "nourishment_link": "water",
+      "emotional_read": "tech line becomes growing line — connection as life, not only extraction"
+    },
+    {
+      "id": "XF_VINE_TO_PATH",
+      "from": "a vine",
+      "to": "a line of movement through the world",
+      "approx_shot": "SH070_ZONE_PASSAGE",
+      "approx_frame": 2100,
+      "marker": "XF_VINE_TO_PATH",
+      "nourishment_link": "time returned by machines",
+      "emotional_read": "growth becomes path — pilgrimage, not power display"
+    }
+  ],
+  "nourishment_tracks": [
+    {
+      "id": "NTR_FOOD",
+      "domain": "food",
+      "throughline": "Dry bowl / untouched bowls -> shared meal at the table; gift feeds relation.",
+      "key_markers": ["XF_DRY_BOWL_TO_MEAL", "XF_SCREEN_TO_AMBER"],
+      "forced_production_risk": "Treat people as endless providers of comfort."
+    },
+    {
+      "id": "NTR_WATER",
+      "domain": "water",
+      "throughline": "Clear water -> steam -> haze; stain that only reads as wine under amber.",
+      "key_markers": ["XF_WATER_TO_STEAM", "XF_CABLE_TO_VINE"],
+      "forced_production_risk": "Divert every flow into output; leave nothing to drink."
+    },
+    {
+      "id": "NTR_TIME",
+      "domain": "time returned by machines",
+      "throughline": "Electric relief returns hours — dance possible; empty chair shows uneven return.",
+      "key_markers": ["XF_STEAM_TO_ELECTRIC_HAZE", "XF_VINE_TO_PATH"],
+      "forced_production_risk": "Schedule every returned hour so nothing is free."
+    },
+    {
+      "id": "NTR_SPEECH",
+      "domain": "speech restored through assistance",
+      "throughline": "Assistive synthetic voice for the living; distinct from harvested/reconstructed dead speech.",
+      "key_markers": ["XF_HAZE_TO_SCREEN_GLOW"],
+      "forced_production_risk": "Prefer controllable reconstructed voice over living assisted speech."
+    },
+    {
+      "id": "NTR_MEMORY",
+      "domain": "memory preserved through recording",
+      "throughline": "Archive preserves; shadow begins when preservation becomes forced identical replay.",
+      "key_markers": ["XF_HAZE_TO_SCREEN_GLOW", "XF_PRESERVED_TO_LIVING"],
+      "forced_production_risk": "Harvest voices; loop the father until he cannot surprise."
+    },
+    {
+      "id": "NTR_MUSIC",
+      "domain": "music changed by another person",
+      "throughline": "Father's unfinished melody -> sister's altered note; living variation at the end.",
+      "key_markers": ["XF_MECH_TO_HUMAN_MELODY", "XF_PRESERVED_TO_LIVING"],
+      "forced_production_risk": "Quantize the family melody into a too-perfect memorial loop."
+    }
+  ],
+  "forced_production_parallels": [
+    {
+      "id": "FP_WORKERS_MEASURED",
+      "image": "workers being measured",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "approx_frame": 1350,
+      "marker": "FP_WORKERS_MEASURED",
+      "parallel_to": "Oenotropae treated as resource",
+      "oino_echo": "Judging blocks/monitors score bodies instead of seeing needs."
+    },
+    {
+      "id": "FP_OENOTROPAE_RESOURCE",
+      "image": "Oenotropae being treated as a resource",
+      "approx_shot": "SH040_MELODY_OPENS_HISTORY",
+      "approx_frame": 950,
+      "marker": "FP_OENOTROPAE_RESOURCE",
+      "parallel_to": "workers being measured",
+      "oino_echo": "Mythic gift imagined as endless yield — artistic warning, not literal superpower."
+    },
+    {
+      "id": "FP_VOICES_HARVESTED",
+      "image": "voices being harvested",
+      "approx_shot": "SH060_CARE_AND_HARM",
+      "approx_frame": 1850,
+      "marker": "FP_VOICES_HARVESTED",
+      "parallel_to": "Oino extracting the same reunion",
+      "oino_echo": "Cleaner corridor voices; reconstructed dead speech sold as comfort."
+    },
+    {
+      "id": "FP_OINO_EXTRACTS_REUNION",
+      "image": "Oino repeatedly extracting the same reunion from her father",
+      "approx_shot": "SH090_REWIND_ENCOUNTER",
+      "approx_frame": 2650,
+      "marker": "FP_OINO_EXTRACTS_REUNION",
+      "parallel_to": "voices being harvested",
+      "oino_echo": "Shadow: rewind/edit until the encounter cannot surprise her."
+    }
+  ],
+  "resolution": {
+    "not": "destruction of the gift",
+    "is": "changing how the gift is used",
+    "action": "Oino carries memory home and shares it rather than forcing it to repeat forever",
+    "beats": [
+      "Release the father (holy-fool action)",
+      "Return to sister; accept anger",
+      "Follow the changed note",
+      "Dry bowls become shared meal",
+      "Preserved image yields to living variation"
+    ],
+    "markers": [
+      "XF_PRESERVED_TO_LIVING",
+      "XF_DRY_BOWL_TO_MEAL",
+      "XF_MECH_TO_HUMAN_MELODY",
+      "CALL_06_TABLE_TAP_NEW_MELODY"
+    ]
+  }
+}

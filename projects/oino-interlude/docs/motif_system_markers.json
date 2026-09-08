@@ -1,0 +1,507 @@
+{
+  "schema_version": 1,
+  "system_id": "OINO_MOTIF_SYSTEM",
+  "editable": true,
+  "allow_new_symbols": false,
+  "untransformed_flags": [],
+  "markers": [
+    {
+      "name": "MOTIF_REC_PROTECTED_FRAGMENT",
+      "motif_id": "MOTIF_RECORDING",
+      "motif_name": "RECORDING",
+      "stage_id": "REC_PROTECTED_FRAGMENT",
+      "role": "first_appearance",
+      "meaning": "protected fragment",
+      "approx_shot": "SH020_ATTIC_ARCHIVE",
+      "note": "Attic / archive: a protected fragment of the unfinished melody.",
+      "links": [
+        "PROP_PlaybackDevice",
+        "audio/master.wav"
+      ]
+    },
+    {
+      "name": "MOTIF_REC_ANCESTRAL_EVIDENCE",
+      "motif_id": "MOTIF_RECORDING",
+      "motif_name": "RECORDING",
+      "stage_id": "REC_ANCESTRAL_EVIDENCE",
+      "role": "transformation",
+      "meaning": "ancestral evidence",
+      "approx_shot": "SH030_ARCHIVE_DISCOVERY",
+      "note": "Recording as proof of the ancestor's world \u2014 evidence, not yet presence.",
+      "links": [
+        "CALL_02_ARCHIVE_ANCESTOR",
+        "CLIP_ANC_CAMERA_DINNER"
+      ]
+    },
+    {
+      "name": "MOTIF_REC_SUBSTITUTE_PRESENCE",
+      "motif_id": "MOTIF_RECORDING",
+      "motif_name": "RECORDING",
+      "stage_id": "REC_SUBSTITUTE_PRESENCE",
+      "role": "transformation",
+      "meaning": "substitute for presence",
+      "approx_shot": "SH090_REWIND_ENCOUNTER",
+      "note": "Loop and rewind make the recording stand in for the living father.",
+      "links": [
+        "BLOCK_P3_RESET_MERCY",
+        "PROP_PlaybackControl"
+      ]
+    },
+    {
+      "name": "MOTIF_REC_MEMORY_SHARED",
+      "motif_id": "MOTIF_RECORDING",
+      "motif_name": "RECORDING",
+      "stage_id": "REC_MEMORY_SHARED",
+      "role": "final_meaning",
+      "meaning": "memory shared with the living",
+      "approx_shot": "SH120_CHANGED_NOTE",
+      "note": "Carried downstairs; audible to imperfect end beside living women \u2014 shared, not controlled.",
+      "links": [
+        "HF_CARRY_RECORDING_OUT",
+        "FM_AUDIO_RECORDING_IMPERFECT_END"
+      ]
+    },
+    {
+      "name": "MOTIF_HAND_CLOSES_ATTIC",
+      "motif_id": "MOTIF_HAND",
+      "motif_name": "HAND",
+      "stage_id": "HAND_CLOSES_ATTIC",
+      "role": "first_appearance",
+      "meaning": "closes the attic door",
+      "approx_shot": "SH010_CALL_TO_DINNER",
+      "note": "Hand refuses the invitation \u2014 door closes on the sister.",
+      "links": [
+        "CALL_01_SISTER_DOWNSTAIRS"
+      ]
+    },
+    {
+      "name": "MOTIF_HAND_TOUCHES_ARCHIVE",
+      "motif_id": "MOTIF_HAND",
+      "motif_name": "HAND",
+      "stage_id": "HAND_TOUCHES_ARCHIVE",
+      "role": "transformation",
+      "meaning": "touches the archive",
+      "approx_shot": "SH030_ARCHIVE_DISCOVERY",
+      "note": "Fingers on reels, plates, documents \u2014 preservation as contact.",
+      "links": [
+        "SCN_02_OINO_ARCHIVE"
+      ]
+    },
+    {
+      "name": "MOTIF_HAND_HELPS_OR_FAILS",
+      "motif_id": "MOTIF_HAND",
+      "motif_name": "HAND",
+      "stage_id": "HAND_HELPS_OR_FAILS",
+      "role": "transformation",
+      "meaning": "helps or fails to help",
+      "approx_shot": "SH040_MELODY_OPENS_HISTORY",
+      "note": "Ancestor/worker hands: care possible; also the choice to follow melody instead.",
+      "links": [
+        "ANC_02_MENDS_SLEEVE",
+        "ANC_05_FOLLOWS_MELODY"
+      ]
+    },
+    {
+      "name": "MOTIF_HAND_REWINDS_GRIPS",
+      "motif_id": "MOTIF_HAND",
+      "motif_name": "HAND",
+      "stage_id": "HAND_REWINDS_GRIPS",
+      "role": "transformation",
+      "meaning": "rewinds and grips the control",
+      "approx_shot": "SH090_REWIND_ENCOUNTER",
+      "note": "Shadow hand \u2014 grip that removes spontaneity.",
+      "links": [
+        "BLOCK_P3_FINDS_CONTROL",
+        "KNOCK_OINO_HAND_REMAINS"
+      ]
+    },
+    {
+      "name": "MOTIF_HAND_RELEASES_CONTROL",
+      "motif_id": "MOTIF_HAND",
+      "motif_name": "HAND",
+      "stage_id": "HAND_RELEASES_CONTROL",
+      "role": "transformation",
+      "meaning": "releases the control",
+      "approx_shot": "SH110_RELEASE",
+      "note": "Holy-fool hinge: fingers lift while wanting remains.",
+      "links": [
+        "HF_RELEASE_CONTROL"
+      ]
+    },
+    {
+      "name": "MOTIF_HAND_ACCEPTS_BOWL",
+      "motif_id": "MOTIF_HAND",
+      "motif_name": "HAND",
+      "stage_id": "HAND_ACCEPTS_BOWL",
+      "role": "transformation",
+      "meaning": "accepts the bowl",
+      "approx_shot": "SH120_CHANGED_NOTE",
+      "note": "Receives nourishment beside the sister.",
+      "links": [
+        "FM_ACCEPTS_BOWL"
+      ]
+    },
+    {
+      "name": "MOTIF_HAND_FOLLOWS_SISTER",
+      "motif_id": "MOTIF_HAND",
+      "motif_name": "HAND",
+      "stage_id": "HAND_FOLLOWS_SISTER",
+      "role": "final_meaning",
+      "meaning": "follows the sister's rhythm",
+      "approx_shot": "SH120_CHANGED_NOTE",
+      "note": "Hand/tap joins living variation \u2014 participation, not archive correction.",
+      "links": [
+        "FM_OINO_FOLLOWS",
+        "CALL_06_TABLE_TAP_NEW_MELODY"
+      ]
+    },
+    {
+      "name": "MOTIF_DOOR_EXCLUDES_SISTER",
+      "motif_id": "MOTIF_DOORWAY",
+      "motif_name": "DOORWAY",
+      "stage_id": "DOOR_EXCLUDES_SISTER",
+      "role": "first_appearance",
+      "meaning": "excludes the sister",
+      "approx_shot": "SH010_CALL_TO_DINNER",
+      "note": "Attic door shut \u2014 ordinary invitation kept out.",
+      "links": [
+        "CALL_01_SISTER_DOWNSTAIRS"
+      ]
+    },
+    {
+      "name": "MOTIF_DOOR_FACTORY_GATE",
+      "motif_id": "MOTIF_DOORWAY",
+      "motif_name": "DOORWAY",
+      "stage_id": "DOOR_FACTORY_GATE",
+      "role": "transformation",
+      "meaning": "becomes a factory gate",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "note": "Industrial threshold \u2014 labour world as another kind of closed gate.",
+      "links": [
+        "CALL_03_FACTORY_ALARM",
+        "ARCH_IndustrialFrame_A"
+      ]
+    },
+    {
+      "name": "MOTIF_DOOR_ZONE_THRESHOLD",
+      "motif_id": "MOTIF_DOORWAY",
+      "motif_name": "DOORWAY",
+      "stage_id": "DOOR_ZONE_THRESHOLD",
+      "role": "transformation",
+      "meaning": "becomes the Zone threshold",
+      "approx_shot": "SH070_ZONE_PASSAGE",
+      "note": "Uncertain destination doors; ancestor at exit with no guarantee of return.",
+      "links": [
+        "ZONE_Door_A",
+        "ANC_08_ZONE_EXIT_NO_CERTAINTY",
+        "THR_01_MAP_MISMATCH"
+      ]
+    },
+    {
+      "name": "MOTIF_DOOR_ROUTE_HOME",
+      "motif_id": "MOTIF_DOORWAY",
+      "motif_name": "DOORWAY",
+      "stage_id": "DOOR_ROUTE_HOME",
+      "role": "transformation",
+      "meaning": "becomes the route home",
+      "approx_shot": "SH110_RELEASE",
+      "note": "Look back without commanding return \u2014 doorway as path toward sister.",
+      "links": [
+        "HF_LOOK_BACK_THRESHOLD",
+        "CAM_TABLE_DOORWAY_LOOKBACK"
+      ]
+    },
+    {
+      "name": "MOTIF_DOOR_REMAINS_OPEN",
+      "motif_id": "MOTIF_DOORWAY",
+      "motif_name": "DOORWAY",
+      "stage_id": "DOOR_REMAINS_OPEN",
+      "role": "final_meaning",
+      "meaning": "remains open at the end",
+      "approx_shot": "SH120_CHANGED_NOTE",
+      "note": "Final story image: open doorway \u2014 invitation kept open.",
+      "links": [
+        "FM_OPEN_DOORWAY"
+      ]
+    },
+    {
+      "name": "MOTIF_BOWL_WAITING",
+      "motif_id": "MOTIF_BOWL_TABLE",
+      "motif_name": "BOWL AND TABLE",
+      "stage_id": "BOWL_WAITING",
+      "role": "first_appearance",
+      "meaning": "waiting",
+      "approx_shot": "SH010_CALL_TO_DINNER",
+      "note": "Two bowls wait downstairs while Oino delays.",
+      "links": [
+        "OPEN_TWO_BOWLS"
+      ]
+    },
+    {
+      "name": "MOTIF_BOWL_NOURISHMENT",
+      "motif_id": "MOTIF_BOWL_TABLE",
+      "motif_name": "BOWL AND TABLE",
+      "stage_id": "BOWL_NOURISHMENT",
+      "role": "transformation",
+      "meaning": "nourishment",
+      "approx_shot": "SH080_TABLE_ARRIVAL",
+      "note": "Table centre: food, warmth, gift toward care.",
+      "links": [
+        "PROP_Bowl",
+        "TABLE_WornSurface",
+        "LIGHT_WarmHuman"
+      ]
+    },
+    {
+      "name": "MOTIF_BOWL_OINO_ABSENCE",
+      "motif_id": "MOTIF_BOWL_TABLE",
+      "motif_name": "BOWL AND TABLE",
+      "stage_id": "BOWL_OINO_ABSENCE",
+      "role": "transformation",
+      "meaning": "Oino's absence",
+      "approx_shot": "SH100_SISTER_REFLECTION",
+      "note": "Untouched place downstairs \u2014 cost already present.",
+      "links": [
+        "KNOCK_REFL_UNTOUCHED_PLACE"
+      ]
+    },
+    {
+      "name": "MOTIF_BOWL_REFLECTED_CONSEQUENCE",
+      "motif_id": "MOTIF_BOWL_TABLE",
+      "motif_name": "BOWL AND TABLE",
+      "stage_id": "BOWL_REFLECTED_CONSEQUENCE",
+      "role": "transformation",
+      "meaning": "reflected consequence",
+      "approx_shot": "SH100_SISTER_REFLECTION",
+      "note": "Sister beginning to eat alone in the table reflection.",
+      "links": [
+        "KNOCK_REFL_SISTER_EATS_ALONE",
+        "PROP_ReflectiveSurface_Sister"
+      ]
+    },
+    {
+      "name": "MOTIF_BOWL_SHARED_PARTICIPATION",
+      "motif_id": "MOTIF_BOWL_TABLE",
+      "motif_name": "BOWL AND TABLE",
+      "stage_id": "BOWL_SHARED_PARTICIPATION",
+      "role": "final_meaning",
+      "meaning": "shared participation",
+      "approx_shot": "SH120_CHANGED_NOTE",
+      "note": "Bowl accepted; melody shared \u2014 memory becomes participation.",
+      "links": [
+        "FM_ACCEPTS_BOWL",
+        "FM_OINO_FOLLOWS"
+      ]
+    },
+    {
+      "name": "MOTIF_VINE_INHERITED_LINEAGE",
+      "motif_id": "MOTIF_VINE_WATER",
+      "motif_name": "VINE AND WATER",
+      "stage_id": "VINE_INHERITED_LINEAGE",
+      "role": "first_appearance",
+      "meaning": "inherited Oino lineage",
+      "approx_shot": "SH020_ATTIC_ARCHIVE",
+      "note": "Vine / water / cup as inheritance \u2014 nourishment lineage, not lecture.",
+      "links": [
+        "ECHO_IVY_THROUGH_MACHINE",
+        "ECHO_WINE_LIGHT"
+      ]
+    },
+    {
+      "name": "MOTIF_VINE_THROUGH_MACHINES",
+      "motif_id": "MOTIF_VINE_WATER",
+      "motif_name": "VINE AND WATER",
+      "stage_id": "VINE_THROUGH_MACHINES",
+      "role": "transformation",
+      "meaning": "life growing through machines",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "note": "Roots and vines integrated with machinery / quiet architecture.",
+      "links": [
+        "ZONE_VineThroughPipe",
+        "TABLE_VineLeg",
+        "organic_growth"
+      ]
+    },
+    {
+      "name": "MOTIF_VINE_TRANSFORMATION",
+      "motif_id": "MOTIF_VINE_WATER",
+      "motif_name": "VINE AND WATER",
+      "stage_id": "VINE_TRANSFORMATION",
+      "role": "transformation",
+      "meaning": "transformation",
+      "approx_shot": "SH060_CARE_AND_HARM",
+      "note": "Gift as change of material and relation \u2014 toward nourishment.",
+      "links": [
+        "oino_transformation_language.json"
+      ]
+    },
+    {
+      "name": "MOTIF_VINE_NOURISHMENT",
+      "motif_id": "MOTIF_VINE_WATER",
+      "motif_name": "VINE AND WATER",
+      "stage_id": "VINE_NOURISHMENT",
+      "role": "transformation",
+      "meaning": "nourishment",
+      "approx_shot": "SH080_TABLE_ARRIVAL",
+      "note": "Water / juice / wine-coloured light at the meal \u2014 subtle.",
+      "links": [
+        "PROP_Cup",
+        "LIGHT_WarmHuman"
+      ]
+    },
+    {
+      "name": "MOTIF_VINE_RELEASE_RIGID",
+      "motif_id": "MOTIF_VINE_WATER",
+      "motif_name": "VINE AND WATER",
+      "stage_id": "VINE_RELEASE_RIGID",
+      "role": "final_meaning",
+      "meaning": "release from rigid structures",
+      "approx_shot": "SH110_RELEASE",
+      "note": "Optional vine loosen / birds / breath \u2014 release from loop and machine grip.",
+      "links": [
+        "REL_VINE_LOOSENS",
+        "REL_DUST_TO_WHITE_BIRDS",
+        "HF_RELEASE_CONTROL"
+      ]
+    },
+    {
+      "name": "MOTIF_MASK_PERFORMING_FUTURES",
+      "motif_id": "MOTIF_MASK_THEATRE",
+      "motif_name": "MASK AND THEATRE",
+      "stage_id": "MASK_PERFORMING_FUTURES",
+      "role": "first_appearance",
+      "meaning": "people performing futures",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "note": "Crowds / labour / possible futures staged as performance without era labels.",
+      "links": [
+        "ECHO_RED_GARMENT",
+        "revolution_passes"
+      ]
+    },
+    {
+      "name": "MOTIF_MASK_ARTIFICIAL_SELF",
+      "motif_id": "MOTIF_MASK_THEATRE",
+      "motif_name": "MASK AND THEATRE",
+      "stage_id": "MASK_ARTIFICIAL_SELF",
+      "role": "transformation",
+      "meaning": "artificial versions of the self",
+      "approx_shot": "SH090_REWIND_ENCOUNTER",
+      "note": "Quantized laugh / locked attention \u2014 self as perfect playback.",
+      "links": [
+        "BLOCK_P4_LAUGH_SAME_FRAME",
+        "ECHO_MASK_BLACK_GLASS"
+      ]
+    },
+    {
+      "name": "MOTIF_MASK_DIONYSIAN_PRESENCE",
+      "motif_id": "MOTIF_MASK_THEATRE",
+      "motif_name": "MASK AND THEATRE",
+      "stage_id": "MASK_DIONYSIAN_PRESENCE",
+      "role": "transformation",
+      "meaning": "Dionysian presence",
+      "approx_shot": "SH070_ZONE_PASSAGE",
+      "note": "Optional edge figure / damaged frame \u2014 presence without explanation.",
+      "links": [
+        "EDGE_DionysianUncertainty",
+        "ZONE_DamagedFrame_PossibleDionysus"
+      ]
+    },
+    {
+      "name": "MOTIF_MASK_FATHER_AS_PERSON",
+      "motif_id": "MOTIF_MASK_THEATRE",
+      "motif_name": "MASK AND THEATRE",
+      "stage_id": "MASK_FATHER_AS_PERSON",
+      "role": "final_meaning",
+      "meaning": "the father as a person rather than a perfect performance",
+      "approx_shot": "SH110_RELEASE",
+      "note": "Tender, personal, allowed to finish and leave \u2014 not a flawless loop.",
+      "links": [
+        "HF_FATHER_TENDER_PERSONAL",
+        "HF_FATHER_FINISHES_MELODY"
+      ]
+    },
+    {
+      "name": "MOTIF_MELODY_INVITATION_REFUSED",
+      "motif_id": "MOTIF_MELODY_CALL",
+      "motif_name": "MELODY AND CALL TO DINNER",
+      "stage_id": "MELODY_INVITATION_REFUSED",
+      "role": "first_appearance",
+      "meaning": "invitation refused",
+      "approx_shot": "SH010_CALL_TO_DINNER",
+      "note": "Sister calls; Oino does not come.",
+      "links": [
+        "CALL_01_SISTER_DOWNSTAIRS"
+      ]
+    },
+    {
+      "name": "MOTIF_MELODY_ARCHIVE_OPENED",
+      "motif_id": "MOTIF_MELODY_CALL",
+      "motif_name": "MELODY AND CALL TO DINNER",
+      "stage_id": "MELODY_ARCHIVE_OPENED",
+      "role": "transformation",
+      "meaning": "archive opened",
+      "approx_shot": "SH030_ARCHIVE_DISCOVERY",
+      "note": "Call returns as ancestral / archive recording.",
+      "links": [
+        "CALL_02_ARCHIVE_ANCESTOR"
+      ]
+    },
+    {
+      "name": "MOTIF_MELODY_INDUSTRIAL_RHYTHM",
+      "motif_id": "MOTIF_MELODY_CALL",
+      "motif_name": "MELODY AND CALL TO DINNER",
+      "stage_id": "MELODY_INDUSTRIAL_RHYTHM",
+      "role": "transformation",
+      "meaning": "industrial rhythm",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "note": "Factory / terminal echoes of the dinner call.",
+      "links": [
+        "CALL_03_FACTORY_ALARM",
+        "CALL_04_TERMINAL_NOTIFICATION"
+      ]
+    },
+    {
+      "name": "MOTIF_MELODY_MEMORIAL_LOOP",
+      "motif_id": "MOTIF_MELODY_CALL",
+      "motif_name": "MELODY AND CALL TO DINNER",
+      "stage_id": "MELODY_MEMORIAL_LOOP",
+      "role": "transformation",
+      "meaning": "memorial loop",
+      "approx_shot": "SH090_REWIND_ENCOUNTER",
+      "note": "Exact repetition / locked laugh \u2014 melody as memorial control.",
+      "links": [
+        "BLOCK_P4_LAUGH_SAME_FRAME",
+        "OPEN_MELODY_EXACT"
+      ]
+    },
+    {
+      "name": "MOTIF_MELODY_INTERRUPTION",
+      "motif_id": "MOTIF_MELODY_CALL",
+      "motif_name": "MELODY AND CALL TO DINNER",
+      "stage_id": "MELODY_INTERRUPTION",
+      "role": "transformation",
+      "meaning": "interruption",
+      "approx_shot": "SH100_SISTER_REFLECTION",
+      "note": "Irregular knock breaks artificial rhythm \u2014 not a jump scare.",
+      "links": [
+        "KNOCK_INTERRUPT",
+        "CALL_05_ZONE_KNOCK"
+      ]
+    },
+    {
+      "name": "MOTIF_MELODY_LIVING_VARIATION",
+      "motif_id": "MOTIF_MELODY_CALL",
+      "motif_name": "MELODY AND CALL TO DINNER",
+      "stage_id": "MELODY_LIVING_VARIATION",
+      "role": "final_meaning",
+      "meaning": "living variation",
+      "approx_shot": "SH120_CHANGED_NOTE",
+      "note": "Sister changes the note; Oino follows; living melody carries the final sound.",
+      "links": [
+        "FM_SISTER_CHANGES_NOTE",
+        "CALL_06_TABLE_TAP_NEW_MELODY",
+        "FM_AUDIO_LIVING_CARRIES"
+      ]
+    }
+  ]
+}

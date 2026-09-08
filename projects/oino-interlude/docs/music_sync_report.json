@@ -1,0 +1,501 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-07T23:16:26.650495+00:00",
+  "policy": {
+    "cut_to_every_beat": false,
+    "drive_facial_performance_from_amplitude": false,
+    "drive_oino_decisions_from_amplitude": false,
+    "drive_every_camera_cut_from_amplitude": false,
+    "audio_reactive_secondary_only": true,
+    "characters_must_listen": true,
+    "note": "Broad emotional changes only. Characters listen to the music and each other \u2014 amplitude does not puppeteer faces, choices, or every cut."
+  },
+  "preview": {
+    "status": "created",
+    "path": "renders/preview/music_sync_preview.mp4",
+    "audio": "full",
+    "resolution": [
+      960,
+      540
+    ]
+  },
+  "counts": {
+    "cues_total": 37,
+    "movements": 22,
+    "automatic": 13,
+    "manually_approved": 0,
+    "pending_manual": 9
+  },
+  "cues": [
+    {
+      "cue": "CUE_ENTRANCE",
+      "id": "CUE_ENTRANCE",
+      "kind": "broad_cue",
+      "frame": 1,
+      "time_seconds": 0.0,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "World / archive entrance \u2014 music breathes in"
+    },
+    {
+      "cue": "AUDIO_START",
+      "id": "AUDIO_START",
+      "kind": "structural",
+      "frame": 1,
+      "time_seconds": 0.0,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "First sample of mixed timeline"
+    },
+    {
+      "cue": "NARRATION_START",
+      "id": "NARRATION_START",
+      "kind": "structural",
+      "frame": 1,
+      "time_seconds": 0.0,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "Start of archive monologue (embedded estimate \u2014 edit if stem arrives)"
+    },
+    {
+      "cue": "watcher and singularity",
+      "id": "NAR_WATCHER_SINGULARITY",
+      "kind": "narration",
+      "frame": 180,
+      "time_seconds": 7.458333,
+      "source": "frame_hint:180|anchor:NARRATION_START",
+      "resolve_method": "frame_hint",
+      "approval": "pending_manual",
+      "link_shots": [
+        "SH020_FATHERS_TAPE"
+      ],
+      "note": null
+    },
+    {
+      "cue": "CUE_KNOCK",
+      "id": "CUE_KNOCK",
+      "kind": "broad_cue",
+      "frame": 307,
+      "time_seconds": 12.780272,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "Sister's call-to-dinner knock (emotional trigger)"
+    },
+    {
+      "cue": "room tone and distant call",
+      "id": "MUS_ROOM_TONE_CALL",
+      "kind": "music",
+      "frame": 307,
+      "time_seconds": 12.75,
+      "source": "CUE_KNOCK",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "CUE_FIRST_MELODY",
+      "id": "CUE_FIRST_MELODY",
+      "kind": "broad_cue",
+      "frame": 343,
+      "time_seconds": 14.280272,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "First clear melodic statement (broad)"
+    },
+    {
+      "cue": "father's unfinished phrase",
+      "id": "MUS_FATHER_UNFINISHED",
+      "kind": "music",
+      "frame": 343,
+      "time_seconds": 14.25,
+      "source": "CUE_FIRST_MELODY",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "first Dionysus leitmotif",
+      "id": "MUS_DIONYSUS_LEITMOTIF_FIRST",
+      "kind": "music",
+      "frame": 391,
+      "time_seconds": 16.25,
+      "source": "CUE_FIRST_MELODY+DIONYSUS_LEITMOTIF",
+      "resolve_method": "audio_marker",
+      "approval": "pending_manual",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "archive discovery",
+      "id": "NAR_ARCHIVE_DISCOVERY",
+      "kind": "narration",
+      "frame": 520,
+      "time_seconds": 21.625,
+      "source": "frame_hint:520|anchor:CUE_ENTRANCE",
+      "resolve_method": "frame_hint",
+      "approval": "pending_manual",
+      "link_shots": [
+        "SH030_ARCHIVE_DISCOVERY"
+      ],
+      "note": null
+    },
+    {
+      "cue": "CUE_HARMONIC_CHANGE",
+      "id": "CUE_HARMONIC_CHANGE",
+      "kind": "broad_cue",
+      "frame": 746,
+      "time_seconds": 31.091519,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "First major section / harmonic turn"
+    },
+    {
+      "cue": "steam and labour pulse",
+      "id": "MUS_STEAM_LABOUR",
+      "kind": "music",
+      "frame": 746,
+      "time_seconds": 31.041667,
+      "source": "CUE_HARMONIC_CHANGE",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "ascent and anticipation",
+      "id": "NAR_ASCENT_ANTICIPATION",
+      "kind": "narration",
+      "frame": 746,
+      "time_seconds": 31.041667,
+      "source": "frame_hint:746|anchor:CUE_HARMONIC_CHANGE",
+      "resolve_method": "frame_hint",
+      "approval": "pending_manual",
+      "link_shots": [
+        "SH040_MELODY_OPENS_HISTORY"
+      ],
+      "note": null
+    },
+    {
+      "cue": "NARRATION_END",
+      "id": "NARRATION_END",
+      "kind": "structural",
+      "frame": 746,
+      "time_seconds": 31.091519,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "End of primary narration span (editable; not auto-locked to beats)"
+    },
+    {
+      "cue": "electric release and dance",
+      "id": "MUS_ELECTRIC_DANCE",
+      "kind": "music",
+      "frame": 946,
+      "time_seconds": 39.375,
+      "source": "CUE_HARMONIC_CHANGE",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "CUE_LOOP",
+      "id": "CUE_LOOP",
+      "kind": "broad_cue",
+      "frame": 1131,
+      "time_seconds": 47.113288,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "Memorial / repeating chorus loop character"
+    },
+    {
+      "cue": "future voice and memorial presence",
+      "id": "MUS_FUTURE_MEMORIAL",
+      "kind": "music",
+      "frame": 1131,
+      "time_seconds": 47.083333,
+      "source": "CUE_LOOP",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "Babel and Icarus",
+      "id": "NAR_BABEL_ICARUS",
+      "kind": "narration",
+      "frame": 1131,
+      "time_seconds": 47.083333,
+      "source": "frame_hint:1131|anchor:CUE_LOOP",
+      "resolve_method": "frame_hint",
+      "approval": "pending_manual",
+      "link_shots": [
+        "SH050_CHANGING_WORLD"
+      ],
+      "note": "Do not literalize every myth reference \u2014 broad emotional register only."
+    },
+    {
+      "cue": "digital quantization",
+      "id": "MUS_DIGITAL_QUANT",
+      "kind": "music",
+      "frame": 1531,
+      "time_seconds": 63.75,
+      "source": "CUE_LOOP",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "chaos and self-projection",
+      "id": "NAR_CHAOS_SELF_PROJECTION",
+      "kind": "narration",
+      "frame": 1600,
+      "time_seconds": 66.625,
+      "source": "frame_hint:1600|anchor:CUE_LOOP",
+      "resolve_method": "frame_hint",
+      "approval": "pending_manual",
+      "link_shots": [
+        "SH060_CARE_AND_HARM",
+        "SH061_OINO_SEES_OWN_RECORDING"
+      ],
+      "note": null
+    },
+    {
+      "cue": "labyrinth and ancestor failure",
+      "id": "NAR_LABYRINTH_ANCESTOR_FAILURE",
+      "kind": "narration",
+      "frame": 2000,
+      "time_seconds": 83.291667,
+      "source": "frame_hint:2000|anchor:CUE_REST",
+      "resolve_method": "frame_hint",
+      "approval": "pending_manual",
+      "link_shots": [
+        "SH070_ZONE_PASSAGE"
+      ],
+      "note": null
+    },
+    {
+      "cue": "Zone suspension",
+      "id": "MUS_ZONE_SUSPENSION",
+      "kind": "music",
+      "frame": 2225,
+      "time_seconds": 92.666667,
+      "source": "CUE_REST",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "CUE_REST",
+      "id": "CUE_REST",
+      "kind": "broad_cue",
+      "frame": 2425,
+      "time_seconds": 101.053243,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "Breath / bridge rest \u2014 do not fill with busy cuts"
+    },
+    {
+      "cue": "table warmth",
+      "id": "MUS_TABLE_WARMTH",
+      "kind": "music",
+      "frame": 2425,
+      "time_seconds": 101.0,
+      "source": "CUE_REST",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "rewind loop",
+      "id": "MUS_REWIND_LOOP",
+      "kind": "music",
+      "frame": 2600,
+      "time_seconds": 108.291667,
+      "source": "CUE_REST",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "descent and captivity",
+      "id": "NAR_DESCENT_CAPTIVITY",
+      "kind": "narration",
+      "frame": 2600,
+      "time_seconds": 108.291667,
+      "source": "frame_hint:2600|anchor:CUE_REST",
+      "resolve_method": "frame_hint",
+      "approval": "pending_manual",
+      "link_shots": [
+        "SH090_REWIND_ENCOUNTER"
+      ],
+      "note": null
+    },
+    {
+      "cue": "irregular knock",
+      "id": "MUS_IRREGULAR_KNOCK",
+      "kind": "music",
+      "frame": 2723,
+      "time_seconds": 113.416667,
+      "source": "CUE_RELEASE",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "Table knock interrupt \u2014 cousin to CUE_KNOCK; not a jump scare."
+    },
+    {
+      "cue": "CUE_RELEASE",
+      "id": "CUE_RELEASE",
+      "kind": "broad_cue",
+      "frame": 2743,
+      "time_seconds": 114.311837,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "Release toward sister / holy-fool letting go"
+    },
+    {
+      "cue": "release",
+      "id": "MUS_RELEASE",
+      "kind": "music",
+      "frame": 2743,
+      "time_seconds": 114.25,
+      "source": "CUE_RELEASE",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "cautionary tale and threshold",
+      "id": "NAR_CAUTIONARY_THRESHOLD",
+      "kind": "narration",
+      "frame": 2743,
+      "time_seconds": 114.25,
+      "source": "frame_hint:2743|anchor:CUE_RELEASE",
+      "resolve_method": "frame_hint",
+      "approval": "pending_manual",
+      "link_shots": [
+        "SH100_SISTER_REFLECTION",
+        "SH110_RELEASE"
+      ],
+      "note": null
+    },
+    {
+      "cue": "CUE_FINAL_PHRASE",
+      "id": "CUE_FINAL_PHRASE",
+      "kind": "broad_cue",
+      "frame": 2897,
+      "time_seconds": 120.723408,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "Last living phrase before title card"
+    },
+    {
+      "cue": "sister's changed melody",
+      "id": "MUS_SISTER_CHANGED_MELODY",
+      "kind": "music",
+      "frame": 2897,
+      "time_seconds": 120.666667,
+      "source": "CUE_FINAL_PHRASE",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "title-card resolve",
+      "id": "MUS_TITLE_CARD_RESOLVE",
+      "kind": "music",
+      "frame": 3051,
+      "time_seconds": 127.083333,
+      "source": "TITLE_CARD_START",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": null
+    },
+    {
+      "cue": "TITLE_CARD_START",
+      "id": "TITLE_CARD_START",
+      "kind": "structural",
+      "frame": 3051,
+      "time_seconds": 127.134979,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "One Of God's Fools card begins (default last 4s \u2014 editable)"
+    },
+    {
+      "cue": "FINAL_FRAME",
+      "id": "FINAL_FRAME",
+      "kind": "structural",
+      "frame": 3148,
+      "time_seconds": 131.134979,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "Picture end = ceil(duration*fps) alignment"
+    },
+    {
+      "cue": "MUSIC_END",
+      "id": "MUSIC_END",
+      "kind": "structural",
+      "frame": 3148,
+      "time_seconds": 131.134979,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "Last frame of music / mixed master"
+    },
+    {
+      "cue": "TITLE_CARD_END",
+      "id": "TITLE_CARD_END",
+      "kind": "structural",
+      "frame": 3148,
+      "time_seconds": 131.134979,
+      "source": "docs/audio_markers.json",
+      "resolve_method": "audio_marker",
+      "approval": "automatic",
+      "link_shots": [],
+      "note": "Title card holds through FINAL_FRAME"
+    }
+  ],
+  "reactive_controls": [
+    "steam vibration",
+    "cable sway",
+    "screen brightness",
+    "water ripples",
+    "dust density",
+    "faint table resonance"
+  ]
+}

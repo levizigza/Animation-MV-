@@ -1,0 +1,32 @@
+{
+  "script": "music_sync",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:15:21.267571+00:00",
+  "finished_at": "2026-09-07T23:15:38.348450+00:00",
+  "counts": {
+    "created": 6,
+    "reused": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/music_sync_approvals.json",
+    "docs/music_sync_reactive_envelopes.json",
+    "cache/music_sync_cues.srt",
+    "renders/preview/music_sync_preview.mp4",
+    "docs/music_sync_report.json",
+    "docs/music_sync_report.md"
+  ],
+  "reused": [
+    "docs/music_sync.json",
+    "docs/audio_markers.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Dionysus leitmotif still MUSIC_REVIEW_REQUIRED",
+    "Broad cues only; reactive=secondary; faces/decisions/cuts not amplitude-driven"
+  ]
+}

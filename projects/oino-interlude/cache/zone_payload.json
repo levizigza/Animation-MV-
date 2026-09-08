@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_07_ZONE",
+  "fps": 24,
+  "scene_frame_start": 1,
+  "scene_frame_end": 360,
+  "nature": {
+    "is": "passage between archive, memory, simulation, spiritual encounter, and physical space",
+    "resolved": false,
+    "final_answer_allowed": false
+  },
+  "policy": {
+    "villain": false,
+    "technical_explanation": false,
+    "wish_room_diagram": false,
+    "final_answer_what_zone_is": false,
+    "patient_camera": true,
+    "hold_empty_space_after_oino_exits_frame": true,
+    "note": "Nature remains unresolved. Goal stays simple: follow the unfinished melody."
+  },
+  "oino_goal": "follow the unfinished melody",
+  "collections": [
+    "ZONE_PASSAGE",
+    "ZONE_WATER",
+    "ZONE_DEBRIS",
+    "ZONE_DOORS",
+    "ZONE_ORGANIC_MACHINE",
+    "ZONE_LIGHT_UNSOURCED",
+    "ZONE_AUDIO_WRONG",
+    "ZONE_THRESHOLDS",
+    "ZONE_CAMERAS",
+    "ZONE_PROXIES",
+    "ZONE_DIONYSUS_ECHO"
+  ],
+  "elements": {
+    "shallow_water": [
+      "ZONE_ShallowWater"
+    ],
+    "industrial_debris": [
+      "ZONE_Debris_A",
+      "ZONE_Debris_B",
+      "ZONE_Debris_C"
+    ],
+    "abandoned_tools": [
+      "ZONE_Tool_Abandoned_A",
+      "ZONE_Tool_Abandoned_B"
+    ],
+    "doors_uncertain": [
+      "ZONE_Door_A",
+      "ZONE_Door_B",
+      "ZONE_Door_C"
+    ],
+    "roots_vines_machinery": [
+      "ZONE_VineThroughPipe",
+      "ZONE_RootMachine"
+    ],
+    "sound_reflections_wrong": [
+      "ZONE_AUDIO_WrongReflection"
+    ],
+    "irregular_knock": [
+      "ZONE_AUDIO_IrregularKnock"
+    ],
+    "unsourced_red_amber_light": [
+      "ZONE_LIGHT_AmberUnsourced"
+    ],
+    "table_glimpse": [
+      "ZONE_TableGlimpse"
+    ],
+    "distant_laugh": [
+      "ZONE_AUDIO_DistantLaugh"
+    ],
+    "damaged_frame_dionysus_echo": [
+      "ZONE_DamagedFrame_PossibleDionysus"
+    ]
+  },
+  "thresholds": [
+    {
+      "id": "THR_01_MAP_MISMATCH",
+      "order": 1,
+      "certainty_removed": "the map no longer matches the corridor",
+      "frame": 48,
+      "marker": "THR_01_MAP_MISMATCH",
+      "staging": "Map prop / corridor geometry disagree; patient wide hold."
+    },
+    {
+      "id": "THR_02_PHOTO_UNPROVEN",
+      "order": 2,
+      "certainty_removed": "a photograph no longer proves where it was taken",
+      "frame": 96,
+      "marker": "THR_02_PHOTO_UNPROVEN",
+      "staging": "Photograph in hand; background refuses to match; soft focus edges."
+    },
+    {
+      "id": "THR_03_VOICE_UNCLASSIFIED",
+      "order": 3,
+      "certainty_removed": "the voice may be living or reconstructed",
+      "frame": 144,
+      "marker": "THR_03_VOICE_UNCLASSIFIED",
+      "staging": "Melody/voice continues; no label; ancestor-origin vs reconstructed ambiguity."
+    },
+    {
+      "id": "THR_04_REFLECTION_LATE",
+      "order": 4,
+      "certainty_removed": "her reflection responds a fraction late",
+      "frame": 192,
+      "marker": "THR_04_REFLECTION_LATE",
+      "staging": "Shallow water / glass; reflection lag only a few frames \u2014 not a jump scare."
+    },
+    {
+      "id": "THR_05_ANCESTOR_INCOMPLETE",
+      "order": 5,
+      "certainty_removed": "the ancestor's guidance becomes incomplete",
+      "frame": 240,
+      "marker": "THR_05_ANCESTOR_INCOMPLETE",
+      "staging": "Zone exit silhouette / incomplete warning; no certainty offered."
+    }
+  ],
+  "events": [
+    {
+      "id": "ZONE_KNOCK",
+      "frame": 120,
+      "marker": "ZONE_IRREGULAR_KNOCK",
+      "note": "Irregular knock \u2014 call-to-dinner cousin; not a scare sting",
+      "link": "CALL_05_ZONE_KNOCK"
+    },
+    {
+      "id": "ZONE_LAUGH",
+      "frame": 168,
+      "marker": "ZONE_DISTANT_LAUGH",
+      "note": "One distant laugh; may arrive before any visible source",
+      "link": "ECHO_LAUGH_BEFORE_SOURCE"
+    },
+    {
+      "id": "ZONE_TABLE_GLIMPSE",
+      "frame": 216,
+      "marker": "ZONE_TABLE_GLIMPSE",
+      "note": "Table glimpsed before Oino reaches it \u2014 ordinary destination ahead"
+    },
+    {
+      "id": "ZONE_DIONYSUS_FRAME",
+      "frame": 264,
+      "marker": "ZONE_DAMAGED_DIONYSUS_FRAME",
+      "note": "One damaged frame; possible Dionysus echo \u2014 do not label",
+      "link": "ECHO_ARCHIVE_FRAME_FIGURE"
+    },
+    {
+      "id": "ZONE_EMPTY_HOLD",
+      "frame": 320,
+      "marker": "ZONE_EMPTY_AFTER_OINO",
+      "note": "Oino leaves frame; camera holds empty space"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "CAM_ZONE_PATIENT_WIDE",
+      "role": "patient wide; empty space after exit"
+    },
+    {
+      "name": "CAM_ZONE_THRESHOLD",
+      "role": "threshold certainty loss"
+    },
+    {
+      "name": "CAM_ZONE_WATER",
+      "role": "shallow water / late reflection"
+    },
+    {
+      "name": "CAM_ZONE_EXIT",
+      "role": "incomplete guidance / glimpse of table beyond"
+    }
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "engine": "BLENDER_EEVEE_NEXT",
+  "blend_out": "C:\\Users\\levyz\\OneDrive\\Microsoft Copilot Chat Files\\Documents\\Music Video Maker\\projects\\oino-interlude\\scenes\\SCN_07_ZONE.blend",
+  "report_out": "C:\\Users\\levyz\\OneDrive\\Microsoft Copilot Chat Files\\Documents\\Music Video Maker\\projects\\oino-interlude\\cache\\zone_blender_report.json",
+  "reset": false
+}

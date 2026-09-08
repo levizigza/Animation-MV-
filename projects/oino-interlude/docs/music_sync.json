@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "system_id": "OINO_MUSIC_SYNC",
+  "film": "Oino (Interlude)",
+  "policy": {
+    "cut_to_every_beat": false,
+    "drive_facial_performance_from_amplitude": false,
+    "drive_oino_decisions_from_amplitude": false,
+    "drive_every_camera_cut_from_amplitude": false,
+    "audio_reactive_secondary_only": true,
+    "characters_must_listen": true,
+    "note": "Broad emotional changes only. Characters listen to the music and each other — amplitude does not puppeteer faces, choices, or every cut."
+  },
+  "audio_markers_source": "docs/audio_markers.json",
+  "reactive_controls": [
+    {
+      "id": "RX_STEAM_VIBRATION",
+      "label": "steam vibration",
+      "band": "low_mid",
+      "target": "machinery / steam volume proxies",
+      "max_influence": 0.25,
+      "drives": ["secondary_motion"]
+    },
+    {
+      "id": "RX_CABLE_SWAY",
+      "label": "cable sway",
+      "band": "low",
+      "target": "cable / vine-through-machine proxies",
+      "max_influence": 0.2,
+      "drives": ["secondary_motion"]
+    },
+    {
+      "id": "RX_SCREEN_BRIGHTNESS",
+      "label": "screen brightness",
+      "band": "high",
+      "target": "monitor / black-glass emission",
+      "max_influence": 0.35,
+      "drives": ["secondary_motion"]
+    },
+    {
+      "id": "RX_WATER_RIPPLES",
+      "label": "water ripples",
+      "band": "mid",
+      "target": "ZONE_ShallowWater / table reflection",
+      "max_influence": 0.3,
+      "drives": ["secondary_motion"]
+    },
+    {
+      "id": "RX_DUST_DENSITY",
+      "label": "dust density",
+      "band": "low",
+      "target": "attic / archive volume density",
+      "max_influence": 0.2,
+      "drives": ["secondary_motion"]
+    },
+    {
+      "id": "RX_TABLE_RESONANCE",
+      "label": "faint table resonance",
+      "band": "low_mid",
+      "target": "TABLE_WornSurface micro-vibrate",
+      "max_influence": 0.15,
+      "drives": ["secondary_motion"]
+    }
+  ],
+  "forbidden_reactive_targets": [
+    "facial_performance",
+    "oino_decision_beats",
+    "primary_camera_cuts"
+  ],
+  "narration_movements": [
+    {
+      "id": "NAR_ARCHIVE_DISCOVERY",
+      "label": "archive discovery",
+      "anchor_cue": "CUE_ENTRANCE",
+      "frame_hint": 520,
+      "link_shots": ["SH030_ARCHIVE_DISCOVERY"]
+    },
+    {
+      "id": "NAR_WATCHER_SINGULARITY",
+      "label": "watcher and singularity",
+      "anchor_cue": "NARRATION_START",
+      "frame_hint": 180,
+      "link_shots": ["SH020_FATHERS_TAPE"]
+    },
+    {
+      "id": "NAR_ASCENT_ANTICIPATION",
+      "label": "ascent and anticipation",
+      "anchor_cue": "CUE_HARMONIC_CHANGE",
+      "frame_hint": 746,
+      "link_shots": ["SH040_MELODY_OPENS_HISTORY"]
+    },
+    {
+      "id": "NAR_BABEL_ICARUS",
+      "label": "Babel and Icarus",
+      "anchor_cue": "CUE_LOOP",
+      "frame_hint": 1131,
+      "link_shots": ["SH050_CHANGING_WORLD"],
+      "note": "Do not literalize every myth reference — broad emotional register only."
+    },
+    {
+      "id": "NAR_CHAOS_SELF_PROJECTION",
+      "label": "chaos and self-projection",
+      "anchor_cue": "CUE_LOOP",
+      "frame_hint": 1600,
+      "link_shots": ["SH060_CARE_AND_HARM", "SH061_OINO_SEES_OWN_RECORDING"]
+    },
+    {
+      "id": "NAR_LABYRINTH_ANCESTOR_FAILURE",
+      "label": "labyrinth and ancestor failure",
+      "anchor_cue": "CUE_REST",
+      "frame_hint": 2000,
+      "link_shots": ["SH070_ZONE_PASSAGE"]
+    },
+    {
+      "id": "NAR_DESCENT_CAPTIVITY",
+      "label": "descent and captivity",
+      "anchor_cue": "CUE_REST",
+      "frame_hint": 2600,
+      "link_shots": ["SH090_REWIND_ENCOUNTER"]
+    },
+    {
+      "id": "NAR_CAUTIONARY_THRESHOLD",
+      "label": "cautionary tale and threshold",
+      "anchor_cue": "CUE_RELEASE",
+      "frame_hint": 2743,
+      "link_shots": ["SH100_SISTER_REFLECTION", "SH110_RELEASE"]
+    }
+  ],
+  "music_movements": [
+    {
+      "id": "MUS_ROOM_TONE_CALL",
+      "label": "room tone and distant call",
+      "anchor_cue": "CUE_KNOCK",
+      "fallback_cue": "CUE_ENTRANCE"
+    },
+    {
+      "id": "MUS_FATHER_UNFINISHED",
+      "label": "father's unfinished phrase",
+      "anchor_cue": "CUE_FIRST_MELODY"
+    },
+    {
+      "id": "MUS_DIONYSUS_LEITMOTIF_FIRST",
+      "label": "first Dionysus leitmotif",
+      "anchor_cue": "CUE_FIRST_MELODY",
+      "frame_offset": 48,
+      "leitmotif_status": "MUSIC_REVIEW_REQUIRED"
+    },
+    {
+      "id": "MUS_STEAM_LABOUR",
+      "label": "steam and labour pulse",
+      "anchor_cue": "CUE_HARMONIC_CHANGE"
+    },
+    {
+      "id": "MUS_ELECTRIC_DANCE",
+      "label": "electric release and dance",
+      "anchor_cue": "CUE_HARMONIC_CHANGE",
+      "frame_offset": 200
+    },
+    {
+      "id": "MUS_DIGITAL_QUANT",
+      "label": "digital quantization",
+      "anchor_cue": "CUE_LOOP",
+      "frame_offset": 400
+    },
+    {
+      "id": "MUS_FUTURE_MEMORIAL",
+      "label": "future voice and memorial presence",
+      "anchor_cue": "CUE_LOOP"
+    },
+    {
+      "id": "MUS_ZONE_SUSPENSION",
+      "label": "Zone suspension",
+      "anchor_cue": "CUE_REST",
+      "frame_offset": -200
+    },
+    {
+      "id": "MUS_TABLE_WARMTH",
+      "label": "table warmth",
+      "anchor_cue": "CUE_REST"
+    },
+    {
+      "id": "MUS_REWIND_LOOP",
+      "label": "rewind loop",
+      "anchor_cue": "CUE_REST",
+      "frame_offset": 175
+    },
+    {
+      "id": "MUS_IRREGULAR_KNOCK",
+      "label": "irregular knock",
+      "anchor_cue": "CUE_RELEASE",
+      "frame_offset": -20,
+      "note": "Table knock interrupt — cousin to CUE_KNOCK; not a jump scare."
+    },
+    {
+      "id": "MUS_RELEASE",
+      "label": "release",
+      "anchor_cue": "CUE_RELEASE"
+    },
+    {
+      "id": "MUS_SISTER_CHANGED_MELODY",
+      "label": "sister's changed melody",
+      "anchor_cue": "CUE_FINAL_PHRASE"
+    },
+    {
+      "id": "MUS_TITLE_CARD_RESOLVE",
+      "label": "title-card resolve",
+      "anchor_cue": "TITLE_CARD_START"
+    }
+  ]
+}

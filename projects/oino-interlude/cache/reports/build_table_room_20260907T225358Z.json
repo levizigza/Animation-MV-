@@ -1,0 +1,29 @@
+{
+  "script": "build_table_room",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:53:57.922274+00:00",
+  "finished_at": "2026-09-07T22:53:58.522044+00:00",
+  "counts": {
+    "created": 3,
+    "reused": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/table_room_markers.json",
+    "cache/table_room_payload.json",
+    "docs/table_room.md"
+  ],
+  "reused": [
+    "docs/table_room_brief.json",
+    "scripts/_blender_table_room.py"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Blender not installed - SCN_08_TABLE_ROOM.blend deferred",
+    "Table centre; warm/funny/safe first reunion; father life beyond desire; Dionysian edge optional unexplained"
+  ]
+}

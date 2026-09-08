@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "editable": true,
+  "no_self_naming_voice": true,
+  "markers": [
+    {
+      "name": "DION_ECHO_RED_GARMENT",
+      "frame": 1400,
+      "shot": "SH050_CHANGING_WORLD",
+      "echo_id": "ECHO_RED_GARMENT",
+      "enabled": false,
+      "phase_first": "MIDDLE",
+      "changes_later": true,
+      "note": "Life-force flash inside industrial anonymity."
+    },
+    {
+      "name": "DION_ECHO_LAUGH_BEFORE_SOURCE",
+      "frame": 1550,
+      "shot": "SH050_CHANGING_WORLD",
+      "echo_id": "ECHO_LAUGH_BEFORE_SOURCE",
+      "enabled": false,
+      "phase_first": "MIDDLE",
+      "changes_later": true,
+      "note": "Theatre and labour categories blur \u2014 who is laughing for whom."
+    },
+    {
+      "name": "DION_ECHO_MASK_BLACK_GLASS",
+      "frame": 1800,
+      "shot": "SH060_CARE_AND_HARM",
+      "echo_id": "ECHO_MASK_BLACK_GLASS",
+      "enabled": false,
+      "phase_first": "MIDDLE",
+      "changes_later": true,
+      "note": "Persona and machine glass share one surface."
+    },
+    {
+      "name": "DION_ECHO_IVY_THROUGH_MACHINE",
+      "frame": 900,
+      "shot": "SH040_MELODY_OPENS_HISTORY",
+      "echo_id": "ECHO_IVY_THROUGH_MACHINE",
+      "enabled": true,
+      "phase_first": "EARLY",
+      "changes_later": true,
+      "note": "Hidden in family/world objects \u2014 vine as lineage without lecture."
+    },
+    {
+      "name": "DION_ECHO_BROKEN_STAFF_GROWTH",
+      "frame": 650,
+      "shot": "SH030_ARCHIVE_DISCOVERY",
+      "echo_id": "ECHO_BROKEN_STAFF_GROWTH",
+      "enabled": false,
+      "phase_first": "EARLY",
+      "changes_later": true,
+      "note": "Inherited principle as worn tool \u2014 transformation toward nourishment."
+    },
+    {
+      "name": "DION_ECHO_WINE_LIGHT",
+      "frame": 700,
+      "shot": "SH030_ARCHIVE_DISCOVERY",
+      "echo_id": "ECHO_WINE_LIGHT",
+      "enabled": true,
+      "phase_first": "EARLY",
+      "changes_later": true,
+      "note": "Hidden in cup/water/melody adjacency."
+    },
+    {
+      "name": "DION_ECHO_HAND_PERCUSSION_DANCE",
+      "frame": 1250,
+      "shot": "SH050_CHANGING_WORLD",
+      "echo_id": "ECHO_HAND_PERCUSSION_DANCE",
+      "enabled": false,
+      "phase_first": "MIDDLE",
+      "changes_later": true,
+      "note": "Labour becoming dance without abandoning work."
+    },
+    {
+      "name": "DION_ECHO_ARCHIVE_FRAME_FIGURE",
+      "frame": 580,
+      "shot": "SH030_ARCHIVE_DISCOVERY",
+      "echo_id": "ECHO_ARCHIVE_FRAME_FIGURE",
+      "enabled": false,
+      "phase_first": "EARLY",
+      "changes_later": true,
+      "note": "Presence inside family memory without genealogy lecture."
+    },
+    {
+      "name": "DION_ECHO_ZONE_EXIT_SILHOUETTE",
+      "frame": 2350,
+      "shot": "SH070_ZONE_PASSAGE",
+      "echo_id": "ECHO_ZONE_EXIT_SILHOUETTE",
+      "enabled": false,
+      "phase_first": "ZONE",
+      "changes_later": true,
+      "note": "ZONE presence \u2014 impossible to classify."
+    },
+    {
+      "name": "DION_ECHO_WHITE_BIRDS_RELEASE",
+      "frame": 2820,
+      "shot": "SH110_RELEASE",
+      "echo_id": "ECHO_WHITE_BIRDS_RELEASE",
+      "enabled": true,
+      "phase_first": "RELEASE",
+      "changes_later": false,
+      "note": "RELEASE \u2014 transformation into changed music / freedom, not a god exit."
+    },
+    {
+      "name": "DION_PHASE_EARLY",
+      "frame": 520,
+      "phase": "EARLY",
+      "note": "Vine, water, cup, and melody \u2014 inheritance as nourishment, not announcement.",
+      "on_screen_label": null
+    },
+    {
+      "name": "DION_PHASE_MIDDLE",
+      "frame": 1131,
+      "phase": "MIDDLE",
+      "note": "Labour, dance, theatre, masks, laughter, and the breakdown of rigid categories.",
+      "on_screen_label": null
+    },
+    {
+      "name": "DION_PHASE_ZONE",
+      "frame": 2000,
+      "phase": "ZONE",
+      "note": "Impossible to classify \u2014 do not resolve as god, glitch, or ghost.",
+      "on_screen_label": null
+    },
+    {
+      "name": "DION_PHASE_TABLE",
+      "frame": 2425,
+      "phase": "TABLE",
+      "note": "Sacred without becoming a religious ceremony.",
+      "on_screen_label": null
+    },
+    {
+      "name": "DION_PHASE_RELEASE",
+      "frame": 2820,
+      "phase": "RELEASE",
+      "note": "Movement, breath, birds, or changed music \u2014 not a cameo bow.",
+      "on_screen_label": null
+    }
+  ]
+}

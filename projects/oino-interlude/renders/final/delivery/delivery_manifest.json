@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-09-07T23:49:25.452560+00:00",
+  "title": "One Of Gods Fools",
+  "date": "December 10, 2026",
+  "ending": [
+    "open doorway",
+    "final living melody",
+    "original recording reaching its imperfect ending",
+    "fade to title card",
+    "One Of Gods Fools",
+    "December 10, 2026"
+  ],
+  "outputs": {
+    "clean_version_without_subtitles": {
+      "path": "renders/final/delivery/movies/OINO_DELIVERY_CLEAN.mp4",
+      "status": "created",
+      "note": "Full audio; locked ending; no subtitles"
+    },
+    "high_quality_delivery_movie": {
+      "path": "renders/final/delivery/movies/OINO_DELIVERY_HQ.mov",
+      "status": "created",
+      "codec": "prores_ks",
+      "note": "Approved audio muxed; locked ending"
+    },
+    "h264_review_movie_with_audio": {
+      "path": "renders/final/delivery/movies/OINO_DELIVERY_REVIEW_H264.mp4",
+      "status": "created"
+    },
+    "subtitle_version": {
+      "path": null,
+      "status": "omitted",
+      "note": "No subtitle approval \u2014 clean version only"
+    },
+    "lossless_or_image_sequence_master": {
+      "path": "renders/final/delivery/master_image_sequence/oino_master_%05d.png",
+      "status": "created",
+      "frame_count": 128,
+      "frame_range": [
+        3021,
+        3148
+      ],
+      "note": "PNG sequence covering doorway\u2192title-card end; audio remains source master.wav"
+    },
+    "ten_still_frames": {
+      "path": "renders/final/delivery/stills",
+      "status": "created",
+      "count": 10,
+      "files": [
+        "renders/final/delivery/stills/still_01_f03021.png",
+        "renders/final/delivery/stills/still_02_f03035.png",
+        "renders/final/delivery/stills/still_03_f03047.png",
+        "renders/final/delivery/stills/still_04_f03050.png",
+        "renders/final/delivery/stills/still_05_f03051.png",
+        "renders/final/delivery/stills/still_06_f03059.png",
+        "renders/final/delivery/stills/still_07_f03063.png",
+        "renders/final/delivery/stills/still_08_f03099.png",
+        "renders/final/delivery/stills/still_09_f03142.png",
+        "renders/final/delivery/stills/still_10_f03148.png"
+      ]
+    },
+    "title_card_still": {
+      "path": "renders/final/delivery/stills/title_card_still.png",
+      "status": "created",
+      "note": "One Of Gods Fools / December 10, 2026"
+    }
+  },
+  "subtitle_status": "clean_only_no_subtitle_approval",
+  "qa_ok": true,
+  "preservation": "no sources deleted"
+}

@@ -1,0 +1,86 @@
+{
+  "master_seed": 20261214,
+  "effects": {
+    "ATM_ATTIC_DUST": {
+      "seed": 20271187,
+      "jitter": 0.06402,
+      "phase": 0.52597
+    },
+    "ATM_STEAM_HAZE": {
+      "seed": 20281160,
+      "jitter": 0.06737,
+      "phase": 0.98409
+    },
+    "ATM_ELECTRICAL_SMOKE": {
+      "seed": 20291133,
+      "jitter": 0.0763,
+      "phase": 0.48179
+    },
+    "ATM_SCREEN_GLOW": {
+      "seed": 20301106,
+      "jitter": 0.04409,
+      "phase": 0.4607
+    },
+    "ATM_SHALLOW_WATER": {
+      "seed": 20311079,
+      "jitter": 0.02151,
+      "phase": 0.672
+    },
+    "ATM_CONDENSATION": {
+      "seed": 20321052,
+      "jitter": 0.04553,
+      "phase": 0.11795
+    },
+    "ATM_RESTRAINED_RAIN": {
+      "seed": 20331025,
+      "jitter": 0.0275,
+      "phase": 0.37164
+    },
+    "ATM_FILM_GRAIN": {
+      "seed": 20340998,
+      "jitter": 0.07097,
+      "phase": 0.33456
+    },
+    "ATM_GATE_WEAVE": {
+      "seed": 20350971,
+      "jitter": 0.04609,
+      "phase": 0.65313
+    },
+    "ATM_VINE_GROWTH": {
+      "seed": 20360944,
+      "jitter": 0.07644,
+      "phase": 0.93196
+    },
+    "ATM_WHITE_BIRD_RELEASE": {
+      "seed": 20370917,
+      "jitter": 0.0222,
+      "phase": 0.48656
+    }
+  },
+  "transitions": {
+    "TR_DUST_TO_STEAM": {
+      "seed": 20470647,
+      "blend_curve": 0.46171
+    },
+    "TR_STEAM_TO_ELECTRIC": {
+      "seed": 20480620,
+      "blend_curve": 0.58822
+    },
+    "TR_ELECTRIC_TO_SCREEN": {
+      "seed": 20490593,
+      "blend_curve": 0.40033
+    },
+    "TR_SCREEN_TO_WATER": {
+      "seed": 20500566,
+      "blend_curve": 0.39505
+    },
+    "TR_WATER_TO_TABLE": {
+      "seed": 20510539,
+      "blend_curve": 0.43788
+    },
+    "TR_TABLE_TO_TITLE_BLACK": {
+      "seed": 20520512,
+      "blend_curve": 0.38566
+    }
+  }
+}

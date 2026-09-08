@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "editable": true,
+  "fps": 24,
+  "duration_seconds": 131.134979,
+  "final_frame": 3148,
+  "policy": {
+    "cut_to_every_beat": false,
+    "cut_to_every_transient": false,
+    "use_broad_cues_only": true,
+    "note": "Do not synchronize every edit to every beat. Markers are broad dramatic cues; refine by hand."
+  },
+  "structural_markers": [
+    {
+      "name": "AUDIO_START",
+      "time_seconds": 0.0,
+      "frame": 1,
+      "editable": false,
+      "note": "First sample of mixed timeline"
+    },
+    {
+      "name": "NARRATION_START",
+      "time_seconds": 0.0,
+      "frame": 1,
+      "editable": true,
+      "note": "Start of archive monologue (embedded estimate \u2014 edit if stem arrives)"
+    },
+    {
+      "name": "NARRATION_END",
+      "time_seconds": 31.091519,
+      "frame": 746,
+      "editable": true,
+      "note": "End of primary narration span (editable; not auto-locked to beats)"
+    },
+    {
+      "name": "MUSIC_END",
+      "time_seconds": 131.134979,
+      "frame": 3148,
+      "editable": true,
+      "note": "Last frame of music / mixed master"
+    },
+    {
+      "name": "FINAL_FRAME",
+      "time_seconds": 131.134979,
+      "frame": 3148,
+      "editable": true,
+      "note": "Picture end = ceil(duration*fps) alignment"
+    },
+    {
+      "name": "TITLE_CARD_START",
+      "time_seconds": 127.134979,
+      "frame": 3051,
+      "editable": true,
+      "note": "One Of God's Fools card begins (default last 4s \u2014 editable)"
+    },
+    {
+      "name": "TITLE_CARD_END",
+      "time_seconds": 131.134979,
+      "frame": 3148,
+      "editable": true,
+      "note": "Title card holds through FINAL_FRAME"
+    }
+  ],
+  "broad_cues": [
+    {
+      "name": "CUE_ENTRANCE",
+      "time_seconds": 0.0,
+      "frame": 1,
+      "editable": true,
+      "note": "World / archive entrance \u2014 music breathes in"
+    },
+    {
+      "name": "CUE_FIRST_MELODY",
+      "time_seconds": 14.280272,
+      "frame": 343,
+      "editable": true,
+      "note": "First clear melodic statement (broad)"
+    },
+    {
+      "name": "CUE_HARMONIC_CHANGE",
+      "time_seconds": 31.091519,
+      "frame": 746,
+      "editable": true,
+      "note": "First major section / harmonic turn"
+    },
+    {
+      "name": "CUE_KNOCK",
+      "time_seconds": 12.780272,
+      "frame": 307,
+      "editable": true,
+      "note": "Sister's call-to-dinner knock (emotional trigger)"
+    },
+    {
+      "name": "CUE_LOOP",
+      "time_seconds": 47.113288,
+      "frame": 1131,
+      "editable": true,
+      "note": "Memorial / repeating chorus loop character"
+    },
+    {
+      "name": "CUE_REST",
+      "time_seconds": 101.053243,
+      "frame": 2425,
+      "editable": true,
+      "note": "Breath / bridge rest \u2014 do not fill with busy cuts"
+    },
+    {
+      "name": "CUE_RELEASE",
+      "time_seconds": 114.311837,
+      "frame": 2743,
+      "editable": true,
+      "note": "Release toward sister / holy-fool letting go"
+    },
+    {
+      "name": "CUE_FINAL_PHRASE",
+      "time_seconds": 120.723408,
+      "frame": 2897,
+      "editable": true,
+      "note": "Last living phrase before title card"
+    }
+  ],
+  "updated_at": "2026-09-07T22:31:37.340904+00:00",
+  "audio_detection": {
+    "music": {
+      "path": "audio/master.wav",
+      "sample_rate": 48000,
+      "channels": 2,
+      "sample_width_bytes": 3,
+      "frames": 6294479,
+      "duration_seconds": 131.134979
+    },
+    "narration": null,
+    "narration_mode": "embedded",
+    "fps": 24,
+    "seconds_per_frame": 0.04166667,
+    "frames_from_duration": 3148
+  },
+  "dionysus_leitmotif": {
+    "cue_id": "DIONYSUS_LEITMOTIF",
+    "status": "MUSIC_REVIEW_REQUIRED",
+    "MUSIC_REVIEW_REQUIRED": true,
+    "source_file": null,
+    "proposal": {
+      "kind": "placeholder_four_note_motif",
+      "pitch_names": [
+        "E3",
+        "G3",
+        "A3",
+        "E4"
+      ],
+      "midi_notes": [
+        52,
+        55,
+        57,
+        64
+      ],
+      "interval_shape": "m3 \u2191 \u00b7 M2 \u2191 \u00b7 P5 \u2191 (open, nourishing leap)",
+      "suggested_durations_beats": [
+        1.0,
+        1.0,
+        1.0,
+        2.0
+      ],
+      "tonal_centre_hint": "E minor / modal \u2014 review against father's unfinished melody",
+      "not_final": true
+    },
+    "appearances": {
+      "human_family_melody": "Singable / hummable contour in domestic register",
+      "loom_or_work_rhythm": "Even pulse, shuttle-like repeats of the interval cells",
+      "dance_rhythm": "Accent shift; same pitches, livelier subdivision",
+      "distorted_digital_pattern": "Bit-crushed / time-stretched echo of the contour",
+      "too_perfect_memorial_loop": "Quantized, airless loop \u2014 shadow of control",
+      "living_variation_at_end": "Breathing rubato / sister's altered note kinship"
+    },
+    "search_notes": "No Dionysus theme audio/MIDI located in oino-interlude or repo assets. Textual mythic presence only. This cue is a reusable placeholder for music review."
+  }
+}

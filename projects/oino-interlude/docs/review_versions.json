@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "system_id": "OINO_REVIEW_VERSIONS",
+  "film": "Oino (Interlude)",
+  "policy": {
+    "emotional_qa_on_screen": false,
+    "note": "Emotional QA questions are for development review only — never place them inside the film."
+  },
+  "title_card_exact": {
+    "text": "One Of Gods Fools",
+    "date": "December 10, 2026"
+  },
+  "output_root": "renders/review",
+  "versions": [
+    {
+      "id": "ANIMATIC_REVIEW",
+      "label": "Animatic review",
+      "purpose": "Proxy staging, rhythm, broad cues — not detail modelling",
+      "resolution_key": "preview",
+      "audio": "full",
+      "focus": ["shot_list", "music_sync", "monologue_timing"],
+      "emotional_qa_subset": [1, 2, 13, 14],
+      "output_subdir": "ANIMATIC_REVIEW"
+    },
+    {
+      "id": "PERFORMANCE_REVIEW",
+      "label": "Performance review",
+      "purpose": "Eyes, hands, breath, table performance, holy-fool release",
+      "resolution_key": "hd",
+      "audio": "full",
+      "focus": ["table_performance", "knock", "holy_fool", "final_meal"],
+      "emotional_qa_subset": [7, 8, 9, 10, 11, 12],
+      "output_subdir": "PERFORMANCE_REVIEW"
+    },
+    {
+      "id": "WORLD_REVIEW",
+      "label": "World review",
+      "purpose": "Modular industrial world, eras benefit/cost, Zone, atmosphere",
+      "resolution_key": "hd",
+      "audio": "full",
+      "focus": ["modular_world", "revolution_passes", "zone", "atmosphere"],
+      "emotional_qa_subset": [5, 6, 13],
+      "output_subdir": "WORLD_REVIEW"
+    },
+    {
+      "id": "COLOUR_REVIEW",
+      "label": "Colour review",
+      "purpose": "Lighting presets, Dionysian interruption, AgX, no every-shot-red",
+      "resolution_key": "hd",
+      "audio": "full",
+      "focus": ["lighting_presets", "materials", "dionysus_presence"],
+      "emotional_qa_subset": [4, 5],
+      "output_subdir": "COLOUR_REVIEW"
+    },
+    {
+      "id": "TITLE_CARD_REVIEW",
+      "label": "Title card review",
+      "purpose": "Exact card text/date, still frame, controls, TITLE_CARD_FINAL",
+      "resolution_key": "hd",
+      "audio": "full",
+      "focus": ["title_card", "SCN_13_TITLE_CARD"],
+      "emotional_qa_subset": [15, 16],
+      "output_subdir": "TITLE_CARD_REVIEW"
+    },
+    {
+      "id": "FINAL_REVIEW",
+      "label": "Final review",
+      "purpose": "Full emotional + technical lock pass before delivery",
+      "resolution_key": "final",
+      "audio": "full",
+      "focus": ["all"],
+      "emotional_qa_subset": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "output_subdir": "FINAL_REVIEW"
+    }
+  ]
+}

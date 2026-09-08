@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_13_TITLE_CARD",
+  "fps": 24,
+  "scene_frame_start": 1,
+  "scene_frame_end": 148,
+  "global_frame_align": {
+    "open_doorway": 3021,
+    "title_card_start": 3051,
+    "title_card_end": 3148,
+    "note": "Local scene frames map onto SH122→SH130 / TITLE_CARD_START–END."
+  },
+  "emotional_ending": {
+    "is": "Oino follows the sister's changed melody",
+    "link_shots": ["SH121_SISTER_CHANGES_MELODY", "SH120_CHANGED_NOTE"],
+    "note": "The film's emotional ending occurs before this card — not on the title."
+  },
+  "sequence_after_emotional_ending": [
+    {
+      "id": "TC_HOLD_OPEN_DOORWAY",
+      "order": 1,
+      "marker": "TC_HOLD_OPEN_DOORWAY",
+      "local_frame": 1,
+      "action": "Hold on the open doorway.",
+      "camera_language": "return"
+    },
+    {
+      "id": "TC_LIVING_NOTE_SETTLES",
+      "order": 2,
+      "marker": "TC_LIVING_NOTE_SETTLES",
+      "local_frame": 16,
+      "action": "Let the last living note settle.",
+      "camera_language": "return"
+    },
+    {
+      "id": "TC_RECORDING_IMPERFECT_END",
+      "order": 3,
+      "marker": "TC_RECORDING_IMPERFECT_END",
+      "local_frame": 28,
+      "action": "Allow the original recording to reach its imperfect end.",
+      "link": "FM_AUDIO_RECORDING_IMPERFECT_END"
+    },
+    {
+      "id": "TC_FADE_NEAR_BLACK",
+      "order": 4,
+      "marker": "TC_FADE_NEAR_BLACK",
+      "local_frame": 40,
+      "action": "Fade to a quiet near-black frame.",
+      "lighting_preset": "TITLE_CARD_BLACK"
+    },
+    {
+      "id": "TC_TITLE_FADE_IN",
+      "order": 5,
+      "marker": "TC_TITLE_FADE_IN",
+      "local_frame": 52,
+      "action": "Fade in the exact album title: One Of Gods Fools"
+    },
+    {
+      "id": "TC_DATE_FADE_IN",
+      "order": 6,
+      "marker": "TC_DATE_FADE_IN",
+      "local_frame": 70,
+      "action": "Fade in the exact release date: December 10, 2026"
+    }
+  ],
+  "title": {
+    "text": "One Of Gods Fools",
+    "forbidden_forms": ["One Of God's Fools", "One of God's Fools", "One of Gods Fools"]
+  },
+  "release_date": {
+    "text": "December 10, 2026",
+    "iso": "2026-12-10"
+  },
+  "policy": {
+    "apostrophe_in_Gods": false,
+    "extra_subtitle": false,
+    "logline": false,
+    "moral_statement": false,
+    "social_handle": false,
+    "unapproved_production_credit": false,
+    "generic_trailer_animation": false,
+    "metallic_text": false,
+    "excessive_glow": false,
+    "fast_movement": false,
+    "typography": "legible, quiet, tactile, and slightly archaeological",
+    "note": "Exact CANON card only. No apostrophe in Gods."
+  },
+  "typography": {
+    "feel": ["legible", "quiet", "tactile", "slightly archaeological"],
+    "avoid": [
+      "generic trailer animation",
+      "metallic text",
+      "excessive glow",
+      "fast movement",
+      "Ken Burns",
+      "parallax trailer drift"
+    ],
+    "font_hint": "Serif or inscribed stone-adjacent face with quiet weight — human approve final font file"
+  },
+  "controls": {
+    "title_fade_in_frames": 12,
+    "date_fade_in_frames": 10,
+    "title_hold_duration_frames": 72,
+    "date_hold_duration_frames": 54,
+    "background_colour": {
+      "hex": "#0A0A0A",
+      "rgba": [0.039, 0.039, 0.039, 1.0],
+      "name": "near_black"
+    },
+    "type_colour": {
+      "hex": "#E8E4DC",
+      "rgba": [0.91, 0.894, 0.863, 1.0],
+      "name": "quiet_off_white",
+      "alt_hex": "#A8A098",
+      "alt_name": "warm_grey_type"
+    },
+    "letter_spacing": 0.08,
+    "final_fade_out": {
+      "enabled": false,
+      "frames": 12,
+      "note": "Default off unless delivery requires it"
+    }
+  },
+  "markers": {
+    "TITLE_CARD_FINAL": {
+      "name": "TITLE_CARD_FINAL",
+      "frame_start": 52,
+      "frame_end": 148,
+      "global_frame_start": 3051,
+      "global_frame_end": 3148,
+      "note": "Final title-card frame range — title and date hold on near-black"
+    }
+  },
+  "collections": [
+    "TITLE_CARD_BG",
+    "TITLE_CARD_TYPE",
+    "TITLE_CARD_CAMERAS",
+    "TITLE_CARD_CONTROLS"
+  ],
+  "objects": {
+    "background": "TITLE_BG_NearBlack",
+    "title_text": "TXT_TITLE_OneOfGodsFools",
+    "date_text": "TXT_DATE_December10_2026",
+    "camera": "CAM_TITLE_STILL",
+    "controls_empty": "CTRL_TitleCard"
+  }
+}

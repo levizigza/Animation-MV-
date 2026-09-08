@@ -1,0 +1,29 @@
+{
+  "script": "animate_knock",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:58:13.372047+00:00",
+  "finished_at": "2026-09-07T22:58:13.375277+00:00",
+  "counts": {
+    "created": 2,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/knock_markers.json",
+    "docs/knock_animation.md"
+  ],
+  "reused": [
+    "docs/knock_animation.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "table room reflection/camera links checked",
+    "call motif jump_scare=false; CALL_05 present",
+    "knock f452 lands in/after Phase 4 (401-480) \u2014 breaks artificial rhythm",
+    "Knock breaks artificial rhythm; source uncertain until sister in reflection; cost already exists; no jump scare"
+  ]
+}

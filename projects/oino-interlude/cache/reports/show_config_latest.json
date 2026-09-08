@@ -1,0 +1,25 @@
+{
+  "script": "show_config",
+  "seed": null,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:27:39.610899+00:00",
+  "finished_at": "2026-09-07T22:27:40.539160+00:00",
+  "counts": {
+    "created": 0,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [],
+  "reused": [
+    "config/show_config.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "render_engine=BLENDER_EEVEE_NEXT blender_installed=False exe=None",
+    "inspected_duration_seconds=131.134979 frames_at_24fps=3147 source=master.wav",
+    "duration remains null in config (pass --write-duration to persist after inspect)"
+  ]
+}

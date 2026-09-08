@@ -1,0 +1,26 @@
+{
+  "script": "build_lighting_presets",
+  "seed": 20261213,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:08:43.261446+00:00",
+  "finished_at": "2026-09-07T23:08:43.264509+00:00",
+  "counts": {
+    "created": 2,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/lighting_preset_markers.json",
+    "docs/lighting_presets.md"
+  ],
+  "reused": [
+    "docs/lighting_presets.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "10 lighting presets; Dionysian amber/red is interruption only \u2014 not every shot red"
+  ]
+}

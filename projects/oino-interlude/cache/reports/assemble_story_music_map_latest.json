@@ -1,0 +1,26 @@
+{
+  "script": "assemble_story_music_map",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:55:28.635601+00:00",
+  "finished_at": "2026-09-07T23:55:28.642248+00:00",
+  "counts": {
+    "created": 2,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/story_music_map.json",
+    "docs/story_music_map.md"
+  ],
+  "reused": [
+    "docs/story_music_map.json (will overwrite with assemble)"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "shots=22 timing_gate_blocked=8"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_07_ZONE",
+  "editable": true,
+  "nature_unresolved": true,
+  "oino_goal": "follow the unfinished melody",
+  "markers": [
+    {
+      "name": "ZONE_ENTER",
+      "frame": 1,
+      "note": "Enter unresolved passage; follow unfinished melody"
+    },
+    {
+      "name": "THR_01_MAP_MISMATCH",
+      "frame": 48,
+      "certainty_removed": "the map no longer matches the corridor",
+      "note": "Map prop / corridor geometry disagree; patient wide hold."
+    },
+    {
+      "name": "THR_02_PHOTO_UNPROVEN",
+      "frame": 96,
+      "certainty_removed": "a photograph no longer proves where it was taken",
+      "note": "Photograph in hand; background refuses to match; soft focus edges."
+    },
+    {
+      "name": "THR_03_VOICE_UNCLASSIFIED",
+      "frame": 144,
+      "certainty_removed": "the voice may be living or reconstructed",
+      "note": "Melody/voice continues; no label; ancestor-origin vs reconstructed ambiguity."
+    },
+    {
+      "name": "THR_04_REFLECTION_LATE",
+      "frame": 192,
+      "certainty_removed": "her reflection responds a fraction late",
+      "note": "Shallow water / glass; reflection lag only a few frames \u2014 not a jump scare."
+    },
+    {
+      "name": "THR_05_ANCESTOR_INCOMPLETE",
+      "frame": 240,
+      "certainty_removed": "the ancestor's guidance becomes incomplete",
+      "note": "Zone exit silhouette / incomplete warning; no certainty offered."
+    },
+    {
+      "name": "ZONE_IRREGULAR_KNOCK",
+      "frame": 120,
+      "note": "Irregular knock \u2014 call-to-dinner cousin; not a scare sting",
+      "link": "CALL_05_ZONE_KNOCK"
+    },
+    {
+      "name": "ZONE_DISTANT_LAUGH",
+      "frame": 168,
+      "note": "One distant laugh; may arrive before any visible source",
+      "link": "ECHO_LAUGH_BEFORE_SOURCE"
+    },
+    {
+      "name": "ZONE_TABLE_GLIMPSE",
+      "frame": 216,
+      "note": "Table glimpsed before Oino reaches it \u2014 ordinary destination ahead",
+      "link": null
+    },
+    {
+      "name": "ZONE_DAMAGED_DIONYSUS_FRAME",
+      "frame": 264,
+      "note": "One damaged frame; possible Dionysus echo \u2014 do not label",
+      "link": "ECHO_ARCHIVE_FRAME_FIGURE"
+    },
+    {
+      "name": "ZONE_EMPTY_AFTER_OINO",
+      "frame": 320,
+      "note": "Oino leaves frame; camera holds empty space",
+      "link": null
+    },
+    {
+      "name": "ZONE_EXIT",
+      "frame": 360,
+      "note": "Leave Zone toward table; nature still unresolved"
+    }
+  ]
+}

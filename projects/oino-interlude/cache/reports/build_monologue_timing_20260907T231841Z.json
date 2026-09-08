@@ -1,0 +1,32 @@
+{
+  "script": "build_monologue_timing",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:18:41.812163+00:00",
+  "finished_at": "2026-09-07T23:18:41.820211+00:00",
+  "counts": {
+    "created": 4,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/monologue_timing.json",
+    "docs/monologue_timing_markers.json",
+    "docs/monologue_subtitle_safe.json",
+    "docs/monologue_timing.md"
+  ],
+  "reused": [
+    "docs/monologue.txt"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Narration stem not available \u2014 provisional paragraph markers REVIEW_REQUIRED",
+    "master.wav present=True",
+    "narration stem present=False",
+    "NARRATION window f1-746",
+    "14 cues; no punctuation-only cuts; voice protected; status=REVIEW_REQUIRED mode=provisional_no_stem"
+  ]
+}

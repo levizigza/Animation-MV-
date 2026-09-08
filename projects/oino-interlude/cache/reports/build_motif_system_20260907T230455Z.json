@@ -1,0 +1,32 @@
+{
+  "script": "build_motif_system",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:04:55.710524+00:00",
+  "finished_at": "2026-09-07T23:04:55.714313+00:00",
+  "counts": {
+    "created": 2,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/motif_system_markers.json",
+    "docs/motif_tracking.md"
+  ],
+  "reused": [
+    "docs/motif_system.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "No untransformed symbol flags",
+    "call-to-dinner motif links ok",
+    "craft brief present: final_meal_animation.json",
+    "craft brief present: holy_fool_turning.json",
+    "craft brief present: knock_animation.json",
+    "craft brief present: table_performance_block.json",
+    "Motif system locked to 7 symbols; allow_new_symbols=false until readable"
+  ]
+}

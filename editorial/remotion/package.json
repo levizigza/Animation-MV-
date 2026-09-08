@@ -1,0 +1,13 @@
+{
+  "name": "mvm-remotion-overlays",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Remotion stub for lyric/title/beat overlays on Blender plates",
+  "scripts": {
+    "studio": "echo Install remotion deps and point Composition at remotion_props.json from a project final/ folder"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "remotion": "^4.0.0"
+  }
+}

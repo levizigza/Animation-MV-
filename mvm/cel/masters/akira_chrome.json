@@ -1,0 +1,33 @@
+{
+  "id": "akira_chrome",
+  "principles": [
+    "Chromatic intensity and graphic impact frames",
+    "Aggressive camera grammar on structural hits",
+    "Dense inbetweens on high-energy action",
+    "Hard light, shadow shapes as design",
+    "City scale: wide establishing then kinetic inserts"
+  ],
+  "default_mode": "full",
+  "full_energy_threshold": 0.55,
+  "hold_energy_threshold": 0.2,
+  "section_modes": {
+    "intro": "limited",
+    "verse": "full",
+    "prechorus": "full",
+    "chorus": "full",
+    "bridge": "limited",
+    "outro": "held_atmosphere"
+  },
+  "exposure_by_mode": {
+    "full": "1s",
+    "limited": "2s",
+    "held_atmosphere": "2s"
+  },
+  "key_placement": "every_downbeat_plus_onsets",
+  "smear_policy": "dense_on_chorus_and_impacts",
+  "hold_policy": "short_holds_before_explosions",
+  "camera": {
+    "prefer": "crash_zooms_tracking",
+    "avoid": "static_medium_only"
+  }
+}

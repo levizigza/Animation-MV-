@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "system_id": "OINO_ATMOSPHERE",
+  "film": "Oino (Interlude)",
+  "seed": 20261214,
+  "seed_source": "config/show_config.json seeds.fx",
+  "policy": {
+    "cover_weak_staging_with_fog": false,
+    "cover_with_glitches": false,
+    "cover_with_chromatic_aberration": false,
+    "cover_with_lens_flares": false,
+    "cover_with_constant_particles": false,
+    "switchable_per_scene": true,
+    "switchable_per_shot": true,
+    "seeded_randomness": true,
+    "dionysian_role": "life breaking through rigid systems",
+    "note": "Do not cover weak staging with fog, glitches, chromatic aberration, lens flares, or constant particles. Dionysian effects: vine through iron, human laugh inside machine rhythm, body against sync, flock briefly released from industrial ceiling."
+  },
+  "versions": {
+    "preview": {
+      "id": "ATM_PREVIEW",
+      "density_scale": 0.55,
+      "particle_budget": "low",
+      "grain_strength": 0.25,
+      "volume_samples_hint": 32,
+      "note": "Readable atmosphere for animatic / layout approval"
+    },
+    "final": {
+      "id": "ATM_FINAL",
+      "density_scale": 1.0,
+      "particle_budget": "crafted",
+      "grain_strength": 0.4,
+      "volume_samples_hint": 64,
+      "note": "Full craft pass \u2014 still sparse; never constant particle rain"
+    }
+  },
+  "forbidden_crutches": [
+    "fog_to_hide_blocking",
+    "glitch_overlay_as_drama",
+    "chromatic_aberration_as_style_default",
+    "lens_flare_spectacle",
+    "constant_particle_fields"
+  ],
+  "dionysian_breaking_through": [
+    {
+      "id": "DION_ATM_VINE_THROUGH_IRON",
+      "image": "a vine through iron",
+      "link_effect": "ATM_VINE_GROWTH",
+      "link_echo": "ECHO_IVY_THROUGH_MACHINE"
+    },
+    {
+      "id": "DION_ATM_LAUGH_IN_MACHINE",
+      "image": "a human laugh inside a machine rhythm",
+      "link_effect": null,
+      "link_echo": "ECHO_LAUGH_BEFORE_SOURCE"
+    },
+    {
+      "id": "DION_ATM_BODY_AGAINST_SYNC",
+      "image": "a body moving against synchronization",
+      "link_effect": null,
+      "link_echo": "ECHO_HAND_PERCUSSION_DANCE"
+    },
+    {
+      "id": "DION_ATM_FLOCK_RELEASE",
+      "image": "a flock briefly released from an industrial ceiling",
+      "link_effect": "ATM_WHITE_BIRD_RELEASE",
+      "link_echo": "ECHO_WHITE_BIRDS_RELEASE"
+    }
+  ],
+  "effects": [
+    {
+      "id": "ATM_ATTIC_DUST",
+      "label": "attic dust",
+      "category": "volume_particulate",
+      "switchable": true,
+      "default_enabled": true,
+      "seed_channel": 1,
+      "preview": {
+        "density": 0.2,
+        "visibility": 0.6
+      },
+      "final": {
+        "density": 0.35,
+        "visibility": 1.0
+      },
+      "lighting_link": "ATTIC_DUST",
+      "scenes": [
+        "SCN_02_OINO_ARCHIVE"
+      ],
+      "shots": [
+        "SH010_SISTER_CALL",
+        "SH020_FATHERS_RECORDING"
+      ],
+      "must_not": [
+        "thick fog hiding attic blocking"
+      ]
+    },
+    {
+      "id": "ATM_STEAM_HAZE",
+      "label": "steam haze",
+      "category": "volume",
+      "switchable": true,
+      "default_enabled": true,
+      "seed_channel": 2,
+      "preview": {
+        "density": 0.25,
+        "visibility": 0.55
+      },
+      "final": {
+        "density": 0.45,
+        "visibility": 1.0
+      },
+      "lighting_link": "STEAM_SOOT",
+      "scenes": [
+        "SCN_MODULAR_INDUSTRIAL_WORLD"
+      ],
+      "shots": [
+        "SH040_ANCESTOR_SLEEVE",
+        "SH050_FACTORY_GATE"
+      ],
+      "must_not": [
+        "constant steam wall"
+      ]
+    },
+    {
+      "id": "ATM_ELECTRICAL_SMOKE",
+      "label": "electrical smoke",
+      "category": "volume",
+      "switchable": true,
+      "default_enabled": false,
+      "seed_channel": 3,
+      "preview": {
+        "density": 0.15,
+        "visibility": 0.5
+      },
+      "final": {
+        "density": 0.3,
+        "visibility": 0.9
+      },
+      "lighting_link": "ELECTRIC_WARMTH",
+      "scenes": [
+        "SCN_MODULAR_INDUSTRIAL_WORLD"
+      ],
+      "shots": [
+        "SH051_ELECTRIC_HOUSEHOLD_TIME"
+      ],
+      "must_not": [
+        "disaster-movie smoke fill"
+      ]
+    },
+    {
+      "id": "ATM_SCREEN_GLOW",
+      "label": "screen glow",
+      "category": "emission_atmosphere",
+      "switchable": true,
+      "default_enabled": true,
+      "seed_channel": 4,
+      "preview": {
+        "density": 0.3,
+        "visibility": 0.7
+      },
+      "final": {
+        "density": 0.5,
+        "visibility": 1.0
+      },
+      "lighting_link": "DIGITAL_COLD",
+      "scenes": [
+        "SCN_MODULAR_INDUSTRIAL_WORLD"
+      ],
+      "shots": [
+        "SH060_SYNTHETIC_VOICE",
+        "SH061_OINO_SEES_OWN_RECORDING"
+      ],
+      "must_not": [
+        "RGB glitch as default",
+        "chromatic aberration wash"
+      ]
+    },
+    {
+      "id": "ATM_SHALLOW_WATER",
+      "label": "shallow water",
+      "category": "surface_liquid",
+      "switchable": true,
+      "default_enabled": true,
+      "seed_channel": 5,
+      "preview": {
+        "density": 0.4,
+        "visibility": 0.8
+      },
+      "final": {
+        "density": 0.7,
+        "visibility": 1.0
+      },
+      "lighting_link": "ZONE_REFLECTION",
+      "scenes": [
+        "SCN_07_ZONE"
+      ],
+      "shots": [
+        "SH070_TABLE_GLIMPSE",
+        "SH070B_ZONE_EMPTY_HOLD"
+      ],
+      "links": [
+        "ZONE_ShallowWater",
+        "RX_WATER_RIPPLES"
+      ],
+      "must_not": [
+        "flood covering feet / staging"
+      ]
+    },
+    {
+      "id": "ATM_CONDENSATION",
+      "label": "condensation",
+      "category": "surface_film",
+      "switchable": true,
+      "default_enabled": false,
+      "seed_channel": 6,
+      "preview": {
+        "density": 0.2,
+        "visibility": 0.5
+      },
+      "final": {
+        "density": 0.4,
+        "visibility": 0.85
+      },
+      "scenes": [
+        "SCN_07_ZONE",
+        "SCN_08_TABLE_ROOM"
+      ],
+      "shots": [
+        "SH080_WARM_TWO_SHOT"
+      ],
+      "must_not": [
+        "opaque mist on lens"
+      ]
+    },
+    {
+      "id": "ATM_RESTRAINED_RAIN",
+      "label": "restrained rain",
+      "category": "precipitation",
+      "switchable": true,
+      "default_enabled": false,
+      "seed_channel": 7,
+      "preview": {
+        "density": 0.1,
+        "visibility": 0.4
+      },
+      "final": {
+        "density": 0.22,
+        "visibility": 0.75
+      },
+      "scenes": [
+        "SCN_07_ZONE"
+      ],
+      "shots": [],
+      "must_not": [
+        "constant particle rain",
+        "storm covering weak staging"
+      ]
+    },
+    {
+      "id": "ATM_FILM_GRAIN",
+      "label": "film grain",
+      "category": "optical",
+      "switchable": true,
+      "default_enabled": true,
+      "seed_channel": 8,
+      "preview": {
+        "density": 0.2,
+        "visibility": 0.5
+      },
+      "final": {
+        "density": 0.4,
+        "visibility": 0.85
+      },
+      "scenes": [
+        "SCN_02_OINO_ARCHIVE",
+        "SCN_13_TITLE_CARD"
+      ],
+      "shots": [
+        "SH030_ARCHIVE_BOX_OINO",
+        "SH031_FAMILY_LINE_DOCUMENT",
+        "SH130_TITLE_CARD"
+      ],
+      "must_not": [
+        "heavy grain hiding detail as default"
+      ]
+    },
+    {
+      "id": "ATM_GATE_WEAVE",
+      "label": "gate weave",
+      "category": "industrial_pattern",
+      "switchable": true,
+      "default_enabled": true,
+      "seed_channel": 9,
+      "preview": {
+        "density": 0.25,
+        "visibility": 0.6
+      },
+      "final": {
+        "density": 0.45,
+        "visibility": 1.0
+      },
+      "scenes": [
+        "SCN_MODULAR_INDUSTRIAL_WORLD"
+      ],
+      "shots": [
+        "SH050_FACTORY_GATE"
+      ],
+      "links": [
+        "MOTIF_DOOR_FACTORY_GATE"
+      ],
+      "must_not": [
+        "ornamental gate spin"
+      ]
+    },
+    {
+      "id": "ATM_VINE_GROWTH",
+      "label": "vine growth",
+      "category": "organic_dionysian",
+      "switchable": true,
+      "default_enabled": true,
+      "seed_channel": 10,
+      "preview": {
+        "density": 0.3,
+        "visibility": 0.7
+      },
+      "final": {
+        "density": 0.55,
+        "visibility": 1.0
+      },
+      "dionysian": true,
+      "scenes": [
+        "SCN_MODULAR_INDUSTRIAL_WORLD",
+        "SCN_07_ZONE",
+        "SCN_08_TABLE_ROOM"
+      ],
+      "shots": [
+        "SH080_WARM_TWO_SHOT",
+        "SH110_RELEASE_CONTROL"
+      ],
+      "links": [
+        "ECHO_IVY_THROUGH_MACHINE",
+        "TABLE_VineLeg",
+        "ZONE_VineThroughPipe"
+      ],
+      "must_not": [
+        "CGI miracle vine covering composition"
+      ]
+    },
+    {
+      "id": "ATM_WHITE_BIRD_RELEASE",
+      "label": "white bird or dove-like release forms",
+      "category": "organic_dionysian",
+      "switchable": true,
+      "default_enabled": false,
+      "seed_channel": 11,
+      "preview": {
+        "density": 0.35,
+        "visibility": 0.6
+      },
+      "final": {
+        "density": 0.6,
+        "visibility": 1.0
+      },
+      "dionysian": true,
+      "max_in_final_shot": 1,
+      "scenes": [
+        "SCN_08_TABLE_ROOM"
+      ],
+      "shots": [
+        "SH110_RELEASE_CONTROL",
+        "SH122_OPEN_DOORWAY"
+      ],
+      "links": [
+        "ECHO_WHITE_BIRDS_RELEASE",
+        "REL_DUST_TO_WHITE_BIRDS"
+      ],
+      "must_not": [
+        "god exit bow",
+        "constant flock field"
+      ],
+      "note": "Brief release forms \u2014 dust/perforations kinship; omit if ordinary cost already reads."
+    }
+  ],
+  "transitions": [
+    {
+      "id": "TR_DUST_TO_STEAM",
+      "label": "dust to steam",
+      "from_effect": "ATM_ATTIC_DUST",
+      "to_effect": "ATM_STEAM_HAZE",
+      "approx_shots": [
+        "SH030_ARCHIVE_DISCOVERY",
+        "SH040_MELODY_OPENS_HISTORY"
+      ],
+      "seed_channel": 21,
+      "staging": "Archive air thickens into labour steam \u2014 same world changing."
+    },
+    {
+      "id": "TR_STEAM_TO_ELECTRIC",
+      "label": "steam to electric glow",
+      "from_effect": "ATM_STEAM_HAZE",
+      "to_effect": "ATM_ELECTRICAL_SMOKE",
+      "approx_shots": [
+        "SH050_CHANGING_WORLD",
+        "SH051_ELECTRIC_HOUSEHOLD_TIME"
+      ],
+      "seed_channel": 22,
+      "staging": "Warm soot yields to tungsten / porcelain light; smoke thinner, cleaner."
+    },
+    {
+      "id": "TR_ELECTRIC_TO_SCREEN",
+      "label": "electric glow to screen reflection",
+      "from_effect": "ATM_ELECTRICAL_SMOKE",
+      "to_effect": "ATM_SCREEN_GLOW",
+      "approx_shots": [
+        "SH060_CARE_AND_HARM",
+        "SH061_OINO_SEES_OWN_RECORDING"
+      ],
+      "seed_channel": 23,
+      "staging": "Practical glow flattens into glass; Oino can watch herself."
+    },
+    {
+      "id": "TR_SCREEN_TO_WATER",
+      "label": "screen reflection to water",
+      "from_effect": "ATM_SCREEN_GLOW",
+      "to_effect": "ATM_SHALLOW_WATER",
+      "approx_shots": [
+        "SH070_ZONE_PASSAGE"
+      ],
+      "seed_channel": 24,
+      "staging": "Hard reflection softens into shallow water \u2014 Zone unresolved."
+    },
+    {
+      "id": "TR_WATER_TO_TABLE",
+      "label": "water reflection to table surface",
+      "from_effect": "ATM_SHALLOW_WATER",
+      "to_effect": null,
+      "to_surface": "table_surface",
+      "approx_shots": [
+        "SH070_TABLE_GLIMPSE",
+        "SH080_WARM_TWO_SHOT"
+      ],
+      "seed_channel": 25,
+      "staging": "Ripple becomes worn wood / bowl reflection; warmth replaces passage chill."
+    },
+    {
+      "id": "TR_TABLE_TO_TITLE_BLACK",
+      "label": "table surface to title-card black",
+      "from_effect": null,
+      "from_surface": "table_surface",
+      "to_effect": null,
+      "to_surface": "title_card_black",
+      "approx_shots": [
+        "SH122_OPEN_DOORWAY",
+        "SH130_TITLE_CARD"
+      ],
+      "seed_channel": 26,
+      "lighting_link": "TITLE_CARD_BLACK",
+      "staging": "Open doorway hold settles; fade to quiet near-black \u2014 no flare, no glitch."
+    }
+  ],
+  "scene_defaults": {
+    "SCN_02_OINO_ARCHIVE": [
+      "ATM_ATTIC_DUST",
+      "ATM_FILM_GRAIN"
+    ],
+    "SCN_MODULAR_INDUSTRIAL_WORLD": [
+      "ATM_STEAM_HAZE",
+      "ATM_GATE_WEAVE",
+      "ATM_VINE_GROWTH"
+    ],
+    "SCN_07_ZONE": [
+      "ATM_SHALLOW_WATER",
+      "ATM_CONDENSATION",
+      "ATM_VINE_GROWTH"
+    ],
+    "SCN_08_TABLE_ROOM": [
+      "ATM_CONDENSATION",
+      "ATM_VINE_GROWTH"
+    ],
+    "SCN_09_FINAL_MEAL": [],
+    "SCN_13_TITLE_CARD": [
+      "ATM_FILM_GRAIN"
+    ]
+  }
+}

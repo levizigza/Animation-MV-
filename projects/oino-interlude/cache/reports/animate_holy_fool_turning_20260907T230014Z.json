@@ -1,0 +1,31 @@
+{
+  "script": "animate_holy_fool_turning",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:00:14.471750+00:00",
+  "finished_at": "2026-09-07T23:00:14.475315+00:00",
+  "counts": {
+    "created": 2,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/holy_fool_turning_markers.json",
+    "docs/holy_fool_turning.md"
+  ],
+  "reused": [
+    "docs/holy_fool_turning.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "ancestor link ok: ANC_08_ZONE_EXIT_NO_CERTAINTY",
+    "table room cameras for release/leave/lookback ok",
+    "holy-fool f520 follows knock (last f508)",
+    "animatic SH110_RELEASE linked",
+    "dionysus presence link noted: ECHO_WHITE_BIRDS_RELEASE",
+    "Holy-fool turning: ordinary costly release; no cosmic reward/explosion/saved-world proof; max one optional Dionysian image"
+  ]
+}

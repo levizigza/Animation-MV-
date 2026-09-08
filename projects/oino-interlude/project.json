@@ -1,0 +1,16 @@
+{
+  "slug": "oino-interlude",
+  "title": "Oino Interlude",
+  "prompt": "Oino Interlude \u2014 One Of Gods Fools (Dec 10, 2026). Protagonist Oino (young woman), modern inheritor of Oino/Oeno lineage (Dionysus \u2192 Staphylus \u2192 Rhoeo \u2192 Anius \u2192 Oino). Gift: transformation toward nourishment (music, memory, food, care, change). Sister call to dinner triggers; father unfinished melody is main musical object; table is sacred destination. Canon: projects/oino-interlude/CANON.md",
+  "audio_path": "audio/master.wav",
+  "fps": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "style_pack": "classic_cel",
+  "created_at": "2026-09-07T22:20:32.847307+00:00",
+  "plan_approved": false,
+  "render_approved": false,
+  "canon_path": "CANON.md"
+}

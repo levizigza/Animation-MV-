@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "motif_id": "CALL_TO_DINNER",
+  "film": "Oino (Interlude)",
+  "policy": {
+    "jump_scare": false,
+    "origin": "familiar_domestic_sound",
+    "strangeness_source": "Oino has travelled away from ordinary life — the call itself does not become a monster",
+    "cut_to_every_beat": false
+  },
+  "meaning_arc": {
+    "opening": {
+      "label": "invitation refused",
+      "note": "Sister calls; Oino closes the attic door and stays with the archive/tape."
+    },
+    "middle": {
+      "label": "ordinary life ignored while preservation continues",
+      "note": "Archive and industrial echoes of the call while Oino keeps preserving/transforming instead of returning."
+    },
+    "zone": {
+      "label": "reality interrupting desire",
+      "note": "Irregular knock cuts through the controlled/desired encounter."
+    },
+    "ending": {
+      "label": "living relationship accepted",
+      "note": "Sister's tapping at the table becomes the seed of the changed melody; Oino follows it."
+    }
+  },
+  "appearances": [
+    {
+      "id": "CALL_01_SISTER_DOWNSTAIRS",
+      "order": 1,
+      "phase": "opening",
+      "meaning_label": "invitation refused",
+      "approx_shot": "SH010_CALL_TO_DINNER",
+      "approx_frame": 307,
+      "marker": "CALL_01_SISTER_DOWNSTAIRS",
+      "source": {
+        "kind": "live_voice",
+        "who": "Sister",
+        "where": "downstairs / domestic house",
+        "medium": "acoustic call through floor/stairwell"
+      },
+      "rhythm": {
+        "pattern": "short domestic call — familiar cadence, not metronomic alarm",
+        "relation_to_music": "near CUE_KNOCK; music may breathe around it, not hit as a scare sting",
+        "bpm_feel": "speech-tempo, uneven human"
+      },
+      "visual_form": {
+        "primary": "attic door, downward eyeline, empty stair light",
+        "supporting": ["PROXY_AtticDoor", "eyeline_downstairs"],
+        "avoid": "shock cut to sister's face; sudden loudness spike as horror sting"
+      },
+      "oino_responds": false,
+      "response": {
+        "action": "Closes the attic door; remains with father's unfinished recording / archive pull.",
+        "means": "Invitation refused — preservation and unfinished music outweigh dinner."
+      }
+    },
+    {
+      "id": "CALL_02_ARCHIVE_ANCESTOR",
+      "order": 2,
+      "phase": "middle",
+      "meaning_label": "ordinary life ignored while preservation continues",
+      "approx_shot": "SH030_ARCHIVE_DISCOVERY",
+      "approx_frame": 600,
+      "marker": "CALL_02_ARCHIVE_ANCESTOR",
+      "source": {
+        "kind": "archive_recording",
+        "who": "someone calling a younger ancestor to dinner",
+        "where": "great-great-grandfather's archive media",
+        "medium": "worn reel / tape — ancestor-origin footage class preferred"
+      },
+      "rhythm": {
+        "pattern": "same domestic contour, degraded — dropouts, wow/flutter, partial words",
+        "relation_to_music": "sits under archive ambience; not a hard sync hit",
+        "bpm_feel": "human call filtered through age of medium"
+      },
+      "visual_form": {
+        "primary": "reel spinning; speaker grille / CRT ghost; lip of a bowl in frame edge",
+        "supporting": ["PROP_FilmReel_A", "FOOTAGE_AncestorPlate_A", "PROP_ArchiveBowl"],
+        "avoid": "presenting archive call as supernatural jump"
+      },
+      "oino_responds": false,
+      "response": {
+        "action": "Listens while continuing to search/handle archive materials; does not leave for any table.",
+        "means": "Ordinary life (dinner) ignored while preservation work continues."
+      }
+    },
+    {
+      "id": "CALL_03_FACTORY_ALARM",
+      "order": 3,
+      "phase": "middle",
+      "meaning_label": "ordinary life ignored while preservation continues",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "approx_frame": 1300,
+      "marker": "CALL_03_FACTORY_ALARM",
+      "source": {
+        "kind": "industrial_signal",
+        "who": "factory / plant system",
+        "where": "steam–electric industrial era passage",
+        "medium": "alarm / shift horn distorted toward domestic vowels"
+      },
+      "rhythm": {
+        "pattern": "alarm periodicity that collapses into the sister-call contour (same stress pattern, wrong timbre)",
+        "relation_to_music": "broad cue only — do not cut every transient",
+        "bpm_feel": "mechanical pulse wearing a household shape"
+      },
+      "visual_form": {
+        "primary": "factory gate / steam; horn geometry echoing open mouth of stairwell light",
+        "supporting": ["PROP_FactoryGate", "PROXY_Era_Steam", "FX_SteamProxy"],
+        "avoid": "horror siren; blood-red full-screen flash"
+      },
+      "oino_responds": false,
+      "response": {
+        "action": "Registers the resemblance; keeps moving through eras.",
+        "means": "Domestic invitation buried inside industrial time — still not answered as dinner."
+      }
+    },
+    {
+      "id": "CALL_04_TERMINAL_NOTIFICATION",
+      "order": 4,
+      "phase": "middle",
+      "meaning_label": "ordinary life ignored while preservation continues",
+      "approx_shot": "SH050_CHANGING_WORLD",
+      "approx_frame": 1500,
+      "marker": "CALL_04_TERMINAL_NOTIFICATION",
+      "source": {
+        "kind": "digital_ui",
+        "who": "terminal / system notification",
+        "where": "digital / possible-future layer of the changing world",
+        "medium": "UI chime + text pulse"
+      },
+      "rhythm": {
+        "pattern": "notification cluster matching the call's stress: da-da—DA (or local equivalent) without speech",
+        "relation_to_music": "soft UI blip under score; not a jump cue",
+        "bpm_feel": "quantized echo of a human call"
+      },
+      "visual_form": {
+        "primary": "terminal toast / cursor blink / label flash resembling 'dinner' without spelling a scare",
+        "supporting": ["PROXY_Era_Digital", "TXT_DigitalLabel"],
+        "avoid": "glitch-horror stingers; face in the screen"
+      },
+      "oino_responds": false,
+      "response": {
+        "action": "Dismisses or scrolls past; hands stay on preservation/control tools.",
+        "means": "Care continues as archive/system work while the living invitation stays unanswered."
+      }
+    },
+    {
+      "id": "CALL_05_ZONE_KNOCK",
+      "order": 5,
+      "phase": "zone",
+      "meaning_label": "reality interrupting desire",
+      "approx_shot": "SH070_ZONE_PASSAGE",
+      "approx_frame": 2200,
+      "marker": "CALL_05_ZONE_KNOCK",
+      "source": {
+        "kind": "zone_phenomenon",
+        "who": "unspecified — Zone does not explain itself",
+        "where": "Zone-like passage",
+        "medium": "irregular knock (wood/metal/air — ambiguous)"
+      },
+      "rhythm": {
+        "pattern": "off-grid, incomplete call rhythm — missing the comforting last beat",
+        "relation_to_music": "near CUE_REST / passage; irregularity interrupts mechanical loops",
+        "bpm_feel": "wrong domestic — familiar shape, broken timing"
+      },
+      "visual_form": {
+        "primary": "passage threshold; no sister body required; knock as space event",
+        "supporting": ["PROXY_ZonePassage", "PROP_Threshold"],
+        "avoid": "jump-scare door slam; creature reveal"
+      },
+      "oino_responds": true,
+      "response": {
+        "action": "Attention breaks; body orients toward the knock even while desire pulls toward the controlled reunion ahead.",
+        "means": "Reality interrupting desire — the living call pattern returns as interruption, not invitation fulfilled."
+      }
+    },
+    {
+      "id": "CALL_06_TABLE_TAP_NEW_MELODY",
+      "order": 6,
+      "phase": "ending",
+      "meaning_label": "living relationship accepted",
+      "approx_shot": "SH120_CHANGED_NOTE",
+      "approx_frame": 2897,
+      "marker": "CALL_06_TABLE_TAP_NEW_MELODY",
+      "source": {
+        "kind": "sister_body_percussion",
+        "who": "Sister",
+        "where": "final table",
+        "medium": "fingers tapping table / bowl rim — becomes melodic onset"
+      },
+      "rhythm": {
+        "pattern": "tap pattern = seed of the changed / altered note; related to call contour but newly musical",
+        "relation_to_music": "aligns with CUE_FINAL_PHRASE / living variation — not a scare hit",
+        "bpm_feel": "human, intimate, slightly behind a perfect grid"
+      },
+      "visual_form": {
+        "primary": "hands at table, untouched bowls, sister present as living person",
+        "supporting": ["PROP_Table", "PROP_Bowl_L", "PROP_Bowl_R", "PROXY_Sister_Body"],
+        "avoid": "turning sister into a moral prop or metronome only"
+      },
+      "oino_responds": true,
+      "response": {
+        "action": "Returns to sister; accepts anger; follows the changed note.",
+        "means": "Living relationship accepted — the call completes as music shared, not archive control."
+      }
+    }
+  ]
+}

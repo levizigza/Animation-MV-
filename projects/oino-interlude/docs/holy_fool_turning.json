@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_08_TABLE_ROOM",
+  "script": "animate_holy_fool_turning",
+  "title": "Holy-fool turning — release what she still wants",
+  "approx_animatic_shot": "SH110_RELEASE",
+  "approx_animatic_frames": [2820, 2896],
+  "throughline": "Ancestor at the exit offers no map. Oino looks, releases the control, lets the father finish and leave, carries the recording out, and looks back once without commanding return. Ordinary and costly — no cosmic reward.",
+  "policy": {
+    "cosmic_reward": false,
+    "explosion": false,
+    "proof_world_saved": false,
+    "ancestor_as_oracle": false,
+    "guarantee_of_return": false,
+    "father_as_monster": false,
+    "holy_fool_action": "allowing the father to leave while she still wants him to stay",
+    "action_quality": "ordinary and costly",
+    "note": "She releases what she still wants. No cosmic reward, no explosion, no proof the world has been saved."
+  },
+  "ancestor_at_exit": {
+    "marker": "HF_ANCESTOR_AT_EXIT",
+    "frame": 520,
+    "stance": "stands near the exit",
+    "offers": {
+      "explanation": false,
+      "guarantee_oino_can_return": false
+    },
+    "link_ancestor_beat": "ANC_08_ZONE_EXIT_NO_CERTAINTY",
+    "staging": "Near doorway / Zone-table threshold; incomplete warning presence; loving, fallible, implicated — not a supernatural judge or oracle."
+  },
+  "beats": [
+    {
+      "id": "HF_LOOK_ANCESTOR_TO_FATHER",
+      "marker": "HF_LOOK_ANCESTOR_TO_FATHER",
+      "frame": 528,
+      "who": "Oino",
+      "action": "looking from the ancestor to her father",
+      "staging": "Eyeline A (exit / ancestor) then B (father at table). Choice becomes visible in the turn of the head — no dialogue required."
+    },
+    {
+      "id": "HF_FATHER_TENDER_PERSONAL",
+      "marker": "HF_FATHER_TENDER_PERSONAL",
+      "frame": 540,
+      "who": "Father",
+      "action": "the father remaining tender and personal",
+      "staging": "Still specific: habit, warmth, unfinished phrase — not a digital mask or monster. Temptation remains beautiful so release costs."
+    },
+    {
+      "id": "HF_ANCESTOR_NOT_ORACLE",
+      "marker": "HF_ANCESTOR_NOT_ORACLE",
+      "frame": 552,
+      "who": "Ancestor",
+      "action": "the ancestor refusing to become an oracle",
+      "staging": "No explanation; no nod that means 'do this and you are saved.' Presence only. If he moves, it is leave-taking, not prophecy."
+    },
+    {
+      "id": "HF_RELEASE_CONTROL",
+      "marker": "HF_RELEASE_CONTROL",
+      "frame": 564,
+      "who": "Oino",
+      "action": "Oino releasing the playback control",
+      "staging": "Fingers lift from PROP_PlaybackControl. Ordinary. Costly. Want remains on her face while the hand opens. Camera: CAM_TABLE_OINO_CONTROL then widen.",
+      "holy_fool_hinge": true
+    },
+    {
+      "id": "HF_SEQUENCE_FORWARD",
+      "marker": "HF_SEQUENCE_FORWARD",
+      "frame": 576,
+      "who": "Scene",
+      "action": "the sequence moving forward",
+      "staging": "No rewind. Time resumes living direction. Loop authority ends with the open hand."
+    },
+    {
+      "id": "HF_FATHER_FINISHES_MELODY",
+      "marker": "HF_FATHER_FINISHES_MELODY",
+      "frame": 588,
+      "who": "Father",
+      "action": "the father finishing the melody",
+      "staging": "Unfinished melody reaches its natural end once — not an endless perfect take. Include the familiar mistake if it still belongs to him."
+    },
+    {
+      "id": "HF_FATHER_STANDS_LEAVES",
+      "marker": "HF_FATHER_STANDS_LEAVES",
+      "frame": 612,
+      "who": "Father",
+      "action": "the father standing and leaving",
+      "staging": "Weight up from habitual chair; path toward window or door. CAM_TABLE_FATHER_LEAVING. She does not reset.",
+      "link_table_marker": "TABLE_FATHER_EXIT_BEGIN"
+    },
+    {
+      "id": "HF_LISTEN_SOUND_AND_SILENCE",
+      "marker": "HF_LISTEN_SOUND_AND_SILENCE",
+      "frame": 636,
+      "who": "Oino",
+      "action": "Oino listening through the final sound and the silence after it",
+      "staging": "Hold on her listening — last note, decay, then silence that is allowed to remain empty. Patient camera; do not fill with score sting."
+    },
+    {
+      "id": "HF_CARRY_RECORDING_OUT",
+      "marker": "HF_CARRY_RECORDING_OUT",
+      "frame": 660,
+      "who": "Oino",
+      "action": "Oino carrying the recording out",
+      "staging": "She takes the recording / playback object as memory to share — not as a loop engine. Gift moves toward nourishment (home / sister), not endless extraction."
+    },
+    {
+      "id": "HF_LOOK_BACK_THRESHOLD",
+      "marker": "HF_LOOK_BACK_THRESHOLD",
+      "frame": 684,
+      "who": "Oino",
+      "action": "one look back at the threshold without commanding a return",
+      "staging": "CAM_TABLE_DOORWAY_LOOKBACK. One look. No gesture that rewinds, summons, or resets. Empty space may hold after she turns away."
+    }
+  ],
+  "dionysian_release": {
+    "optional": true,
+    "max_images_in_final_shot": 1,
+    "additional_only_if": "animatic proves that additional imagery helps",
+    "default_choice": "REL_DUST_TO_WHITE_BIRDS",
+    "link_echo": "ECHO_WHITE_BIRDS_RELEASE",
+    "explain": false,
+    "options": [
+      {
+        "id": "REL_VINE_LOOSENS",
+        "image": "a vine loosens from a machine",
+        "link_echo": "ECHO_IVY_THROUGH_MACHINE",
+        "staging": "One tendril releases grip on quiet architecture — growth without sermon."
+      },
+      {
+        "id": "REL_DUST_TO_WHITE_BIRDS",
+        "image": "dust or film perforations become white birds",
+        "link_echo": "ECHO_WHITE_BIRDS_RELEASE",
+        "staging": "Dust / sprocket holes lift into dove-like forms as he leaves — brief; not a god exit bow."
+      },
+      {
+        "id": "REL_RED_REFLECTION_BREAKS",
+        "image": "a red reflection breaks into moving light",
+        "link_echo": "ECHO_WINE_LIGHT",
+        "staging": "Wine-coloured reflection fractures into moving light on the table — sacred ordinary, no altar."
+      },
+      {
+        "id": "REL_RHYTHM_BECOMES_BREATH",
+        "image": "a rhythm becomes breath",
+        "link_echo": "ECHO_HAND_PERCUSSION_DANCE",
+        "staging": "Quantized loop softens into irregular breath / living time as control is released."
+      }
+    ],
+    "placement": "Final shot of this turning only (near HF_LOOK_BACK_THRESHOLD / father gone). Prefer one image; omit entirely if the ordinary cost already reads."
+  },
+  "must_preserve": [
+    "Ancestor offers no explanation and no guarantee of return",
+    "Father stays tender and personal through the leave",
+    "Holy-fool action is ordinary and costly — she releases what she still wants",
+    "One look back without commanding return",
+    "At most one optional Dionysian release image unless animatic proves more helps"
+  ],
+  "must_not": [
+    "Cosmic reward",
+    "Explosion",
+    "Proof that the world has been saved",
+    "Ancestor as oracle",
+    "Father as monster under a digital face",
+    "Stack multiple Dionysian release images in the final shot by default"
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_09_FINAL_MEAL",
+  "script": "animate_final_meal",
+  "title": "Final meal — opening mirrored; memory becomes participation",
+  "approx_animatic_shots": ["SH120_CHANGED_NOTE", "SH130_TITLE_CARD"],
+  "approx_animatic_frames": [2897, 3148],
+  "throughline": "Match the final composition to the opening. Sister keeps her own rhythm and changes the note. Old recording ends imperfectly beside living women; living melody carries the last sound. Final story image: open doorway. Final film image: title card (Prompt 22).",
+  "policy": {
+    "sister_is_symbolic_child": false,
+    "sister_has_own_rhythm": true,
+    "changed_note_is_real_creative_contribution": true,
+    "literal_magic_trick_ending": false,
+    "true_transformation": "memory becoming participation",
+    "final_story_image": "open doorway",
+    "final_film_image": "title card from Prompt 22",
+    "title_card_text": "One Of Gods Fools",
+    "title_card_date": "December 10, 2026",
+    "link_call_motif": "CALL_01_SISTER_DOWNSTAIRS → CALL_06_TABLE_TAP_NEW_MELODY",
+    "note": "Sister is a living person with anger and creativity. Dionysian wine-likeness may flicker in water/juice/light — never a literal magic trick."
+  },
+  "composition_mirror": [
+    {
+      "id": "MIRROR_01_CALL",
+      "opening": "sister calls Oino",
+      "ending": "Oino comes downstairs",
+      "opening_marker": "CALL_01_SISTER_DOWNSTAIRS",
+      "ending_beat": "FM_OINO_DOWNSTAIRS"
+    },
+    {
+      "id": "MIRROR_02_DELAY",
+      "opening": "Oino delays",
+      "ending": "the sister is angry",
+      "note": "Delay's cost arrives as living anger — not a lecture.",
+      "ending_beat": "FM_SISTER_ANGRY"
+    },
+    {
+      "id": "MIRROR_03_BOWLS",
+      "opening": "two bowls wait",
+      "ending": "Oino accepts the bowl",
+      "ending_beat": "FM_ACCEPTS_BOWL"
+    },
+    {
+      "id": "MIRROR_04_DOOR",
+      "opening": "the attic door closes",
+      "ending": "open doorway (final story image)",
+      "ending_beat": "FM_OPEN_DOORWAY",
+      "note": "Closed attic → open doorway; invitation answered by presence."
+    },
+    {
+      "id": "MIRROR_05_MELODY",
+      "opening": "the family melody is repeated exactly",
+      "ending": "the sister changes the note; Oino follows",
+      "ending_beats": ["FM_SISTER_CHANGES_NOTE", "FM_OINO_FOLLOWS"],
+      "note": "Exact repetition yields to living variation."
+    }
+  ],
+  "opening_reference": {
+    "beats": [
+      {
+        "id": "OPEN_SISTER_CALLS",
+        "action": "sister calls Oino",
+        "link": "CALL_01_SISTER_DOWNSTAIRS"
+      },
+      {
+        "id": "OPEN_OINO_DELAYS",
+        "action": "Oino delays",
+        "staging": "Attic work continues; invitation refused."
+      },
+      {
+        "id": "OPEN_TWO_BOWLS",
+        "action": "two bowls wait",
+        "staging": "Downstairs place set; cost latent."
+      },
+      {
+        "id": "OPEN_ATTIC_CLOSES",
+        "action": "the attic door closes",
+        "staging": "Barrier between archive and ordinary meal."
+      },
+      {
+        "id": "OPEN_MELODY_EXACT",
+        "action": "the family melody is repeated exactly",
+        "staging": "Preservation as identical playback — shadow seed."
+      }
+    ]
+  },
+  "ending_beats": [
+    {
+      "id": "FM_OINO_DOWNSTAIRS",
+      "marker": "FM_OINO_DOWNSTAIRS",
+      "frame": 700,
+      "who": "Oino",
+      "action": "Oino comes downstairs",
+      "staging": "Body enters the domestic table space; recording may be carried from holy-fool exit. Eyeline finds sister first."
+    },
+    {
+      "id": "FM_SISTER_ANGRY",
+      "marker": "FM_SISTER_ANGRY",
+      "frame": 712,
+      "who": "Sister",
+      "action": "the sister is angry",
+      "staging": "Anger is personal and rhythmic — not a moral prop. Breath, jaw, table contact carry her own tempo."
+    },
+    {
+      "id": "FM_OINO_SITS_BESIDE",
+      "marker": "FM_OINO_SITS_BESIDE",
+      "frame": 724,
+      "who": "Oino",
+      "action": "Oino sits beside her",
+      "staging": "Beside, not opposite as judge. Weight settles into presence."
+    },
+    {
+      "id": "FM_ACCEPTS_BOWL",
+      "marker": "FM_ACCEPTS_BOWL",
+      "frame": 736,
+      "who": "Oino",
+      "action": "Oino accepts the bowl",
+      "staging": "Hands receive nourishment; two bowls become shared meal. Gift toward care."
+    },
+    {
+      "id": "FM_PRESENT_NO_FORGIVENESS_DEMAND",
+      "marker": "FM_PRESENT_NO_FORGIVENESS_DEMAND",
+      "frame": 748,
+      "who": "Oino",
+      "action": "Oino remains present without demanding immediate forgiveness",
+      "staging": "No speech that extracts absolution. She stays. Sister's anger may continue — allowed."
+    },
+    {
+      "id": "FM_SISTER_TAPS_OLD",
+      "marker": "FM_SISTER_TAPS_OLD",
+      "frame": 760,
+      "who": "Sister",
+      "action": "the sister taps the old melody",
+      "staging": "Fingers on table / bowl rim — CALL_06 seed. Her rhythm, slightly off the archive grid.",
+      "link_call_motif": "CALL_06_TABLE_TAP_NEW_MELODY"
+    },
+    {
+      "id": "FM_OINO_ANSWERS",
+      "marker": "FM_OINO_ANSWERS",
+      "frame": 772,
+      "who": "Oino",
+      "action": "Oino answers",
+      "staging": "Voice, tap, or hum answers her sister — dialogue of bodies, not archive control."
+    },
+    {
+      "id": "FM_SISTER_CHANGES_NOTE",
+      "marker": "FM_SISTER_CHANGES_NOTE",
+      "frame": 784,
+      "who": "Sister",
+      "action": "the sister changes the note",
+      "staging": "Real creative contribution — new interval / timing. Not a symbolic child's accident.",
+      "creative_contribution": true
+    },
+    {
+      "id": "FM_OINO_ALMOST_CORRECTS",
+      "marker": "FM_OINO_ALMOST_CORRECTS",
+      "frame": 796,
+      "who": "Oino",
+      "action": "Oino almost corrects her",
+      "staging": "Micro-reach toward the 'right' archive pitch — shadow reflex — then stops."
+    },
+    {
+      "id": "FM_OINO_FOLLOWS",
+      "marker": "FM_OINO_FOLLOWS",
+      "frame": 808,
+      "who": "Oino",
+      "action": "Oino listens and follows",
+      "staging": "Eyeline and breath join the sister's changed note. Memory becomes participation."
+    },
+    {
+      "id": "FM_OPEN_DOORWAY",
+      "marker": "FM_OPEN_DOORWAY",
+      "frame": 840,
+      "who": "Frame",
+      "action": "final story image — the open doorway",
+      "staging": "Composition holds the open doorway (answer to closed attic). Women may be in frame or just left; doorway reads as invitation kept open.",
+      "final_story_image": true
+    },
+    {
+      "id": "FM_TITLE_CARD",
+      "marker": "FM_TITLE_CARD",
+      "frame": 868,
+      "who": "Film",
+      "action": "final film image — title card (Prompt 22)",
+      "staging": "Exact card from Prompt 22 / CANON: One Of Gods Fools · December 10, 2026. Links SH130_TITLE_CARD.",
+      "final_film_image": true,
+      "title_text": "One Of Gods Fools",
+      "title_date": "December 10, 2026",
+      "link_animatic": "SH130_TITLE_CARD",
+      "link_prompt": "Prompt 22"
+    }
+  ],
+  "audio_layering": {
+    "original_recording": {
+      "audible": true,
+      "through": "imperfect end beside the living women",
+      "note": "Keep the original recording audible as it reaches its imperfect end — familiar mistake / unfinished contour allowed to finish once."
+    },
+    "layering": {
+      "brief_overlap": true,
+      "staging": "Layer the new melody briefly with the old one, then let the living version carry the final sound.",
+      "markers": {
+        "overlap_start": "FM_AUDIO_OVERLAP_START",
+        "overlap_start_frame": 780,
+        "living_carries": "FM_AUDIO_LIVING_CARRIES",
+        "living_carries_frame": 820,
+        "recording_imperfect_end": "FM_AUDIO_RECORDING_IMPERFECT_END",
+        "recording_imperfect_end_frame": 812
+      }
+    },
+    "must_not": [
+      "Hard mute the old recording as a moral sting",
+      "Replace living melody with a perfected archive loop"
+    ]
+  },
+  "dionysian_transformation": {
+    "subtle": true,
+    "literal_magic_trick": false,
+    "true_transformation": "memory becoming participation",
+    "may_briefly_resemble_wine": ["water", "juice", "light"],
+    "staging": "Water, juice, or light may briefly resemble wine — a flicker only. Do not turn the ending into a literal magic trick.",
+    "link_echo": "ECHO_WINE_LIGHT"
+  },
+  "must_preserve": [
+    "Final composition mirrors the opening",
+    "Sister has her own rhythm; changed note is real creative contribution",
+    "Original recording audible to imperfect end; brief layer then living carries final sound",
+    "True transformation is memory becoming participation",
+    "Final story image is the open doorway",
+    "Final film image is the Prompt 22 title card"
+  ],
+  "must_not": [
+    "Treat sister as a symbolic child or moral prop",
+    "Literal magic-trick wine ending",
+    "Demand immediate forgiveness as the beat's goal",
+    "End on closed attic / controlled loop",
+    "Alter title card text away from One Of Gods Fools / December 10, 2026"
+  ]
+}

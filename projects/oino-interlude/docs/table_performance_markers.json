@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_08_TABLE_ROOM",
+  "editable": true,
+  "dread_from": "repetition and missing life",
+  "forbidden": {
+    "horror_music": false,
+    "red_warning_light": false,
+    "monster_reveal": false
+  },
+  "markers": [
+    {
+      "name": "PHASE_1_ARRIVAL_START",
+      "frame": 1,
+      "phase": "PHASE_1_ARRIVAL",
+      "note": "cautious hope; recognition without scare"
+    },
+    {
+      "name": "BLOCK_P1_OINO_ENTERS",
+      "frame": 1,
+      "phase": "PHASE_1_ARRIVAL",
+      "who": "Oino",
+      "action": "enters cautiously",
+      "priority_focus": [
+        "eyes_eyelines",
+        "breathing",
+        "weight_shifts"
+      ],
+      "note": "Hesitant weight; eyeline finds father mid-melody before she sits; warm light already on the table."
+    },
+    {
+      "name": "BLOCK_P1_FATHER_MID_MELODY",
+      "frame": 48,
+      "phase": "PHASE_1_ARRIVAL",
+      "who": "Father",
+      "action": "halfway through the unfinished melody",
+      "priority_focus": [
+        "fingers_hand_contact",
+        "breathing"
+      ],
+      "note": "Hands already in the phrase; she arrives late to a life that was going on without her."
+    },
+    {
+      "name": "BLOCK_P1_FAMILIAR_MISTAKE",
+      "frame": 72,
+      "phase": "PHASE_1_ARRIVAL",
+      "who": "Father",
+      "action": "makes the mistake she remembers",
+      "priority_focus": [
+        "fingers_hand_contact",
+        "eyes_eyelines"
+      ],
+      "note": "Familiar musical mistake \u2014 pleasure of recognition, not failure. Links TABLE_FATHER_MUSICAL_MISTAKE."
+    },
+    {
+      "name": "PHASE_1_ARRIVAL_END",
+      "frame": 96,
+      "phase": "PHASE_1_ARRIVAL",
+      "note": "End ARRIVAL"
+    },
+    {
+      "name": "PHASE_2_PLEASURE_START",
+      "frame": 97,
+      "phase": "PHASE_2_PLEASURE",
+      "note": "warm, pleasurable, funny, safe \u2014 why she stays"
+    },
+    {
+      "name": "BLOCK_P2_FATHER_LAUGHS",
+      "frame": 120,
+      "phase": "PHASE_2_PLEASURE",
+      "who": "Father",
+      "action": "laughs",
+      "priority_focus": [
+        "breathing",
+        "eyes_eyelines",
+        "weight_shifts"
+      ],
+      "note": "Small laugh; chest and shoulders live; timing must feel unplanned."
+    },
+    {
+      "name": "BLOCK_P2_OINO_SITS",
+      "frame": 132,
+      "phase": "PHASE_2_PLEASURE",
+      "who": "Oino",
+      "action": "sits",
+      "priority_focus": [
+        "weight_shifts",
+        "eyes_eyelines"
+      ],
+      "note": "She takes her chair; body softens into safety; eyeline enjoys him."
+    },
+    {
+      "name": "BLOCK_P2_PREFERENCE_DISAGREEMENT",
+      "frame": 168,
+      "phase": "PHASE_2_PLEASURE",
+      "who": "Father",
+      "action": "has a preference, distraction, or small disagreement",
+      "priority_focus": [
+        "father_independent_attention",
+        "fingers_hand_contact"
+      ],
+      "note": "Disagreement about a note \u2014 tender and specific; two hearings, still safe."
+    },
+    {
+      "name": "BLOCK_P2_ORDINARY_COMPANY",
+      "frame": 216,
+      "phase": "PHASE_2_PLEASURE",
+      "who": "Both",
+      "action": "she enjoys his ordinary company; his attention can leave her",
+      "priority_focus": [
+        "father_independent_attention",
+        "eyes_eyelines"
+      ],
+      "note": "Glance toward the window; habit; ordinary pause \u2014 he is tender and specific, not a wish fulfilment puppet."
+    },
+    {
+      "name": "PHASE_2_PLEASURE_END",
+      "frame": 312,
+      "phase": "PHASE_2_PLEASURE",
+      "note": "End PLEASURE"
+    },
+    {
+      "name": "PHASE_3_FIRST_RESET_START",
+      "frame": 313,
+      "phase": "PHASE_3_FIRST_RESET",
+      "note": "merciful control; second pass a fraction too precise"
+    },
+    {
+      "name": "BLOCK_P3_FATHER_BEGINS_LEAVE",
+      "frame": 320,
+      "phase": "PHASE_3_FIRST_RESET",
+      "who": "Father",
+      "action": "begins to leave",
+      "priority_focus": [
+        "weight_shifts",
+        "father_independent_attention",
+        "eyes_eyelines"
+      ],
+      "note": "Rise toward window or doorway; his life continues past her need. Links TABLE_FATHER_EXIT_BEGIN."
+    },
+    {
+      "name": "BLOCK_P3_FINDS_CONTROL",
+      "frame": 348,
+      "phase": "PHASE_3_FIRST_RESET",
+      "who": "Oino",
+      "action": "finds the playback control",
+      "priority_focus": [
+        "fingers_hand_contact",
+        "conceal_reset",
+        "eyes_eyelines"
+      ],
+      "note": "Hand finds PROP_PlaybackControl; she tries to conceal the reset \u2014 soft face, shielding body. Camera: CAM_TABLE_OINO_CONTROL."
+    },
+    {
+      "name": "BLOCK_P3_RESET_MERCY",
+      "frame": 360,
+      "phase": "PHASE_3_FIRST_RESET",
+      "who": "Oino",
+      "action": "resets the scene; it feels merciful",
+      "priority_focus": [
+        "conceal_reset",
+        "fingers_hand_contact",
+        "breathing"
+      ],
+      "note": "No alarm. No red warning. The gesture reads as keeping love a moment longer \u2014 still almost kindness."
+    },
+    {
+      "name": "BLOCK_P3_SECOND_TOO_PRECISE",
+      "frame": 384,
+      "phase": "PHASE_3_FIRST_RESET",
+      "who": "Both",
+      "action": "second version plays a fraction too precise",
+      "priority_focus": [
+        "breathing",
+        "eyes_eyelines",
+        "fingers_hand_contact"
+      ],
+      "note": "Same warmth on the surface; timings slightly quantized; laugh arrives early-or-late by a hair that the ear notices as wrong-life."
+    },
+    {
+      "name": "PHASE_3_FIRST_RESET_END",
+      "frame": 400,
+      "phase": "PHASE_3_FIRST_RESET",
+      "note": "End THE FIRST RESET"
+    },
+    {
+      "name": "PHASE_4_LOSS_OF_SPONTANEITY_START",
+      "frame": 401,
+      "phase": "PHASE_4_LOSS_OF_SPONTANEITY",
+      "note": "dread from repetition and missing life"
+    },
+    {
+      "name": "BLOCK_P4_REMOVE_PAUSES",
+      "frame": 408,
+      "phase": "PHASE_4_LOSS_OF_SPONTANEITY",
+      "who": "Oino",
+      "action": "removes pauses",
+      "priority_focus": [
+        "breathing",
+        "recognition_own_hand"
+      ],
+      "note": "Ordinary pause deleted; silence no longer comfortable \u2014 it is absent."
+    },
+    {
+      "name": "BLOCK_P4_REMOVE_DISAGREEMENTS",
+      "frame": 420,
+      "phase": "PHASE_4_LOSS_OF_SPONTANEITY",
+      "who": "Oino",
+      "action": "removes disagreements",
+      "priority_focus": [
+        "fingers_hand_contact",
+        "eyes_eyelines"
+      ],
+      "note": "Note disagreement gone; preference flattened; he agrees on cue."
+    },
+    {
+      "name": "BLOCK_P4_REMOVE_GLANCES",
+      "frame": 432,
+      "phase": "PHASE_4_LOSS_OF_SPONTANEITY",
+      "who": "Oino",
+      "action": "removes glances",
+      "priority_focus": [
+        "father_independent_attention",
+        "eyes_eyelines"
+      ],
+      "note": "No window glance; eyeline locked; independent attention dead."
+    },
+    {
+      "name": "BLOCK_P4_REMOVE_DEPARTURES",
+      "frame": 444,
+      "phase": "PHASE_4_LOSS_OF_SPONTANEITY",
+      "who": "Oino",
+      "action": "removes departures",
+      "priority_focus": [
+        "weight_shifts",
+        "conceal_reset"
+      ],
+      "note": "He never begins to leave; loop seals the table."
+    },
+    {
+      "name": "BLOCK_P4_LAUGH_SAME_FRAME",
+      "frame": 456,
+      "phase": "PHASE_4_LOSS_OF_SPONTANEITY",
+      "who": "Father",
+      "action": "laughter occurs on exactly the same frame",
+      "priority_focus": [
+        "breathing",
+        "eyes_eyelines",
+        "recognition_own_hand"
+      ],
+      "note": "Identical laugh frame each loop \u2014 dread without scare sting. Compare to living laugh at f120."
+    },
+    {
+      "name": "BLOCK_P4_ATTENTION_NO_INDEPENDENCE",
+      "frame": 468,
+      "phase": "PHASE_4_LOSS_OF_SPONTANEITY",
+      "who": "Father",
+      "action": "his attention no longer moves independently",
+      "priority_focus": [
+        "father_independent_attention",
+        "eyes_eyelines"
+      ],
+      "note": "Eyes track Oino only; window unused; life-beyond-desire erased."
+    },
+    {
+      "name": "BLOCK_P4_RECOGNITION_OWN_HAND",
+      "frame": 476,
+      "phase": "PHASE_4_LOSS_OF_SPONTANEITY",
+      "who": "Oino",
+      "action": "recognizes that her own hand is creating the loss",
+      "priority_focus": [
+        "recognition_own_hand",
+        "fingers_hand_contact",
+        "eyes_eyelines"
+      ],
+      "note": "Eyeline drops to her hand on the control; no monster face \u2014 she sees authorship of the missing life."
+    },
+    {
+      "name": "PHASE_4_LOSS_OF_SPONTANEITY_END",
+      "frame": 480,
+      "phase": "PHASE_4_LOSS_OF_SPONTANEITY",
+      "note": "End THE LOSS OF SPONTANEITY"
+    }
+  ]
+}

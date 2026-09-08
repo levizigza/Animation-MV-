@@ -1,0 +1,34 @@
+{
+  "script": "build_revolution_passes",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:45:08.292909+00:00",
+  "finished_at": "2026-09-07T22:45:09.079502+00:00",
+  "counts": {
+    "created": 4,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/revolution_pass_presets.json",
+    "docs/revolution_pass_markers.json",
+    "docs/revolution_passes.md",
+    "world_controls_from:MOV_02_ELECTRICITY_LIGHT_TIME"
+  ],
+  "reused": [
+    "docs/revolution_passes.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Selected pass: MOV_02_ELECTRICITY_LIGHT_TIME (Electricity, light, and time)",
+    "Controls: era_blend=0.5, future_branch=0.05, organic_growth=0.1, dionysus_presence=0.3",
+    "Applying MOV_02_ELECTRICITY_LIGHT_TIME controls via build_modular_industrial_world.py",
+    "[CREATED] docs/modular_industrial_world_status.md",
+    "[REPORT] C:\\Users\\levyz\\OneDrive\\Microsoft Copilot Chat Files\\Documents\\Music Video Maker\\projects\\oino-interlude\\cache\\reports\\build_modular_industrial_world_20260907T224509Z.json",
+    "SUMMARY ok=True era_blend=0.50 future=0.05 organic=0.10 dionysus=0.30 blend=skipped",
+    "No on-screen era labels; history via energy, materials, interfaces, labour, food, music, relationships"
+  ]
+}

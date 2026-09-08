@@ -1,0 +1,29 @@
+{
+  "script": "build_zone",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:51:21.894939+00:00",
+  "finished_at": "2026-09-07T22:51:22.622948+00:00",
+  "counts": {
+    "created": 3,
+    "reused": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/zone_markers.json",
+    "cache/zone_payload.json",
+    "docs/zone.md"
+  ],
+  "reused": [
+    "docs/zone_brief.json",
+    "scripts/_blender_zone.py"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Blender not installed - SCN_07_ZONE.blend deferred",
+    "Zone unresolved; goal=unfinished melody; no villain/tech diagram/final answer; hold empty space"
+  ]
+}

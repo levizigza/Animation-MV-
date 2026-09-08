@@ -1,0 +1,28 @@
+{
+  "script": "build_camera_system",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:10:44.416381+00:00",
+  "finished_at": "2026-09-07T23:10:44.421284+00:00",
+  "counts": {
+    "created": 3,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/shot_list.csv",
+    "docs/camera_system_markers.json",
+    "docs/camera_system.md"
+  ],
+  "reused": [
+    "docs/camera_system.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "animatic parent links checked",
+    "22 shots / 19 hero; no aerial tours / aggressive shake / env-only cuts"
+  ]
+}

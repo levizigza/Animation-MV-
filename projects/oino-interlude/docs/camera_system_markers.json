@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "system_id": "OINO_CAMERA_SYSTEM",
+  "editable": true,
+  "policy": {
+    "avoid_constant_aerial_tours": true,
+    "avoid_aggressive_camera_shake": true,
+    "avoid_cuts_only_for_environment_detail": true,
+    "protect_performance_at_table": true,
+    "title_card_still": true,
+    "note": "Camera serves who is waiting, leaving, listening, choosing \u2014 not tourism."
+  },
+  "markers": [
+    {
+      "name": "CAM_SH010_SISTER_CALL",
+      "shot_id": "SH010_SISTER_CALL",
+      "frame": 1,
+      "camera": "CAM_ATTIC_DOMESTIC_DOWN",
+      "lens_mm": 35,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Invitation arrives; domestic closeness with a glimpse toward the sister she will refuse."
+    },
+    {
+      "name": "CAM_SH010B_ATTIC_DOOR_CLOSES",
+      "shot_id": "SH010B_ATTIC_DOOR_CLOSES",
+      "frame": 201,
+      "camera": "CAM_ATTIC_DOOR",
+      "lens_mm": 35,
+      "hero": false,
+      "render_priority": "HIGH",
+      "note": "Refusal completed \u2014 doorway excludes sister."
+    },
+    {
+      "name": "CAM_SH020_FATHERS_RECORDING",
+      "shot_id": "SH020_FATHERS_RECORDING",
+      "frame": 343,
+      "camera": "CAM_ATTIC_HAND_TAPE",
+      "lens_mm": 50,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Need crystallizes in the unfinished melody \u2014 intimate, not spectacular."
+    },
+    {
+      "name": "CAM_SH030_ARCHIVE_BOX_OINO",
+      "shot_id": "SH030_ARCHIVE_BOX_OINO",
+      "frame": 520,
+      "camera": "CAM_ARCHIVE_LATERAL_BOX",
+      "lens_mm": 40,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Name inheritance as object \u2014 discovery without classroom diagram."
+    },
+    {
+      "name": "CAM_SH041_ANCESTOR_IGNORES_DINNER",
+      "shot_id": "SH041_ANCESTOR_IGNORES_DINNER",
+      "frame": 560,
+      "camera": "CAM_ARCHIVE_DINNER_CLIP",
+      "lens_mm": 28,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Embarrassing ordinary refusal \u2014 implication, not sermon."
+    },
+    {
+      "name": "CAM_SH031_FAMILY_LINE_DOCUMENT",
+      "shot_id": "SH031_FAMILY_LINE_DOCUMENT",
+      "frame": 581,
+      "camera": "CAM_ARCHIVE_FRAMES_WITHIN",
+      "lens_mm": 50,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Lineage as worn paper \u2014 artistic adaptation, not universal claim."
+    },
+    {
+      "name": "CAM_SH040_ANCESTOR_SLEEVE",
+      "shot_id": "SH040_ANCESTOR_SLEEVE",
+      "frame": 820,
+      "camera": "CAM_STEAM_LOW_HANDS",
+      "lens_mm": 35,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Care as ordinary labour \u2014 watcher still able to mend."
+    },
+    {
+      "name": "CAM_SH050_FACTORY_GATE",
+      "shot_id": "SH050_FACTORY_GATE",
+      "frame": 1131,
+      "camera": "CAM_STEAM_GATE_LOW",
+      "lens_mm": 24,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Doorway becomes factory gate \u2014 history through bodies, not labels."
+    },
+    {
+      "name": "CAM_SH051_ELECTRIC_HOUSEHOLD_TIME",
+      "shot_id": "SH051_ELECTRIC_HOUSEHOLD_TIME",
+      "frame": 1300,
+      "camera": "CAM_ELECTRIC_WIDE_RELIEF",
+      "lens_mm": 28,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Benefit and cost together: relief of light, absence still present."
+    },
+    {
+      "name": "CAM_SH060_SYNTHETIC_VOICE",
+      "shot_id": "SH060_SYNTHETIC_VOICE",
+      "frame": 1700,
+      "camera": "CAM_DIGITAL_ASSISTIVE",
+      "lens_mm": 40,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Care through technology \u2014 not memorial ghost; living person uses the tool."
+    },
+    {
+      "name": "CAM_SH061_OINO_SEES_OWN_RECORDING",
+      "shot_id": "SH061_OINO_SEES_OWN_RECORDING",
+      "frame": 1850,
+      "camera": "CAM_DIGITAL_SELF_REFLECTION",
+      "lens_mm": 50,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "She becomes watcher of her own controlled archive \u2014 shadow foreshadow without scare."
+    },
+    {
+      "name": "CAM_SH070_TABLE_GLIMPSE",
+      "shot_id": "SH070_TABLE_GLIMPSE",
+      "frame": 2200,
+      "camera": "CAM_ZONE_PATIENT_TO_TABLE",
+      "lens_mm": 35,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Destination appears before arrival \u2014 ordinary sacred ahead; Zone unexplained."
+    },
+    {
+      "name": "CAM_SH070B_ZONE_EMPTY_HOLD",
+      "shot_id": "SH070B_ZONE_EMPTY_HOLD",
+      "frame": 2351,
+      "camera": "CAM_ZONE_EXIT",
+      "lens_mm": 28,
+      "hero": false,
+      "render_priority": "MED",
+      "note": "Patient empty space \u2014 nature unresolved."
+    },
+    {
+      "name": "CAM_SH080_WARM_TWO_SHOT",
+      "shot_id": "SH080_WARM_TWO_SHOT",
+      "frame": 2440,
+      "camera": "CAM_TABLE_TWO_SHOT",
+      "lens_mm": 40,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Genuine comfort \u2014 why she stays; protect performance."
+    },
+    {
+      "name": "CAM_SH090_HAND_RESET_CONTROL",
+      "shot_id": "SH090_HAND_RESET_CONTROL",
+      "frame": 2620,
+      "camera": "CAM_TABLE_OINO_CONTROL",
+      "lens_mm": 55,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Shadow as merciful grip \u2014 dread from control, not horror light."
+    },
+    {
+      "name": "CAM_SH100_SISTER_REFLECTION",
+      "shot_id": "SH100_SISTER_REFLECTION",
+      "frame": 2743,
+      "camera": "CAM_TABLE_REFLECTION",
+      "lens_mm": 45,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Cost already present \u2014 loneliness in progress, not later warning."
+    },
+    {
+      "name": "CAM_SH110_RELEASE_CONTROL",
+      "shot_id": "SH110_RELEASE_CONTROL",
+      "frame": 2820,
+      "camera": "CAM_TABLE_OINO_CONTROL",
+      "lens_mm": 50,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Holy-fool hinge \u2014 ordinary costly release."
+    },
+    {
+      "name": "CAM_SH110B_FATHER_LEAVES",
+      "shot_id": "SH110B_FATHER_LEAVES",
+      "frame": 2871,
+      "camera": "CAM_TABLE_FATHER_LEAVING",
+      "lens_mm": 35,
+      "hero": false,
+      "render_priority": "HIGH",
+      "note": "He finishes and goes \u2014 life beyond her desire."
+    },
+    {
+      "name": "CAM_SH120_ACCEPTS_BOWL",
+      "shot_id": "SH120_ACCEPTS_BOWL",
+      "frame": 2910,
+      "camera": "CAM_RETURN_TABLE_HANDS",
+      "lens_mm": 40,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Nourishment accepted; presence without demanding forgiveness."
+    },
+    {
+      "name": "CAM_SH121_SISTER_CHANGES_MELODY",
+      "shot_id": "SH121_SISTER_CHANGES_MELODY",
+      "frame": 2961,
+      "camera": "CAM_RETURN_SISTER_RHYTHM",
+      "lens_mm": 50,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Real creative contribution \u2014 living variation, not symbolic child."
+    },
+    {
+      "name": "CAM_SH122_OPEN_DOORWAY",
+      "shot_id": "SH122_OPEN_DOORWAY",
+      "frame": 3021,
+      "camera": "CAM_RETURN_OPEN_DOOR",
+      "lens_mm": 28,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Final story image \u2014 invitation kept open (answers closed attic)."
+    },
+    {
+      "name": "CAM_SH130_TITLE_CARD",
+      "shot_id": "SH130_TITLE_CARD",
+      "frame": 3051,
+      "camera": "CAM_TITLE_STILL",
+      "lens_mm": 50,
+      "hero": true,
+      "render_priority": "HERO",
+      "note": "Final film image \u2014 still; no trailer motion."
+    }
+  ]
+}

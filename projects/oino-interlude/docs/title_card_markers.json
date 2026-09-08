@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_13_TITLE_CARD",
+  "editable": true,
+  "title_text": "One Of Gods Fools",
+  "release_date_text": "December 10, 2026",
+  "apostrophe_in_Gods": false,
+  "markers": [
+    {
+      "name": "TC_HOLD_OPEN_DOORWAY",
+      "frame": 1,
+      "action": "Hold on the open doorway.",
+      "note": "return"
+    },
+    {
+      "name": "TC_LIVING_NOTE_SETTLES",
+      "frame": 16,
+      "action": "Let the last living note settle.",
+      "note": "return"
+    },
+    {
+      "name": "TC_RECORDING_IMPERFECT_END",
+      "frame": 28,
+      "action": "Allow the original recording to reach its imperfect end.",
+      "note": "FM_AUDIO_RECORDING_IMPERFECT_END"
+    },
+    {
+      "name": "TC_FADE_NEAR_BLACK",
+      "frame": 40,
+      "action": "Fade to a quiet near-black frame.",
+      "note": null
+    },
+    {
+      "name": "TC_TITLE_FADE_IN",
+      "frame": 52,
+      "action": "Fade in the exact album title: One Of Gods Fools",
+      "note": null
+    },
+    {
+      "name": "TITLE_CARD_FINAL",
+      "frame": 52,
+      "frame_start": 52,
+      "frame_end": 148,
+      "global_frame_start": 3051,
+      "global_frame_end": 3148,
+      "range": true,
+      "note": "Final title-card frame range \u2014 title and date hold on near-black"
+    },
+    {
+      "name": "TC_DATE_FADE_IN",
+      "frame": 70,
+      "action": "Fade in the exact release date: December 10, 2026",
+      "note": null
+    },
+    {
+      "name": "TITLE_CARD_FINAL_END",
+      "frame": 148,
+      "note": "End of TITLE_CARD_FINAL range"
+    }
+  ]
+}

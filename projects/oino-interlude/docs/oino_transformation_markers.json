@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "editable": true,
+  "inherited_principle": "transformation toward nourishment",
+  "no_superhero_powers": true,
+  "markers": [
+    {
+      "name": "XF_WATER_TO_STEAM",
+      "frame": 800,
+      "shot": "SH040_MELODY_OPENS_HISTORY",
+      "from": "clear water",
+      "to": "steam",
+      "nourishment_link": "water",
+      "note": "life made usable as power without claiming dominion over it"
+    },
+    {
+      "name": "XF_STEAM_TO_ELECTRIC_HAZE",
+      "frame": 1200,
+      "shot": "SH050_CHANGING_WORLD",
+      "from": "steam",
+      "to": "electric haze",
+      "nourishment_link": "time returned by machines",
+      "note": "heat becomes light-time \u2014 hours returned to bodies"
+    },
+    {
+      "name": "XF_HAZE_TO_SCREEN_GLOW",
+      "frame": 1500,
+      "shot": "SH050_CHANGING_WORLD",
+      "from": "electric haze",
+      "to": "screen glow",
+      "nourishment_link": "memory preserved through recording",
+      "note": "atmosphere becomes interface \u2014 connection and capture arrive together"
+    },
+    {
+      "name": "XF_SCREEN_TO_AMBER",
+      "frame": 2500,
+      "shot": "SH080_TABLE_FATHER",
+      "from": "screen glow",
+      "to": "reflected amber light",
+      "nourishment_link": "food",
+      "note": "digital cold turns toward table warmth without ceremony"
+    },
+    {
+      "name": "XF_DRY_BOWL_TO_MEAL",
+      "frame": 2920,
+      "shot": "SH120_CHANGED_NOTE",
+      "from": "a dry bowl",
+      "to": "a shared meal",
+      "nourishment_link": "food",
+      "note": "vessel waits, then feeds relation \u2014 gift used as sharing"
+    },
+    {
+      "name": "XF_MECH_TO_HUMAN_MELODY",
+      "frame": 2897,
+      "shot": "SH120_CHANGED_NOTE",
+      "from": "a mechanical rhythm",
+      "to": "a human melody",
+      "nourishment_link": "music changed by another person",
+      "note": "grid softens into sister's living contour"
+    },
+    {
+      "name": "XF_PRESERVED_TO_LIVING",
+      "frame": 2850,
+      "shot": "SH110_RELEASE",
+      "from": "a preserved image",
+      "to": "a living variation",
+      "nourishment_link": "memory preserved through recording",
+      "note": "archive yields to change instead of endless identical playback"
+    },
+    {
+      "name": "XF_CABLE_TO_VINE",
+      "frame": 1750,
+      "shot": "SH060_CARE_AND_HARM",
+      "from": "a red cable",
+      "to": "a vine",
+      "nourishment_link": "water",
+      "note": "tech line becomes growing line \u2014 connection as life, not only extraction"
+    },
+    {
+      "name": "XF_VINE_TO_PATH",
+      "frame": 2100,
+      "shot": "SH070_ZONE_PASSAGE",
+      "from": "a vine",
+      "to": "a line of movement through the world",
+      "nourishment_link": "time returned by machines",
+      "note": "growth becomes path \u2014 pilgrimage, not power display"
+    },
+    {
+      "name": "FP_WORKERS_MEASURED",
+      "frame": 1350,
+      "shot": "SH050_CHANGING_WORLD",
+      "kind": "forced_production_parallel",
+      "image": "workers being measured",
+      "note": "Judging blocks/monitors score bodies instead of seeing needs."
+    },
+    {
+      "name": "FP_OENOTROPAE_RESOURCE",
+      "frame": 950,
+      "shot": "SH040_MELODY_OPENS_HISTORY",
+      "kind": "forced_production_parallel",
+      "image": "Oenotropae being treated as a resource",
+      "note": "Mythic gift imagined as endless yield \u2014 artistic warning, not literal superpower."
+    },
+    {
+      "name": "FP_VOICES_HARVESTED",
+      "frame": 1850,
+      "shot": "SH060_CARE_AND_HARM",
+      "kind": "forced_production_parallel",
+      "image": "voices being harvested",
+      "note": "Cleaner corridor voices; reconstructed dead speech sold as comfort."
+    },
+    {
+      "name": "FP_OINO_EXTRACTS_REUNION",
+      "frame": 2650,
+      "shot": "SH090_REWIND_ENCOUNTER",
+      "kind": "forced_production_parallel",
+      "image": "Oino repeatedly extracting the same reunion from her father",
+      "note": "Shadow: rewind/edit until the encounter cannot surprise her."
+    },
+    {
+      "name": "RES_REF_XF_PRESERVED_TO_LIVING",
+      "ref": "XF_PRESERVED_TO_LIVING",
+      "kind": "resolution_reference",
+      "note": "Gift used as sharing, not endless extraction"
+    },
+    {
+      "name": "RES_REF_XF_DRY_BOWL_TO_MEAL",
+      "ref": "XF_DRY_BOWL_TO_MEAL",
+      "kind": "resolution_reference",
+      "note": "Gift used as sharing, not endless extraction"
+    },
+    {
+      "name": "RES_REF_XF_MECH_TO_HUMAN_MELODY",
+      "ref": "XF_MECH_TO_HUMAN_MELODY",
+      "kind": "resolution_reference",
+      "note": "Gift used as sharing, not endless extraction"
+    },
+    {
+      "name": "RES_REF_CALL_06_TABLE_TAP_NEW_MELODY",
+      "ref": "CALL_06_TABLE_TAP_NEW_MELODY",
+      "kind": "resolution_reference",
+      "note": "Gift used as sharing, not endless extraction"
+    }
+  ]
+}

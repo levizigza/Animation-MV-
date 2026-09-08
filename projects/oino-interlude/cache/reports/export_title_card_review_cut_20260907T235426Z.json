@@ -1,0 +1,30 @@
+{
+  "script": "export_title_card_review_cut",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:53:59.728772+00:00",
+  "finished_at": "2026-09-07T23:54:26.546651+00:00",
+  "counts": {
+    "created": 5,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "renders/review/TITLE_CARD_REVIEW/v20260907T235359Z_SH130_TITLE_CARD/title_card_still.png",
+    "renders/review/TITLE_CARD_REVIEW/v20260907T235359Z_SH130_TITLE_CARD/SH130_TITLE_CARD_f3051-3148.mp4",
+    "renders/review/TITLE_CARD_REVIEW/v20260907T235359Z_SH130_TITLE_CARD/version.json",
+    "renders/review/TITLE_CARD_REVIEW/v20260907T235359Z_SH130_TITLE_CARD/INSPECT.md",
+    "renders/review/TITLE_CARD_REVIEW/LATEST_VERSION.json"
+  ],
+  "reused": [
+    "docs/title_card_brief.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Compared still==lock sha256=08f72ba7d984eab7\u2026",
+    "Inspect renders/review/TITLE_CARD_REVIEW/v20260907T235359Z_SH130_TITLE_CARD/SH130_TITLE_CARD_f3051-3148.mp4"
+  ]
+}

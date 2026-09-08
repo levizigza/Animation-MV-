@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "system_id": "OINO_MATERIAL_LIBRARY",
+  "editable": true,
+  "allow_pink_placeholders": false,
+  "markers": [
+    {
+      "name": "MAT_WornWood",
+      "label": "worn wood",
+      "category": "organic_surface",
+      "links": [
+        "TABLE_WornSurface",
+        "TABLE_WARMTH"
+      ],
+      "expected_images": [
+        "assets/materials/worn_wood_albedo.png",
+        "assets/materials/worn_wood_roughness.png",
+        "assets/materials/worn_wood_normal.png"
+      ]
+    },
+    {
+      "name": "MAT_WetStone",
+      "label": "wet stone",
+      "category": "organic_surface",
+      "links": [
+        "ZONE_ShallowWater",
+        "ZONE_REFLECTION"
+      ],
+      "expected_images": [
+        "assets/materials/wet_stone_albedo.png",
+        "assets/materials/wet_stone_roughness.png",
+        "assets/materials/wet_stone_normal.png"
+      ]
+    },
+    {
+      "name": "MAT_Rust",
+      "label": "rust",
+      "category": "metal",
+      "links": [
+        "STEAM_SOOT",
+        "ARCH_IndustrialFrame_A"
+      ],
+      "expected_images": [
+        "assets/materials/rust_albedo.png",
+        "assets/materials/rust_roughness.png",
+        "assets/materials/rust_metallic.png"
+      ]
+    },
+    {
+      "name": "MAT_OxidizedMetal",
+      "label": "oxidized metal",
+      "category": "metal",
+      "links": [
+        "STEAM_SOOT",
+        "ZONE_RootMachine"
+      ],
+      "expected_images": [
+        "assets/materials/oxidized_metal_albedo.png",
+        "assets/materials/oxidized_metal_roughness.png",
+        "assets/materials/oxidized_metal_metallic.png",
+        "assets/materials/oxidized_metal_normal.png"
+      ]
+    },
+    {
+      "name": "MAT_OldPaper",
+      "label": "old paper",
+      "category": "archive",
+      "links": [
+        "OINO_ARCHIVE",
+        "ATTIC_DUST"
+      ],
+      "expected_images": [
+        "assets/materials/old_paper_albedo.png",
+        "assets/materials/old_paper_roughness.png"
+      ]
+    },
+    {
+      "name": "MAT_Film",
+      "label": "film",
+      "category": "archive",
+      "links": [
+        "MOTIF_RECORDING",
+        "OINO_ARCHIVE"
+      ],
+      "expected_images": [
+        "assets/materials/film_albedo.png",
+        "assets/materials/film_alpha.png"
+      ]
+    },
+    {
+      "name": "MAT_BlackGlass",
+      "label": "black glass",
+      "category": "digital",
+      "links": [
+        "DIGITAL_COLD",
+        "ECHO_MASK_BLACK_GLASS"
+      ],
+      "expected_images": [
+        "assets/materials/black_glass_roughness.png"
+      ]
+    },
+    {
+      "name": "MAT_MonitorSurface",
+      "label": "monitor surfaces",
+      "category": "digital",
+      "links": [
+        "DIGITAL_COLD"
+      ],
+      "expected_images": [
+        "assets/materials/monitor_emission.png",
+        "assets/materials/monitor_roughness.png"
+      ]
+    },
+    {
+      "name": "MAT_TranslucentSynthetic",
+      "label": "translucent synthetic materials",
+      "category": "synthetic",
+      "links": [
+        "ELECTRIC_WARMTH",
+        "DIGITAL_COLD"
+      ],
+      "expected_images": [
+        "assets/materials/translucent_synthetic_albedo.png",
+        "assets/materials/translucent_synthetic_alpha.png"
+      ]
+    },
+    {
+      "name": "MAT_Cloth",
+      "label": "cloth",
+      "category": "fabric",
+      "links": [
+        "TABLE_WARMTH"
+      ],
+      "expected_images": [
+        "assets/materials/cloth_albedo.png",
+        "assets/materials/cloth_roughness.png",
+        "assets/materials/cloth_normal.png"
+      ]
+    },
+    {
+      "name": "MAT_Ceramic",
+      "label": "ceramic",
+      "category": "props",
+      "links": [
+        "PROP_Bowl",
+        "PROP_Cup",
+        "MOTIF_BOWL_TABLE"
+      ],
+      "expected_images": [
+        "assets/materials/ceramic_albedo.png",
+        "assets/materials/ceramic_roughness.png"
+      ]
+    },
+    {
+      "name": "MAT_Skin",
+      "label": "skin",
+      "category": "character",
+      "links": [
+        "TABLE_WARMTH",
+        "PROXY_Oino_Head"
+      ],
+      "expected_images": [
+        "assets/materials/skin_albedo.png",
+        "assets/materials/skin_roughness.png",
+        "assets/materials/skin_normal.png"
+      ]
+    },
+    {
+      "name": "MAT_VineLeaf",
+      "label": "vine and leaf",
+      "category": "organic_growth",
+      "links": [
+        "MOTIF_VINE_WATER",
+        "TABLE_VineLeg",
+        "ECHO_IVY_THROUGH_MACHINE"
+      ],
+      "expected_images": [
+        "assets/materials/vine_leaf_albedo.png",
+        "assets/materials/vine_leaf_alpha.png",
+        "assets/materials/vine_leaf_normal.png"
+      ]
+    },
+    {
+      "name": "MAT_Water",
+      "label": "water",
+      "category": "liquid",
+      "links": [
+        "ZONE_ShallowWater",
+        "MOTIF_VINE_WATER",
+        "ZONE_REFLECTION"
+      ],
+      "expected_images": []
+    }
+  ]
+}

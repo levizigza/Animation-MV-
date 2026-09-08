@@ -1,0 +1,71 @@
+{
+  "sequence_id": "seq_closeup_repeat",
+  "shots": [
+    {
+      "id": "shot_a",
+      "index": 1,
+      "section": "verse",
+      "start": 0.0,
+      "end": 2.0,
+      "duration": 2.0,
+      "intent": {
+        "purpose": "Tight emphasis on the lead's eyes before the hit",
+        "emotional_beat": "tension",
+        "animation_priority": "performance"
+      },
+      "description": "Close-up on eyes; glance toward offscreen threat.",
+      "camera": {
+        "type": "push_in",
+        "start": {"loc": [0, -4.5, 1.6], "rot_deg": [78, 0, 0]},
+        "end": {"loc": [0, -4.0, 1.55], "rot_deg": [80, 0, 0]}
+      },
+      "lens_mm": 50.0,
+      "blocking": "Lead center; glance.",
+      "characters": ["lead"]
+    },
+    {
+      "id": "shot_b",
+      "index": 2,
+      "section": "verse",
+      "start": 2.0,
+      "end": 4.0,
+      "duration": 2.0,
+      "intent": {
+        "purpose": "Another tight push on the face",
+        "emotional_beat": "tension",
+        "animation_priority": "performance"
+      },
+      "description": "Close-up again; glance holds.",
+      "camera": {
+        "type": "push_in",
+        "start": {"loc": [0, -4.0, 1.55], "rot_deg": [80, 0, 0]},
+        "end": {"loc": [0, -3.6, 1.5], "rot_deg": [82, 0, 0]}
+      },
+      "lens_mm": 50.0,
+      "blocking": "Lead center; glance.",
+      "characters": ["lead"]
+    },
+    {
+      "id": "shot_c",
+      "index": 3,
+      "section": "prechorus",
+      "start": 4.0,
+      "end": 6.0,
+      "duration": 2.0,
+      "intent": {
+        "purpose": "Widen to reset scale",
+        "emotional_beat": "coil",
+        "animation_priority": "transition"
+      },
+      "description": "Wide establish; world opens.",
+      "camera": {
+        "type": "slow_pull",
+        "start": {"loc": [0, -6.0, 1.7], "rot_deg": [75, 0, 0]},
+        "end": {"loc": [0, -7.0, 1.8], "rot_deg": [74, 0, 0]}
+      },
+      "lens_mm": 24.0,
+      "blocking": "Lead small in frame.",
+      "characters": ["lead"]
+    }
+  ]
+}

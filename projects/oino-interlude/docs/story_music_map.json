@@ -1,0 +1,603 @@
+{
+  "schema_version": 1,
+  "assembled_at": "2026-09-07T23:55:28.639463+00:00",
+  "film": "Oino (Interlude)",
+  "sources": {
+    "shot_list": "docs/shot_list.csv",
+    "music_sync_report": "docs/music_sync_report.json",
+    "monologue_timing": "docs/monologue_timing.json",
+    "audio_markers": "docs/audio_markers.json",
+    "music_sync_approvals": "docs/music_sync_approvals.json"
+  },
+  "policy_note": "Map only. Do not cut to every beat. Characters listen; amplitude does not puppeteer faces, decisions, or every cut.",
+  "audio": {
+    "duration_seconds": 131.134979,
+    "fps": 24,
+    "final_frame": 3148,
+    "narration_mode": "embedded",
+    "narration_path": null
+  },
+  "approval_summary": {
+    "music_manually_approved": 0,
+    "music_pending_manual": 9,
+    "music_automatic": 13,
+    "music_sync_approvals_file": {},
+    "monologue_all_review_required": true,
+    "timing_approved": false,
+    "note": "Timing is NOT approved until pending_manual = 0 and monologue REVIEW_REQUIRED cleared by human."
+  },
+  "shots": [
+    {
+      "shot_id": "SH010_SISTER_CALL",
+      "hero": true,
+      "camera": "CAM_ATTIC_DOMESTIC_DOWN",
+      "frame_start": 1,
+      "frame_end": 200,
+      "camera_language": "attic",
+      "emotional_purpose": "Invitation arrives; domestic closeness with a glimpse toward the sister she will refuse.",
+      "parent_animatic": "SH010_CALL_TO_DINNER",
+      "lighting_preset": "ATTIC_DUST",
+      "music_cues_in_range": [
+        {
+          "id": "CUE_ENTRANCE",
+          "kind": "broad_cue",
+          "frame": 1,
+          "approval": "automatic",
+          "note": "World / archive entrance \u2014 music breathes in"
+        },
+        {
+          "id": "AUDIO_START",
+          "kind": "structural",
+          "frame": 1,
+          "approval": "automatic",
+          "note": "First sample of mixed timeline"
+        },
+        {
+          "id": "NARRATION_START",
+          "kind": "structural",
+          "frame": 1,
+          "approval": "automatic",
+          "note": "Start of archive monologue (embedded estimate \u2014 edit if stem arrives)"
+        },
+        {
+          "id": "NAR_WATCHER_SINGULARITY",
+          "kind": "narration",
+          "frame": 180,
+          "approval": "pending_manual",
+          "note": "watcher and singularity"
+        }
+      ],
+      "narration_phrases_in_range": [
+        {
+          "id": "AMONG_THE_DUST",
+          "frame": 4,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "Among the dust"
+        },
+        {
+          "id": "HE_WAS_A_WATCHER",
+          "frame": 62,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "He was a watcher"
+        },
+        {
+          "id": "FINAL_DAYS",
+          "frame": 131,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "final days"
+        },
+        {
+          "id": "AIR_THICK_WITH_ANTICIPATION",
+          "frame": 179,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "air thick with anticipation"
+        }
+      ],
+      "timing_gate": "blocked"
+    },
+    {
+      "shot_id": "SH010B_ATTIC_DOOR_CLOSES",
+      "hero": false,
+      "camera": "CAM_ATTIC_DOOR",
+      "frame_start": 201,
+      "frame_end": 342,
+      "camera_language": "attic",
+      "emotional_purpose": "Refusal completed \u2014 doorway excludes sister.",
+      "parent_animatic": "SH010_CALL_TO_DINNER",
+      "lighting_preset": "ATTIC_DUST",
+      "music_cues_in_range": [
+        {
+          "id": "CUE_KNOCK",
+          "kind": "broad_cue",
+          "frame": 307,
+          "approval": "automatic",
+          "note": "Sister's call-to-dinner knock (emotional trigger)"
+        },
+        {
+          "id": "MUS_ROOM_TONE_CALL",
+          "kind": "music",
+          "frame": 307,
+          "approval": "automatic",
+          "note": "room tone and distant call"
+        }
+      ],
+      "narration_phrases_in_range": [
+        {
+          "id": "WINDS_WHISPERED",
+          "frame": 227,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "winds whispered"
+        },
+        {
+          "id": "TOWER_OF_BABEL",
+          "frame": 276,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "Tower of Babel"
+        },
+        {
+          "id": "ICARUS",
+          "frame": 326,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "Icarus"
+        }
+      ],
+      "timing_gate": "blocked"
+    },
+    {
+      "shot_id": "SH020_FATHERS_RECORDING",
+      "hero": true,
+      "camera": "CAM_ATTIC_HAND_TAPE",
+      "frame_start": 343,
+      "frame_end": 519,
+      "camera_language": "attic",
+      "emotional_purpose": "Need crystallizes in the unfinished melody \u2014 intimate, not spectacular.",
+      "parent_animatic": "SH020_FATHERS_TAPE",
+      "lighting_preset": "ATTIC_DUST",
+      "music_cues_in_range": [
+        {
+          "id": "CUE_FIRST_MELODY",
+          "kind": "broad_cue",
+          "frame": 343,
+          "approval": "automatic",
+          "note": "First clear melodic statement (broad)"
+        },
+        {
+          "id": "MUS_FATHER_UNFINISHED",
+          "kind": "music",
+          "frame": 343,
+          "approval": "automatic",
+          "note": "father's unfinished phrase"
+        },
+        {
+          "id": "MUS_DIONYSUS_LEITMOTIF_FIRST",
+          "kind": "music",
+          "frame": 391,
+          "approval": "pending_manual",
+          "note": "first Dionysus leitmotif"
+        }
+      ],
+      "narration_phrases_in_range": [
+        {
+          "id": "REFLECTION_OF_CHAOS",
+          "frame": 385,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "reflection of chaos"
+        },
+        {
+          "id": "DETHRONED_GODS",
+          "frame": 442,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "dethroned gods"
+        }
+      ],
+      "timing_gate": "blocked"
+    },
+    {
+      "shot_id": "SH030_ARCHIVE_BOX_OINO",
+      "hero": true,
+      "camera": "CAM_ARCHIVE_LATERAL_BOX",
+      "frame_start": 520,
+      "frame_end": 580,
+      "camera_language": "archive",
+      "emotional_purpose": "Name inheritance as object \u2014 discovery without classroom diagram.",
+      "parent_animatic": "SH030_ARCHIVE_DISCOVERY",
+      "lighting_preset": "OINO_ARCHIVE",
+      "music_cues_in_range": [
+        {
+          "id": "NAR_ARCHIVE_DISCOVERY",
+          "kind": "narration",
+          "frame": 520,
+          "approval": "pending_manual",
+          "note": "archive discovery"
+        }
+      ],
+      "narration_phrases_in_range": [
+        {
+          "id": "LABYRINTH",
+          "frame": 534,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "labyrinth"
+        },
+        {
+          "id": "THROUGH_HIS_LENS",
+          "frame": 556,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "Through his lens"
+        }
+      ],
+      "timing_gate": "blocked"
+    },
+    {
+      "shot_id": "SH041_ANCESTOR_IGNORES_DINNER",
+      "hero": true,
+      "camera": "CAM_ARCHIVE_DINNER_CLIP",
+      "frame_start": 560,
+      "frame_end": 720,
+      "camera_language": "archive",
+      "emotional_purpose": "Embarrassing ordinary refusal \u2014 implication, not sermon.",
+      "parent_animatic": "SH030_ARCHIVE_DISCOVERY",
+      "lighting_preset": "OINO_ARCHIVE",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [
+        {
+          "id": "SLAVES_TO_VISIONS",
+          "frame": 599,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "slaves to the twisted visions"
+        },
+        {
+          "id": "CAUTIONARY_TALES",
+          "frame": 668,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "cautionary tales"
+        },
+        {
+          "id": "THRESHOLD_OF_ETERNITY",
+          "frame": 706,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "threshold of eternity"
+        }
+      ],
+      "timing_gate": "blocked"
+    },
+    {
+      "shot_id": "SH031_FAMILY_LINE_DOCUMENT",
+      "hero": true,
+      "camera": "CAM_ARCHIVE_FRAMES_WITHIN",
+      "frame_start": 581,
+      "frame_end": 680,
+      "camera_language": "archive",
+      "emotional_purpose": "Lineage as worn paper \u2014 artistic adaptation, not universal claim.",
+      "parent_animatic": "SH030_ARCHIVE_DISCOVERY",
+      "lighting_preset": "OINO_ARCHIVE",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [
+        {
+          "id": "SLAVES_TO_VISIONS",
+          "frame": 599,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "slaves to the twisted visions"
+        },
+        {
+          "id": "CAUTIONARY_TALES",
+          "frame": 668,
+          "status": "REVIEW_REQUIRED",
+          "text_excerpt": "cautionary tales"
+        }
+      ],
+      "timing_gate": "blocked"
+    },
+    {
+      "shot_id": "SH040_ANCESTOR_SLEEVE",
+      "hero": true,
+      "camera": "CAM_STEAM_LOW_HANDS",
+      "frame_start": 820,
+      "frame_end": 900,
+      "camera_language": "steam",
+      "emotional_purpose": "Care as ordinary labour \u2014 watcher still able to mend.",
+      "parent_animatic": "SH040_MELODY_OPENS_HISTORY",
+      "lighting_preset": "STEAM_SOOT",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH050_FACTORY_GATE",
+      "hero": true,
+      "camera": "CAM_STEAM_GATE_LOW",
+      "frame_start": 1131,
+      "frame_end": 1220,
+      "camera_language": "steam",
+      "emotional_purpose": "Doorway becomes factory gate \u2014 history through bodies, not labels.",
+      "parent_animatic": "SH050_CHANGING_WORLD",
+      "lighting_preset": "STEAM_SOOT",
+      "music_cues_in_range": [
+        {
+          "id": "CUE_LOOP",
+          "kind": "broad_cue",
+          "frame": 1131,
+          "approval": "automatic",
+          "note": "Memorial / repeating chorus loop character"
+        },
+        {
+          "id": "MUS_FUTURE_MEMORIAL",
+          "kind": "music",
+          "frame": 1131,
+          "approval": "automatic",
+          "note": "future voice and memorial presence"
+        },
+        {
+          "id": "NAR_BABEL_ICARUS",
+          "kind": "narration",
+          "frame": 1131,
+          "approval": "pending_manual",
+          "note": "Do not literalize every myth reference \u2014 broad emotional register only."
+        }
+      ],
+      "narration_phrases_in_range": [],
+      "timing_gate": "blocked"
+    },
+    {
+      "shot_id": "SH051_ELECTRIC_HOUSEHOLD_TIME",
+      "hero": true,
+      "camera": "CAM_ELECTRIC_WIDE_RELIEF",
+      "frame_start": 1300,
+      "frame_end": 1420,
+      "camera_language": "electric",
+      "emotional_purpose": "Benefit and cost together: relief of light, absence still present.",
+      "parent_animatic": "SH050_CHANGING_WORLD",
+      "lighting_preset": "ELECTRIC_WARMTH",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH060_SYNTHETIC_VOICE",
+      "hero": true,
+      "camera": "CAM_DIGITAL_ASSISTIVE",
+      "frame_start": 1700,
+      "frame_end": 1820,
+      "camera_language": "digital",
+      "emotional_purpose": "Care through technology \u2014 not memorial ghost; living person uses the tool.",
+      "parent_animatic": "SH060_CARE_AND_HARM",
+      "lighting_preset": "DIGITAL_COLD",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH061_OINO_SEES_OWN_RECORDING",
+      "hero": true,
+      "camera": "CAM_DIGITAL_SELF_REFLECTION",
+      "frame_start": 1850,
+      "frame_end": 1990,
+      "camera_language": "digital",
+      "emotional_purpose": "She becomes watcher of her own controlled archive \u2014 shadow foreshadow without scare.",
+      "parent_animatic": "SH060_CARE_AND_HARM",
+      "lighting_preset": "DIGITAL_COLD",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH070_TABLE_GLIMPSE",
+      "hero": true,
+      "camera": "CAM_ZONE_PATIENT_TO_TABLE",
+      "frame_start": 2200,
+      "frame_end": 2350,
+      "camera_language": "zone",
+      "emotional_purpose": "Destination appears before arrival \u2014 ordinary sacred ahead; Zone unexplained.",
+      "parent_animatic": "SH070_ZONE_PASSAGE",
+      "lighting_preset": "ZONE_REFLECTION",
+      "music_cues_in_range": [
+        {
+          "id": "MUS_ZONE_SUSPENSION",
+          "kind": "music",
+          "frame": 2225,
+          "approval": "automatic",
+          "note": "Zone suspension"
+        }
+      ],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH070B_ZONE_EMPTY_HOLD",
+      "hero": false,
+      "camera": "CAM_ZONE_EXIT",
+      "frame_start": 2351,
+      "frame_end": 2424,
+      "camera_language": "zone",
+      "emotional_purpose": "Patient empty space \u2014 nature unresolved.",
+      "parent_animatic": "SH070_ZONE_PASSAGE",
+      "lighting_preset": "ZONE_REFLECTION",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH080_WARM_TWO_SHOT",
+      "hero": true,
+      "camera": "CAM_TABLE_TWO_SHOT",
+      "frame_start": 2440,
+      "frame_end": 2550,
+      "camera_language": "table",
+      "emotional_purpose": "Genuine comfort \u2014 why she stays; protect performance.",
+      "parent_animatic": "SH080_TABLE_FATHER",
+      "lighting_preset": "TABLE_WARMTH",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH090_HAND_RESET_CONTROL",
+      "hero": true,
+      "camera": "CAM_TABLE_OINO_CONTROL",
+      "frame_start": 2620,
+      "frame_end": 2700,
+      "camera_language": "table",
+      "emotional_purpose": "Shadow as merciful grip \u2014 dread from control, not horror light.",
+      "parent_animatic": "SH090_REWIND_ENCOUNTER",
+      "lighting_preset": "TABLE_WARMTH",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH100_SISTER_REFLECTION",
+      "hero": true,
+      "camera": "CAM_TABLE_REFLECTION",
+      "frame_start": 2743,
+      "frame_end": 2819,
+      "camera_language": "table",
+      "emotional_purpose": "Cost already present \u2014 loneliness in progress, not later warning.",
+      "parent_animatic": "SH100_SISTER_REFLECTION",
+      "lighting_preset": "TABLE_WARMTH",
+      "music_cues_in_range": [
+        {
+          "id": "CUE_RELEASE",
+          "kind": "broad_cue",
+          "frame": 2743,
+          "approval": "automatic",
+          "note": "Release toward sister / holy-fool letting go"
+        },
+        {
+          "id": "MUS_RELEASE",
+          "kind": "music",
+          "frame": 2743,
+          "approval": "automatic",
+          "note": "release"
+        },
+        {
+          "id": "NAR_CAUTIONARY_THRESHOLD",
+          "kind": "narration",
+          "frame": 2743,
+          "approval": "pending_manual",
+          "note": "cautionary tale and threshold"
+        }
+      ],
+      "narration_phrases_in_range": [],
+      "timing_gate": "blocked"
+    },
+    {
+      "shot_id": "SH110_RELEASE_CONTROL",
+      "hero": true,
+      "camera": "CAM_TABLE_OINO_CONTROL",
+      "frame_start": 2820,
+      "frame_end": 2870,
+      "camera_language": "table",
+      "emotional_purpose": "Holy-fool hinge \u2014 ordinary costly release.",
+      "parent_animatic": "SH110_RELEASE",
+      "lighting_preset": "TABLE_WARMTH",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH110B_FATHER_LEAVES",
+      "hero": false,
+      "camera": "CAM_TABLE_FATHER_LEAVING",
+      "frame_start": 2871,
+      "frame_end": 2896,
+      "camera_language": "table",
+      "emotional_purpose": "He finishes and goes \u2014 life beyond her desire.",
+      "parent_animatic": "SH110_RELEASE",
+      "lighting_preset": "TABLE_WARMTH",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH120_ACCEPTS_BOWL",
+      "hero": true,
+      "camera": "CAM_RETURN_TABLE_HANDS",
+      "frame_start": 2910,
+      "frame_end": 2960,
+      "camera_language": "return",
+      "emotional_purpose": "Nourishment accepted; presence without demanding forgiveness.",
+      "parent_animatic": "SH120_CHANGED_NOTE",
+      "lighting_preset": "TABLE_WARMTH",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH121_SISTER_CHANGES_MELODY",
+      "hero": true,
+      "camera": "CAM_RETURN_SISTER_RHYTHM",
+      "frame_start": 2961,
+      "frame_end": 3020,
+      "camera_language": "return",
+      "emotional_purpose": "Real creative contribution \u2014 living variation, not symbolic child.",
+      "parent_animatic": "SH120_CHANGED_NOTE",
+      "lighting_preset": "TABLE_WARMTH",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH122_OPEN_DOORWAY",
+      "hero": true,
+      "camera": "CAM_RETURN_OPEN_DOOR",
+      "frame_start": 3021,
+      "frame_end": 3050,
+      "camera_language": "return",
+      "emotional_purpose": "Final story image \u2014 invitation kept open (answers closed attic).",
+      "parent_animatic": "SH120_CHANGED_NOTE",
+      "lighting_preset": "OPEN_DOOR_DAWN",
+      "music_cues_in_range": [],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    },
+    {
+      "shot_id": "SH130_TITLE_CARD",
+      "hero": true,
+      "camera": "CAM_TITLE_STILL",
+      "frame_start": 3051,
+      "frame_end": 3148,
+      "camera_language": "title_card",
+      "emotional_purpose": "Final film image \u2014 still; no trailer motion.",
+      "parent_animatic": "SH130_TITLE_CARD",
+      "lighting_preset": "TITLE_CARD_BLACK",
+      "music_cues_in_range": [
+        {
+          "id": "MUS_TITLE_CARD_RESOLVE",
+          "kind": "music",
+          "frame": 3051,
+          "approval": "automatic",
+          "note": "title-card resolve"
+        },
+        {
+          "id": "TITLE_CARD_START",
+          "kind": "structural",
+          "frame": 3051,
+          "approval": "automatic",
+          "note": "One Of God's Fools card begins (default last 4s \u2014 editable)"
+        },
+        {
+          "id": "FINAL_FRAME",
+          "kind": "structural",
+          "frame": 3148,
+          "approval": "automatic",
+          "note": "Picture end = ceil(duration*fps) alignment"
+        },
+        {
+          "id": "MUSIC_END",
+          "kind": "structural",
+          "frame": 3148,
+          "approval": "automatic",
+          "note": "Last frame of music / mixed master"
+        },
+        {
+          "id": "TITLE_CARD_END",
+          "kind": "structural",
+          "frame": 3148,
+          "approval": "automatic",
+          "note": "Title card holds through FINAL_FRAME"
+        }
+      ],
+      "narration_phrases_in_range": [],
+      "timing_gate": "ok_for_layout"
+    }
+  ]
+}

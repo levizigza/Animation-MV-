@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "scene": "SCN_02_OINO_ARCHIVE",
+  "editable": true,
+  "genealogy_note": {
+    "statement": "The genealogy Dionysus \u2192 Staphylus \u2192 Rhoeo \u2192 Anius \u2192 Oino is an artistic project canon. Variant mythic traditions exist; this line is an adaptation for One Of God's Fools / Oino (Interlude), not a claim that one genealogy or culture is universally correct, biologically superior, or automatically wise.",
+    "visual_rule": "Family-line insert must look like a damaged family document \u2014 partly obscured, mistranslated, or assembled from mixed materials \u2014 never a classroom diagram."
+  },
+  "family_line_insert": {
+    "id": "INS_FAMILY_LINE",
+    "text": "DIONYSUS \u2192 STAPHYLUS \u2192 RHOEO \u2192 ANIUS \u2192 OINO",
+    "max_duration_seconds": 1.9,
+    "max_frames_at_24fps": 45,
+    "frame_start": 120,
+    "frame_end": 164,
+    "look": "damaged_family_document",
+    "traits": [
+      "partly_obscured",
+      "possible_mistranslation_marks",
+      "assembled_from_different_materials",
+      "worn_edges",
+      "not_classroom_diagram"
+    ]
+  },
+  "markers": [
+    {
+      "name": "INS_FAMILY_LINE_START",
+      "frame": 120,
+      "note": "Damaged family document insert start (<2s)"
+    },
+    {
+      "name": "INS_FAMILY_LINE_END",
+      "frame": 164,
+      "note": "Insert end"
+    },
+    {
+      "name": "TR_DUST_TO_STEAM_START",
+      "frame": 200,
+      "note": "archive dust -> steam"
+    },
+    {
+      "name": "TR_DUST_TO_STEAM_END",
+      "frame": 248,
+      "note": "end TR_DUST_TO_STEAM"
+    },
+    {
+      "name": "TR_VINE_TO_CABLE_START",
+      "frame": 250,
+      "note": "vine vein -> cable"
+    },
+    {
+      "name": "TR_VINE_TO_CABLE_END",
+      "frame": 298,
+      "note": "end TR_VINE_TO_CABLE"
+    },
+    {
+      "name": "TR_NAME_TO_DIGITAL_START",
+      "frame": 300,
+      "note": "handwritten name -> digital label"
+    },
+    {
+      "name": "TR_NAME_TO_DIGITAL_END",
+      "frame": 348,
+      "note": "end TR_NAME_TO_DIGITAL"
+    },
+    {
+      "name": "TR_STAIN_TO_AMBER_START",
+      "frame": 350,
+      "note": "water stain -> amber light"
+    },
+    {
+      "name": "TR_STAIN_TO_AMBER_END",
+      "frame": 398,
+      "note": "end TR_STAIN_TO_AMBER"
+    },
+    {
+      "name": "TR_FILMGATE_TO_FACTORY_START",
+      "frame": 400,
+      "note": "film gate -> factory gate"
+    },
+    {
+      "name": "TR_FILMGATE_TO_FACTORY_END",
+      "frame": 448,
+      "note": "end TR_FILMGATE_TO_FACTORY"
+    },
+    {
+      "name": "TR_HAND_THRESHOLD_START",
+      "frame": 450,
+      "note": "Oino's hand on reel -> crossing the threshold"
+    },
+    {
+      "name": "TR_HAND_THRESHOLD_END",
+      "frame": 480,
+      "note": "end TR_HAND_THRESHOLD"
+    }
+  ],
+  "transitions": [
+    {
+      "id": "TR_DUST_TO_STEAM",
+      "from": "archive dust",
+      "to": "steam",
+      "objects": [
+        "FX_ArchiveDust",
+        "FX_SteamProxy"
+      ],
+      "marker_start": "TR_DUST_TO_STEAM_START",
+      "marker_end": "TR_DUST_TO_STEAM_END",
+      "frame_start": 200,
+      "frame_end": 248
+    },
+    {
+      "id": "TR_VINE_TO_CABLE",
+      "from": "vine vein",
+      "to": "cable",
+      "objects": [
+        "MOTIF_VineVein_Worn",
+        "PROP_Cable_FromVein"
+      ],
+      "marker_start": "TR_VINE_TO_CABLE_START",
+      "marker_end": "TR_VINE_TO_CABLE_END",
+      "frame_start": 250,
+      "frame_end": 298
+    },
+    {
+      "id": "TR_NAME_TO_DIGITAL",
+      "from": "handwritten name",
+      "to": "digital label",
+      "objects": [
+        "DOC_Name_Handwritten",
+        "TXT_DigitalLabel"
+      ],
+      "marker_start": "TR_NAME_TO_DIGITAL_START",
+      "marker_end": "TR_NAME_TO_DIGITAL_END",
+      "frame_start": 300,
+      "frame_end": 348
+    },
+    {
+      "id": "TR_STAIN_TO_AMBER",
+      "from": "water stain",
+      "to": "amber light",
+      "objects": [
+        "FX_WaterStain_ConditionalWine",
+        "LIGHT_AmberReveal"
+      ],
+      "marker_start": "TR_STAIN_TO_AMBER_START",
+      "marker_end": "TR_STAIN_TO_AMBER_END",
+      "frame_start": 350,
+      "frame_end": 398
+    },
+    {
+      "id": "TR_FILMGATE_TO_FACTORY",
+      "from": "film gate",
+      "to": "factory gate",
+      "objects": [
+        "PROP_FilmGate",
+        "PROP_FactoryGate"
+      ],
+      "marker_start": "TR_FILMGATE_TO_FACTORY_START",
+      "marker_end": "TR_FILMGATE_TO_FACTORY_END",
+      "frame_start": 400,
+      "frame_end": 448
+    },
+    {
+      "id": "TR_HAND_THRESHOLD",
+      "from": "Oino's hand on reel",
+      "to": "crossing the threshold",
+      "objects": [
+        "Oino_Hand_Archive",
+        "PROP_FilmReel_A",
+        "PROP_Threshold"
+      ],
+      "marker_start": "TR_HAND_THRESHOLD_START",
+      "marker_end": "TR_HAND_THRESHOLD_END",
+      "frame_start": 450,
+      "frame_end": 480,
+      "priority": true
+    }
+  ],
+  "intent": "Preserve and transform life across generations \u2014 not biological superiority or automatic wisdom."
+}

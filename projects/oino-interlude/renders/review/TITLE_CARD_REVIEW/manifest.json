@@ -1,0 +1,32 @@
+{
+  "id": "TITLE_CARD_REVIEW",
+  "label": "Title card review",
+  "purpose": "Exact card text/date, still frame, controls, TITLE_CARD_FINAL",
+  "focus": [
+    "title_card",
+    "SCN_13_TITLE_CARD"
+  ],
+  "emotional_qa_subset": [
+    15,
+    16
+  ],
+  "emotional_qa_doc": "docs/emotional_qa.md",
+  "emotional_qa_on_screen": false,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "audio": "full",
+  "audio_path": "audio/master.wav",
+  "title_card_exact": {
+    "text": "One Of Gods Fools",
+    "date": "December 10, 2026"
+  },
+  "output_dir": "renders/review/TITLE_CARD_REVIEW",
+  "output_movie": "renders/review/TITLE_CARD_REVIEW/TITLE_CARD_REVIEW.mp4",
+  "blender_engine": "BLENDER_EEVEE_NEXT",
+  "blender_exe": null,
+  "status": "paths_ready",
+  "note": "Render from approved scene packages into this folder. Do not burn emotional QA onto picture."
+}

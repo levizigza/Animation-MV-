@@ -1,0 +1,28 @@
+{
+  "script": "build_dionysus_presence",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:46:44.528066+00:00",
+  "finished_at": "2026-09-07T22:46:44.539929+00:00",
+  "counts": {
+    "created": 3,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/dionysus_presence_switches.json",
+    "docs/dionysus_presence_markers.json",
+    "docs/dionysus_presence_map.md"
+  ],
+  "reused": [
+    "docs/dionysus_presence.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Enabled echoes: ECHO_IVY_THROUGH_MACHINE, ECHO_WINE_LIGHT, ECHO_WHITE_BIRDS_RELEASE",
+    "Presence evolves EARLY->MIDDLE->ZONE->TABLE->RELEASE; never a self-explaining god"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "script": "build_title_card",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:12:51.320464+00:00",
+  "finished_at": "2026-09-07T23:12:52.066257+00:00",
+  "counts": {
+    "created": 4,
+    "reused": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/title_card_controls.json",
+    "docs/title_card_markers.json",
+    "cache/title_card_payload.json",
+    "docs/title_card.md"
+  ],
+  "reused": [
+    "docs/title_card_brief.json",
+    "scripts/_blender_title_card.py"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Blender not installed - SCN_13_TITLE_CARD.blend deferred",
+    "Title card locked: 'One Of Gods Fools' / 'December 10, 2026'; TITLE_CARD_FINAL range; final_fade_out default off"
+  ]
+}

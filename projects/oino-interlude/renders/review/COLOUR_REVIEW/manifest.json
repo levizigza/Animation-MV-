@@ -1,0 +1,33 @@
+{
+  "id": "COLOUR_REVIEW",
+  "label": "Colour review",
+  "purpose": "Lighting presets, Dionysian interruption, AgX, no every-shot-red",
+  "focus": [
+    "lighting_presets",
+    "materials",
+    "dionysus_presence"
+  ],
+  "emotional_qa_subset": [
+    4,
+    5
+  ],
+  "emotional_qa_doc": "docs/emotional_qa.md",
+  "emotional_qa_on_screen": false,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "audio": "full",
+  "audio_path": "audio/master.wav",
+  "title_card_exact": {
+    "text": "One Of Gods Fools",
+    "date": "December 10, 2026"
+  },
+  "output_dir": "renders/review/COLOUR_REVIEW",
+  "output_movie": "renders/review/COLOUR_REVIEW/COLOUR_REVIEW.mp4",
+  "blender_engine": "BLENDER_EEVEE_NEXT",
+  "blender_exe": null,
+  "status": "paths_ready",
+  "note": "Render from approved scene packages into this folder. Do not burn emotional QA onto picture."
+}

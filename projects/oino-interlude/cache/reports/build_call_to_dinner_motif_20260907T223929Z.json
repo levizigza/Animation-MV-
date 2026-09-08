@@ -1,0 +1,28 @@
+{
+  "script": "build_call_to_dinner_motif",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:39:29.231149+00:00",
+  "finished_at": "2026-09-07T22:39:29.234888+00:00",
+  "counts": {
+    "created": 2,
+    "reused": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/call_to_dinner_tracking.md",
+    "docs/call_to_dinner_markers.json"
+  ],
+  "reused": [
+    "docs/call_to_dinner_motif.json",
+    "docs/audio_markers.json (CUE_KNOCK present)"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "CALL_01 should stay near CUE_KNOCK without converting it into a jump scare",
+    "Motif path: refused invitation -> ignored ordinary life -> Zone interruption -> accepted living relationship"
+  ]
+}

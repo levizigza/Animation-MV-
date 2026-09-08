@@ -1,0 +1,27 @@
+{
+  "script": "build_ancestor_arc",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:49:34.728470+00:00",
+  "finished_at": "2026-09-07T22:49:34.731147+00:00",
+  "counts": {
+    "created": 3,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/ancestor_arc_markers.json",
+    "docs/ancestor_dinner_camera_clip.md",
+    "docs/ancestor_arc.md"
+  ],
+  "reused": [
+    "docs/ancestor_arc.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Ancestor: watcher -> incomplete warning; dinner-cam clip shows desire to preserve everything"
+  ]
+}

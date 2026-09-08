@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "system_id": "OINO_LIGHTING_PRESETS",
+  "editable": true,
+  "dionysian_every_shot_red": false,
+  "markers": [
+    {
+      "name": "LIGHT_ATTIC_DUST",
+      "preset": "ATTIC_DUST",
+      "palette_family": "attic",
+      "approx_shots": [
+        "SH010_CALL_TO_DINNER",
+        "SH020_ATTIC_ARCHIVE"
+      ],
+      "note": "thin dust motes \u2014 low density"
+    },
+    {
+      "name": "LIGHT_OINO_ARCHIVE",
+      "preset": "OINO_ARCHIVE",
+      "palette_family": "attic",
+      "approx_shots": [
+        "SH030_ARCHIVE_DISCOVERY"
+      ],
+      "note": "none \u2014 paper and grain read in surface"
+    },
+    {
+      "name": "LIGHT_STEAM_SOOT",
+      "preset": "STEAM_SOOT",
+      "palette_family": "steam",
+      "approx_shots": [
+        "SH040_MELODY_OPENS_HISTORY",
+        "SH050_CHANGING_WORLD"
+      ],
+      "note": "steam / soot \u2014 mid density, warm scatter"
+    },
+    {
+      "name": "LIGHT_ELECTRIC_WARMTH",
+      "preset": "ELECTRIC_WARMTH",
+      "palette_family": "electricity",
+      "approx_shots": [
+        "SH050_CHANGING_WORLD"
+      ],
+      "note": "Warning red is accent only \u2014 not a scare announce."
+    },
+    {
+      "name": "LIGHT_DIGITAL_COLD",
+      "preset": "DIGITAL_COLD",
+      "palette_family": "digital",
+      "approx_shots": [
+        "SH060_CARE_AND_HARM",
+        "SH090_REWIND_ENCOUNTER"
+      ],
+      "note": "none"
+    },
+    {
+      "name": "LIGHT_DIONYSUS_AMBER_RED",
+      "preset": "DIONYSUS_AMBER_RED",
+      "palette_family": "dionysus",
+      "approx_shots": [
+        "SH070_ZONE_PASSAGE",
+        "SH080_TABLE_ARRIVAL",
+        "SH110_RELEASE"
+      ],
+      "note": "none \u2014 colour lives in cup, stain, edge light"
+    },
+    {
+      "name": "LIGHT_ZONE_REFLECTION",
+      "preset": "ZONE_REFLECTION",
+      "palette_family": "digital",
+      "approx_shots": [
+        "SH070_ZONE_PASSAGE"
+      ],
+      "note": "Slightly wrong reflections \u2014 cool, unresolved."
+    },
+    {
+      "name": "LIGHT_TABLE_WARMTH",
+      "preset": "TABLE_WARMTH",
+      "palette_family": "table",
+      "approx_shots": [
+        "SH080_TABLE_ARRIVAL",
+        "SH100_SISTER_REFLECTION",
+        "SH120_CHANGED_NOTE"
+      ],
+      "note": "Warm human light surrounded by colder space \u2014 LIGHT_WarmHuman / LIGHT_ColdSurround."
+    },
+    {
+      "name": "LIGHT_OPEN_DOOR_DAWN",
+      "preset": "OPEN_DOOR_DAWN",
+      "palette_family": "attic",
+      "approx_shots": [
+        "SH120_CHANGED_NOTE"
+      ],
+      "note": "Final story image light \u2014 open doorway; invitation kept open."
+    },
+    {
+      "name": "LIGHT_TITLE_CARD_BLACK",
+      "preset": "TITLE_CARD_BLACK",
+      "palette_family": "title_card",
+      "approx_shots": [
+        "SH130_TITLE_CARD"
+      ],
+      "note": "Near-black field; quiet off-white or warm grey type. Exact card: One Of Gods Fools / December 10, 2026."
+    }
+  ]
+}

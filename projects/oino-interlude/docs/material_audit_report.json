@@ -1,0 +1,299 @@
+{
+  "missing_images": [
+    "assets/materials/worn_wood_albedo.png",
+    "assets/materials/worn_wood_roughness.png",
+    "assets/materials/worn_wood_normal.png",
+    "assets/materials/wet_stone_albedo.png",
+    "assets/materials/wet_stone_roughness.png",
+    "assets/materials/wet_stone_normal.png",
+    "assets/materials/rust_albedo.png",
+    "assets/materials/rust_roughness.png",
+    "assets/materials/rust_metallic.png",
+    "assets/materials/oxidized_metal_albedo.png",
+    "assets/materials/oxidized_metal_roughness.png",
+    "assets/materials/oxidized_metal_metallic.png",
+    "assets/materials/oxidized_metal_normal.png",
+    "assets/materials/old_paper_albedo.png",
+    "assets/materials/old_paper_roughness.png",
+    "assets/materials/film_albedo.png",
+    "assets/materials/film_alpha.png",
+    "assets/materials/black_glass_roughness.png",
+    "assets/materials/monitor_emission.png",
+    "assets/materials/monitor_roughness.png",
+    "assets/materials/translucent_synthetic_albedo.png",
+    "assets/materials/translucent_synthetic_alpha.png",
+    "assets/materials/cloth_albedo.png",
+    "assets/materials/cloth_roughness.png",
+    "assets/materials/cloth_normal.png",
+    "assets/materials/ceramic_albedo.png",
+    "assets/materials/ceramic_roughness.png",
+    "assets/materials/skin_albedo.png",
+    "assets/materials/skin_roughness.png",
+    "assets/materials/skin_normal.png",
+    "assets/materials/vine_leaf_albedo.png",
+    "assets/materials/vine_leaf_alpha.png",
+    "assets/materials/vine_leaf_normal.png"
+  ],
+  "pink_textures": [],
+  "expensive_watches": [
+    "MAT_BlackGlass:transmission",
+    "MAT_TranslucentSynthetic:transmission",
+    "MAT_Skin:subsurface",
+    "MAT_Water:transmission"
+  ],
+  "findings": [
+    {
+      "severity": "warn",
+      "material": "MAT_WornWood",
+      "path": "assets/materials/worn_wood_albedo.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_WornWood",
+      "path": "assets/materials/worn_wood_roughness.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_WornWood",
+      "path": "assets/materials/worn_wood_normal.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_WetStone",
+      "path": "assets/materials/wet_stone_albedo.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_WetStone",
+      "path": "assets/materials/wet_stone_roughness.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_WetStone",
+      "path": "assets/materials/wet_stone_normal.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Rust",
+      "path": "assets/materials/rust_albedo.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Rust",
+      "path": "assets/materials/rust_roughness.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Rust",
+      "path": "assets/materials/rust_metallic.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_OxidizedMetal",
+      "path": "assets/materials/oxidized_metal_albedo.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_OxidizedMetal",
+      "path": "assets/materials/oxidized_metal_roughness.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_OxidizedMetal",
+      "path": "assets/materials/oxidized_metal_metallic.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_OxidizedMetal",
+      "path": "assets/materials/oxidized_metal_normal.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_OldPaper",
+      "path": "assets/materials/old_paper_albedo.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_OldPaper",
+      "path": "assets/materials/old_paper_roughness.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Film",
+      "path": "assets/materials/film_albedo.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Film",
+      "path": "assets/materials/film_alpha.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_BlackGlass",
+      "path": "assets/materials/black_glass_roughness.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "info",
+      "material": "MAT_BlackGlass",
+      "path": null,
+      "detail": "Watch expensive feature in EEVEE: transmission"
+    },
+    {
+      "severity": "info",
+      "material": "MAT_BlackGlass",
+      "path": null,
+      "detail": "transmission_weight=0.85 \u2014 keep samples modest in EEVEE"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_MonitorSurface",
+      "path": "assets/materials/monitor_emission.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_MonitorSurface",
+      "path": "assets/materials/monitor_roughness.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_TranslucentSynthetic",
+      "path": "assets/materials/translucent_synthetic_albedo.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_TranslucentSynthetic",
+      "path": "assets/materials/translucent_synthetic_alpha.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "info",
+      "material": "MAT_TranslucentSynthetic",
+      "path": null,
+      "detail": "Watch expensive feature in EEVEE: transmission"
+    },
+    {
+      "severity": "info",
+      "material": "MAT_TranslucentSynthetic",
+      "path": null,
+      "detail": "transmission_weight=0.7 \u2014 keep samples modest in EEVEE"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Cloth",
+      "path": "assets/materials/cloth_albedo.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Cloth",
+      "path": "assets/materials/cloth_roughness.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Cloth",
+      "path": "assets/materials/cloth_normal.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Ceramic",
+      "path": "assets/materials/ceramic_albedo.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Ceramic",
+      "path": "assets/materials/ceramic_roughness.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Skin",
+      "path": "assets/materials/skin_albedo.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Skin",
+      "path": "assets/materials/skin_roughness.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_Skin",
+      "path": "assets/materials/skin_normal.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "info",
+      "material": "MAT_Skin",
+      "path": null,
+      "detail": "Watch expensive feature in EEVEE: subsurface"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_VineLeaf",
+      "path": "assets/materials/vine_leaf_albedo.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_VineLeaf",
+      "path": "assets/materials/vine_leaf_alpha.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "warn",
+      "material": "MAT_VineLeaf",
+      "path": "assets/materials/vine_leaf_normal.png",
+      "detail": "Expected image not on disk (placeholder ok until authored)"
+    },
+    {
+      "severity": "info",
+      "material": "MAT_Water",
+      "path": null,
+      "detail": "Watch expensive feature in EEVEE: transmission"
+    },
+    {
+      "severity": "info",
+      "material": "MAT_Water",
+      "path": null,
+      "detail": "transmission_weight=0.95 \u2014 keep samples modest in EEVEE"
+    },
+    {
+      "severity": "info",
+      "material": null,
+      "path": null,
+      "detail": "Pass --audit-blend <file.blend> to scan node trees"
+    },
+    {
+      "severity": "info",
+      "material": null,
+      "path": null,
+      "detail": "Pass --audit-blend <file.blend> to scan Material Output links"
+    }
+  ],
+  "blend_audit": null
+}

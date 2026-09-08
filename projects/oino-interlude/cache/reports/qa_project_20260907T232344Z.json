@@ -1,0 +1,27 @@
+{
+  "script": "qa_project",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:23:44.189882+00:00",
+  "finished_at": "2026-09-07T23:23:44.316939+00:00",
+  "counts": {
+    "created": 2,
+    "reused": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/technical_qa_report.json",
+    "docs/technical_qa_report.md"
+  ],
+  "reused": [],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "WARN unsupported_nodes_or_modifiers: Blend node audit not run (Blender deferred)",
+    "WARN missing_linked_files: 33 expected material images not on disk (placeholders OK until authored)",
+    "WARN missing_linked_files: No .blend files yet (Blender deferred) \u2014 scene packages pending",
+    "Emotional QA is docs-only \u2014 never place those questions inside the film"
+  ]
+}

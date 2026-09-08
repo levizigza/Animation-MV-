@@ -1,0 +1,35 @@
+{
+  "id": "WORLD_REVIEW",
+  "label": "World review",
+  "purpose": "Modular industrial world, eras benefit/cost, Zone, atmosphere",
+  "focus": [
+    "modular_world",
+    "revolution_passes",
+    "zone",
+    "atmosphere"
+  ],
+  "emotional_qa_subset": [
+    5,
+    6,
+    13
+  ],
+  "emotional_qa_doc": "docs/emotional_qa.md",
+  "emotional_qa_on_screen": false,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "audio": "full",
+  "audio_path": "audio/master.wav",
+  "title_card_exact": {
+    "text": "One Of Gods Fools",
+    "date": "December 10, 2026"
+  },
+  "output_dir": "renders/review/WORLD_REVIEW",
+  "output_movie": "renders/review/WORLD_REVIEW/WORLD_REVIEW.mp4",
+  "blender_engine": "BLENDER_EEVEE_NEXT",
+  "blender_exe": null,
+  "status": "paths_ready",
+  "note": "Render from approved scene packages into this folder. Do not burn emotional QA onto picture."
+}

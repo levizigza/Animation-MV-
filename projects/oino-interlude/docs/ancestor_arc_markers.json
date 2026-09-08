@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "editable": true,
+  "starts_as": "watcher",
+  "ends_as": "incomplete warning",
+  "no_omniscient_prophet": true,
+  "markers": [
+    {
+      "name": "ANC_01_NOTICES_CHANGE",
+      "frame": 780,
+      "shot": "SH040_MELODY_OPENS_HISTORY",
+      "order": 1,
+      "watcher_mode": "observing",
+      "note": "He notices the beauty and danger of early industrial change."
+    },
+    {
+      "name": "ANC_02_MENDS_SLEEVE",
+      "frame": 860,
+      "shot": "SH040_MELODY_OPENS_HISTORY",
+      "order": 2,
+      "watcher_mode": "participating_care",
+      "note": "He helps mend a stranger's sleeve."
+    },
+    {
+      "name": "ANC_03_COAT_CATCHES",
+      "frame": 920,
+      "shot": "SH040_MELODY_OPENS_HISTORY",
+      "order": 3,
+      "watcher_mode": "receiving_care",
+      "note": "He receives help when his own coat catches on a nail."
+    },
+    {
+      "name": "ANC_04_WATCHES_ASK",
+      "frame": 1280,
+      "shot": "SH050_CHANGING_WORLD",
+      "order": 4,
+      "watcher_mode": "watching_without_solving",
+      "note": "He watches a worker ask for assistance."
+    },
+    {
+      "name": "ANC_05_FOLLOWS_MELODY",
+      "frame": 1380,
+      "shot": "SH050_CHANGING_WORLD",
+      "order": 5,
+      "watcher_mode": "choosing_preservation_pull",
+      "note": "He follows the melody instead of stopping."
+    },
+    {
+      "name": "ANC_06_PRESERVES_THROUGH_CALL",
+      "frame": 600,
+      "shot": "SH030_ARCHIVE_DISCOVERY",
+      "order": 6,
+      "watcher_mode": "preserving_instead_of_returning",
+      "note": "He preserves voices and images while someone calls him to dinner."
+    },
+    {
+      "name": "ANC_07_CANNOT_TELL_TRUE",
+      "frame": 1900,
+      "shot": "SH060_CARE_AND_HARM",
+      "order": 7,
+      "watcher_mode": "incomplete_authority",
+      "note": "He becomes unable to tell Oino which recording is true."
+    },
+    {
+      "name": "ANC_08_ZONE_EXIT_NO_CERTAINTY",
+      "frame": 2380,
+      "shot": "SH070_ZONE_PASSAGE",
+      "order": 8,
+      "watcher_mode": "incomplete_warning",
+      "note": "He stands at the Zone exit and offers no certainty."
+    },
+    {
+      "name": "CLIP_ANC_CAMERA_DINNER_START",
+      "frame": 560,
+      "kind": "archive_clip",
+      "clip_id": "CLIP_ANC_CAMERA_DINNER",
+      "note": "Unedited dinner-call camera fidget starts"
+    },
+    {
+      "name": "CLIP_ANC_CAMERA_DINNER_END",
+      "frame": 720,
+      "kind": "archive_clip",
+      "clip_id": "CLIP_ANC_CAMERA_DINNER",
+      "note": "Clip ends; still no dinner answer"
+    }
+  ]
+}

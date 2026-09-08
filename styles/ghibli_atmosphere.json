@@ -1,0 +1,25 @@
+{
+  "id": "ghibli_atmosphere",
+  "name": "Ghibli Atmosphere",
+  "description": "Held atmospheric animation, soft staging, environment as emotion.",
+  "masters_influence": ["miyazaki", "takahata"],
+  "default_exposure": "3s",
+  "hold_bias": 0.75,
+  "smear_bias": 0.15,
+  "camera_grammar": {
+    "move_style": "slow_push_parallax",
+    "cut_density": "low"
+  },
+  "color_guidance": {
+    "shadow_shapes": false,
+    "palette": "soft_natural"
+  },
+  "gp_line_settings": {
+    "line_width": 2.2,
+    "color": [0.12, 0.1, 0.08, 1.0]
+  },
+  "toon_settings": {
+    "shader": "shader_toon",
+    "ramp_steps": 4
+  }
+}

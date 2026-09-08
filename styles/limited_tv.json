@@ -1,0 +1,25 @@
+{
+  "id": "limited_tv",
+  "name": "Limited TV",
+  "description": "Tezuka-economy limited animation: strong keys, long holds, camera carry.",
+  "masters_influence": ["tezuka", "tv_anime_economy"],
+  "default_exposure": "3s",
+  "hold_bias": 0.8,
+  "smear_bias": 0.25,
+  "camera_grammar": {
+    "move_style": "cut_and_pan",
+    "cut_density": "medium"
+  },
+  "color_guidance": {
+    "shadow_shapes": true,
+    "palette": "flat_cel"
+  },
+  "gp_line_settings": {
+    "line_width": 3.5,
+    "color": [0.0, 0.0, 0.0, 1.0]
+  },
+  "toon_settings": {
+    "shader": "shader_toon",
+    "ramp_steps": 2
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "project": "oino-interlude",
+  "album": "One Of Gods Fools",
+  "release_date": "2026-12-10",
+  "title_card": "One Of Gods Fools",
+  "fps": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "seed": 20261210,
+  "blender": {
+    "exe": null,
+    "env_vars": [
+      "BLENDER_PATH",
+      "BLENDER_EXE"
+    ],
+    "preferred_versions": [
+      "4.5",
+      "4.4",
+      "4.3",
+      "4.2"
+    ],
+    "engine_preview": "BLENDER_EEVEE_NEXT",
+    "engine_final_placeholder": "CYCLES_OR_EEVEE_TBD",
+    "note": "PLACEHOLDER \u2014 set blender.exe path when installed"
+  },
+  "audio": {
+    "master": "audio/master.wav",
+    "source_name": "Oino (Interlude)-Final.wav",
+    "monologue_unchanged": true
+  },
+  "collections": {
+    "characters": "CHAR_Oino",
+    "sister": "CHAR_Sister",
+    "father": "CHAR_Father",
+    "watcher": "CHAR_GreatGreatGrandfather",
+    "environments": "ENV_Master",
+    "props": "PROP_Master",
+    "lights": "LIGHT_Master",
+    "cameras": "CAM_Master",
+    "fx": "FX_Master",
+    "source_meshes": "SOURCE_Meshes",
+    "source_materials": "SOURCE_Materials"
+  },
+  "scenes": {
+    "master": "SCN_Oino_Master",
+    "animatic": "SCN_Animatic",
+    "layout": "SCN_Layout",
+    "lighting": "SCN_Lighting",
+    "note": "PLACEHOLDER \u2014 no .blend scenes authored yet"
+  },
+  "paths": {
+    "project_root_relative": "projects/oino-interlude",
+    "canon": "CANON.md",
+    "creative_bible": "docs/creative_bible.md",
+    "project_status": "docs/project_status.md"
+  },
+  "preserve": [
+    "CANON.md",
+    "audio/master.wav",
+    "audio/Oino (Interlude)-Final.wav",
+    "beatmap.json",
+    "project.json",
+    "user-created objects in SOURCE_* collections"
+  ],
+  "missing_placeholders": {
+    "blender_exe": null,
+    "character_rig_oino": null,
+    "character_rig_sister": null,
+    "environment_table": null,
+    "prop_archive": null,
+    "zone_lookdev": null,
+    "father_melody_stem": null,
+    "sister_altered_note_stem": null
+  },
+  "last_foundation_build": "2026-09-07T22:25:01.809983+00:00"
+}

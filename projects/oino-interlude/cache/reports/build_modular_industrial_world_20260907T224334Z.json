@@ -1,0 +1,30 @@
+{
+  "script": "build_modular_industrial_world",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:43:33.301570+00:00",
+  "finished_at": "2026-09-07T22:43:34.245037+00:00",
+  "counts": {
+    "created": 3,
+    "reused": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/modular_industrial_world_controls.json",
+    "cache/modular_industrial_world_payload.json",
+    "docs/modular_industrial_world_status.md"
+  ],
+  "reused": [
+    "docs/modular_industrial_world.json",
+    "scripts/_blender_modular_industrial_world.py"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "preview_mode=True instance_slots=3",
+    "One world / shared anchors \u2014 not four unrelated cities",
+    "Blender not installed - SCN_MODULAR_INDUSTRIAL_WORLD.blend deferred"
+  ]
+}

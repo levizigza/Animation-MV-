@@ -1,0 +1,60 @@
+{
+  "script": "run_build",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T22:24:11.514403+00:00",
+  "finished_at": "2026-09-07T22:24:11.566694+00:00",
+  "counts": {
+    "created": 17,
+    "reused": 9,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "assets/characters/",
+    "assets/environments/",
+    "assets/materials/",
+    "assets/props/",
+    "cache/",
+    "docs/",
+    "scenes/",
+    "renders/animatic/",
+    "renders/preview/",
+    "renders/final/",
+    "cache/reports/",
+    "assets/characters/README.md",
+    "assets/environments/README.md",
+    "assets/materials/README.md",
+    "assets/props/README.md",
+    "scenes/README.md",
+    "cache/README.md"
+  ],
+  "reused": [
+    "audio/master.wav",
+    "CANON.md",
+    "project.json",
+    "beatmap.json",
+    "config/pipeline.json",
+    "audio/",
+    "config/",
+    "scripts/",
+    "config/pipeline.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "project_root=C:\\Users\\levyz\\OneDrive\\Microsoft Copilot Chat Files\\Documents\\Music Video Maker\\projects\\oino-interlude",
+    "seed=20261210",
+    "PLACEHOLDER blender.exe \u2014 set config/pipeline.json blender.exe or env BLENDER_PATH / BLENDER_EXE",
+    "PLACEHOLDER missing asset key: blender_exe",
+    "PLACEHOLDER missing asset key: character_rig_oino",
+    "PLACEHOLDER missing asset key: character_rig_sister",
+    "PLACEHOLDER missing asset key: environment_table",
+    "PLACEHOLDER missing asset key: prop_archive",
+    "PLACEHOLDER missing asset key: zone_lookdev",
+    "PLACEHOLDER missing asset key: father_melody_stem",
+    "PLACEHOLDER missing asset key: sister_altered_note_stem",
+    "No detailed scenery built (foundation only)."
+  ]
+}

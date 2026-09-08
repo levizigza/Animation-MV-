@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "subtitles_optional": true,
+  "protect": {
+    "faces": {
+      "rule": "Keep lower-third and side captions clear of facial performance.",
+      "safe_avoid": [
+        "center_face_roi",
+        "eyeline_band"
+      ]
+    },
+    "hands": {
+      "rule": "Do not cover hand contact on door, tape, control, bowl, or sister's tap.",
+      "safe_avoid": [
+        "hand_prop_contact_zone"
+      ]
+    },
+    "reflections": {
+      "rule": "Keep sister / self reflection readable \u2014 no caption over glass story.",
+      "safe_avoid": [
+        "PROP_ReflectiveSurface_Sister",
+        "screen_self_reflection"
+      ]
+    },
+    "title_safe": {
+      "rule": "Respect title-safe margins; never collide with TITLE_CARD_FINAL typography.",
+      "margin_percent": {
+        "top": 10,
+        "bottom": 12,
+        "left": 8,
+        "right": 8
+      },
+      "avoid_during": [
+        "TITLE_CARD_FINAL",
+        "SH130_TITLE_CARD"
+      ]
+    }
+  },
+  "preferred_subtitle_lane": "lower_third_outside_title_safe_bottom_pad",
+  "note": "Protect the young woman's voice \u2014 captions support, never replace or drown her."
+}

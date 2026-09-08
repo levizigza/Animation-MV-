@@ -1,0 +1,32 @@
+{
+  "script": "animate_final_meal",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:02:34.662436+00:00",
+  "finished_at": "2026-09-07T23:02:34.667226+00:00",
+  "counts": {
+    "created": 2,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/final_meal_markers.json",
+    "docs/final_meal_animation.md"
+  ],
+  "reused": [
+    "docs/final_meal_animation.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "call motif CALL_01 / CALL_06 linked",
+    "animatic SH120_CHANGED_NOTE linked",
+    "animatic SH130_TITLE_CARD linked",
+    "final meal f700 follows holy-fool (last f684)",
+    "CANON title card lock present",
+    "show_config release date ok; film card text locked to CANON 'One Of Gods Fools'",
+    "Final meal mirrors opening; sister owns changed note; doorway=story final; Prompt 22 title card=film final"
+  ]
+}

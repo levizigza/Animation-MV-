@@ -1,0 +1,29 @@
+{
+  "script": "build_material_library",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-09-07T23:08:43.421395+00:00",
+  "finished_at": "2026-09-07T23:08:43.426153+00:00",
+  "counts": {
+    "created": 4,
+    "reused": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "docs/material_library_markers.json",
+    "docs/material_audit_report.json",
+    "docs/material_audit_report.md",
+    "docs/material_library.md"
+  ],
+  "reused": [
+    "docs/material_library.json"
+  ],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Audit: missing_images=33 pink=0",
+    "14 materials catalogued; pink placeholders forbidden; Dionysian colour not every surface"
+  ]
+}
