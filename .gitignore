@@ -28,6 +28,8 @@ projects/oino-interlude/renders/preview/
 *.mp4
 *.mov
 !editorial/**/*.mp4
+!site/**/*.mp4
+!site/**/*.jpg
 !projects/oino-interlude/renders/review/**/*.mp4
 !projects/oino-interlude/renders/review/**/title_card_still.png
 !projects/oino-interlude/renders/final/delivery/stills/**

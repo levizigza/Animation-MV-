@@ -1,0 +1,77 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Shot,Georgia,36,&H00DCE4E8,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,0,0,8,40,40,80,1
+Style: Meta,Georgia,22,&H0098A0A8,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,0,0,2,40,40,40,1
+Style: Note,Georgia,20,&H00B0AAA0,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,0,0,2,40,40,100,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:02:11.13,Meta,,0,0,0,,Oino (Interlude) — full review cut
+Dialogue: 0,0:00:00.00,0:00:08.33,Shot,,0,0,0,,SH010 SISTER CALL
+Dialogue: 0,0:00:00.00,0:00:08.33,Note,,0,0,0,,Invitation arrives; domestic closeness with a glimpse toward the sister she will refuse.
+Dialogue: 0,0:00:00.00,0:00:08.33,Meta,,0,0,0,,camera · attic
+Dialogue: 0,0:00:08.33,0:00:14.25,Shot,,0,0,0,,SH010B ATTIC DOOR CLOSES
+Dialogue: 0,0:00:08.33,0:00:14.25,Note,,0,0,0,,Refusal completed — doorway excludes sister.
+Dialogue: 0,0:00:08.33,0:00:14.25,Meta,,0,0,0,,camera · attic
+Dialogue: 0,0:00:14.25,0:00:21.62,Shot,,0,0,0,,SH020 FATHERS RECORDING
+Dialogue: 0,0:00:14.25,0:00:21.62,Note,,0,0,0,,Need crystallizes in the unfinished melody — intimate  not spectacular.
+Dialogue: 0,0:00:14.25,0:00:21.62,Meta,,0,0,0,,camera · attic
+Dialogue: 0,0:00:21.62,0:00:24.17,Shot,,0,0,0,,SH030 ARCHIVE BOX OINO
+Dialogue: 0,0:00:21.62,0:00:24.17,Note,,0,0,0,,Name inheritance as object — discovery without classroom diagram.
+Dialogue: 0,0:00:21.62,0:00:24.17,Meta,,0,0,0,,camera · archive
+Dialogue: 0,0:00:23.29,0:00:30.00,Shot,,0,0,0,,SH041 ANCESTOR IGNORES DINNER
+Dialogue: 0,0:00:23.29,0:00:30.00,Note,,0,0,0,,Embarrassing ordinary refusal — implication  not sermon.
+Dialogue: 0,0:00:23.29,0:00:30.00,Meta,,0,0,0,,camera · archive
+Dialogue: 0,0:00:24.17,0:00:28.33,Shot,,0,0,0,,SH031 FAMILY LINE DOCUMENT
+Dialogue: 0,0:00:24.17,0:00:28.33,Note,,0,0,0,,Lineage as worn paper — artistic adaptation  not universal claim.
+Dialogue: 0,0:00:24.17,0:00:28.33,Meta,,0,0,0,,camera · archive
+Dialogue: 0,0:00:34.12,0:00:37.50,Shot,,0,0,0,,SH040 ANCESTOR SLEEVE
+Dialogue: 0,0:00:34.12,0:00:37.50,Note,,0,0,0,,Care as ordinary labour — watcher still able to mend.
+Dialogue: 0,0:00:34.12,0:00:37.50,Meta,,0,0,0,,camera · steam
+Dialogue: 0,0:00:47.08,0:00:50.83,Shot,,0,0,0,,SH050 FACTORY GATE
+Dialogue: 0,0:00:47.08,0:00:50.83,Note,,0,0,0,,Doorway becomes factory gate — history through bodies  not labels.
+Dialogue: 0,0:00:47.08,0:00:50.83,Meta,,0,0,0,,camera · steam
+Dialogue: 0,0:00:54.12,0:00:59.17,Shot,,0,0,0,,SH051 ELECTRIC HOUSEHOLD TIME
+Dialogue: 0,0:00:54.12,0:00:59.17,Note,,0,0,0,,Benefit and cost together: relief of light  absence still present.
+Dialogue: 0,0:00:54.12,0:00:59.17,Meta,,0,0,0,,camera · electric
+Dialogue: 0,0:01:10.79,0:01:15.83,Shot,,0,0,0,,SH060 SYNTHETIC VOICE
+Dialogue: 0,0:01:10.79,0:01:15.83,Note,,0,0,0,,Care through technology — not memorial ghost; living person uses the tool.
+Dialogue: 0,0:01:10.79,0:01:15.83,Meta,,0,0,0,,camera · digital
+Dialogue: 0,0:01:17.04,0:01:22.92,Shot,,0,0,0,,SH061 OINO SEES OWN RECORDING
+Dialogue: 0,0:01:17.04,0:01:22.92,Note,,0,0,0,,She becomes watcher of her own controlled archive — shadow foreshadow without scare.
+Dialogue: 0,0:01:17.04,0:01:22.92,Meta,,0,0,0,,camera · digital
+Dialogue: 0,0:01:31.62,0:01:37.92,Shot,,0,0,0,,SH070 TABLE GLIMPSE
+Dialogue: 0,0:01:31.62,0:01:37.92,Note,,0,0,0,,Destination appears before arrival — ordinary sacred ahead; Zone unexplained.
+Dialogue: 0,0:01:31.62,0:01:37.92,Meta,,0,0,0,,camera · zone
+Dialogue: 0,0:01:37.92,0:01:41.00,Shot,,0,0,0,,SH070B ZONE EMPTY HOLD
+Dialogue: 0,0:01:37.92,0:01:41.00,Note,,0,0,0,,Patient empty space — nature unresolved.
+Dialogue: 0,0:01:37.92,0:01:41.00,Meta,,0,0,0,,camera · zone
+Dialogue: 0,0:01:41.62,0:01:46.25,Shot,,0,0,0,,SH080 WARM TWO SHOT
+Dialogue: 0,0:01:41.62,0:01:46.25,Note,,0,0,0,,Genuine comfort — why she stays; protect performance.
+Dialogue: 0,0:01:41.62,0:01:46.25,Meta,,0,0,0,,camera · table
+Dialogue: 0,0:01:49.12,0:01:52.50,Shot,,0,0,0,,SH090 HAND RESET CONTROL
+Dialogue: 0,0:01:49.12,0:01:52.50,Note,,0,0,0,,Shadow as merciful grip — dread from control  not horror light.
+Dialogue: 0,0:01:49.12,0:01:52.50,Meta,,0,0,0,,camera · table
+Dialogue: 0,0:01:54.25,0:01:57.46,Shot,,0,0,0,,SH100 SISTER REFLECTION
+Dialogue: 0,0:01:54.25,0:01:57.46,Note,,0,0,0,,Cost already present — loneliness in progress  not later warning.
+Dialogue: 0,0:01:54.25,0:01:57.46,Meta,,0,0,0,,camera · table
+Dialogue: 0,0:01:57.46,0:01:59.58,Shot,,0,0,0,,SH110 RELEASE CONTROL
+Dialogue: 0,0:01:57.46,0:01:59.58,Note,,0,0,0,,Holy-fool hinge — ordinary costly release.
+Dialogue: 0,0:01:57.46,0:01:59.58,Meta,,0,0,0,,camera · table
+Dialogue: 0,0:01:59.58,0:02:00.67,Shot,,0,0,0,,SH110B FATHER LEAVES
+Dialogue: 0,0:01:59.58,0:02:00.67,Note,,0,0,0,,He finishes and goes — life beyond her desire.
+Dialogue: 0,0:01:59.58,0:02:00.67,Meta,,0,0,0,,camera · table
+Dialogue: 0,0:02:01.21,0:02:03.33,Shot,,0,0,0,,SH120 ACCEPTS BOWL
+Dialogue: 0,0:02:01.21,0:02:03.33,Note,,0,0,0,,Nourishment accepted; presence without demanding forgiveness.
+Dialogue: 0,0:02:01.21,0:02:03.33,Meta,,0,0,0,,camera · return
+Dialogue: 0,0:02:03.33,0:02:05.83,Shot,,0,0,0,,SH121 SISTER CHANGES MELODY
+Dialogue: 0,0:02:03.33,0:02:05.83,Note,,0,0,0,,Real creative contribution — living variation  not symbolic child.
+Dialogue: 0,0:02:03.33,0:02:05.83,Meta,,0,0,0,,camera · return
+Dialogue: 0,0:02:05.83,0:02:07.08,Shot,,0,0,0,,SH122 OPEN DOORWAY
+Dialogue: 0,0:02:05.83,0:02:07.08,Note,,0,0,0,,Final story image — invitation kept open (answers closed attic).
+Dialogue: 0,0:02:05.83,0:02:07.08,Meta,,0,0,0,,camera · return
