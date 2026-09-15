@@ -15,9 +15,11 @@ import argparse
 import os
 import platform
 import shutil
+import subprocess
 import sys
 import tarfile
 import tempfile
+import urllib.error
 import urllib.request
 import zipfile
 from pathlib import Path
@@ -29,6 +31,7 @@ TOOLS = ROOT / "tools"
 
 BLENDER_VERSION = "4.5.10"
 BLENDER_SERIES = "4.5"
+USER_AGENT = "Mozilla/5.0 (compatible; MVM-craft/1.0; +https://github.com/levizigza/Animation-MV-)"
 
 # Official release archives from download.blender.org
 _ARCHIVES = {
@@ -92,6 +95,42 @@ def _extract(archive: Path, dest_parent: Path, kind: str) -> Path:
     raise ValueError(f"Unknown archive kind: {kind}")
 
 
+def _download(url: str, dest: Path) -> None:
+    """Download with a browser-like User-Agent (Cloudflare blocks bare urllib)."""
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(req, timeout=600) as resp, dest.open("wb") as out:
+            shutil.copyfileobj(resp, out)
+        return
+    except urllib.error.HTTPError as exc:
+        # Fall back to curl if present — more reliable on restricted egress.
+        curl = shutil.which("curl")
+        if curl is None:
+            raise
+        print(f"[ensure] urllib failed ({exc}); retrying with curl", flush=True)
+    proc = subprocess.run(
+        [
+            "curl",
+            "-fL",
+            "--retry",
+            "3",
+            "--retry-delay",
+            "2",
+            "-A",
+            USER_AGENT,
+            "-o",
+            str(dest),
+            url,
+        ],
+        capture_output=True,
+        text=True,
+    )
+    if proc.returncode != 0 or not dest.is_file():
+        raise RuntimeError(
+            f"Download failed for {url}: {(proc.stderr or proc.stdout or '')[-500:]}"
+        )
+
+
 def ensure_blender(*, force_download: bool = False) -> Path:
     """Return a usable Blender binary, downloading into tools/ if needed."""
     if not force_download:
@@ -112,11 +151,11 @@ def ensure_blender(*, force_download: bool = False) -> Path:
         tmp_path = Path(tmp)
         archive_name = Path(spec["url"]).name
         archive_path = tmp_path / archive_name
-        urllib.request.urlretrieve(spec["url"], archive_path)
+        _download(spec["url"], archive_path)
         size = archive_path.stat().st_size
         if size < 10_000_000:
             raise RuntimeError(f"Download too small ({size} bytes): {archive_path}")
-        print(f"[ensure] extracted archive size={size}", flush=True)
+        print(f"[ensure] archive size={size}", flush=True)
         if install_dir.exists():
             shutil.rmtree(install_dir)
         extracted = _extract(archive_path, TOOLS, spec["archive_kind"])
