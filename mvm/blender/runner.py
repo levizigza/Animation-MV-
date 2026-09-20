@@ -28,6 +28,7 @@ def find_blender() -> Path | None:
         r"C:\Program Files\Blender Foundation\Blender 4.4\blender.exe",
         r"C:\Program Files\Blender Foundation\Blender 4.5\blender.exe",
         str(ROOT / "tools" / "blender-4.5.10-windows-x64" / "blender.exe"),
+        str(ROOT / "tools" / "blender-4.5.10-linux-x64" / "blender"),
         "/usr/bin/blender",
         "/Applications/Blender.app/Contents/MacOS/Blender",
     ]
@@ -36,6 +37,10 @@ def find_blender() -> Path | None:
     if tools.is_dir():
         for hit in sorted(tools.rglob("blender.exe")):
             candidates.append(str(hit))
+        for hit in sorted(tools.rglob("blender")):
+            # Prefer the real binary, not helper dirs named blender/
+            if hit.is_file() and os.access(hit, os.X_OK):
+                candidates.append(str(hit))
     for c in candidates:
         if c and Path(c).exists():
             return Path(c)
