@@ -1,0 +1,9 @@
+{
+  "shot_id": "SH080_WARM_TWO_SHOT",
+  "latest_version": "v20260929T230804Z_SH080_WARM_TWO_SHOT",
+  "latest_mp4": "renders/review/SH080_WARM_TWO_SHOT/v20260929T230804Z_SH080_WARM_TWO_SHOT/shot_preview.mp4",
+  "stable_mp4": "renders/review/SH080_WARM_TWO_SHOT/shot_preview.mp4",
+  "performance_review_approved": false,
+  "human_gate": "Human gate required: PERFORMANCE_REVIEW not approved; no auto-smooth; no creative merge.",
+  "updated_at": "2026-09-29T23:08:04.257529+00:00"
+}
