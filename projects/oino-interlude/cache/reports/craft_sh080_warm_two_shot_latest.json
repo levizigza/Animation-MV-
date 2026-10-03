@@ -1,0 +1,27 @@
+{
+  "script": "craft_sh080_warm_two_shot",
+  "seed": 20261210,
+  "reset": false,
+  "ok": true,
+  "started_at": "2026-10-03T23:16:46.085183+00:00",
+  "finished_at": "2026-10-03T23:21:33.940803+00:00",
+  "counts": {
+    "created": 3,
+    "reused": 0,
+    "skipped": 0,
+    "failed": 0
+  },
+  "created": [
+    "decisions.json craft record",
+    "renders/review/SH080_WARM_TWO_SHOT/v20261003T232133Z_SH080_WARM_TWO_SHOT/shot_preview.mp4",
+    "renders/review/SH080_WARM_TWO_SHOT/shot_preview.mp4"
+  ],
+  "reused": [],
+  "skipped": [],
+  "failed": [],
+  "notes": [
+    "Blender: /workspace/tools/blender-4.5.10-linux-x64/blender",
+    "Human gate required: PERFORMANCE_REVIEW not approved; no auto-smooth; no creative merge.",
+    "engine=blender output=/workspace/projects/oino-interlude/previews/SH080_WARM_TWO_SHOT/shot_preview.mp4"
+  ]
+}
