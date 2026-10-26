@@ -1,0 +1,19 @@
+{
+  "shot_id": "SH080_WARM_TWO_SHOT",
+  "purpose": "Genuine comfort \u2014 why she stays; protect performance.",
+  "engine": "blender",
+  "blender_path": "/workspace/tools/blender-4.5.10-linux-x64/blender",
+  "preview_source": "previews/SH080_WARM_TWO_SHOT/shot_preview.mp4",
+  "review_mp4": "renders/review/SH080_WARM_TWO_SHOT/v20261026T231126Z_SH080_WARM_TWO_SHOT/shot_preview.mp4",
+  "stable_review_mp4": "renders/review/SH080_WARM_TWO_SHOT/shot_preview.mp4",
+  "created_at": "2026-10-26T23:11:26.233325+00:00",
+  "performance_review_approved": false,
+  "auto_smooth": false,
+  "creative_merge": false,
+  "human_gate": "Human gate required: PERFORMANCE_REVIEW not approved; no auto-smooth; no creative merge.",
+  "canon": {
+    "protagonist": "Oino",
+    "beat": "father reunion genuinely comforts Oino before her shadow",
+    "table": "ordinary/intimate/sacred destination"
+  }
+}
